@@ -1,0 +1,52 @@
+{
+  "header": {
+    "siteName": "Gez.la",
+    "slogan": "Take Virtual Tours",
+    "homepage": "Homepage",
+    "about": "About"
+  },
+  "footer": {
+    "homepage": "Homepage",
+    "about": "About",
+    "text": "Gez.la © 2020"
+  },
+  "main": {
+    "pageTitle": "Gez.la | Take Virtual Tours",
+    "metaContent": "Explore museums, galleries, aquariums, zoos and theme parks around the world with virtual tours.",
+    "name": "Name",
+    "type": "Type",
+    "country": "Country",
+    "address": "Address",
+    "description": "Description",
+    "wikipedia": "Wikipedia",
+    "virtualTour": "Virtual Tour",
+    "website": "Website",
+    "searchPlace": "Search place...",
+    "allCountries": "All Countries",
+    "allTypes": "All Types",
+    "clearFilter": "Clear Filter",
+    "aquarium": "Aquarium",
+    "museum": "Museum",
+    "theme": "Theme Park",
+    "zoo": "Zoo",
+    "visited": "Visited",
+    "map": {
+      "place": "Place"
+    },
+    "pagination": {
+      "text": "Navigate to page"
+    }
+  },
+  "about": {
+    "pageTitle": "Gez.la | About",
+    "metaContent": "Explore museums, galleries, aquariums, zoos and theme parks around the world with virtual tours.",
+    "pageHeader": "About",
+    "aboutText1": "Explore museums, galleries, aquariums, zoos and theme parks around the world with virtual tours.",
+    "aboutText2": "If you have any suggestions or you know a good virtual place, please let us know.",
+    "developer": "Developer"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "text": "Sorry, this page does not exist!"
+  }
+}

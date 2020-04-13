@@ -1,0 +1,52 @@
+{
+  "header": {
+    "siteName": "Gez.la",
+    "slogan": "Sanal Turlara Katıl",
+    "homepage": "Anasayfa",
+    "about": "Hakkında"
+  },
+  "footer": {
+    "homepage": "Anasayfa",
+    "about": "Hakkında",
+    "text": "Gez.la © 2020"
+  },
+  "main": {
+    "pageTitle": "Gez.la | Sanal Turlara Katıl",
+    "metaContent": "Sanal turlarla tüm dünyadaki müzeleri, galerileri, akvaryumları, hayvanat bahçelerini ve tema parklarını keşfedin.",
+    "name": "İsim",
+    "type": "Tür",
+    "country": "Ülke",
+    "address": "Adres",
+    "description": "Açıklama",
+    "wikipedia": "Vikipedi",
+    "virtualTour": "Sanal Tur",
+    "website": "İnternet Sitesi",
+    "searchPlace": "Yer ara...",
+    "allCountries": "Tüm Ülkeler",
+    "allTypes": "Tüm Türler",
+    "clearFilter": "Filtreyi Sıfırla",
+    "aquarium": "Akvaryum",
+    "museum": "Müze",
+    "theme": "Tema Parkı",
+    "zoo": "Hayvanat Bahçesi",
+    "visited": "Ziyaret Edildi",
+    "map": {
+      "place": "Yer"
+    },
+    "pagination": {
+      "text": "Sayfaya git"
+    }
+  },
+  "about": {
+    "pageTitle": "Gez.la | Hakkında",
+    "metaContent": "Sanal turlarla tüm dünyadaki müzeleri, galerileri, akvaryumları, hayvanat bahçelerini ve tema parklarını keşfedin.",
+    "pageHeader": "Hakkında",
+    "aboutText1": "Sanal turlarla tüm dünyadaki müzeleri, galerileri, akvaryumları, hayvanat bahçelerini ve tema parklarını keşfedin.",
+    "aboutText2": "Herhangi bir öneriniz varsa veya iyi bir sanal yer biliyorsanız, lütfen bize bildirin.",
+    "developer": "Geliştirici"
+  },
+  "notFound": {
+    "title": "Sayfa Bulunamadı",
+    "text": "Üzgünüm, bu sayfa mevcut değil!"
+  }
+}

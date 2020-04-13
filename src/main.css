@@ -1,0 +1,64 @@
+body {
+  background-color: #f9fafb;
+}
+
+#dataMap {
+  height: 300px;
+  width: 100%;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  border-radius: 0.28571429rem;
+}
+
+.site-logo {
+  color: #2185d0 !important;
+}
+
+.header-button {
+  color: #2185d0 !important;
+  margin: 0 !important;
+}
+
+.hide-element {
+  display: none !important;
+}
+
+.table-row:hover {
+  background-color: #f9fafb !important;
+  cursor: pointer;
+}
+
+.pagination-item:hover {
+  background-color: #f9fafb !important;
+  cursor: pointer;
+}
+
+.disabled-pagination-item {
+  pointer-events: none !important ;
+  opacity: 0.5 !important;
+  background: #ccc !important;
+}
+
+.main-segment {
+  padding: 0 !important;
+}
+
+.table-segment {
+  margin: 0 !important;
+}
+
+.main-filter {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.country-dropdown {
+  height: 42px !important;
+}
+
+.close-label:hover {
+  cursor: pointer !important;
+}
+
+.place-segment {
+  text-align: left !important;
+}
