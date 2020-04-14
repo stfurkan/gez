@@ -48,10 +48,14 @@ body {
 
 .main-filter {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
 }
 
-.country-dropdown {
+.filter-element {
+  flex-grow: 1;
+}
+
+.filter-dropdown {
   height: 42px !important;
 }
 

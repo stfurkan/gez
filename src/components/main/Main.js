@@ -389,7 +389,7 @@ export default class Main extends Component {
             </div>
             <div className='main-segment'>
               <div className='main-filter'>
-                <div className='ui icon input'>
+                <div className='ui icon input filter-element'>
                   <input
                     type='text'
                     placeholder={lang.searchPlace}
@@ -409,7 +409,7 @@ export default class Main extends Component {
                 <select
                   value={selectCountry}
                   name='selectCountry'
-                  className='ui selection dropdown country-dropdown'
+                  className='ui selection dropdown filter-dropdown filter-element'
                   onChange={this.onChangeElem}
                 >
                   <option value='all'>{lang.allCountries}</option>
@@ -422,7 +422,7 @@ export default class Main extends Component {
                 <select
                   value={selectType}
                   name='selectType'
-                  className='ui selection dropdown country-dropdown'
+                  className='ui selection dropdown filter-dropdown filter-element'
                   onChange={this.onChangeElem}
                 >
                   <option value='all'>{lang.allTypes}</option>
@@ -438,7 +438,7 @@ export default class Main extends Component {
                     selectCountry === 'all' &&
                     selectType === 'all'
                       ? 'hide-element'
-                      : 'ui primary button'
+                      : 'ui primary button filter-element'
                   }
                   onClick={() => this.clearFilter()}
                 >
