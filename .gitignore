@@ -1,13 +1,13 @@
 # dependencies
-/client/node_modules
-/client/.pnp
+node_modules
+.pnp
 /client.pnp.js
 
 # testing
 /client/coverage
 
 # production
-/client/build
+build
 
 # misc
 /client/.DS_Store
@@ -20,4 +20,4 @@
 /client/npm-debug.log*
 /client/yarn-debug.log*
 /client/yarn-error.log*
-/client/package-lock.json
+package-lock.json
