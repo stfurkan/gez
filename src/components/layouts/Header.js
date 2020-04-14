@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Header({ lang }) {
   return (
-    <div className='ui container '>
+    <div>
       <div className='ui hidden fitted divider'></div>
       <div className='ui stackable  menu'>
         <div className='item'>

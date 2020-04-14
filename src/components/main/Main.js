@@ -296,7 +296,7 @@ export default class Main extends Component {
     types.sort((a, b) => (lang[a] > lang[b] ? 1 : -1));
 
     return (
-      <div className='ui container'>
+      <div>
         <PageTitle title={lang.pageTitle} metaContent={lang.metaContent} />
         <div>
           <div className='ui segment place-segment'>

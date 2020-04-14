@@ -29,7 +29,7 @@ function App() {
   return (
     <HelmetProvider>
       <Router>
-        <div className='ui grid centered'>
+        <div className='ui container'>
           <Header lang={lang.header} />
           <Switch>
             <Route
