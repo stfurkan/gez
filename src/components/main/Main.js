@@ -50,14 +50,9 @@ export default class Main extends Component {
 
   selectPlace = id => {
     let place = [...this.state.places].filter(place => place.id === id);
-    this.setState(
-      {
-        place: place[0]
-      },
-      () => {
-        window.scrollTo(0, this.placeRef.current.offsetTop);
-      }
-    );
+    this.setState({
+      place: place[0]
+    });
   };
 
   takeVirtualTour = id => {
@@ -298,234 +293,258 @@ export default class Main extends Component {
     return (
       <div>
         <PageTitle title={lang.pageTitle} metaContent={lang.metaContent} />
-        <div>
-          <div className='ui segment place-segment'>
-            <div
-              className={place === '' ? 'hide-element' : 'ui raised segment'}
-              ref={this.placeRef}
-            >
-              <div className='ui grid stackable'>
-                <div className='row'>
-                  <div className='ten wide column'>
-                    <div className='ui list'>
-                      <div className='item'>
-                        <div className='ui teal big label'>{lang.name}</div>{' '}
-                        <span className='ui large text'>
-                          {place.name}{' '}
-                          {visits.includes(place.id) && (
-                            <div className='ui green label'>
-                              {lang.visited} <i className='check icon'></i>
-                            </div>
-                          )}
-                        </span>
-                      </div>
-                      <div className='item'>
-                        <div className='ui teal big label'>{lang.type}</div>{' '}
-                        <span className='ui large text'>
-                          {lang[place.type]}
-                        </span>
-                      </div>
+        <br />
 
-                      <div className='item'>
-                        <div className='ui teal big label'>{lang.address}</div>{' '}
-                        <span className='ui large text'>
-                          {place.state === ''
-                            ? `${place.city}, ${place.country}`
-                            : `${place.city}, ${place.state}, ${place.country}`}
-                        </span>
-                      </div>
-                      <div className='item'>
-                        <div className='ui teal big label'>
-                          {lang.description}
-                        </div>{' '}
-                        <span className='ui large text'>
-                          {place.description}{' '}
-                          <a
-                            className='ui grey tiny label'
-                            href={place.wikipedia}
-                            target='_blank'
-                            rel='noopener noreferrer'
-                          >
-                            {lang.wikipedia}
-                          </a>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className='six wide column'>
-                    <div className='ui list'>
-                      <div className='item'>
-                        <a
-                          className='ui blue massive label'
-                          href={place.virtual}
-                          target='_blank'
-                          rel='noopener noreferrer'
-                          onClick={() => this.takeVirtualTour(place.id)}
-                        >
-                          {lang.virtualTour}
-                        </a>
-                      </div>
-                      <div className='item'>
-                        <a
-                          className='ui blue massive label'
-                          href={place.website}
-                          target='_blank'
-                          rel='noopener noreferrer'
-                        >
-                          {lang.website}
-                        </a>
-                      </div>
-                    </div>
-                  </div>
+        <section className='section is-paddingless has-background-light'>
+          <div className='container'>
+            <div className='columns is-gapless'>
+              <div className='column'>
+                <div className='field'>
+                  <p className='control has-icons-right'>
+                    <input
+                      className='input is-expanded'
+                      type='text'
+                      placeholder={lang.searchPlace}
+                      name='searchPlace'
+                      value={searchPlace}
+                      onChange={this.onChangeElem}
+                    />
+                    <span className='icon is-small is-right'>
+                      <i className='fas fa-search'></i>
+                    </span>
+                  </p>
+                </div>
+              </div>
+
+              <div className='column'>
+                <div className='field'>
+                  <p className='control has-icons-left'>
+                    <span className='select is-fullwidth'>
+                      <select
+                        value={selectCountry}
+                        name='selectCountry'
+                        onChange={this.onChangeElem}
+                      >
+                        <option value='all'>{lang.allCountries}</option>
+                        {countries.map(country => (
+                          <option key={country} value={country}>
+                            {country}
+                          </option>
+                        ))}
+                      </select>
+                    </span>
+                    <span className='icon is-small is-left'>
+                      <i className='fas fa-globe'></i>
+                    </span>
+                  </p>
+                </div>
+              </div>
+
+              <div className='column'>
+                <div className='field'>
+                  <p className='control has-icons-left'>
+                    <span className='select is-fullwidth'>
+                      <select
+                        value={selectType}
+                        name='selectType'
+                        onChange={this.onChangeElem}
+                      >
+                        <option value='all'>{lang.allTypes}</option>
+                        {types.map(type => (
+                          <option key={type} value={type}>
+                            {lang[type]}
+                          </option>
+                        ))}
+                      </select>
+                    </span>
+                    <span className='icon is-small is-left'>
+                      <i className='fas fa-feather-alt'></i>
+                    </span>
+                  </p>
                 </div>
               </div>
 
               <div
-                className='ui red right corner label close-label'
-                onClick={() => this.setState({ place: '' })}
+                className={
+                  searchPlace === '' &&
+                  selectCountry === 'all' &&
+                  selectType === 'all'
+                    ? 'is-hidden'
+                    : 'column'
+                }
               >
-                <i className='close icon close-label'></i>
-              </div>
-            </div>
-            <div className='main-segment'>
-              <div className='main-filter'>
-                <div className='ui icon input filter-element'>
-                  <input
-                    type='text'
-                    placeholder={lang.searchPlace}
-                    name='searchPlace'
-                    value={searchPlace}
-                    onChange={this.onChangeElem}
-                  />
-                  {searchPlace === '' ? (
-                    <i className='search icon'></i>
-                  ) : (
-                    <i
-                      className='circular close link icon'
-                      onClick={() => this.setState({ searchPlace: '' })}
-                    ></i>
-                  )}
-                </div>
-                <select
-                  value={selectCountry}
-                  name='selectCountry'
-                  className='ui selection dropdown filter-dropdown filter-element'
-                  onChange={this.onChangeElem}
-                >
-                  <option value='all'>{lang.allCountries}</option>
-                  {countries.map(country => (
-                    <option key={country} value={country}>
-                      {country}
-                    </option>
-                  ))}
-                </select>
-                <select
-                  value={selectType}
-                  name='selectType'
-                  className='ui selection dropdown filter-dropdown filter-element'
-                  onChange={this.onChangeElem}
-                >
-                  <option value='all'>{lang.allTypes}</option>
-                  {types.map(type => (
-                    <option key={type} value={type}>
-                      {lang[type]}
-                    </option>
-                  ))}
-                </select>
                 <div
-                  className={
-                    searchPlace === '' &&
-                    selectCountry === 'all' &&
-                    selectType === 'all'
-                      ? 'hide-element'
-                      : 'ui primary button filter-element'
-                  }
+                  className='button is-fullwidth'
                   onClick={() => this.clearFilter()}
                 >
                   {lang.clearFilter}
                 </div>
               </div>
-
-              <div>
-                <Map
-                  places={pageList}
-                  selectPlace={this.selectPlace}
-                  lang={lang.map}
-                  visits={visits}
-                />
-              </div>
-              <div>
-                <table className='ui sortable unstackable celled table table-segment'>
-                  <thead>
-                    <tr>
-                      <th onClick={() => this.sortTable('name')}>
-                        {lang.name}
-                        {sorted.name === 1 ? (
-                          <i className='caret down icon'></i>
-                        ) : sorted.name === 2 ? (
-                          <i className='caret up icon'></i>
-                        ) : (
-                          ''
-                        )}
-                      </th>
-                      <th onClick={() => this.sortTable('type')}>
-                        {lang.type}
-                        {sorted.type === 1 ? (
-                          <i className='caret down icon'></i>
-                        ) : sorted.type === 2 ? (
-                          <i className='caret up icon'></i>
-                        ) : (
-                          ''
-                        )}
-                      </th>
-                      <th onClick={() => this.sortTable('country')}>
-                        {lang.country}
-                        {sorted.country === 1 ? (
-                          <i className='caret down icon'></i>
-                        ) : sorted.country === 2 ? (
-                          <i className='caret up icon'></i>
-                        ) : (
-                          ''
-                        )}
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {pageOfItems.map(place => (
-                      <tr
-                        key={place.id}
-                        className='table-row'
-                        onClick={() => this.selectPlace(place.id)}
-                      >
-                        <td>
-                          {place.name}{' '}
-                          {visits.includes(place.id) && (
-                            <div className='ui green label'>
-                              {lang.visited} <i className='check icon'></i>
-                            </div>
-                          )}
-                        </td>
-                        <td>{lang[place.type]}</td>
-                        <td>{place.country}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                  <tfoot>
-                    <tr>
-                      <th colSpan='3'>
-                        <Pagination
-                          items={this.state.pageList}
-                          onChangePage={this.onChangePage}
-                          initialPage={1}
-                          perPage={10}
-                          lang={lang.pagination}
-                        />
-                      </th>
-                    </tr>
-                  </tfoot>
-                </table>
-              </div>
             </div>
+          </div>
+        </section>
+
+        <section className='section is-paddingless'>
+          <div className='container'>
+            <Map
+              places={pageList}
+              selectPlace={this.selectPlace}
+              lang={lang.map}
+              visits={visits}
+            />
+          </div>
+
+          <div className='container'>
+            <table className='table is-hoverable is-fullwidth is-narrow is-bordered'>
+              <thead>
+                <tr>
+                  <th onClick={() => this.sortTable('name')}>
+                    {lang.name}{' '}
+                    {sorted.name === 1 ? (
+                      <i className='fas fa-sort-alpha-down'></i>
+                    ) : sorted.name === 2 ? (
+                      <i className='fas fa-sort-alpha-up'></i>
+                    ) : (
+                      ''
+                    )}
+                  </th>
+                  <th onClick={() => this.sortTable('type')}>
+                    {lang.type}{' '}
+                    {sorted.type === 1 ? (
+                      <i className='fas fa-sort-alpha-down'></i>
+                    ) : sorted.type === 2 ? (
+                      <i className='fas fa-sort-alpha-up'></i>
+                    ) : (
+                      ''
+                    )}
+                  </th>
+                  <th onClick={() => this.sortTable('country')}>
+                    {lang.country}{' '}
+                    {sorted.country === 1 ? (
+                      <i className='fas fa-sort-alpha-down'></i>
+                    ) : sorted.country === 2 ? (
+                      <i className='fas fa-sort-alpha-up'></i>
+                    ) : (
+                      ''
+                    )}
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {pageOfItems.map(place => (
+                  <tr
+                    key={place.id}
+                    className='table-row'
+                    onClick={() => this.selectPlace(place.id)}
+                  >
+                    <td>
+                      {place.name}{' '}
+                      {visits.includes(place.id) && (
+                        <span className='tag is-success'>
+                          {lang.visited} <i className='fas fa-check'></i>
+                        </span>
+                      )}
+                    </td>
+                    <td>{lang[place.type]}</td>
+                    <td>{place.country}</td>
+                  </tr>
+                ))}
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th colSpan='3'>
+                    <Pagination
+                      items={this.state.pageList}
+                      onChangePage={this.onChangePage}
+                      initialPage={1}
+                      perPage={10}
+                      lang={lang.pagination}
+                    />
+                  </th>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </section>
+
+        <div
+          className={
+            place === ''
+              ? 'modal modal-container'
+              : 'modal modal-container is-active'
+          }
+        >
+          <div
+            className='modal-background'
+            onClick={() => this.setState({ place: '' })}
+          ></div>
+          <div className='modal-card'>
+            <header className='modal-card-head'>
+              <p className='modal-card-title'>
+                {visits.includes(place.id) && (
+                  <span className='tag is-success'>
+                    {lang.visited} <i className='fas fa-check'></i>
+                  </span>
+                )}
+              </p>
+              <button
+                className='delete'
+                onClick={() => this.setState({ place: '' })}
+              ></button>
+            </header>
+            <section className='modal-card-body is-marginless'>
+              <div className='content'>
+                <h3 className='title'>
+                  <span className='tag is-info is-large'>{lang.name}</span>{' '}
+                  {place.name}
+                </h3>
+                <h3 className='title'>
+                  <span className='tag is-info is-large'>{lang.type}</span>{' '}
+                  {lang[place.type]}
+                </h3>
+                <h3 className='title'>
+                  <span className='tag is-info is-large'>{lang.address}</span>{' '}
+                  {place.state === ''
+                    ? `${place.city}, ${place.country}`
+                    : `${place.city}, ${place.state}, ${place.country}`}
+                </h3>
+                <h3 className='title'>
+                  <span className='tag is-info is-large'>
+                    {lang.description}
+                  </span>{' '}
+                  {place.description}{' '}
+                  <a
+                    className='tag is-small is-primary'
+                    href={place.wikipedia}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    {lang.wikipedia}
+                  </a>
+                </h3>
+              </div>
+            </section>
+
+            <footer className='modal-card-foot'>
+              <a
+                className='button is-link is-rounded is-large'
+                href={place.virtual}
+                target='_blank'
+                rel='noopener noreferrer'
+                onClick={() => this.takeVirtualTour(place.id)}
+              >
+                {lang.virtualTour}
+              </a>
+
+              <a
+                className='button is-success is-rounded is-medium'
+                href={place.website}
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                {lang.website}
+              </a>
+            </footer>
           </div>
         </div>
       </div>

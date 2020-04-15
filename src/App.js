@@ -9,6 +9,7 @@ import NotFound from './components/layouts/NotFound';
 import Main from './components/main/Main';
 import About from './components/about/About';
 
+import 'bulma/css/bulma.css';
 import './main.css';
 
 let places;
@@ -29,7 +30,7 @@ function App() {
   return (
     <HelmetProvider>
       <Router>
-        <div className='ui container'>
+        <div>
           <Header lang={lang.header} />
           <Switch>
             <Route

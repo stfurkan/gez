@@ -1,31 +1,66 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-function Header({ lang }) {
-  return (
-    <div>
-      <div className='ui hidden fitted divider'></div>
-      <div className='ui stackable  menu'>
-        <div className='item'>
-          <Link to='/'>
-            <h1 className='ui header site-logo'>
-              <i className='shoe prints icon'></i>
-              <div className='content'>{lang.siteName}</div>
-              <span className='sub header site-logo'>{lang.slogan}</span>
-            </h1>
-          </Link>
-        </div>
-        <Link to='/' className='item ui big button header-button'>
-          {lang.homepage}
-        </Link>
-        <div className='right menu'>
-          <Link to='/about' className='item ui big button header-button'>
-            {lang.about}
-          </Link>
-        </div>
-      </div>
-    </div>
-  );
-}
+export default class Header extends Component {
+  constructor(props) {
+    super(props);
 
-export default Header;
+    this.state = {
+      menu: false
+    };
+  }
+
+  render() {
+    const { lang } = this.props;
+    const { menu } = this.state;
+
+    return (
+      <div>
+        <nav
+          className='navbar is-warning'
+          role='navigation'
+          aria-label='main navigation'
+        >
+          <div className='navbar-brand'>
+            <Link className='navbar-item' to='/'>
+              <img
+                src='static/img/logo.png'
+                alt='logo'
+                width='112'
+                height='28'
+              />
+            </Link>
+
+            <div
+              role='button'
+              className={
+                menu ? 'navbar-burger burger is-active' : 'navbar-burger burger'
+              }
+              aria-label='menu'
+              aria-expanded='false'
+              onClick={() => this.setState({ menu: !menu })}
+            >
+              <span aria-hidden='true'></span>
+              <span aria-hidden='true'></span>
+              <span aria-hidden='true'></span>
+            </div>
+          </div>
+
+          <div className={menu ? 'navbar-menu is-active' : 'navbar-menu'}>
+            <div className='navbar-start'>
+              <Link to='/' className='navbar-item'>
+                {lang.homepage}
+              </Link>
+            </div>
+
+            <div className='navbar-end'>
+              <Link to='/about' className='navbar-item'>
+                {lang.about}
+              </Link>
+            </div>
+          </div>
+        </nav>
+      </div>
+    );
+  }
+}

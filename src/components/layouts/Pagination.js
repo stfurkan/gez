@@ -99,66 +99,68 @@ class Pagination extends Component {
     }
 
     return (
-      <div key={pager.currentPage} className='ui right floated nine item menu'>
-        <div
-          className={
-            pager.currentPage < 2
-              ? 'ui icon item disabled-pagination-item'
-              : 'ui icon item pagination-item '
-          }
-          onClick={() => this.setPage(1)}
-        >
-          <i className='angle double left icon'></i>
-        </div>
+      <nav
+        className='pagination is-centered'
+        role='navigation'
+        aria-label='pagination'
+      >
+        <ul className='pagination-list'>
+          <li>
+            <div
+              className='pagination-link button is-small'
+              onClick={() => this.setPage(1)}
+              disabled={pager.currentPage < 2}
+            >
+              <i className='fas fa-angle-double-left'></i>
+            </div>
+          </li>
+          <li>
+            <div
+              className='pagination-link button is-small'
+              onClick={() => this.setPage(pager.currentPage - 1)}
+              disabled={pager.currentPage < 2}
+            >
+              <i className='fas fa-angle-left'></i>
+            </div>
+          </li>
 
-        <div
-          className={
-            pager.currentPage < 2
-              ? 'ui icon item disabled-pagination-item'
-              : 'ui icon item pagination-item '
-          }
-          onClick={() => this.setPage(pager.currentPage - 1)}
-        >
-          <i className='angle left icon'></i>
-        </div>
+          {pager.pages.map((page, index) => (
+            <li key={`page-${index}`}>
+              <div
+                className='pagination-link button is-small'
+                aria-label={`${this.props.lang.text}: ${page}`}
+                onClick={() => this.setPage(page)}
+                disabled={page === pager.currentPage}
+              >
+                {page}
+              </div>
+            </li>
+          ))}
 
-        {pager.pages.map((page, index) => (
-          <div
-            className={
-              page === pager.currentPage
-                ? 'ui item disabled-pagination-item'
-                : 'ui item pagination-item'
-            }
-            key={`page-${index}`}
-            title={`${this.props.lang.text}: ${page}`}
-            onClick={() => this.setPage(page)}
-          >
-            <span>{page}</span>
-          </div>
-        ))}
-
-        <div
-          className={
-            pager.totalPages > 0 && pager.currentPage === pager.totalPages
-              ? 'ui icon item disabled-pagination-item'
-              : 'ui icon item pagination-item'
-          }
-          onClick={() => this.setPage(pager.currentPage + 1)}
-        >
-          <i className='angle right icon'></i>
-        </div>
-
-        <div
-          className={
-            pager.totalPages > 0 && pager.currentPage === pager.totalPages
-              ? 'ui icon item disabled-pagination-item'
-              : 'ui icon item pagination-item'
-          }
-          onClick={() => this.setPage(pager.totalPages)}
-        >
-          <i className='angle double right icon'></i>
-        </div>
-      </div>
+          <li>
+            <div
+              className='pagination-link button is-small'
+              onClick={() => this.setPage(pager.currentPage + 1)}
+              disabled={
+                pager.totalPages > 0 && pager.currentPage === pager.totalPages
+              }
+            >
+              <i className='fas fa-angle-right'></i>
+            </div>
+          </li>
+          <li>
+            <div
+              className='pagination-link button is-small'
+              onClick={() => this.setPage(pager.totalPages)}
+              disabled={
+                pager.totalPages > 0 && pager.currentPage === pager.totalPages
+              }
+            >
+              <i className='fas fa-angle-double-right'></i>
+            </div>
+          </li>
+        </ul>
+      </nav>
     );
   }
 }
