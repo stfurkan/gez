@@ -22,7 +22,7 @@ function Footer({ lang }) {
               target='_blank'
               rel='noopener noreferrer'
             >
-              GitHub
+              <i className='fab fa-github'></i> GitHub
             </a>
           </p>
           <p>{lang.text}</p>
