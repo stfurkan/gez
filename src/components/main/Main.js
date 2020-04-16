@@ -316,10 +316,10 @@ export default class Main extends Component {
                 }
               >
                 <div
-                  className='button is-fullwidth'
+                  className='button is-danger is-fullwidth'
                   onClick={() => this.clearFilter()}
                 >
-                  {lang.clearFilter}
+                  <i className='fas fa-trash'></i> {lang.clearFilter}
                 </div>
               </div>
             </div>
