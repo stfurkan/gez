@@ -17,13 +17,13 @@ https://nodejs.org/en/download/
 1. Clone the repo
 
 ```sh
-git clone https://github.com/stfurkan/pancovid19.git
+git clone https://github.com/stfurkan/gez.git
 ```
 
-2. Change directory to client
+2. Change directory to gez
 
 ```sh
-cd client
+cd gez
 ```
 
 3. Install NPM packages
@@ -36,10 +36,10 @@ npm install
 
 ### React
 
-- Change directory to client
+- Change directory to gez
 
 ```sh
-cd client
+cd gez
 ```
 
 #### `npm start`
