@@ -18,7 +18,7 @@ function Footer({ lang }) {
             |{' '}
             <a
               className='item'
-              href='https://www.github.com/stfurkan'
+              href='https://github.com/stfurkan/gez'
               target='_blank'
               rel='noopener noreferrer'
             >

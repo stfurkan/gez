@@ -32,7 +32,7 @@ export default function About({ lang }) {
           <p>
             <span className='is-size-6'>
               <a
-                href='https://github.com/stfurkan'
+                href='https://github.com/stfurkan/gez'
                 target='_blank'
                 rel='noopener noreferrer'
               >
