@@ -48,15 +48,27 @@ export default class Header extends Component {
 
           <div className={menu ? 'navbar-menu is-active' : 'navbar-menu'}>
             <div className='navbar-start'>
-              <Link to='/' className='navbar-item'>
+              <Link to='/' className='navbar-item is-hidden-desktop'>
                 {lang.homepage}
               </Link>
+
+              <div className='buttons navbar-item is-hidden-touch'>
+                <Link to='/' className='button is-primary'>
+                  <strong>{lang.homepage}</strong>
+                </Link>
+              </div>
             </div>
 
             <div className='navbar-end'>
-              <Link to='/about' className='navbar-item'>
+              <Link to='/about' className='navbar-item is-hidden-desktop'>
                 {lang.about}
               </Link>
+
+              <div className='buttons navbar-item is-hidden-touch'>
+                <Link to='/about' className='button is-info'>
+                  <strong>{lang.about}</strong>
+                </Link>
+              </div>
             </div>
           </div>
         </nav>
