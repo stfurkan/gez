@@ -398,7 +398,10 @@ export default class Main extends Component {
             <table className='table is-hoverable is-fullwidth is-narrow is-bordered'>
               <thead>
                 <tr>
-                  <th onClick={() => this.sortTable('name')}>
+                  <th
+                    className='table-header'
+                    onClick={() => this.sortTable('name')}
+                  >
                     {lang.name}{' '}
                     {sorted.name === 1 ? (
                       <i className='fas fa-sort-alpha-down'></i>
@@ -408,7 +411,10 @@ export default class Main extends Component {
                       ''
                     )}
                   </th>
-                  <th onClick={() => this.sortTable('type')}>
+                  <th
+                    className='table-header'
+                    onClick={() => this.sortTable('type')}
+                  >
                     {lang.type}{' '}
                     {sorted.type === 1 ? (
                       <i className='fas fa-sort-alpha-down'></i>
@@ -418,7 +424,10 @@ export default class Main extends Component {
                       ''
                     )}
                   </th>
-                  <th onClick={() => this.sortTable('country')}>
+                  <th
+                    className='table-header'
+                    onClick={() => this.sortTable('country')}
+                  >
                     {lang.country}{' '}
                     {sorted.country === 1 ? (
                       <i className='fas fa-sort-alpha-down'></i>

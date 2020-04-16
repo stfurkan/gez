@@ -15,6 +15,11 @@ body {
   cursor: pointer;
 }
 
+.table-header:hover {
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+
 modal-container {
   z-index: 1;
   position: absolute;
