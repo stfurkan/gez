@@ -459,7 +459,7 @@ export default class Main extends Component {
               <div className='content has-text-left'>
                 <div className='box is-marginless'>
                   <div className='columns is-gapless'>
-                    <div className='column is-one-fifth'>
+                    <div className='column is-one-quarter'>
                       <span className='tag is-info is-light is-large'>
                         {lang.name}
                       </span>
@@ -473,7 +473,7 @@ export default class Main extends Component {
 
                 <div className='box is-marginless'>
                   <div className='columns is-gapless'>
-                    <div className='column is-one-fifth'>
+                    <div className='column is-one-quarter'>
                       <span className='tag is-info is-light is-large'>
                         {lang.type}
                       </span>
@@ -487,7 +487,7 @@ export default class Main extends Component {
 
                 <div className='box is-marginless'>
                   <div className='columns is-gapless'>
-                    <div className='column is-one-fifth'>
+                    <div className='column is-one-quarter'>
                       <span className='tag is-info is-light is-large'>
                         {lang.address}
                       </span>
@@ -503,22 +503,24 @@ export default class Main extends Component {
 
                 <div className='box is-marginless'>
                   <div className='columns is-gapless'>
-                    <div className='column is-one-fifth'>
+                    <div className='column is-one-quarter'>
                       <span className='tag is-info is-light is-large'>
                         {lang.description}
                       </span>
                     </div>
 
                     <div className='column'>
-                      {place.description}{' '}
-                      <a
-                        className='tag is-small is-primary'
-                        href={place.wikipedia}
-                        target='_blank'
-                        rel='noopener noreferrer'
-                      >
-                        {lang.wikipedia}
-                      </a>
+                      <div className='content'>
+                        {place.description}{' '}
+                        <a
+                          className='tag is-small is-primary'
+                          href={place.wikipedia}
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          {lang.wikipedia}
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
