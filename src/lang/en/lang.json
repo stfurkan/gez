@@ -32,6 +32,11 @@
     "visited": "Visited",
     "visitedPlaces": "Visited places",
     "totalPlaces": "Total places",
+    "welcome": {
+      "header": "Welcome",
+      "text": "You can select a place from the map or the list and start your virtual tour. You can also use filters to limit your search by place names, countries or types.",
+      "continue": "Continue to site..."
+    },
     "map": {
       "place": "Place"
     },

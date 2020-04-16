@@ -32,6 +32,11 @@
     "visited": "Ziyaret Edildi",
     "visitedPlaces": "Gezilen yer",
     "totalPlaces": "Toplam yer",
+    "welcome": {
+      "header": "Hoşgeldiniz",
+      "text": "Haritadan veya listeden ilginizi çeken yerleri seçerek sanal turlarınıza başlayabilirsiniz. Filtreleri kullanarak yer adına, ülkeye veya türe göre arama yapabilirsiniz.",
+      "continue": "Siteye devam et..."
+    },
     "map": {
       "place": "Yer"
     },
