@@ -218,7 +218,15 @@ export default class Main extends Component {
     return (
       <div>
         <PageTitle title={lang.pageTitle} metaContent={lang.metaContent} />
-        <br />
+
+        <section className='section is-paddingless'>
+          <div className='container'>
+            <div className='notification is-light has-text-centered has-text-weight-semibold is-italic is-paddingless'>
+              {lang.visitedPlaces}: <strong>{visits.length}</strong> /{' '}
+              {lang.totalPlaces}: <strong>{places.length}</strong>
+            </div>
+          </div>
+        </section>
 
         <section className='section is-paddingless has-background-light'>
           <div className='container'>

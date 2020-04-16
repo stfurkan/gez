@@ -30,6 +30,8 @@
     "theme": "Theme Park",
     "zoo": "Zoo",
     "visited": "Visited",
+    "visitedPlaces": "Visited places",
+    "totalPlaces": "Total places",
     "map": {
       "place": "Place"
     },

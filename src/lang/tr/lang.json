@@ -30,6 +30,8 @@
     "theme": "Tema Parkı",
     "zoo": "Hayvanat Bahçesi",
     "visited": "Ziyaret Edildi",
+    "visitedPlaces": "Gezilen yer",
+    "totalPlaces": "Toplam yer",
     "map": {
       "place": "Yer"
     },
