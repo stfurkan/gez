@@ -5,7 +5,7 @@ function Footer({ lang }) {
   return (
     <div>
       <hr />
-      <footer className='footer is-paddingless'>
+      <footer className='footer is-paddingless has-background-warning'>
         <div className='content has-text-centered'>
           <p>
             <Link className='item' to='/'>
