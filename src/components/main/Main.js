@@ -20,11 +20,7 @@ export default class Main extends Component {
       selectType: 'all',
       searchPlace: '',
       place: '',
-      sorted: {
-        name: 0,
-        type: 0,
-        country: 0
-      },
+      sorted: '',
       visits: JSON.parse(localStorage.getItem('visits'))
     };
   }
@@ -77,153 +73,77 @@ export default class Main extends Component {
 
     let sortedItems = [...pageList];
 
-    // Sort by name
-    if (sortItem === 'name') {
-      if (sorted.name === 0) {
-        sortedItems = [...sortedItems].sort((a, b) =>
-          a.name > b.name ? 1 : -1
-        );
+    // Sort by name ascending
+    if (sortItem === 'nameAsc') {
+      sortedItems = [...sortedItems].sort((a, b) => (a.name > b.name ? 1 : -1));
 
-        this.setState({
-          sorted: {
-            name: 1,
-            type: 0,
-            country: 0
-          },
-          pageList: [...sortedItems]
-        });
-      }
-
-      if (sorted.name === 1) {
-        sortedItems = [...sortedItems].sort((a, b) =>
-          b.name > a.name ? 1 : -1
-        );
-
-        this.setState({
-          sorted: {
-            name: 2,
-            type: 0,
-            country: 0
-          },
-          pageList: [...sortedItems]
-        });
-      }
-
-      if (sorted.name === 2) {
-        sortedItems = [...sortedItems].sort((a, b) =>
-          a.name > b.name ? 1 : -1
-        );
-
-        this.setState({
-          sorted: {
-            name: 1,
-            type: 0,
-            country: 0
-          },
-          pageList: [...sortedItems]
-        });
-      }
+      this.setState({
+        sorted: 'nameAsc',
+        pageList: [...sortedItems]
+      });
     }
 
-    // Sort by type
-    if (sortItem === 'type') {
-      if (sorted.type === 0) {
-        sortedItems = [...sortedItems].sort((a, b) =>
-          lang[a.type] > lang[b.type] ? 1 : -1
-        );
+    // Sort by name descending
+    if (sortItem === 'nameDesc') {
+      sortedItems = [...sortedItems].sort((a, b) => (b.name > a.name ? 1 : -1));
 
-        this.setState({
-          sorted: {
-            name: 0,
-            type: 1,
-            country: 0
-          },
-          pageList: [...sortedItems]
-        });
-      }
-
-      if (sorted.type === 1) {
-        sortedItems = [...sortedItems].sort((a, b) =>
-          lang[b.type] > lang[a.type] ? 1 : -1
-        );
-
-        this.setState({
-          sorted: {
-            name: 0,
-            type: 2,
-            country: 0
-          },
-          pageList: [...sortedItems]
-        });
-      }
-
-      if (sorted.type === 2) {
-        sortedItems = [...sortedItems].sort((a, b) =>
-          lang[a.type] > lang[b.type] ? 1 : -1
-        );
-
-        this.setState({
-          sorted: {
-            name: 0,
-            type: 1,
-            country: 0
-          },
-          pageList: [...sortedItems]
-        });
-      }
+      this.setState({
+        sorted: 'nameDesc',
+        pageList: [...sortedItems]
+      });
     }
 
-    // Sort by country
-    if (sortItem === 'country') {
-      if (sorted.country === 0) {
-        sortedItems = [...sortedItems].sort((a, b) =>
-          a.country > b.country ? 1 : -1
-        );
+    // Sort by type ascending
+    if (sortItem === 'typeAsc') {
+      sortedItems = [...sortedItems].sort((a, b) =>
+        lang[a.type] > lang[b.type] ? 1 : -1
+      );
 
-        this.setState({
-          sorted: {
-            name: 0,
-            type: 0,
-            country: 1
-          },
-          pageList: [...sortedItems]
-        });
-      }
+      this.setState({
+        sorted: 'typeAsc',
+        pageList: [...sortedItems]
+      });
+    }
 
-      if (sorted.country === 1) {
-        sortedItems = [...sortedItems].sort((a, b) =>
-          b.country > a.country ? 1 : -1
-        );
+    // Sort by type descending
+    if (sortItem === 'typeDesc') {
+      sortedItems = [...sortedItems].sort((a, b) =>
+        lang[b.type] > lang[a.type] ? 1 : -1
+      );
 
-        this.setState({
-          sorted: {
-            name: 0,
-            type: 0,
-            country: 2
-          },
-          pageList: [...sortedItems]
-        });
-      }
+      this.setState({
+        sorted: 'typeDesc',
+        pageList: [...sortedItems]
+      });
+    }
 
-      if (sorted.country === 2) {
-        sortedItems = [...sortedItems].sort((a, b) =>
-          a.country > b.country ? 1 : -1
-        );
+    // Sort by country ascending
+    if (sortItem === 'countryAsc') {
+      sortedItems = [...sortedItems].sort((a, b) =>
+        a.country > b.country ? 1 : -1
+      );
 
-        this.setState({
-          sorted: {
-            name: 0,
-            type: 0,
-            country: 1
-          },
-          pageList: [...sortedItems]
-        });
-      }
+      this.setState({
+        sorted: 'countryAsc',
+        pageList: [...sortedItems]
+      });
+    }
+
+    // Sort by country descending
+    if (sortItem === 'countryDesc') {
+      sortedItems = [...sortedItems].sort((a, b) =>
+        b.country > a.country ? 1 : -1
+      );
+
+      this.setState({
+        sorted: 'countryDesc',
+        pageList: [...sortedItems]
+      });
     }
   };
 
   componentDidMount() {
-    this.sortTable('name');
+    this.sortTable('nameAsc');
   }
 
   componentDidUpdate = (pp, ps) => {
@@ -254,9 +174,14 @@ export default class Main extends Component {
         );
       }
 
-      this.setState({
-        pageList: filteredList
-      });
+      this.setState(
+        {
+          pageList: filteredList
+        },
+        () => {
+          this.sortTable(this.state.sorted);
+        }
+      );
     }
   };
 
@@ -400,12 +325,16 @@ export default class Main extends Component {
                 <tr>
                   <th
                     className='table-header'
-                    onClick={() => this.sortTable('name')}
+                    onClick={() =>
+                      sorted === 'nameAsc'
+                        ? this.sortTable('nameDesc')
+                        : this.sortTable('nameAsc')
+                    }
                   >
                     {lang.name}{' '}
-                    {sorted.name === 1 ? (
+                    {sorted === 'nameAsc' ? (
                       <i className='fas fa-sort-alpha-down'></i>
-                    ) : sorted.name === 2 ? (
+                    ) : sorted === 'nameDesc' ? (
                       <i className='fas fa-sort-alpha-up'></i>
                     ) : (
                       ''
@@ -413,12 +342,16 @@ export default class Main extends Component {
                   </th>
                   <th
                     className='table-header'
-                    onClick={() => this.sortTable('type')}
+                    onClick={() =>
+                      sorted === 'typeAsc'
+                        ? this.sortTable('typeDesc')
+                        : this.sortTable('typeAsc')
+                    }
                   >
                     {lang.type}{' '}
-                    {sorted.type === 1 ? (
+                    {sorted === 'typeAsc' ? (
                       <i className='fas fa-sort-alpha-down'></i>
-                    ) : sorted.type === 2 ? (
+                    ) : sorted === 'typeDesc' ? (
                       <i className='fas fa-sort-alpha-up'></i>
                     ) : (
                       ''
@@ -426,12 +359,16 @@ export default class Main extends Component {
                   </th>
                   <th
                     className='table-header'
-                    onClick={() => this.sortTable('country')}
+                    onClick={() =>
+                      sorted === 'countryAsc'
+                        ? this.sortTable('countryDesc')
+                        : this.sortTable('countryAsc')
+                    }
                   >
                     {lang.country}{' '}
-                    {sorted.country === 1 ? (
+                    {sorted === 'countryAsc' ? (
                       <i className='fas fa-sort-alpha-down'></i>
-                    ) : sorted.country === 2 ? (
+                    ) : sorted === 'countryDesc' ? (
                       <i className='fas fa-sort-alpha-up'></i>
                     ) : (
                       ''
