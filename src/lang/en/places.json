@@ -688,5 +688,20 @@
     "description": "The Bilbao Fine Arts Museum is an art museum located in the city of Bilbao, Spain. The building of the museum is located entirely inside the city's Doña Casilda Iturrizar park.",
     "wikipedia": "https://en.wikipedia.org/wiki/Bilbao_Fine_Arts_Museum",
     "image": ""
+  },
+  {
+    "id": 47,
+    "type": "museum",
+    "name": "European Museum of Modern Art",
+    "country": "Spain",
+    "state": "",
+    "city": "Barcelona",
+    "latitude": 41.384984,
+    "longitude": 2.180443,
+    "website": "https://www.meam.es/en",
+    "virtual": "https://my.matterport.com/show/?m=trbAATJfhyx",
+    "description": "Museum in 18th-century palace, showcasing 20th- to 21st-century figurative paintings & sculpture.",
+    "wikipedia": "",
+    "image": ""
   }
 ]
