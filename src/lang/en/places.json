@@ -778,5 +778,20 @@
     "description": "Shackleton Museum was established to celebrate the vibrant socio-historic legacy of the area. It houses material and audio-visual programmes that chronicle the ancient, medieval and post 16th century lives and achievements of the people of the town and its hinterland.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 53,
+    "type": "museum",
+    "name": "The National Museum of the Royal Navy: HMS Trincomalee",
+    "country": "England",
+    "state": "",
+    "city": "Hartlepool",
+    "latitude": 54.690293,
+    "longitude": -1.206931,
+    "website": "https://www.nmrn.org.uk/our-museums/national-museum-royal-navy-hartlepool",
+    "virtual": "https://my.matterport.com/show/?m=4frhx6zLinZ",
+    "description": "HMS Trincomalee is a Royal Navy Leda-class sailing frigate built shortly after the end of the Napoleonic Wars. She is now restored as a museum ship in Hartlepool, England.",
+    "wikipedia": "https://en.wikipedia.org/wiki/HMS_Trincomalee",
+    "image": ""
   }
 ]

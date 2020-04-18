@@ -778,5 +778,20 @@
     "description": "Shackleton Müzesi, bölgenin canlı sosyo-tarihi mirasını anmak için kuruldu. Kasaba halkının antik, ortaçağ ve 16. yüzyıl sonrası yaşamlarını ve başarılarını sergileyen görsel-işitsel programlar barındırmaktadır.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 53,
+    "type": "museum",
+    "name": "Kraliyet Donanması Ulusal Müzesi: HMS Trincomalee",
+    "country": "İngiltere",
+    "state": "",
+    "city": "Hartlepool",
+    "latitude": 54.690293,
+    "longitude": -1.206931,
+    "website": "https://www.nmrn.org.uk/our-museums/national-museum-royal-navy-hartlepool",
+    "virtual": "https://my.matterport.com/show/?m=4frhx6zLinZ",
+    "description": "HMS Trincomalee, Napolyon Savaşları'nın bitiminden kısa bir süre sonra inşa edilen Kraliyet Donanması Leda sınıfı yelken fırkateynidir. Şu anda Hartlepool, İngiltere'de bir müze gemisi olarak hizmet vermektedir.",
+    "wikipedia": "https://en.wikipedia.org/wiki/HMS_Trincomalee",
+    "image": ""
   }
 ]
