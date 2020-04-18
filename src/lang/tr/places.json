@@ -733,5 +733,20 @@
     "description": "William Luelleman House, ABD'nin Ohio eyaletinin New Bremen şehrinde bulunan tarihi bir evdir. Bilinmeyen bir mimar tarafından tasarlanan ve 1837 yılında inşa edilen köyün en eski yapısıdır ve Amerikan sınırında Alman mimarisinin önde gelen bir örneği olarak gösterilmektedir.",
     "wikipedia": "https://en.wikipedia.org/wiki/William_Luelleman_House",
     "image": ""
+  },
+  {
+    "id": 50,
+    "type": "museum",
+    "name": "Amerika Bisiklet Müzesi",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "OH",
+    "city": "New Bremen",
+    "latitude": 40.436662,
+    "longitude": -84.38092,
+    "website": "http://www.bicyclemuseum.com",
+    "virtual": "https://my.matterport.com/show/?m=rhER4vtnyXN",
+    "description": "Amerika Bisiklet Müzesi, dünyanın en büyük özel bisiklet koleksiyonlarından biridir.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bicycle_Museum_of_America",
+    "image": ""
   }
 ]

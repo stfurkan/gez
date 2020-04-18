@@ -733,5 +733,20 @@
     "description": "The William Luelleman House is a historic house in downtown New Bremen, Ohio, United States. Designed by an unknown architect and built in 1837, it is the oldest structure in the village, and it has been ranked as a leading example of German architecture on the American frontier.",
     "wikipedia": "https://en.wikipedia.org/wiki/William_Luelleman_House",
     "image": ""
+  },
+  {
+    "id": 50,
+    "type": "museum",
+    "name": "The Bicycle Museum of America",
+    "country": "United States",
+    "state": "OH",
+    "city": "New Bremen",
+    "latitude": 40.436662,
+    "longitude": -84.38092,
+    "website": "http://www.bicyclemuseum.com",
+    "virtual": "https://my.matterport.com/show/?m=rhER4vtnyXN",
+    "description": "The Bicycle Museum is one of the largest private collections of bicycles in the world.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bicycle_Museum_of_America",
+    "image": ""
   }
 ]
