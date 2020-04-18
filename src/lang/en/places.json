@@ -748,5 +748,20 @@
     "description": "The Bicycle Museum is one of the largest private collections of bicycles in the world.",
     "wikipedia": "https://en.wikipedia.org/wiki/Bicycle_Museum_of_America",
     "image": ""
+  },
+  {
+    "id": 51,
+    "type": "museum",
+    "name": "Warwick Castle",
+    "country": "United Kingdom",
+    "state": "",
+    "city": "Warwick",
+    "latitude": 52.279667,
+    "longitude": -1.585227,
+    "website": "https://www.warwick-castle.com",
+    "virtual": "https://my.matterport.com/show/?m=Rumcypmpj1N",
+    "description": "Warwick Castle is a medieval castle developed from a wooden fort, originally built by William the Conqueror during 1068. Warwick is the county town of Warwickshire, England, situated on a bend of the River Avon. The original wooden motte-and-bailey castle was rebuilt in stone during the 12th century.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Warwick_Castle",
+    "image": ""
   }
 ]
