@@ -512,14 +512,16 @@ export default class Main extends Component {
                     <div className='column'>
                       <div className='content'>
                         {place.description}{' '}
-                        <a
-                          className='tag is-small is-primary'
-                          href={place.wikipedia}
-                          target='_blank'
-                          rel='noopener noreferrer'
-                        >
-                          {lang.wikipedia}
-                        </a>
+                        {place.wikipedia !== '' && (
+                          <a
+                            className='tag is-small is-primary'
+                            href={place.wikipedia}
+                            target='_blank'
+                            rel='noopener noreferrer'
+                          >
+                            {lang.wikipedia}
+                          </a>
+                        )}
                       </div>
                     </div>
                   </div>
