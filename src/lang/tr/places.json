@@ -703,5 +703,20 @@
     "description": "20. yüzyıldan 21. yüzyıla kadar figüratif resim ve heykel sergileyen 18. yüzyıl sarayında bulunan bir müze.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 48,
+    "type": "museum",
+    "name": "Harikalar Diyarında (Immersed in Wonderland)",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "NY",
+    "city": "New York City",
+    "latitude": 40.74887,
+    "longitude": -73.989014,
+    "website": "https://www.immersedinwonderland.com",
+    "virtual": "https://my.matterport.com/show/?m=2uR4QFSvreW",
+    "description": "Alexa Meade'nin New York City'deki en yeni sanat sergisi, sanatın bir parçası olmanızı sağlayan etkileşimli yerleştirmelerle tablolara hayat veriyor.",
+    "wikipedia": "",
+    "image": ""
   }
 ]

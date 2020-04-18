@@ -703,5 +703,20 @@
     "description": "Museum in 18th-century palace, showcasing 20th- to 21st-century figurative paintings & sculpture.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 48,
+    "type": "museum",
+    "name": "Immersed in Wonderland",
+    "country": "United States",
+    "state": "NY",
+    "city": "New York City",
+    "latitude": 40.74887,
+    "longitude": -73.989014,
+    "website": "https://www.immersedinwonderland.com",
+    "virtual": "https://my.matterport.com/show/?m=2uR4QFSvreW",
+    "description": "Alexa Meade's newest art exhibit in New York City brings paintings to life with interactive installations that let you be part of the art.",
+    "wikipedia": "",
+    "image": ""
   }
 ]
