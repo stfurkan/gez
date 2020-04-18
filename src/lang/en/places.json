@@ -763,5 +763,20 @@
     "description": "Warwick Castle is a medieval castle developed from a wooden fort, originally built by William the Conqueror during 1068. Warwick is the county town of Warwickshire, England, situated on a bend of the River Avon. The original wooden motte-and-bailey castle was rebuilt in stone during the 12th century.",
     "wikipedia": "https://en.wikipedia.org/wiki/Warwick_Castle",
     "image": ""
+  },
+  {
+    "id": 52,
+    "type": "museum",
+    "name": "Shackleton Museum",
+    "country": "Ireland",
+    "state": "",
+    "city": "Athy",
+    "latitude": 52.991678,
+    "longitude": -6.983253,
+    "website": "http://shackletonmuseum.com",
+    "virtual": "https://my.matterport.com/show/?m=Cs8YjykxNTR",
+    "description": "Shackleton Museum was established to celebrate the vibrant socio-historic legacy of the area. It houses material and audio-visual programmes that chronicle the ancient, medieval and post 16th century lives and achievements of the people of the town and its hinterland.",
+    "wikipedia": "",
+    "image": ""
   }
 ]

@@ -763,5 +763,20 @@
     "description": "Warwick Kalesi, tahtadan geliştirilerek yapılan bir ortaçağ kalesidir. Kale, aslen I. William tarafından 1068 yılında yaptırılmıştır. Warwick, İngiltere'nin Warwickshire ilçesinde Avon Nehri'nin kıvrımı üzerinde yer almaktadır.",
     "wikipedia": "https://en.wikipedia.org/wiki/Warwick_Castle",
     "image": ""
+  },
+  {
+    "id": 52,
+    "type": "museum",
+    "name": "Shackleton Müzesi",
+    "country": "İrlanda",
+    "state": "",
+    "city": "Athy",
+    "latitude": 52.991678,
+    "longitude": -6.983253,
+    "website": "http://shackletonmuseum.com",
+    "virtual": "https://my.matterport.com/show/?m=Cs8YjykxNTR",
+    "description": "Shackleton Müzesi, bölgenin canlı sosyo-tarihi mirasını anmak için kuruldu. Kasaba halkının antik, ortaçağ ve 16. yüzyıl sonrası yaşamlarını ve başarılarını sergileyen görsel-işitsel programlar barındırmaktadır.",
+    "wikipedia": "",
+    "image": ""
   }
 ]
