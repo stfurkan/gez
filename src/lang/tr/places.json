@@ -718,5 +718,20 @@
     "description": "Alexa Meade'nin New York City'deki en yeni sanat sergisi, sanatın bir parçası olmanızı sağlayan etkileşimli yerleştirmelerle tablolara hayat veriyor.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 49,
+    "type": "museum",
+    "name": "William Luelleman House, New Bremen",
+    "country": "United States",
+    "state": "OH",
+    "city": "New Bremen",
+    "latitude": 40.438984,
+    "longitude": -84.382543,
+    "website": "https://newbremenhistory.org/en/content/78-new-bremens-historical-museums",
+    "virtual": "https://my.matterport.com/show/?m=AfATSKwu1ai",
+    "description": "William Luelleman House, ABD'nin Ohio eyaletinin New Bremen şehrinde bulunan tarihi bir evdir. Bilinmeyen bir mimar tarafından tasarlanan ve 1837 yılında inşa edilen köyün en eski yapısıdır ve Amerikan sınırında Alman mimarisinin önde gelen bir örneği olarak gösterilmektedir.",
+    "wikipedia": "https://en.wikipedia.org/wiki/William_Luelleman_House",
+    "image": ""
   }
 ]

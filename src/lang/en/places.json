@@ -718,5 +718,20 @@
     "description": "Alexa Meade's newest art exhibit in New York City brings paintings to life with interactive installations that let you be part of the art.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 49,
+    "type": "museum",
+    "name": "William Luelleman House, New Bremen",
+    "country": "United States",
+    "state": "OH",
+    "city": "New Bremen",
+    "latitude": 40.438984,
+    "longitude": -84.382543,
+    "website": "https://newbremenhistory.org/en/content/78-new-bremens-historical-museums",
+    "virtual": "https://my.matterport.com/show/?m=AfATSKwu1ai",
+    "description": "The William Luelleman House is a historic house in downtown New Bremen, Ohio, United States. Designed by an unknown architect and built in 1837, it is the oldest structure in the village, and it has been ranked as a leading example of German architecture on the American frontier.",
+    "wikipedia": "https://en.wikipedia.org/wiki/William_Luelleman_House",
+    "image": ""
   }
 ]
