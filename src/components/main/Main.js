@@ -83,7 +83,9 @@ export default class Main extends Component {
 
     // Sort by name ascending
     if (sortItem === 'nameAsc') {
-      sortedItems = [...sortedItems].sort((a, b) => (a.name > b.name ? 1 : -1));
+      sortedItems = [...sortedItems].sort((a, b) =>
+        a.name.localeCompare(b.name)
+      );
 
       this.setState({
         sorted: 'nameAsc',
@@ -93,7 +95,9 @@ export default class Main extends Component {
 
     // Sort by name descending
     if (sortItem === 'nameDesc') {
-      sortedItems = [...sortedItems].sort((a, b) => (b.name > a.name ? 1 : -1));
+      sortedItems = [...sortedItems].sort((a, b) =>
+        b.name.localeCompare(a.name)
+      );
 
       this.setState({
         sorted: 'nameDesc',
@@ -104,7 +108,7 @@ export default class Main extends Component {
     // Sort by type ascending
     if (sortItem === 'typeAsc') {
       sortedItems = [...sortedItems].sort((a, b) =>
-        lang[a.type] > lang[b.type] ? 1 : -1
+        lang[a.type].localeCompare(lang[b.type])
       );
 
       this.setState({
@@ -116,7 +120,7 @@ export default class Main extends Component {
     // Sort by type descending
     if (sortItem === 'typeDesc') {
       sortedItems = [...sortedItems].sort((a, b) =>
-        lang[b.type] > lang[a.type] ? 1 : -1
+        lang[b.type].localeCompare(lang[a.type])
       );
 
       this.setState({
@@ -128,7 +132,7 @@ export default class Main extends Component {
     // Sort by country ascending
     if (sortItem === 'countryAsc') {
       sortedItems = [...sortedItems].sort((a, b) =>
-        a.country > b.country ? 1 : -1
+        a.country.localeCompare(b.country)
       );
 
       this.setState({
@@ -140,7 +144,7 @@ export default class Main extends Component {
     // Sort by country descending
     if (sortItem === 'countryDesc') {
       sortedItems = [...sortedItems].sort((a, b) =>
-        b.country > a.country ? 1 : -1
+        b.country.localeCompare(a.country)
       );
 
       this.setState({
@@ -214,7 +218,7 @@ export default class Main extends Component {
         countries.push(place.country);
       }
     });
-    countries.sort((a, b) => (a > b ? 1 : -1));
+    countries.sort((a, b) => a.localeCompare(b));
 
     let types = [];
     places.forEach(place => {
@@ -222,7 +226,7 @@ export default class Main extends Component {
         types.push(place.type);
       }
     });
-    types.sort((a, b) => (lang[a] > lang[b] ? 1 : -1));
+    types.sort((a, b) => lang[a].localeCompare(lang[b]));
 
     return (
       <div>
