@@ -793,5 +793,20 @@
     "description": "HMS Trincomalee, Napolyon Savaşları'nın bitiminden kısa bir süre sonra inşa edilen Kraliyet Donanması Leda sınıfı yelken fırkateynidir. Şu anda Hartlepool, İngiltere'de bir müze gemisi olarak hizmet vermektedir.",
     "wikipedia": "https://en.wikipedia.org/wiki/HMS_Trincomalee",
     "image": ""
+  },
+  {
+    "id": 54,
+    "type": "museum",
+    "name": "Oklahoma Tarih Merkezi",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "OK",
+    "city": "Oklahoma City",
+    "latitude": 35.494067,
+    "longitude": -97.499727,
+    "website": "https://www.okhistory.org/historycenter",
+    "virtual": "https://my.matterport.com/show/?m=D9QSST2dZrx",
+    "description": "Oklahoma Tarih Merkezi, Oklahoma eyaletinin tarih müzesidir. Oklahoma City'deki 800 Nazih Zuhdi Drive'daki Vali'nin konağının karşısında 18 dönümlük bir arsa üzerinde bulunan mevcut müze, 2005 yılında açıldı ve Oklahoma Tarih Kurumu tarafından işletiliyor.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Oklahoma_History_Center",
+    "image": ""
   }
 ]

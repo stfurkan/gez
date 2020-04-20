@@ -793,5 +793,20 @@
     "description": "HMS Trincomalee is a Royal Navy Leda-class sailing frigate built shortly after the end of the Napoleonic Wars. She is now restored as a museum ship in Hartlepool, England.",
     "wikipedia": "https://en.wikipedia.org/wiki/HMS_Trincomalee",
     "image": ""
+  },
+  {
+    "id": 54,
+    "type": "museum",
+    "name": "Oklahoma History Center",
+    "country": "United States",
+    "state": "OK",
+    "city": "Oklahoma City",
+    "latitude": 35.494067,
+    "longitude": -97.499727,
+    "website": "https://www.okhistory.org/historycenter",
+    "virtual": "https://my.matterport.com/show/?m=D9QSST2dZrx",
+    "description": "The Oklahoma History Center is the history museum of the state of Oklahoma. Located on an 18-acre plot across the street from the Governor's mansion at 800 Nazih Zuhdi Drive in Oklahoma City, the current museum opened in 2005 and is operated by the Oklahoma Historical Society.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Oklahoma_History_Center",
+    "image": ""
   }
 ]
