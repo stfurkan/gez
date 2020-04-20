@@ -838,5 +838,20 @@
     "description": "Buckingham Palace is the London residence and administrative headquarters of the monarchy of the United Kingdom. Located in the City of Westminster, the palace is often at the centre of state occasions and royal hospitality. It has been a focal point for the British people at times of national rejoicing and mourning.",
     "wikipedia": "https://en.wikipedia.org/wiki/Buckingham_Palace",
     "image": ""
+  },
+  {
+    "id": 57,
+    "type": "museum",
+    "name": "Chilean National Museum of Natural History",
+    "country": "Chile",
+    "state": "",
+    "city": "Santiago",
+    "latitude": -33.442009,
+    "longitude": -70.681751,
+    "website": "https://www.mhn.gob.cl/sitio",
+    "virtual": "https://my.matterport.com/show/?m=rbjQSRx2qya",
+    "description": "The Chilean National Museum of Natural History is one of three national museums in Chile, along with the Museum of Fine Arts and the National History Museum. It is located in Quinta Normal Park.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chilean_National_Museum_of_Natural_History",
+    "image": ""
   }
 ]

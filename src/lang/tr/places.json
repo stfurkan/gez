@@ -838,5 +838,20 @@
     "description": "Buckingham Sarayı, Birleşik Krallık hükümdarlarının yönetim merkezi ve Londra'daki ikametgahı. Westminster Şehri'nde bulunan saray sık sık devlet işlerinde ve yabancı devlet insanlarının ağırlanmasında kullanılır.",
     "wikipedia": "https://tr.wikipedia.org/wiki/Buckingham_Saray%C4%B1",
     "image": ""
+  },
+  {
+    "id": 57,
+    "type": "museum",
+    "name": "Şili Ulusal Doğa Tarihi Müzesi",
+    "country": "Şili",
+    "state": "",
+    "city": "Santiago",
+    "latitude": -33.442009,
+    "longitude": -70.681751,
+    "website": "https://www.mhn.gob.cl/sitio",
+    "virtual": "https://my.matterport.com/show/?m=rbjQSRx2qya",
+    "description": "Şili Ulusal Doğa Tarihi Müzesi, Şili'deki güzel sanatlar Müzesi ve Ulusal Tarih Müzesi ile birlikte üç ulusal müzeden biridir. Quinta Normal Park'ta yer almaktadır.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chilean_National_Museum_of_Natural_History",
+    "image": ""
   }
 ]
