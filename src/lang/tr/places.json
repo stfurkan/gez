@@ -883,5 +883,20 @@
     "description": "Kansas City Hayvanat Bahçesi 1909 yılında kurulan 202 dönümlük bir hayvanat bahçesidir. Amerika Birleşik Devletleri, Missouri, 6800 Zoo Drive Kansas City'deki Swope Park'ta bulunuyor.",
     "wikipedia": "https://en.wikipedia.org/wiki/Kansas_City_Zoo",
     "image": ""
+  },
+  {
+    "id": 60,
+    "type": "zoo",
+    "name": "Smithsonian Ulusal Hayvanat Bahçesi",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "DC",
+    "city": "Washington",
+    "latitude": 38.929532,
+    "longitude": -77.049729,
+    "website": "https://nationalzoo.si.edu",
+    "virtual": "https://nationalzoo.si.edu/webcams",
+    "description": "Ulusal Hayvanat Bahçesi olarak bilinen Ulusal Zooloji Parkı, Amerika Birleşik Devletleri'ndeki en eski hayvanat bahçelerinden biridir.",
+    "wikipedia": "https://en.wikipedia.org/wiki/National_Zoological_Park_(United_States)",
+    "image": ""
   }
 ]

@@ -883,5 +883,20 @@
     "description": "Kansas City Zoo is a 202-acre zoo founded in 1909. It is located in Swope Park at 6800 Zoo Drive Kansas City, Missouri, in the United States. The zoo has a Friends of the Zoo program. It is home to more than 1,300 animals and is an accredited member of the Association of Zoos and Aquariums.",
     "wikipedia": "https://en.wikipedia.org/wiki/Kansas_City_Zoo",
     "image": ""
+  },
+  {
+    "id": 60,
+    "type": "zoo",
+    "name": "Smithsonian's National Zoo",
+    "country": "United States",
+    "state": "DC",
+    "city": "Washington",
+    "latitude": 38.929532,
+    "longitude": -77.049729,
+    "website": "https://nationalzoo.si.edu",
+    "virtual": "https://nationalzoo.si.edu/webcams",
+    "description": "The National Zoological Park, commonly known as the National Zoo, is one of the oldest zoos in the United States. It is part of the Smithsonian Institution and does not charge admission.",
+    "wikipedia": "https://en.wikipedia.org/wiki/National_Zoological_Park_(United_States)",
+    "image": ""
   }
 ]
