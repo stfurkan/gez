@@ -853,5 +853,20 @@
     "description": "Şili Ulusal Doğa Tarihi Müzesi, Şili'deki güzel sanatlar Müzesi ve Ulusal Tarih Müzesi ile birlikte üç ulusal müzeden biridir. Quinta Normal Park'ta yer almaktadır.",
     "wikipedia": "https://en.wikipedia.org/wiki/Chilean_National_Museum_of_Natural_History",
     "image": ""
+  },
+  {
+    "id": 58,
+    "type": "nature",
+    "name": "Sơn Đoòng Mağarası",
+    "country": "Vietnam",
+    "state": "",
+    "city": "Quảng Bình",
+    "latitude": 17.546727,
+    "longitude": 106.143957,
+    "website": "https://tr.wikipedia.org/wiki/Son_Doong",
+    "virtual": "https://www.nationalgeographic.com/news-features/son-doong-cave/2/#s=pano37",
+    "description": "Son Doong, Vietnam'da Dong Hoi'nin 50 km, Dong Hoi Havalimanı'nın 44 km kuzeyinde ve başkent Hanoi'nin 450 km güneyinde bulunan Quang Binh'deki millî parkın sınırları içerisinde yer alan dev bir mağaradır.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/Son_Doong",
+    "image": ""
   }
 ]

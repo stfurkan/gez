@@ -853,5 +853,20 @@
     "description": "The Chilean National Museum of Natural History is one of three national museums in Chile, along with the Museum of Fine Arts and the National History Museum. It is located in Quinta Normal Park.",
     "wikipedia": "https://en.wikipedia.org/wiki/Chilean_National_Museum_of_Natural_History",
     "image": ""
+  },
+  {
+    "id": 58,
+    "type": "nature",
+    "name": "Sơn Đoòng Cave",
+    "country": "Vietnam",
+    "state": "",
+    "city": "Quảng Bình",
+    "latitude": 17.546727,
+    "longitude": 106.143957,
+    "website": "https://en.wikipedia.org/wiki/Hang_S%C6%A1n_%C4%90o%C3%B2ng",
+    "virtual": "https://www.nationalgeographic.com/news-features/son-doong-cave/2/#s=pano37",
+    "description": "Sơn Đoòng cave is the world's largest natural cave, in Phong Nha-Kẻ Bàng National Park, Bố Trạch District, Quảng Bình Province, Vietnam.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hang_S%C6%A1n_%C4%90o%C3%B2ng",
+    "image": ""
   }
 ]
