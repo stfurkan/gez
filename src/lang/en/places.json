@@ -823,5 +823,20 @@
     "description": "The Great Wall of China is the collective name of a series of fortification systems generally built across the historical northern borders of China to protect and consolidate territories of Chinese states and empires against various nomadic groups of the steppe and their polities.",
     "wikipedia": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
     "image": ""
+  },
+  {
+    "id": 56,
+    "type": "historical",
+    "name": "Buckingham Palace",
+    "country": "England",
+    "state": "",
+    "city": "London",
+    "latitude": 51.501314,
+    "longitude": -0.141874,
+    "website": "https://www.royal.uk/royal-residences-buckingham-palace",
+    "virtual": "https://www.royal.uk/sites/all/modules/custom/tbm_vt/virtual-tours/buckingham-palace-1.3/index.html?startscene=scene_001-ThroneRoom",
+    "description": "Buckingham Palace is the London residence and administrative headquarters of the monarchy of the United Kingdom. Located in the City of Westminster, the palace is often at the centre of state occasions and royal hospitality. It has been a focal point for the British people at times of national rejoicing and mourning.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Buckingham_Palace",
+    "image": ""
   }
 ]

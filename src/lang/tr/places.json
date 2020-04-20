@@ -823,5 +823,20 @@
     "description": "Çin Seddi, Çin'in kuzeybatısı boyunca uzanan, Dünyanın en uzun savunma duvarıdır. Kalıntıları Po Hay körfezinde deniz kıyısında başlar. Pekin'in kuzeyinden geçerek batıya yönelir ve Huang-Ho nehrini ikiye bölerek güneybatıya uzanır. Gobi Çölü'nün güneyinden batıya yönelerek devam eder.",
     "wikipedia": "https://tr.wikipedia.org/wiki/%C3%87in_Seddi",
     "image": ""
+  },
+  {
+    "id": 56,
+    "type": "historical",
+    "name": "Buckingham Sarayı",
+    "country": "İngiltere",
+    "state": "",
+    "city": "London",
+    "latitude": 51.501314,
+    "longitude": -0.141874,
+    "website": "https://www.royal.uk/royal-residences-buckingham-palace",
+    "virtual": "https://www.royal.uk/sites/all/modules/custom/tbm_vt/virtual-tours/buckingham-palace-1.3/index.html?startscene=scene_001-ThroneRoom",
+    "description": "Buckingham Sarayı, Birleşik Krallık hükümdarlarının yönetim merkezi ve Londra'daki ikametgahı. Westminster Şehri'nde bulunan saray sık sık devlet işlerinde ve yabancı devlet insanlarının ağırlanmasında kullanılır.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/Buckingham_Saray%C4%B1",
+    "image": ""
   }
 ]
