@@ -808,5 +808,20 @@
     "description": "The Oklahoma History Center is the history museum of the state of Oklahoma. Located on an 18-acre plot across the street from the Governor's mansion at 800 Nazih Zuhdi Drive in Oklahoma City, the current museum opened in 2005 and is operated by the Oklahoma Historical Society.",
     "wikipedia": "https://en.wikipedia.org/wiki/Oklahoma_History_Center",
     "image": ""
+  },
+  {
+    "id": 55,
+    "type": "historical",
+    "name": "Great Wall of China",
+    "country": "China",
+    "state": "",
+    "city": "Beijing",
+    "latitude": 40.4319,
+    "longitude": 116.570381,
+    "website": "https://whc.unesco.org/en/list/438",
+    "virtual": "https://www.thechinaguide.com/statics/vr/greatwall/tour.html",
+    "description": "The Great Wall of China is the collective name of a series of fortification systems generally built across the historical northern borders of China to protect and consolidate territories of Chinese states and empires against various nomadic groups of the steppe and their polities.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
+    "image": ""
   }
 ]

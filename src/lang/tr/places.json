@@ -808,5 +808,20 @@
     "description": "Oklahoma Tarih Merkezi, Oklahoma eyaletinin tarih müzesidir. Oklahoma City'deki 800 Nazih Zuhdi Drive'daki Vali'nin konağının karşısında 18 dönümlük bir arsa üzerinde bulunan mevcut müze, 2005 yılında açıldı ve Oklahoma Tarih Kurumu tarafından işletiliyor.",
     "wikipedia": "https://en.wikipedia.org/wiki/Oklahoma_History_Center",
     "image": ""
+  },
+  {
+    "id": 55,
+    "type": "historical",
+    "name": "Çin Seddi",
+    "country": "Çin",
+    "state": "",
+    "city": "Beijing",
+    "latitude": 40.4319,
+    "longitude": 116.570381,
+    "website": "https://whc.unesco.org/en/list/438",
+    "virtual": "https://www.thechinaguide.com/statics/vr/greatwall/tour.html",
+    "description": "Çin Seddi, Çin'in kuzeybatısı boyunca uzanan, Dünyanın en uzun savunma duvarıdır. Kalıntıları Po Hay körfezinde deniz kıyısında başlar. Pekin'in kuzeyinden geçerek batıya yönelir ve Huang-Ho nehrini ikiye bölerek güneybatıya uzanır. Gobi Çölü'nün güneyinden batıya yönelerek devam eder.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/%C3%87in_Seddi",
+    "image": ""
   }
 ]
