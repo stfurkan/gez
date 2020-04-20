@@ -868,5 +868,20 @@
     "description": "Sơn Đoòng cave is the world's largest natural cave, in Phong Nha-Kẻ Bàng National Park, Bố Trạch District, Quảng Bình Province, Vietnam.",
     "wikipedia": "https://en.wikipedia.org/wiki/Hang_S%C6%A1n_%C4%90o%C3%B2ng",
     "image": ""
+  },
+  {
+    "id": 58,
+    "type": "zoo",
+    "name": "Kansas City Zoo",
+    "country": "United States",
+    "state": "MO",
+    "city": "Kansas City",
+    "latitude": 39.006841,
+    "longitude": -94.529144,
+    "website": "https://www.kansascityzoo.org",
+    "virtual": "https://www.kansascityzoo.org/kc-zoo-to-you-animal-cams",
+    "description": "Kansas City Zoo is a 202-acre zoo founded in 1909. It is located in Swope Park at 6800 Zoo Drive Kansas City, Missouri, in the United States. The zoo has a Friends of the Zoo program. It is home to more than 1,300 animals and is an accredited member of the Association of Zoos and Aquariums.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kansas_City_Zoo",
+    "image": ""
   }
 ]

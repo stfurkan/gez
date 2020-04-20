@@ -868,5 +868,20 @@
     "description": "Son Doong, Vietnam'da Dong Hoi'nin 50 km, Dong Hoi Havalimanı'nın 44 km kuzeyinde ve başkent Hanoi'nin 450 km güneyinde bulunan Quang Binh'deki millî parkın sınırları içerisinde yer alan dev bir mağaradır.",
     "wikipedia": "https://tr.wikipedia.org/wiki/Son_Doong",
     "image": ""
+  },
+  {
+    "id": 58,
+    "type": "zoo",
+    "name": "Kansas City Hayvanat Bahçesi",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "MO",
+    "city": "Kansas City",
+    "latitude": 39.006841,
+    "longitude": -94.529144,
+    "website": "https://www.kansascityzoo.org",
+    "virtual": "https://www.kansascityzoo.org/kc-zoo-to-you-animal-cams",
+    "description": "Kansas City Hayvanat Bahçesi 1909 yılında kurulan 202 dönümlük bir hayvanat bahçesidir. Amerika Birleşik Devletleri, Missouri, 6800 Zoo Drive Kansas City'deki Swope Park'ta bulunuyor.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kansas_City_Zoo",
+    "image": ""
   }
 ]
