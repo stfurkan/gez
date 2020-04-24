@@ -943,5 +943,20 @@
     "description": "The Oxford University Museum of Natural History, sometimes known simply as the Oxford University Museum or OUMNH, is a museum displaying many of the University of Oxford's natural history specimens, located on Parks Road in Oxford, England.",
     "wikipedia": "https://en.wikipedia.org/wiki/Oxford_University_Museum_of_Natural_History",
     "image": ""
+  },
+  {
+    "id": 64,
+    "type": "historical",
+    "name": "St Edmund Hall Old Library",
+    "country": "England",
+    "state": "",
+    "city": "Oxford",
+    "latitude": 51.753017,
+    "longitude": -1.250095,
+    "website": "https://www.seh.ox.ac.uk/discover/explore-teddy-hall/library/old-library",
+    "virtual": "https://my.matterport.com/show/?m=ND2CT1wq7t3",
+    "description": "St Edmund Hall's Old Library was completed in 1686 and is reputedly the first Oxford library to have shelves against the walls, and the last to chain its books.",
+    "wikipedia": "https://en.wikipedia.org/wiki/St_Edmund_Hall,_Oxford",
+    "image": ""
   }
 ]

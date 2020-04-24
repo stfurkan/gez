@@ -943,5 +943,20 @@
     "description": "Bazen Oxford Üniversitesi Müzesi veya OUMNH olarak bilinen Oxford Üniversitesi Doğa Tarihi Müzesi, Oxford Üniversitesi'nin Oxford, İngiltere'deki Parks Road'da bulunan Oxford'un doğal tarih örneklerinin çoğunu gösteren bir müzedir.",
     "wikipedia": "https://en.wikipedia.org/wiki/Oxford_University_Museum_of_Natural_History",
     "image": ""
+  },
+  {
+    "id": 64,
+    "type": "historical",
+    "name": "St Edmund Hall Eski Kütüphane",
+    "country": "İngiltere",
+    "state": "",
+    "city": "Oxford",
+    "latitude": 51.753017,
+    "longitude": -1.250095,
+    "website": "https://www.seh.ox.ac.uk/discover/explore-teddy-hall/library/old-library",
+    "virtual": "https://my.matterport.com/show/?m=ND2CT1wq7t3",
+    "description": "St Edmund Hall'un Eski Kütüphanesi 1686'da tamamlandı ve duvarlara karşı rafları olan ilk Oxford kütüphanesi ve kitaplarını zincirleyen son Oxford kütüphanesi olduğu söyleniyor.",
+    "wikipedia": "https://en.wikipedia.org/wiki/St_Edmund_Hall,_Oxford",
+    "image": ""
   }
 ]
