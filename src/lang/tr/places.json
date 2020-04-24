@@ -898,5 +898,20 @@
     "description": "Ulusal Hayvanat Bahçesi olarak bilinen Ulusal Zooloji Parkı, Amerika Birleşik Devletleri'ndeki en eski hayvanat bahçelerinden biridir.",
     "wikipedia": "https://en.wikipedia.org/wiki/National_Zoological_Park_(United_States)",
     "image": ""
+  },
+  {
+    "id": 61,
+    "type": "museum",
+    "name": "Grainger Müzesi",
+    "country": "Avustralya",
+    "state": "Victoria",
+    "city": "Melbourne",
+    "latitude": -37.797297,
+    "longitude": 144.958369,
+    "website": "https://grainger.unimelb.edu.au",
+    "virtual": "https://my.matterport.com/show/?m=Cf66RYtUKiQ",
+    "description": "Grainger Müzesi, Melbourne, Victoria, Avustralya'da bulunan besteci, folklorist, eğitimci ve piyanist Percy Grainger'in yaşamını, kariyerini ve müziğini belgeleyen öğelerin sergilendiği bir yerdir.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Grainger_Museum",
+    "image": ""
   }
 ]

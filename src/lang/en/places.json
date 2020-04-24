@@ -898,5 +898,20 @@
     "description": "The National Zoological Park, commonly known as the National Zoo, is one of the oldest zoos in the United States. It is part of the Smithsonian Institution and does not charge admission.",
     "wikipedia": "https://en.wikipedia.org/wiki/National_Zoological_Park_(United_States)",
     "image": ""
+  },
+  {
+    "id": 61,
+    "type": "museum",
+    "name": "Grainger Museum",
+    "country": "Australia",
+    "state": "Victoria",
+    "city": "Melbourne",
+    "latitude": -37.797297,
+    "longitude": 144.958369,
+    "website": "https://grainger.unimelb.edu.au",
+    "virtual": "https://my.matterport.com/show/?m=Cf66RYtUKiQ",
+    "description": "The Grainger Museum is a repository of items documenting the life, career and music of the composer, folklorist, educator and pianist Percy Grainger, located in the grounds of the University of Melbourne, Victoria, Australia.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Grainger_Museum",
+    "image": ""
   }
 ]
