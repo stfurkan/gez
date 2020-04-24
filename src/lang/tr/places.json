@@ -928,5 +928,20 @@
     "description": "Blenheim Sarayı, İngiltere'nin Oxfordshire şehrinde Woodstock'ta bulunan anıtsal bir kırsal malikane evidir. Marlborough Düklerinin başlıca ikametgâhıdır ve kraliyetle ve piskoposlukla ilgili olmadığı halde İngiltere'de saray unvanını elinde bulunduran tek kırsal malikane evidir.",
     "wikipedia": "https://tr.wikipedia.org/wiki/Blenheim_Saray%C4%B1",
     "image": ""
+  },
+  {
+    "id": 63,
+    "type": "museum",
+    "name": "Oxford Üniversitesi Doğa Tarihi Müzesi",
+    "country": "İngiltere",
+    "state": "",
+    "city": "Oxford",
+    "latitude": 51.758696,
+    "longitude": -1.255463,
+    "website": "https://www.oumnh.ox.ac.uk",
+    "virtual": "https://my.matterport.com/show/?m=qETGjKH1FW8",
+    "description": "Bazen Oxford Üniversitesi Müzesi veya OUMNH olarak bilinen Oxford Üniversitesi Doğa Tarihi Müzesi, Oxford Üniversitesi'nin Oxford, İngiltere'deki Parks Road'da bulunan Oxford'un doğal tarih örneklerinin çoğunu gösteren bir müzedir.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Oxford_University_Museum_of_Natural_History",
+    "image": ""
   }
 ]

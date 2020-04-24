@@ -928,5 +928,20 @@
     "description": "Blenheim Palace is a monumental country house in Woodstock, Oxfordshire, England. It is the principal residence of the Dukes of Marlborough, and the only non-royal, non-episcopal country house in England to hold the title of palace.",
     "wikipedia": "https://en.wikipedia.org/wiki/Blenheim_Palace",
     "image": ""
+  },
+  {
+    "id": 63,
+    "type": "museum",
+    "name": "Oxford University Museum of Natural History",
+    "country": "England",
+    "state": "",
+    "city": "Oxford",
+    "latitude": 51.758696,
+    "longitude": -1.255463,
+    "website": "https://www.oumnh.ox.ac.uk",
+    "virtual": "https://my.matterport.com/show/?m=qETGjKH1FW8",
+    "description": "The Oxford University Museum of Natural History, sometimes known simply as the Oxford University Museum or OUMNH, is a museum displaying many of the University of Oxford's natural history specimens, located on Parks Road in Oxford, England.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Oxford_University_Museum_of_Natural_History",
+    "image": ""
   }
 ]
