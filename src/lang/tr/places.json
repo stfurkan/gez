@@ -913,5 +913,20 @@
     "description": "Grainger Müzesi, Melbourne, Victoria, Avustralya'da bulunan besteci, folklorist, eğitimci ve piyanist Percy Grainger'in yaşamını, kariyerini ve müziğini belgeleyen öğelerin sergilendiği bir yerdir.",
     "wikipedia": "https://en.wikipedia.org/wiki/Grainger_Museum",
     "image": ""
+  },
+  {
+    "id": 62,
+    "type": "historical",
+    "name": "Blenheim Palace",
+    "country": "İngiltere",
+    "state": "",
+    "city": "Woodstock",
+    "latitude": 51.841353,
+    "longitude": -1.360967,
+    "website": "https://www.blenheimpalace.com",
+    "virtual": "https://my.matterport.com/show/?m=CXDekLNyDV4",
+    "description": "Blenheim Sarayı, İngiltere'nin Oxfordshire şehrinde Woodstock'ta bulunan anıtsal bir kırsal malikane evidir. Marlborough Düklerinin başlıca ikametgâhıdır ve kraliyetle ve piskoposlukla ilgili olmadığı halde İngiltere'de saray unvanını elinde bulunduran tek kırsal malikane evidir.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/Blenheim_Saray%C4%B1",
+    "image": ""
   }
 ]

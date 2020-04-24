@@ -913,5 +913,20 @@
     "description": "The Grainger Museum is a repository of items documenting the life, career and music of the composer, folklorist, educator and pianist Percy Grainger, located in the grounds of the University of Melbourne, Victoria, Australia.",
     "wikipedia": "https://en.wikipedia.org/wiki/Grainger_Museum",
     "image": ""
+  },
+  {
+    "id": 62,
+    "type": "historical",
+    "name": "Blenheim Palace",
+    "country": "England",
+    "state": "",
+    "city": "Woodstock",
+    "latitude": 51.841353,
+    "longitude": -1.360967,
+    "website": "https://www.blenheimpalace.com",
+    "virtual": "https://my.matterport.com/show/?m=CXDekLNyDV4",
+    "description": "Blenheim Palace is a monumental country house in Woodstock, Oxfordshire, England. It is the principal residence of the Dukes of Marlborough, and the only non-royal, non-episcopal country house in England to hold the title of palace.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blenheim_Palace",
+    "image": ""
   }
 ]
