@@ -958,5 +958,20 @@
     "description": "St Edmund Hall'un Eski Kütüphanesi 1686'da tamamlandı ve duvarlara karşı rafları olan ilk Oxford kütüphanesi ve kitaplarını zincirleyen son Oxford kütüphanesi olduğu söyleniyor.",
     "wikipedia": "https://en.wikipedia.org/wiki/St_Edmund_Hall,_Oxford",
     "image": ""
+  },
+  {
+    "id": 65,
+    "type": "historical",
+    "name": "Namhansanseong",
+    "country": "Güney Kore",
+    "state": "",
+    "city": "Gwangju",
+    "latitude": 37.481574,
+    "longitude": 127.184787,
+    "website": "https://www.gg.go.kr/namhansansung-2",
+    "virtual": "https://my.matterport.com/show/?m=YGPANRipHeL",
+    "description": "Namhansanseong, Güney Kore'nin başkenti Seul'un 25 km güneydoğusunda bulunan bir kaledir. Kale, 480 metre yükseklikte bir tepede yer almakta olup Seul'u korumak amacıyla inşa edilmiştir. Günümüzde Güney Kore'nin egemenliğinin bir simgesi olarak görülmektedir. Kale 2014'te UNESCO Dünya Miras Listesi'ne dahil edildi.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/Namhansanseong",
+    "image": ""
   }
 ]

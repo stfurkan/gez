@@ -958,5 +958,20 @@
     "description": "St Edmund Hall's Old Library was completed in 1686 and is reputedly the first Oxford library to have shelves against the walls, and the last to chain its books.",
     "wikipedia": "https://en.wikipedia.org/wiki/St_Edmund_Hall,_Oxford",
     "image": ""
+  },
+  {
+    "id": 65,
+    "type": "historical",
+    "name": "Namhansanseong",
+    "country": "South Korea",
+    "state": "",
+    "city": "Gwangju",
+    "latitude": 37.481574,
+    "longitude": 127.184787,
+    "website": "https://www.gg.go.kr/namhansansung-2",
+    "virtual": "https://my.matterport.com/show/?m=YGPANRipHeL",
+    "description": "Namhansanseong is a historical mountain fortress city 25 km southeast of Seoul, South Korea. It sits approximately 480 m above sea level and is aligned with the ridges of the mountain for maximum defensibility.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Namhansanseong",
+    "image": ""
   }
 ]
