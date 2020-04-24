@@ -973,5 +973,20 @@
     "description": "Namhansanseong, Güney Kore'nin başkenti Seul'un 25 km güneydoğusunda bulunan bir kaledir. Kale, 480 metre yükseklikte bir tepede yer almakta olup Seul'u korumak amacıyla inşa edilmiştir. Günümüzde Güney Kore'nin egemenliğinin bir simgesi olarak görülmektedir. Kale 2014'te UNESCO Dünya Miras Listesi'ne dahil edildi.",
     "wikipedia": "https://tr.wikipedia.org/wiki/Namhansanseong",
     "image": ""
+  },
+  {
+    "id": 66,
+    "type": "museum",
+    "name": "Bilgisayar Tarih Müzesi",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "CA",
+    "city": "Mountain View",
+    "latitude": 37.414197,
+    "longitude": -122.077424,
+    "website": "https://computerhistory.org",
+    "virtual": "https://my.matterport.com/show/?m=XzcKTaJUQfV",
+    "description": "Bilgisayar Tarih Müzesi 1996 yılında California, ABD'de Mountain View'da kurulan bir müzedir. Müze bilgi çağının hikayelerini ve eserlerini sergiler, bilgi işlem devrimini ve toplum üzerindeki etkisini araştırır.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Computer_History_Museum",
+    "image": ""
   }
 ]

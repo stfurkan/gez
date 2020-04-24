@@ -973,5 +973,20 @@
     "description": "Namhansanseong is a historical mountain fortress city 25 km southeast of Seoul, South Korea. It sits approximately 480 m above sea level and is aligned with the ridges of the mountain for maximum defensibility.",
     "wikipedia": "https://en.wikipedia.org/wiki/Namhansanseong",
     "image": ""
+  },
+  {
+    "id": 66,
+    "type": "museum",
+    "name": "Computer History Museum",
+    "country": "United States",
+    "state": "CA",
+    "city": "Mountain View",
+    "latitude": 37.414197,
+    "longitude": -122.077424,
+    "website": "https://computerhistory.org",
+    "virtual": "https://my.matterport.com/show/?m=XzcKTaJUQfV",
+    "description": "The Computer History Museum is a museum established in 1996 in Mountain View, California, US. The museum presents stories and artifacts of the information age and explores the computing revolution and its impact on society.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Computer_History_Museum",
+    "image": ""
   }
 ]
