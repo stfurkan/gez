@@ -988,5 +988,20 @@
     "description": "The Computer History Museum is a museum established in 1996 in Mountain View, California, US. The museum presents stories and artifacts of the information age and explores the computing revolution and its impact on society.",
     "wikipedia": "https://en.wikipedia.org/wiki/Computer_History_Museum",
     "image": ""
+  },
+  {
+    "id": 67,
+    "type": "historical",
+    "name": "Pyramids of Giza",
+    "country": "Egypt",
+    "state": "",
+    "city": "Giza",
+    "latitude": 29.977294,
+    "longitude": 31.132483,
+    "website": "http://whc.unesco.org/en/list/86-002",
+    "virtual": "https://www.google.com/maps/about/behind-the-scenes/streetview/treks/pyramids-of-giza",
+    "description": "The Giza pyramid complex, also called the Giza Necropolis, is the site on the Giza Plateau in Greater Cairo, Egypt that includes the Great Pyramid of Giza, the Pyramid of Khafre, and the Pyramid of Menkaure, along with their associated pyramid complexes and the Great Sphinx of Giza.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Giza_pyramid_complex",
+    "image": ""
   }
 ]

@@ -988,5 +988,20 @@
     "description": "Bilgisayar Tarih Müzesi 1996 yılında California, ABD'de Mountain View'da kurulan bir müzedir. Müze bilgi çağının hikayelerini ve eserlerini sergiler, bilgi işlem devrimini ve toplum üzerindeki etkisini araştırır.",
     "wikipedia": "https://en.wikipedia.org/wiki/Computer_History_Museum",
     "image": ""
+  },
+  {
+    "id": 67,
+    "type": "historical",
+    "name": "Gize Piramitleri",
+    "country": "Mısır",
+    "state": "",
+    "city": "Giza",
+    "latitude": 29.977294,
+    "longitude": 31.132483,
+    "website": "http://whc.unesco.org/en/list/86",
+    "virtual": "https://www.google.com/maps/about/behind-the-scenes/streetview/treks/pyramids-of-giza",
+    "description": "Gize Piramitleri Mısır'ın başkenti Kahire'nin Gize semtinde bulunan 3 görkemli yapı: Keops Piramidi Kefren Piramidi Mikerinos Piramidi Bu üç piramitten sadece Keops Dünyanın Yedi Harikası'ndan biridir. Dünyanın Yeni Yedi Harikası listesinin de onur üyesidir.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/Gize_Piramitleri",
+    "image": ""
   }
 ]
