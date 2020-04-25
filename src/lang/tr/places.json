@@ -1003,5 +1003,20 @@
     "description": "Gize Piramitleri Mısır'ın başkenti Kahire'nin Gize semtinde bulunan 3 görkemli yapı: Keops Piramidi Kefren Piramidi Mikerinos Piramidi Bu üç piramitten sadece Keops Dünyanın Yedi Harikası'ndan biridir. Dünyanın Yeni Yedi Harikası listesinin de onur üyesidir.",
     "wikipedia": "https://tr.wikipedia.org/wiki/Gize_Piramitleri",
     "image": ""
+  },
+  {
+    "id": 68,
+    "type": "historical",
+    "name": "Machu Picchu",
+    "country": "Peru",
+    "state": "",
+    "city": "Cusco",
+    "latitude": -13.163143,
+    "longitude": -72.544963,
+    "website": "https://whc.unesco.org/en/list/274",
+    "virtual": "https://www.youvisit.com/tour/machupicchu",
+    "description": "Machu Picchu, bugüne kadar çok iyi korunarak gelmiş olan bir İnka antik şehridir.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/Machu_Picchu",
+    "image": ""
   }
 ]

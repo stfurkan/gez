@@ -998,10 +998,25 @@
     "city": "Giza",
     "latitude": 29.977294,
     "longitude": 31.132483,
-    "website": "http://whc.unesco.org/en/list/86-002",
+    "website": "http://whc.unesco.org/en/list/86",
     "virtual": "https://www.google.com/maps/about/behind-the-scenes/streetview/treks/pyramids-of-giza",
     "description": "The Giza pyramid complex, also called the Giza Necropolis, is the site on the Giza Plateau in Greater Cairo, Egypt that includes the Great Pyramid of Giza, the Pyramid of Khafre, and the Pyramid of Menkaure, along with their associated pyramid complexes and the Great Sphinx of Giza.",
     "wikipedia": "https://en.wikipedia.org/wiki/Giza_pyramid_complex",
+    "image": ""
+  },
+  {
+    "id": 68,
+    "type": "historical",
+    "name": "Machu Picchu",
+    "country": "Peru",
+    "state": "",
+    "city": "Cusco",
+    "latitude": -13.163143,
+    "longitude": -72.544963,
+    "website": "https://whc.unesco.org/en/list/274",
+    "virtual": "https://www.youvisit.com/tour/machupicchu",
+    "description": "Machu Picchu is a 15th-century Inca citadel, located in the Eastern Cordillera of southern Peru, on a 2,430-metre (7,970 ft) mountain ridge.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Machu_Picchu",
     "image": ""
   }
 ]
