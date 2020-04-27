@@ -1018,5 +1018,20 @@
     "description": "Machu Picchu is a 15th-century Inca citadel, located in the Eastern Cordillera of southern Peru, on a 2,430-metre (7,970 ft) mountain ridge.",
     "wikipedia": "https://en.wikipedia.org/wiki/Machu_Picchu",
     "image": ""
+  },
+  {
+    "id": 69,
+    "type": "museum",
+    "name": "Frida Kahlo Museum",
+    "country": "Mexico",
+    "state": "",
+    "city": "Mexico City",
+    "latitude": 19.355179,
+    "longitude": -99.162465,
+    "website": "https://www.museofridakahlo.org.mx/en",
+    "virtual": "https://www.recorridosvirtuales.com/frida_kahlo/museo_frida_kahlo.html",
+    "description": "The Frida Kahlo Museum, also known as the Blue House for the structure's cobalt-blue walls, is a historic house museum and art museum dedicated to the life and work of Mexican artist Frida Kahlo. It is located in the Colonia del Carmen neighborhood of Coyoacán in Mexico City.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Frida_Kahlo_Museum",
+    "image": ""
   }
 ]

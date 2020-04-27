@@ -1018,5 +1018,20 @@
     "description": "Machu Picchu, bugüne kadar çok iyi korunarak gelmiş olan bir İnka antik şehridir.",
     "wikipedia": "https://tr.wikipedia.org/wiki/Machu_Picchu",
     "image": ""
+  },
+  {
+    "id": 69,
+    "type": "museum",
+    "name": "Frida Kahlo Müzesi",
+    "country": "Meksika",
+    "state": "",
+    "city": "Mexico City",
+    "latitude": 19.355179,
+    "longitude": -99.162465,
+    "website": "https://www.museofridakahlo.org.mx/en",
+    "virtual": "https://www.recorridosvirtuales.com/frida_kahlo/museo_frida_kahlo.html",
+    "description": "Yapının kobalt mavisi duvarları için Mavi Ev olarak da bilinen Frida Kahlo Müzesi, Meksikalı sanatçı Frida Kahlo'nun yaşamına ve çalışmalarına adanmış tarihi bir ev ve sanat müzesidir. Mexico City'deki Coyoacán'ın Colonia del Carmen semtinde yer almaktadır.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Frida_Kahlo_Museum",
+    "image": ""
   }
 ]
