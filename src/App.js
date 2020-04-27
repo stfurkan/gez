@@ -30,25 +30,27 @@ function App() {
   return (
     <HelmetProvider>
       <Router>
-        <div>
+        <div className='body-content'>
           <Header lang={lang.header} />
-          <Switch>
-            <Route
-              exact
-              path='/'
-              component={props => (
-                <Main {...props} places={places} lang={lang.main} />
-              )}
-            />
+          <div className='main-content'>
+            <Switch>
+              <Route
+                exact
+                path='/'
+                component={props => (
+                  <Main {...props} places={places} lang={lang.main} />
+                )}
+              />
 
-            <Route
-              exact
-              path='/about'
-              component={() => <About lang={lang.about} />}
-            />
+              <Route
+                exact
+                path='/about'
+                component={() => <About lang={lang.about} />}
+              />
 
-            <Route component={() => <NotFound lang={lang.notFound} />} />
-          </Switch>
+              <Route component={() => <NotFound lang={lang.notFound} />} />
+            </Switch>
+          </div>
           <Footer lang={lang.footer} />
         </div>
       </Router>

@@ -2,6 +2,16 @@ body {
   background-color: whitesmoke;
 }
 
+.body-content {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+}
+
 #dataMap {
   height: 300px;
   width: 100%;
