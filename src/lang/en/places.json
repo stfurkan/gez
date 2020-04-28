@@ -1033,5 +1033,20 @@
     "description": "The Frida Kahlo Museum, also known as the Blue House for the structure's cobalt-blue walls, is a historic house museum and art museum dedicated to the life and work of Mexican artist Frida Kahlo. It is located in the Colonia del Carmen neighborhood of Coyoacán in Mexico City.",
     "wikipedia": "https://en.wikipedia.org/wiki/Frida_Kahlo_Museum",
     "image": ""
+  },
+  {
+    "id": 70,
+    "type": "historical",
+    "name": "Küçüksu Pavilion",
+    "country": "Turkey",
+    "state": "",
+    "city": "İstanbul",
+    "latitude": 41.078412,
+    "longitude": 29.064867,
+    "website": "https://www.millisaraylar.gov.tr/en/pavilions/kucuksu-pavilion",
+    "virtual": "https://my.matterport.com/show/?m=nS8CpFAKGyH",
+    "description": "Küçüksu Pavilion, a.k.a. Göksu Pavilion, is a summer pavilion in Istanbul, Turkey, situated in the Küçüksu neighborhood of Beykoz district on the Asian shore of the Bosphorus between Anadoluhisarı and the Fatih Sultan Mehmet Bridge.",
+    "wikipedia": "https://en.wikipedia.org/wiki/K%C3%BC%C3%A7%C3%BCksu_Pavilion",
+    "image": ""
   }
 ]
