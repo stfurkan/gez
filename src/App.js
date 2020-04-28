@@ -7,6 +7,7 @@ import Footer from './components/layouts/Footer';
 import NotFound from './components/layouts/NotFound';
 
 import Main from './components/main/Main';
+import Faq from './components/faq/Faq';
 import About from './components/about/About';
 
 import 'bulma/css/bulma.css';
@@ -40,6 +41,12 @@ function App() {
                 component={props => (
                   <Main {...props} places={places} lang={lang.main} />
                 )}
+              />
+
+              <Route
+                exact
+                path='/faq'
+                component={() => <Faq lang={lang.faq} />}
               />
 
               <Route

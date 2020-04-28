@@ -60,11 +60,17 @@ export default class Header extends Component {
             </div>
 
             <div className='navbar-end'>
+              <Link to='/faq' className='navbar-item is-hidden-desktop'>
+                {lang.faq}
+              </Link>
               <Link to='/about' className='navbar-item is-hidden-desktop'>
                 {lang.about}
               </Link>
 
               <div className='buttons navbar-item is-hidden-touch'>
+                <Link to='/faq' className='button is-success'>
+                  <strong>{lang.faq}</strong>
+                </Link>
                 <Link to='/about' className='button is-info'>
                   <strong>{lang.about}</strong>
                 </Link>

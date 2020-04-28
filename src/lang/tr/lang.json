@@ -3,6 +3,7 @@
     "siteName": "Gez.la",
     "slogan": "Sanal Turlara Katıl",
     "homepage": "Anasayfa",
+    "faq": "SSS",
     "about": "Hakkında"
   },
   "footer": {
@@ -45,6 +46,17 @@
     "pagination": {
       "text": "Sayfaya git"
     }
+  },
+  "faq": {
+    "pageTitle": "Gez.la | Sıkça Sorulan Sorular",
+    "metaContent": "Sanal turlarla tüm dünyadaki müzeleri, galerileri, akvaryumları, hayvanat bahçelerini ve tema parklarını keşfedin.",
+    "title": "Sıkça Sorulan Sorular",
+    "question1": "Sanal tur nedir?",
+    "answer1": "Gerçekte var olan bir yeri değişik tekniklerle dijitalleştirerek oluşturulan turlara sanal tur denir. Bilgisayarınızdan, cep telefonunuzdan ya da başka cihazlarınızdan o yere gerçekte gitmeden istediğiniz zaman gezme olanağı sağlar.",
+    "question2": "Sanal tur özelliği olan bir yer biliyorum. Sizin sitenizde bu yer neden yok?",
+    "answer2": "Eğer sanal tur özelliği olan güzel yerler biliyorsanız lütfen bize iletin. Uygun olan taleplerinizi en kısa zamanda inceleyerek siteyi güncellemeye çalışacağız.",
+    "question3": "Kullanıcıların verilerini topluyor musunuz?",
+    "answer3": "Sitemizin istatistikleri için Google Analytics kullanmaktayız. Bunun dışında kullanıcıların herhangi bir bilgisini tutmuyoruz. Gezilen yerlerin bilgisi, kullanıcıların kendi tarayıcılarında tutulmaktadır. Eğer kullanıcı isterse tarayıcı üzerindekini uygulama verilerini silerek gezilen yer bilgilerini silebilir."
   },
   "about": {
     "pageTitle": "Gez.la | Hakkında",
