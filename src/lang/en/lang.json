@@ -13,7 +13,7 @@
   },
   "main": {
     "pageTitle": "Gez.la | Take Virtual Tours",
-    "metaContent": "Explore museums, galleries, aquariums, zoos and theme parks around the world with virtual tours.",
+    "metaContent": "Explore museums, galleries, aquariums, zoos and more around the world with virtual tours.",
     "name": "Name",
     "type": "Type",
     "country": "Country",
@@ -49,7 +49,7 @@
   },
   "faq": {
     "pageTitle": "Gez.la | Frequently Asked Questions",
-    "metaContent": "Explore museums, galleries, aquariums, zoos and theme parks around the world with virtual tours.",
+    "metaContent": "Explore museums, galleries, aquariums, zoos and more around the world with virtual tours.",
     "title": "Frequently Asked Questions",
     "question1": "What is a virtual tour?",
     "answer1": "The tours created by digitizing an existing place with different techniques are called virtual tours. It allows you to explore places from your computer, mobile phone or other devices at any time without actually going to that place.",
@@ -60,9 +60,9 @@
   },
   "about": {
     "pageTitle": "Gez.la | About",
-    "metaContent": "Explore museums, galleries, aquariums, zoos and theme parks around the world with virtual tours.",
+    "metaContent": "Explore museums, galleries, aquariums, zoos and more around the world with virtual tours.",
     "pageHeader": "About",
-    "aboutText1": "Explore museums, galleries, aquariums, zoos and theme parks around the world with virtual tours.",
+    "aboutText1": "Explore museums, galleries, aquariums, zoos and more around the world with virtual tours.",
     "aboutText2": "If you have any suggestions or you know a good virtual place, please let us know.",
     "developer": "Developer"
   },

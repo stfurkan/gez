@@ -13,7 +13,7 @@
   },
   "main": {
     "pageTitle": "Gez.la | Sanal Turlara Katıl",
-    "metaContent": "Sanal turlarla tüm dünyadaki müzeleri, galerileri, akvaryumları, hayvanat bahçelerini ve tema parklarını keşfedin.",
+    "metaContent": "Sanal turlarla dünyanın dört bir yanındaki müzeleri, galerileri, akvaryumları, hayvanat bahçelerini ve daha fazlasını keşfedin.",
     "name": "İsim",
     "type": "Tür",
     "country": "Ülke",
@@ -49,7 +49,7 @@
   },
   "faq": {
     "pageTitle": "Gez.la | Sıkça Sorulan Sorular",
-    "metaContent": "Sanal turlarla tüm dünyadaki müzeleri, galerileri, akvaryumları, hayvanat bahçelerini ve tema parklarını keşfedin.",
+    "metaContent": "Sanal turlarla dünyanın dört bir yanındaki müzeleri, galerileri, akvaryumları, hayvanat bahçelerini ve daha fazlasını keşfedin.",
     "title": "Sıkça Sorulan Sorular",
     "question1": "Sanal tur nedir?",
     "answer1": "Gerçekte var olan bir yeri değişik tekniklerle dijitalleştirerek oluşturulan turlara sanal tur denir. Bilgisayarınızdan, cep telefonunuzdan ya da başka cihazlarınızdan o yere gerçekte gitmeden istediğiniz zaman gezme olanağı sağlar.",
@@ -60,9 +60,9 @@
   },
   "about": {
     "pageTitle": "Gez.la | Hakkında",
-    "metaContent": "Sanal turlarla tüm dünyadaki müzeleri, galerileri, akvaryumları, hayvanat bahçelerini ve tema parklarını keşfedin.",
+    "metaContent": "Sanal turlarla dünyanın dört bir yanındaki müzeleri, galerileri, akvaryumları, hayvanat bahçelerini ve daha fazlasını keşfedin.",
     "pageHeader": "Hakkında",
-    "aboutText1": "Sanal turlarla tüm dünyadaki müzeleri, galerileri, akvaryumları, hayvanat bahçelerini ve tema parklarını keşfedin.",
+    "aboutText1": "Sanal turlarla dünyanın dört bir yanındaki müzeleri, galerileri, akvaryumları, hayvanat bahçelerini ve daha fazlasını keşfedin.",
     "aboutText2": "Herhangi bir öneriniz varsa veya iyi bir sanal yer biliyorsanız, lütfen bize bildirin.",
     "developer": "Geliştirici"
   },

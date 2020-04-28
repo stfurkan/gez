@@ -1,6 +1,6 @@
 # Gez
 
-Explore museums, galleries, aquariums, zoos and theme parks around the world with virtual tours.
+Explore museums, galleries, aquariums, zoos and more around the world with virtual tours.
 
 ## Getting Started
 
