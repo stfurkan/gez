@@ -21,7 +21,7 @@ export default function About({ lang }) {
             <span className='is-size-6'>
               <b>{lang.developer}:</b>{' '}
               <a
-                href='https://www.linkedin.com/in/s-furkan-teke-50758513b'
+                href='https://www.linkedin.com/in/stfurkan'
                 target='_blank'
                 rel='noopener noreferrer'
               >
