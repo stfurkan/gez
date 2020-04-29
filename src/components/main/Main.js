@@ -24,8 +24,7 @@ export default class Main extends Component {
       place: '',
       sorted: '',
       visits: JSON.parse(localStorage.getItem('visits')),
-      welcome: localStorage.getItem('welcome') === null ? true : false,
-      share: false
+      welcome: localStorage.getItem('welcome') === null ? true : false
     };
   }
 
@@ -161,14 +160,6 @@ export default class Main extends Component {
     this.setState({ place: '' });
   };
 
-  openShare = () => {
-    this.setState({ share: true });
-  };
-
-  closeShare = () => {
-    this.setState({ share: false });
-  };
-
   componentDidMount() {
     this.sortTable('nameAsc');
 
@@ -237,8 +228,7 @@ export default class Main extends Component {
       selectType,
       visits,
       welcome,
-      sorted,
-      share
+      sorted
     } = this.state;
 
     let countries = [];
@@ -469,11 +459,8 @@ export default class Main extends Component {
             lang={lang}
             place={place}
             visits={visits}
-            share={share}
             clearPlace={this.clearPlace}
             takeVirtualTour={this.takeVirtualTour}
-            openShare={this.openShare}
-            closeShare={this.closeShare}
           />
         )}
 

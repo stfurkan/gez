@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   FacebookShareButton,
   TwitterShareButton,
@@ -15,12 +15,11 @@ export default function PlaceModal({
   lang,
   place,
   visits,
-  share,
   clearPlace,
-  takeVirtualTour,
-  openShare,
-  closeShare
+  takeVirtualTour
 }) {
+  const [share, setShare] = useState(false);
+
   return (
     <div className='modal modal-container is-active'>
       <div className='modal-background' onClick={() => clearPlace()}></div>
@@ -29,8 +28,8 @@ export default function PlaceModal({
           <div className='modal-card-title'>
             <div
               className={share ? 'dropdown is-active' : 'dropdown'}
-              onMouseOver={() => openShare()}
-              onMouseLeave={() => closeShare()}
+              onMouseOver={() => setShare(true)}
+              onMouseLeave={() => setShare(false)}
             >
               <div className='dropdown-trigger'>
                 <div className='tag is-info'>
