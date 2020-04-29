@@ -9,7 +9,10 @@ export default function WelcomeModal({ lang, closeWelcome }) {
           <p className='modal-card-title'>
             <strong>{lang.welcome.header}</strong>
           </p>
-          <button className='delete' onClick={() => closeWelcome()}></button>
+          <button
+            className='delete is-large'
+            onClick={() => closeWelcome()}
+          ></button>
         </header>
         <section className='modal-card-body is-marginless'>
           <div className='content has-text-left'>

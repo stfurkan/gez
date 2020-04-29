@@ -134,7 +134,10 @@ export default function PlaceModal({
               <span className='tag is-success'>{lang.visited}</span>
             )}
           </div>
-          <button className='delete' onClick={() => clearPlace()}></button>
+          <button
+            className='delete is-large'
+            onClick={() => clearPlace()}
+          ></button>
         </header>
         <section className='modal-card-body is-marginless'>
           <div className='content has-text-left'>
