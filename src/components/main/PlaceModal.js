@@ -148,9 +148,14 @@ export default function PlaceModal({
                   </span>
                 </div>
 
-                <div className='column is-size-4 has-text-weight-semibold'>
+                <a
+                  className='column is-size-4 has-text-weight-semibold'
+                  href={place.website}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   {place.name}
-                </div>
+                </a>
               </div>
             </div>
 
@@ -221,15 +226,6 @@ export default function PlaceModal({
             onClick={() => takeVirtualTour(place.id)}
           >
             {lang.virtualTour}
-          </a>
-
-          <a
-            className='button is-success is-rounded is-medium'
-            href={place.website}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            {lang.website}
           </a>
         </footer>
       </div>
