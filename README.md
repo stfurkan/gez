@@ -60,8 +60,8 @@ Your app is ready to be deployed!
 
 ## Features
 
-- Lists places by map and list
-- Track the visited places by using browser's local storage
+- Lists places by using map and table
+- Tracks the visited places by using browser's local storage
 - Filters places by place name, country name and type
 - Sorts place list by place name, country name and type
 - Supports Turkish and English languages (based on browser language)
