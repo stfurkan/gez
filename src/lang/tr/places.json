@@ -1048,5 +1048,20 @@
     "description": "Küçüksu Kasrı veya Göksu Kasrı, İstanbul'un Küçüksu semtinde, Göksu Deresi ile Küçüksu Deresi arasında, Boğaziçi'nde Üsküdar-Beykoz sahilyolu üzerinde yer alan kasır. Sultan Abdülmecit tarafından Nigoğos Balyan'a yaptırılmış, inşaatı 1856 yılında tamamlanmıştır.",
     "wikipedia": "https://tr.wikipedia.org/wiki/K%C3%BC%C3%A7%C3%BCksu_Kasr%C4%B1",
     "image": ""
+  },
+  {
+    "id": 71,
+    "type": "museum",
+    "name": "İstanbul Oyuncak Müzesi",
+    "country": "Türkiye",
+    "state": "",
+    "city": "İstanbul",
+    "latitude": 40.975897,
+    "longitude": 29.070681,
+    "website": "https://istanbuloyuncakmuzesi.com",
+    "virtual": "https://istanbuloyuncakmuzesi.com/pages/360-tur",
+    "description": "İstanbul Oyuncak Müzesi, İstanbul'un Kadıköy ilçesinin Göztepe semtinde bulunan ve şair Sunay Akın tarafından 23 Nisan 2005'te kurulan oyuncak müzesidir.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/%C4%B0stanbul_Oyuncak_M%C3%BCzesi",
+    "image": ""
   }
 ]

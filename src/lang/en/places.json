@@ -1048,5 +1048,20 @@
     "description": "Küçüksu Pavilion, a.k.a. Göksu Pavilion, is a summer pavilion in Istanbul, Turkey, situated in the Küçüksu neighborhood of Beykoz district on the Asian shore of the Bosphorus between Anadoluhisarı and the Fatih Sultan Mehmet Bridge.",
     "wikipedia": "https://en.wikipedia.org/wiki/K%C3%BC%C3%A7%C3%BCksu_Pavilion",
     "image": ""
+  },
+  {
+    "id": 71,
+    "type": "museum",
+    "name": "İstanbul Toy Museum",
+    "country": "Turkey",
+    "state": "",
+    "city": "İstanbul",
+    "latitude": 40.975897,
+    "longitude": 29.070681,
+    "website": "https://istanbuloyuncakmuzesi.com/pages/en",
+    "virtual": "https://istanbuloyuncakmuzesi.com/pages/360-tur",
+    "description": "The İstanbul Toy Museum is a toy museum located in the Göztepe neighbourhood of Kadıköy district in İstanbul, Turkey. The museum was founded by the Turkish poet and novelist, Sunay Akın, in 2005. The museum opened on April 23, a national holiday in Turkey, National Sovereignty and Children's Day.",
+    "wikipedia": "https://en.wikipedia.org/wiki/%C4%B0stanbul_Toy_Museum",
+    "image": ""
   }
 ]
