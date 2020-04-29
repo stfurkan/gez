@@ -407,9 +407,7 @@ export default class Main extends Component {
                     <td>
                       {place.name}{' '}
                       {visits.includes(place.id) && (
-                        <span className='tag is-success'>
-                          {lang.visited} <i className='fas fa-check'></i>
-                        </span>
+                        <span className='tag is-success'>{lang.visited}</span>
                       )}
                     </td>
                     <td>{lang[place.type]}</td>
@@ -449,9 +447,7 @@ export default class Main extends Component {
             <header className='modal-card-head'>
               <p className='modal-card-title'>
                 {visits.includes(place.id) && (
-                  <span className='tag is-success'>
-                    {lang.visited} <i className='fas fa-check'></i>
-                  </span>
+                  <span className='tag is-success'>{lang.visited}</span>
                 )}
               </p>
               <button
