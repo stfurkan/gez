@@ -1,22 +1,139 @@
 import React from 'react';
+import {
+  FacebookShareButton,
+  TwitterShareButton,
+  LinkedinShareButton,
+  WhatsappShareButton,
+  EmailShareButton
+} from 'react-share';
+
+const copyUrl = url => {
+  navigator.clipboard.writeText(url);
+};
 
 export default function PlaceModal({
   lang,
   place,
   visits,
+  share,
   clearPlace,
-  takeVirtualTour
+  takeVirtualTour,
+  openShare,
+  closeShare
 }) {
   return (
     <div className='modal modal-container is-active'>
       <div className='modal-background' onClick={() => clearPlace()}></div>
       <div className='modal-card'>
         <header className='modal-card-head'>
-          <p className='modal-card-title'>
+          <div className='modal-card-title'>
+            <div
+              className={share ? 'dropdown is-active' : 'dropdown'}
+              onMouseOver={() => openShare()}
+              onMouseLeave={() => closeShare()}
+            >
+              <div className='dropdown-trigger'>
+                <div className='tag is-info'>
+                  <span>{lang.share}</span>
+                  <span className='icon is-small'>
+                    <i className='fas fa-share-alt'></i>
+                  </span>
+                </div>
+              </div>
+              <div className='dropdown-menu'>
+                <div className='dropdown-content'>
+                  <div className='dropdown-item'>
+                    <FacebookShareButton
+                      url={`${window.location.origin}?placeId=${place.id}`}
+                      quote={`${place.name} ${lang.virtualTour}`}
+                      className=''
+                    >
+                      <div className='button is-rounded'>
+                        <span className='icon'>
+                          <i className='fab fa-facebook-f'></i>
+                        </span>
+                        <span>Facebook</span>
+                      </div>
+                    </FacebookShareButton>
+                  </div>
+                  <div className='dropdown-item'>
+                    <TwitterShareButton
+                      url={`${window.location.origin}?placeId=${place.id}`}
+                      title={`${place.name} ${lang.virtualTour}`}
+                      className=''
+                    >
+                      <div className='button is-rounded'>
+                        <span className='icon'>
+                          <i className='fab fa-twitter'></i>
+                        </span>
+                        <span>Twitter</span>
+                      </div>
+                    </TwitterShareButton>
+                  </div>
+                  <div className='dropdown-item'>
+                    <LinkedinShareButton
+                      url={`${window.location.origin}?placeId=${place.id}`}
+                      title={`${place.name} ${lang.virtualTour}`}
+                      className=''
+                    >
+                      <div className='button is-rounded'>
+                        <span className='icon'>
+                          <i className='fab fa-linkedin-in'></i>
+                        </span>
+                        <span>LinkedIn</span>
+                      </div>
+                    </LinkedinShareButton>
+                  </div>
+                  <div className='dropdown-item'>
+                    <WhatsappShareButton
+                      url={`${window.location.origin}?placeId=${place.id}`}
+                      title={`${place.name} ${lang.virtualTour}`}
+                      className=''
+                    >
+                      <div className='button is-rounded'>
+                        <span className='icon'>
+                          <i className='fab fa-whatsapp'></i>
+                        </span>
+                        <span>WhatsApp</span>
+                      </div>
+                    </WhatsappShareButton>
+                  </div>
+                  <div className='dropdown-item'>
+                    <EmailShareButton
+                      url={`${window.location.origin}?placeId=${place.id}`}
+                      subject={`${place.name} ${lang.virtualTour}`}
+                      body={place.description}
+                      className=''
+                    >
+                      <div className='button is-rounded'>
+                        <span className='icon'>
+                          <i className='fas fa-envelope'></i>
+                        </span>
+                        <span>{lang.email}</span>
+                      </div>
+                    </EmailShareButton>
+                  </div>
+                  <hr className='dropdown-divider' />
+                  <div
+                    className='dropdown-item'
+                    onClick={() =>
+                      copyUrl(`${window.location.origin}?placeId=${place.id}`)
+                    }
+                  >
+                    <div className='button is-rounded'>
+                      <span className='icon'>
+                        <i className='fas fa-copy'></i>
+                      </span>
+                      <span>{lang.copyLink}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>{' '}
             {visits.includes(place.id) && (
               <span className='tag is-success'>{lang.visited}</span>
             )}
-          </p>
+          </div>
           <button className='delete' onClick={() => clearPlace()}></button>
         </header>
         <section className='modal-card-body is-marginless'>
