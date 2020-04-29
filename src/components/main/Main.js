@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import PageTitle from '../layouts/PageTitle';
 import Map from './Map';
 import Pagination from '../layouts/Pagination';
+import WelcomeModal from './WelcomeModal';
 
 export default class Main extends Component {
   constructor(props) {
@@ -552,44 +553,9 @@ export default class Main extends Component {
           </div>
         </div>
 
-        <div
-          className={
-            welcome === false
-              ? 'modal modal-container'
-              : 'modal modal-container is-active'
-          }
-        >
-          <div
-            className='modal-background'
-            onClick={() => this.closeWelcome()}
-          ></div>
-          <div className='modal-card'>
-            <header className='modal-card-head'>
-              <p className='modal-card-title'>
-                <strong>{lang.welcome.header}</strong>
-              </p>
-              <button
-                className='delete'
-                onClick={() => this.closeWelcome()}
-              ></button>
-            </header>
-            <section className='modal-card-body is-marginless'>
-              <div className='content has-text-left'>
-                <p>{lang.metaContent}</p>
-                <p>{lang.welcome.text}</p>
-              </div>
-            </section>
-
-            <footer className='modal-card-foot'>
-              <button
-                className='button is-link is-rounded is-large'
-                onClick={() => this.closeWelcome()}
-              >
-                {lang.welcome.continue} <i className='fas fa-arrow-right'></i>
-              </button>
-            </footer>
-          </div>
-        </div>
+        {welcome && (
+          <WelcomeModal lang={lang} closeWelcome={this.closeWelcome} />
+        )}
       </div>
     );
   }
