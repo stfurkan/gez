@@ -59,6 +59,8 @@ export default class Main extends Component {
     this.setState({
       place: place[0]
     });
+
+    this.props.history.push(`?placeId=${id}`);
   };
 
   takeVirtualTour = id => {
@@ -158,6 +160,8 @@ export default class Main extends Component {
 
   clearPlace = () => {
     this.setState({ place: '' });
+
+    this.props.history.push('/');
   };
 
   componentDidMount() {
