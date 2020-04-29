@@ -162,6 +162,19 @@ export default class Main extends Component {
 
   componentDidMount() {
     this.sortTable('nameAsc');
+
+    let searchParams = new URLSearchParams(this.props.location.search);
+
+    if (searchParams.get('placeId')) {
+      let placeId = parseInt(searchParams.get('placeId'));
+      let place = [...this.state.places].filter(place => place.id === placeId);
+
+      if (place.length === 1) {
+        this.setState({
+          place: place[0]
+        });
+      }
+    }
   }
 
   componentDidUpdate = (pp, ps) => {
