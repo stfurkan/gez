@@ -236,7 +236,10 @@ export default class Main extends Component {
 
     return (
       <div>
-        <PageTitle title={lang.pageTitle} metaContent={lang.metaContent} />
+        <PageTitle
+          title={place === '' ? lang.pageTitle : `Gez.la | ${place.name}`}
+          metaContent={lang.metaContent}
+        />
 
         <section className='section is-paddingless'>
           <div className='container'>
