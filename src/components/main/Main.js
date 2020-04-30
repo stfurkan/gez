@@ -466,6 +466,11 @@ export default class Main extends Component {
                   >
                     <td>
                       {place.name}{' '}
+                      {favorites.includes(place.id) && (
+                        <span className='icon has-text-danger'>
+                          <i className='fas fa-heart'></i>
+                        </span>
+                      )}{' '}
                       {visits.includes(place.id) && (
                         <span className='tag is-success'>{lang.visited}</span>
                       )}
