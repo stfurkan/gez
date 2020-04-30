@@ -24,7 +24,7 @@ export default class Header extends Component {
           <div className='navbar-brand'>
             <Link className='navbar-item' to='/'>
               <img
-                src='static/img/logo.png'
+                src='/static/img/logo.png'
                 alt='logo'
                 width='112'
                 height='28'
