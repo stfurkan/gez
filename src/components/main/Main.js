@@ -397,7 +397,6 @@ export default class Main extends Component {
                   <div className='notification has-text-centered is-family-monospace is-paddingless is-marginless'>
                     <h2 className='is-size-3'>{lang.favorites.title} </h2>
                     <span className='is-size-6'>
-                      {lang.favorites.totalFavorite}: {places.length}{' '}
                       <div
                         className={share ? 'dropdown is-active' : 'dropdown'}
                         onMouseOver={() => this.setState({ share: true })}
@@ -521,7 +520,8 @@ export default class Main extends Component {
                             </div>
                           </div>
                         </div>
-                      </div>
+                      </div>{' '}
+                      {lang.favorites.totalFavorite}: {places.length}
                     </span>
                   </div>
                 ) : (
