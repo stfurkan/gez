@@ -8,7 +8,17 @@ import {
 } from 'react-share';
 
 const copyUrl = url => {
-  navigator.clipboard.writeText(url);
+  if (!navigator.clipboard) {
+    let copyInput = document.createElement('input');
+    document.body.appendChild(copyInput);
+    copyInput.setAttribute('id', 'copyId');
+    document.getElementById('copyId').value = url;
+    copyInput.select();
+    document.execCommand('copy');
+    document.body.removeChild(copyInput);
+  } else {
+    navigator.clipboard.writeText(url);
+  }
 };
 
 export default function PlaceModal({
