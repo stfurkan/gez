@@ -350,7 +350,7 @@ export default class Main extends Component {
                     </span>
                   </div>
                 ) : (
-                  <div className='notification is-light has-text-centered has-text-weight-semibold is-italic is-family-monospace is-size-5 is-paddingless'>
+                  <div className='notification is-light has-text-centered has-text-weight-semibold is-italic is-family-monospace is-size-5 is-size-6-mobile is-paddingless'>
                     {lang.visitedPlaces}: <strong>{visits.length}</strong> /{' '}
                     {lang.totalPlaces}: <strong>{places.length}</strong>
                   </div>
