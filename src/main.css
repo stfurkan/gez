@@ -34,3 +34,7 @@ modal-container {
   z-index: 1;
   position: absolute;
 }
+
+.favorite-button:hover {
+  cursor: pointer;
+}

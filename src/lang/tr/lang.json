@@ -3,6 +3,7 @@
     "siteName": "Gez.la",
     "slogan": "Sanal Turlara Katıl",
     "homepage": "Anasayfa",
+    "favorites": "Favoriler",
     "faq": "SSS",
     "about": "Hakkında"
   },
@@ -38,6 +39,8 @@
     "share": "Paylaş",
     "email": "E-posta",
     "copyLink": "Linki Kopyala",
+    "like": "Beğen",
+    "unlike": "Beğeniyi Kaldır",
     "welcome": {
       "header": "Hoşgeldiniz",
       "text": "Haritadan veya listeden ilginizi çeken yerleri seçerek sanal turlarınıza başlayabilirsiniz. Filtreleri kullanarak yer adına, ülkeye veya türe göre arama yapabilirsiniz.",
@@ -48,6 +51,13 @@
     },
     "pagination": {
       "text": "Sayfaya git"
+    },
+    "favorites": {
+      "pageTitle": "Gez.la | Favori Yerler",
+      "title": "Favori Yerler",
+      "totalFavorite": "Toplam Favori Yer",
+      "warningTitle": "FAVORİ YERİNİZ YOK!",
+      "warningText": "Anasayfada bulunan yerlerden favori listenizi oluşturabilirsiniz."
     }
   },
   "faq": {

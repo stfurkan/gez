@@ -3,6 +3,7 @@
     "siteName": "Gez.la",
     "slogan": "Take Virtual Tours",
     "homepage": "Home",
+    "favorites": "Favorites",
     "faq": "FAQ",
     "about": "About"
   },
@@ -38,6 +39,8 @@
     "share": "Share",
     "email": "E-mail",
     "copyLink": "Copy Link",
+    "like": "Like",
+    "unlike": "Unlike",
     "welcome": {
       "header": "Welcome",
       "text": "You can select a place from the map or the list and start your virtual tour. You can also use filters to limit your search by place names, countries or types.",
@@ -48,6 +51,13 @@
     },
     "pagination": {
       "text": "Navigate to page"
+    },
+    "favorites": {
+      "pageTitle": "Gez.la | Favorite Places",
+      "title": "Favorite Places",
+      "totalFavorite": "Total Favorite Places",
+      "warningTitle": "YOU DON'T HAVE ANY FAVORITE PLACES!",
+      "warningText": "You can create your favorite list from the places on the homepage."
     }
   },
   "faq": {

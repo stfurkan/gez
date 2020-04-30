@@ -28,6 +28,10 @@ function App() {
     localStorage.setItem('visits', JSON.stringify([]));
   }
 
+  if (localStorage.getItem('favorites') === null) {
+    localStorage.setItem('favorites', JSON.stringify([]));
+  }
+
   return (
     <HelmetProvider>
       <Router>
@@ -38,6 +42,14 @@ function App() {
               <Route
                 exact
                 path='/'
+                component={props => (
+                  <Main {...props} places={places} lang={lang.main} />
+                )}
+              />
+
+              <Route
+                exact
+                path='/favorites'
                 component={props => (
                   <Main {...props} places={places} lang={lang.main} />
                 )}
