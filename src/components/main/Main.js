@@ -1,4 +1,11 @@
 import React, { Component, Fragment } from 'react';
+import {
+  FacebookShareButton,
+  TwitterShareButton,
+  LinkedinShareButton,
+  WhatsappShareButton,
+  EmailShareButton
+} from 'react-share';
 
 import PageTitle from '../layouts/PageTitle';
 import Map from './Map';
@@ -12,7 +19,7 @@ export default class Main extends Component {
 
     this.placeRef = React.createRef();
 
-    const { places, location } = props;
+    const { places, location, history } = props;
 
     let favoritePlaces = [];
     if (location.pathname === '/favorites') {
@@ -22,17 +29,38 @@ export default class Main extends Component {
       );
     }
 
+    if (location.pathname === '/share') {
+      let searchParams = new URLSearchParams(this.props.location.search);
+
+      if (searchParams.get('placeIds')) {
+        let placeIds = JSON.parse(searchParams.get('placeIds'));
+        favoritePlaces = [...places].filter(place =>
+          placeIds.includes(place.id)
+        );
+      }
+
+      if (favoritePlaces.length === 0) {
+        history.push('/');
+      }
+    }
+
     this.state = {
       places:
-        location.pathname === '/favorites' ? [...favoritePlaces] : [...places],
+        location.pathname === '/favorites' || location.pathname === '/share'
+          ? [...favoritePlaces]
+          : [...places],
       pageList:
-        location.pathname === '/favorites' ? [...favoritePlaces] : [...places],
+        location.pathname === '/favorites' || location.pathname === '/share'
+          ? [...favoritePlaces]
+          : [...places],
       pageOfItems: [],
       selectCountry: 'all',
       selectType: 'all',
       searchPlace: '',
       place: '',
       sorted: '',
+      share: false,
+      copy: false,
       visits: JSON.parse(localStorage.getItem('visits')),
       favorites: JSON.parse(localStorage.getItem('favorites')),
       welcome: localStorage.getItem('welcome') === null ? true : false
@@ -207,14 +235,31 @@ export default class Main extends Component {
     this.props.history.push(this.props.location.pathname);
   };
 
+  copyUrl = url => {
+    if (!navigator.clipboard) {
+      let copyInput = document.createElement('input');
+      document.body.appendChild(copyInput);
+      copyInput.setAttribute('id', 'copyId');
+      document.getElementById('copyId').value = url;
+      copyInput.select();
+      document.execCommand('copy');
+      document.body.removeChild(copyInput);
+    } else {
+      navigator.clipboard.writeText(url);
+    }
+  };
+
   componentDidMount() {
+    const { location } = this.props;
+    const { places } = this.state;
+
     this.sortTable('nameAsc');
 
-    let searchParams = new URLSearchParams(this.props.location.search);
+    let searchParams = new URLSearchParams(location.search);
 
     if (searchParams.get('placeId')) {
       let placeId = parseInt(searchParams.get('placeId'));
-      let place = [...this.state.places].filter(place => place.id === placeId);
+      let place = [...places].filter(place => place.id === placeId);
 
       if (place.length === 1) {
         this.setState({
@@ -291,7 +336,9 @@ export default class Main extends Component {
       visits,
       favorites,
       welcome,
-      sorted
+      sorted,
+      share,
+      copy
     } = this.state;
 
     let countries = [];
@@ -309,6 +356,10 @@ export default class Main extends Component {
       }
     });
     types.sort((a, b) => lang[a].localeCompare(lang[b]));
+
+    let shareFavoriteUrl = `${
+      window.location.origin
+    }/share?placeIds=${localStorage.getItem('favorites')}`;
 
     return (
       <div>
@@ -344,16 +395,142 @@ export default class Main extends Component {
               <div className='container'>
                 {location.pathname === '/favorites' ? (
                   <div className='notification has-text-centered is-family-monospace is-paddingless is-marginless'>
-                    <h2 className='is-size-3'>{lang.favorites.title}</h2>
+                    <h2 className='is-size-3'>{lang.favorites.title} </h2>
                     <span className='is-size-6'>
-                      {lang.favorites.totalFavorite}: {places.length}
+                      {lang.favorites.totalFavorite}: {places.length}{' '}
+                      <div
+                        className={share ? 'dropdown is-active' : 'dropdown'}
+                        onMouseOver={() => this.setState({ share: true })}
+                        onMouseLeave={() => this.setState({ share: false })}
+                      >
+                        <div className='dropdown-trigger'>
+                          <div className='tag is-info'>
+                            <span>{lang.share}</span>
+                            <span className='icon is-small'>
+                              <i className='fas fa-share-alt'></i>
+                            </span>
+                          </div>
+                        </div>
+                        <div className='dropdown-menu'>
+                          <div className='dropdown-content'>
+                            <div className='dropdown-item'>
+                              <FacebookShareButton
+                                url={shareFavoriteUrl}
+                                quote={`${lang.pageTitle.split('|')[0]} ${
+                                  lang.virtualTour
+                                }`}
+                                className=''
+                              >
+                                <div className='button is-rounded'>
+                                  <span className='icon'>
+                                    <i className='fab fa-facebook-f'></i>
+                                  </span>
+                                  <span>Facebook</span>
+                                </div>
+                              </FacebookShareButton>
+                            </div>
+                            <div className='dropdown-item'>
+                              <TwitterShareButton
+                                url={shareFavoriteUrl}
+                                title={`${lang.pageTitle.split('|')[0]} ${
+                                  lang.virtualTour
+                                }`}
+                                className=''
+                              >
+                                <div className='button is-rounded'>
+                                  <span className='icon'>
+                                    <i className='fab fa-twitter'></i>
+                                  </span>
+                                  <span>Twitter</span>
+                                </div>
+                              </TwitterShareButton>
+                            </div>
+                            <div className='dropdown-item'>
+                              <LinkedinShareButton
+                                url={shareFavoriteUrl}
+                                title={`${lang.pageTitle.split('|')[0]} ${
+                                  lang.virtualTour
+                                }`}
+                                className=''
+                              >
+                                <div className='button is-rounded'>
+                                  <span className='icon'>
+                                    <i className='fab fa-linkedin-in'></i>
+                                  </span>
+                                  <span>LinkedIn</span>
+                                </div>
+                              </LinkedinShareButton>
+                            </div>
+                            <div className='dropdown-item'>
+                              <WhatsappShareButton
+                                url={shareFavoriteUrl}
+                                title={`${lang.pageTitle.split('|')[0]} ${
+                                  lang.virtualTour
+                                }`}
+                                className=''
+                              >
+                                <div className='button is-rounded'>
+                                  <span className='icon'>
+                                    <i className='fab fa-whatsapp'></i>
+                                  </span>
+                                  <span>WhatsApp</span>
+                                </div>
+                              </WhatsappShareButton>
+                            </div>
+                            <div className='dropdown-item'>
+                              <EmailShareButton
+                                url={shareFavoriteUrl}
+                                subject={`${lang.pageTitle.split('|')[0]} ${
+                                  lang.virtualTour
+                                }`}
+                                body={place.description}
+                                className=''
+                              >
+                                <div className='button is-rounded'>
+                                  <span className='icon'>
+                                    <i className='fas fa-envelope'></i>
+                                  </span>
+                                  <span>{lang.email}</span>
+                                </div>
+                              </EmailShareButton>
+                            </div>
+                            <hr className='dropdown-divider' />
+                            <div
+                              className='dropdown-item'
+                              onClick={() =>
+                                this.copyUrl(shareFavoriteUrl) ||
+                                this.setState({ copy: true }) ||
+                                setTimeout(() => {
+                                  this.setState({ copy: false });
+                                }, 3000)
+                              }
+                            >
+                              <div className='button is-rounded'>
+                                <span className='icon'>
+                                  <i className='fas fa-copy'></i>
+                                </span>
+                                <span>{lang.copyLink}</span>
+                              </div>
+                              {copy && (
+                                <div className='has-text-centered'>
+                                  <div className='tag is-success'>
+                                    {lang.copyLinkSuccess}
+                                  </div>
+                                </div>
+                              )}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </span>
                   </div>
                 ) : (
-                  <div className='notification is-light has-text-centered has-text-weight-semibold is-italic is-family-monospace is-size-5 is-size-6-mobile is-paddingless'>
-                    {lang.visitedPlaces}: <strong>{visits.length}</strong> /{' '}
-                    {lang.totalPlaces}: <strong>{places.length}</strong>
-                  </div>
+                  location.pathname === '/' && (
+                    <div className='notification is-light has-text-centered has-text-weight-semibold is-italic is-family-monospace is-size-5 is-size-6-mobile is-paddingless'>
+                      {lang.visitedPlaces}: <strong>{visits.length}</strong> /{' '}
+                      {lang.totalPlaces}: <strong>{places.length}</strong>
+                    </div>
+                  )
                 )}
               </div>
             </section>
@@ -555,6 +732,8 @@ export default class Main extends Component {
                 </table>
               </div>
             </section>
+
+            <section className='section'></section>
 
             {place !== '' && (
               <PlaceModal

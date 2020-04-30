@@ -57,6 +57,14 @@ function App() {
 
               <Route
                 exact
+                path='/share'
+                component={props => (
+                  <Main {...props} places={places} lang={lang.main} />
+                )}
+              />
+
+              <Route
+                exact
                 path='/faq'
                 component={() => <Faq lang={lang.faq} />}
               />
