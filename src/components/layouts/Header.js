@@ -51,10 +51,18 @@ export default class Header extends Component {
               <Link to='/' className='navbar-item is-hidden-desktop'>
                 {lang.homepage}
               </Link>
+              <Link to='/favorites' className='navbar-item is-hidden-desktop'>
+                {lang.favorites}
+              </Link>
 
               <div className='buttons navbar-item is-hidden-touch'>
                 <Link to='/' className='button is-primary'>
                   <strong>{lang.homepage}</strong>
+                </Link>
+                <Link to='/favorites' className='button is-primary'>
+                  <strong>
+                    <i className='fas fa-heart'></i> {lang.favorites}
+                  </strong>
                 </Link>
               </div>
             </div>
