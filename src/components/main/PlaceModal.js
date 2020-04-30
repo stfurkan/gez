@@ -25,8 +25,11 @@ export default function PlaceModal({
   lang,
   place,
   visits,
+  favorites,
   clearPlace,
-  takeVirtualTour
+  takeVirtualTour,
+  addFavorite,
+  removeFavorite
 }) {
   const [share, setShare] = useState(false);
 
@@ -237,6 +240,28 @@ export default function PlaceModal({
           >
             {lang.virtualTour}
           </a>
+
+          {favorites.includes(place.id) ? (
+            <div
+              className='tag is-warning favorite-button'
+              onClick={() => removeFavorite(place.id)}
+            >
+              <span className='icon'>
+                <i className='fas fa-heart'></i>
+              </span>
+              <span>{lang.unlike}</span>
+            </div>
+          ) : (
+            <div
+              className='tag is-warning favorite-button'
+              onClick={() => addFavorite(place.id)}
+            >
+              <span className='icon'>
+                <i className='far fa-heart'></i>
+              </span>
+              <span>{lang.like}</span>
+            </div>
+          )}
         </footer>
       </div>
     </div>

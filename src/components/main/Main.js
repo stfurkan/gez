@@ -24,6 +24,7 @@ export default class Main extends Component {
       place: '',
       sorted: '',
       visits: JSON.parse(localStorage.getItem('visits')),
+      favorites: JSON.parse(localStorage.getItem('favorites')),
       welcome: localStorage.getItem('welcome') === null ? true : false
     };
   }
@@ -74,6 +75,38 @@ export default class Main extends Component {
           this.setState({
             updateMap: !this.state.updateMap
           });
+        }
+      );
+    }
+  };
+
+  addFavorite = id => {
+    if (!this.state.favorites.includes(id)) {
+      this.setState(
+        {
+          favorites: [...this.state.favorites, id]
+        },
+        () => {
+          localStorage.setItem(
+            'favorites',
+            JSON.stringify(this.state.favorites)
+          );
+        }
+      );
+    }
+  };
+
+  removeFavorite = id => {
+    if (this.state.favorites.includes(id)) {
+      this.setState(
+        {
+          favorites: [...this.state.favorites].filter(placeId => placeId !== id)
+        },
+        () => {
+          localStorage.setItem(
+            'favorites',
+            JSON.stringify(this.state.favorites)
+          );
         }
       );
     }
@@ -231,6 +264,7 @@ export default class Main extends Component {
       selectCountry,
       selectType,
       visits,
+      favorites,
       welcome,
       sorted
     } = this.state;
@@ -463,8 +497,11 @@ export default class Main extends Component {
             lang={lang}
             place={place}
             visits={visits}
+            favorites={favorites}
             clearPlace={this.clearPlace}
             takeVirtualTour={this.takeVirtualTour}
+            addFavorite={this.addFavorite}
+            removeFavorite={this.removeFavorite}
           />
         )}
 
