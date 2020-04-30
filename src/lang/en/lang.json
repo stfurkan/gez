@@ -39,6 +39,7 @@
     "share": "Share",
     "email": "E-mail",
     "copyLink": "Copy Link",
+    "copyLinkSuccess": "Link copied...",
     "like": "Like",
     "unlike": "Unlike",
     "welcome": {

@@ -32,6 +32,7 @@ export default function PlaceModal({
   removeFavorite
 }) {
   const [share, setShare] = useState(false);
+  const [copy, setCopy] = useState(false);
 
   return (
     <div className='modal modal-container is-active'>
@@ -129,7 +130,13 @@ export default function PlaceModal({
                   <div
                     className='dropdown-item'
                     onClick={() =>
-                      copyUrl(`${window.location.origin}?placeId=${place.id}`)
+                      copyUrl(
+                        `${window.location.origin}?placeId=${place.id}`
+                      ) ||
+                      setCopy(true) ||
+                      setTimeout(() => {
+                        setCopy(false);
+                      }, 3000)
                     }
                   >
                     <div className='button is-rounded'>
@@ -138,6 +145,13 @@ export default function PlaceModal({
                       </span>
                       <span>{lang.copyLink}</span>
                     </div>
+                    {copy && (
+                      <div className='has-text-centered'>
+                        <div className='tag is-success'>
+                          {lang.copyLinkSuccess}
+                        </div>
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>
