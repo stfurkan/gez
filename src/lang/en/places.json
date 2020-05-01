@@ -1093,5 +1093,20 @@
     "description": "The Freud Museum in London is a museum dedicated to Sigmund Freud, located in the house where Freud lived with his family during the last year of his life.",
     "wikipedia": "https://en.wikipedia.org/wiki/Freud_Museum",
     "image": ""
+  },
+  {
+    "id": 74,
+    "type": "museum",
+    "name": "Mt. Rainier Railroad and Logging Museum",
+    "country": "United States",
+    "state": "WA",
+    "city": "Elbe",
+    "latitude": 46.763949,
+    "longitude": -122.193448,
+    "website": "https://mtrainierrailroad.com",
+    "virtual": "https://my.matterport.com/show/?m=2x6wqb3jrWD",
+    "description": "The Mt. Rainier Railroad and Logging Museum or MRRR, formerly the Mt. Rainier Scenic Railroad, is a steam-powered heritage railroad operating in the U.S. state of Washington between Elbe and Mineral. The railroad travels on tracks that pass through thick forest just south of Mount Rainier.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mount_Rainier_Railroad_and_Logging_Museum",
+    "image": ""
   }
 ]

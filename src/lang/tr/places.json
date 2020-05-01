@@ -1093,5 +1093,20 @@
     "description": "Londra'daki Freud Müzesi, Freud'un hayatının son yılında ailesiyle birlikte yaşadığı evde bulunan Sigmund Freud'a adanmış bir müzedir.",
     "wikipedia": "https://en.wikipedia.org/wiki/Freud_Museum",
     "image": ""
+  },
+  {
+    "id": 74,
+    "type": "museum",
+    "name": "Mt. Rainier Demiryolu ve Tomrukçuluk Müzesi",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "WA",
+    "city": "Elbe",
+    "latitude": 46.763949,
+    "longitude": -122.193448,
+    "website": "https://mtrainierrailroad.com",
+    "virtual": "https://my.matterport.com/show/?m=2x6wqb3jrWD",
+    "description": "Mt. Rainier Demiryolu ve Tomrukçuluk Müzesi, ABD'nin Washington eyaletinin Elbe şehrinde bulunan bir demiryolu müzesidir.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mount_Rainier_Railroad_and_Logging_Museum",
+    "image": ""
   }
 ]
