@@ -1273,5 +1273,20 @@
     "description": "Zoser Piramidi MÖ 2630 yıllarında Mısır'da yapılan ilk piramittir. Mimarı İmhotep'tir. Bu piramit diğer piramitlere göre olan farkı merdivenli olmasıdır. Piramidin girişi en üst basamaktadır. Firavun Zoser'e ait olan piramidin duvarları kabartmalarla süslüdür. Diğer piramitlerde mezar içleri süslenmemiştir.",
     "wikipedia": "https://tr.wikipedia.org/wiki/Zoser_Piramidi",
     "image": ""
+  },
+  {
+    "id": 86,
+    "type": "historical",
+    "name": "Unas Piramidi",
+    "country": "Mısır",
+    "state": "",
+    "city": "Al Badrashin",
+    "latitude": 29.868209,
+    "longitude": 31.21493,
+    "website": "https://tr.wikipedia.org/wiki/Unas_Piramidi",
+    "virtual": "https://my.matterport.com/show/?m=o5Ex5Xo7UkE",
+    "description": "Unas Piramidi Eski Krallık döneminin en küçük piramididir ve Sakkara'da Zoser Piramidi'nin yanında bulunur. Unas antik Mısır'ın 5. hanedanının son krallarından biriydi ve milattan önce 2380'den 2350'a kadar hüküm sürmüştü.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/Unas_Piramidi",
+    "image": ""
   }
 ]

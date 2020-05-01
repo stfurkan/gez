@@ -1273,5 +1273,20 @@
     "description": "The Pyramid of Djoser, or Step Pyramid, is an archaeological remain in the Saqqara necropolis, Egypt, northwest of the city of Memphis. The 6-tier, 4-sided structure is the earliest colossal stone building in Egypt. It was built in the 27th century BC during the Third Dynasty for the burial of Pharaoh Djoser.",
     "wikipedia": "https://en.wikipedia.org/wiki/Pyramid_of_Djoser",
     "image": ""
+  },
+  {
+    "id": 86,
+    "type": "historical",
+    "name": "Pyramid of Unas",
+    "country": "Egypt",
+    "state": "",
+    "city": "Al Badrashin",
+    "latitude": 29.868209,
+    "longitude": 31.21493,
+    "website": "https://en.wikipedia.org/wiki/Pyramid_of_Unas",
+    "virtual": "https://my.matterport.com/show/?m=o5Ex5Xo7UkE",
+    "description": "The Pyramid of Unas is a smooth-sided pyramid built in the 24th century BC for the Egyptian pharaoh Unas, the ninth and final king of the Fifth Dynasty.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pyramid_of_Unas",
+    "image": ""
   }
 ]
