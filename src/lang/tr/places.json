@@ -1153,5 +1153,20 @@
     "description": "Connecticut, Hartford'daki Mark Twain Evi ve Müzesi, Samuel Langhorne Clemens ve ailesinin 1874-1891 yılları arasında eviydi. Edward Tuckerman Potter tarafından tasarlandı ve Amerikan Yüksek Gotik tarzında inşa edildi.",
     "wikipedia": "https://en.wikipedia.org/wiki/Mark_Twain_House",
     "image": ""
+  },
+  {
+    "id": 78,
+    "type": "museum",
+    "name": "Evergreen Havacılık ve Uzay Müzesi",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "OR",
+    "city": "McMinnville",
+    "latitude": 45.204291,
+    "longitude": -123.145433,
+    "website": "https://www.evergreenmuseum.org",
+    "virtual": "https://my.matterport.com/show/?m=SrRGkUGS38J",
+    "description": "Evergreen Havacılık ve Uzay Müzesi, McMinnville, Oregon'da bir havacılık müzesidir. Askeri ve sivil uçakları ve uzay araçları arasında, popüler olarak Spruce Goose olarak bilinen Hughes H-4 Herkül bulunmaktadır.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Evergreen_Aviation_%26_Space_Museum",
+    "image": ""
   }
 ]

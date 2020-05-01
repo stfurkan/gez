@@ -1153,5 +1153,20 @@
     "description": "The Mark Twain House and Museum in Hartford, Connecticut, was the home of Samuel Langhorne Clemens and his family from 1874 to 1891. It was designed by Edward Tuckerman Potter and built in the American High Gothic style.",
     "wikipedia": "https://en.wikipedia.org/wiki/Mark_Twain_House",
     "image": ""
+  },
+  {
+    "id": 78,
+    "type": "museum",
+    "name": "Evergreen Aviation and Space Museum",
+    "country": "United States",
+    "state": "OR",
+    "city": "McMinnville",
+    "latitude": 45.204291,
+    "longitude": -123.145433,
+    "website": "https://www.evergreenmuseum.org",
+    "virtual": "https://my.matterport.com/show/?m=SrRGkUGS38J",
+    "description": "The Evergreen Aviation & Space Museum is an aviation museum in McMinnville, Oregon. Among its military and civilian aircraft and spacecraft is the Hughes H-4 Hercules, popularly known as the Spruce Goose.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Evergreen_Aviation_%26_Space_Museum",
+    "image": ""
   }
 ]
