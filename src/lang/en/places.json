@@ -227,7 +227,7 @@
   {
     "id": 16,
     "type": "museum",
-    "name": "The Metropolitan Museum of Art",
+    "name": "Metropolitan Museum of Art",
     "country": "United States",
     "state": "NY",
     "city": "New York City",
@@ -287,7 +287,7 @@
   {
     "id": 20,
     "type": "museum",
-    "name": "The Museum of Modern Art",
+    "name": "Museum of Modern Art",
     "country": "United States",
     "state": "NY",
     "city": "New York City",
@@ -452,7 +452,7 @@
   {
     "id": 31,
     "type": "museum",
-    "name": "The National Gallery",
+    "name": "National Gallery",
     "country": "England",
     "state": "",
     "city": "London",
@@ -467,7 +467,7 @@
   {
     "id": 32,
     "type": "museum",
-    "name": "The Museum of Flight",
+    "name": "Museum of Flight",
     "country": "United States",
     "state": "WA",
     "city": "Seattle",
@@ -677,7 +677,7 @@
   {
     "id": 46,
     "type": "museum",
-    "name": "The Bilbao Fine Arts Museum",
+    "name": "Bilbao Fine Arts Museum",
     "country": "Spain",
     "state": "",
     "city": "Bilbao",
@@ -737,7 +737,7 @@
   {
     "id": 50,
     "type": "museum",
-    "name": "The Bicycle Museum of America",
+    "name": "Bicycle Museum of America",
     "country": "United States",
     "state": "OH",
     "city": "New Bremen",
@@ -782,7 +782,7 @@
   {
     "id": 53,
     "type": "museum",
-    "name": "The National Museum of the Royal Navy: HMS Trincomalee",
+    "name": "National Museum of the Royal Navy: HMS Trincomalee",
     "country": "England",
     "state": "",
     "city": "Hartlepool",
