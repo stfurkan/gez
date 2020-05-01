@@ -1138,5 +1138,20 @@
     "description": "The Temple of the Eastern Peak in Beijing is a Taoist temple in the Chaowai area, Chaoyang District, Beijing, China.",
     "wikipedia": "https://en.wikipedia.org/wiki/Beijing_Dongyue_Temple",
     "image": ""
+  },
+  {
+    "id": 77,
+    "type": "museum",
+    "name": "Mark Twain House and Museum",
+    "country": "United States",
+    "state": "CT",
+    "city": "Hartford",
+    "latitude": 41.76711,
+    "longitude": -72.701464,
+    "website": "https://marktwainhouse.org",
+    "virtual": "https://my.matterport.com/show/?m=nKZRNCV2mCn",
+    "description": "The Mark Twain House and Museum in Hartford, Connecticut, was the home of Samuel Langhorne Clemens and his family from 1874 to 1891. It was designed by Edward Tuckerman Potter and built in the American High Gothic style.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mark_Twain_House",
+    "image": ""
   }
 ]

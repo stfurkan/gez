@@ -1138,5 +1138,20 @@
     "description": "Pekin Dongyue Tapınağı, Çin'in Pekin şehrinde bulunan tarihi bir tapınaktır.",
     "wikipedia": "https://en.wikipedia.org/wiki/Beijing_Dongyue_Temple",
     "image": ""
+  },
+  {
+    "id": 77,
+    "type": "museum",
+    "name": "Mark Twain Evi ve Müzesi",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "CT",
+    "city": "Hartford",
+    "latitude": 41.76711,
+    "longitude": -72.701464,
+    "website": "https://marktwainhouse.org",
+    "virtual": "https://my.matterport.com/show/?m=nKZRNCV2mCn",
+    "description": "Connecticut, Hartford'daki Mark Twain Evi ve Müzesi, Samuel Langhorne Clemens ve ailesinin 1874-1891 yılları arasında eviydi. Edward Tuckerman Potter tarafından tasarlandı ve Amerikan Yüksek Gotik tarzında inşa edildi.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mark_Twain_House",
+    "image": ""
   }
 ]
