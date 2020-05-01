@@ -1,15 +1,9 @@
 import React, { Component, Fragment } from 'react';
-import {
-  FacebookShareButton,
-  TwitterShareButton,
-  LinkedinShareButton,
-  WhatsappShareButton,
-  EmailShareButton
-} from 'react-share';
 
 import PageTitle from '../layouts/PageTitle';
-import Map from './Map';
 import Pagination from '../layouts/Pagination';
+import Share from '../layouts/Share';
+import Map from './Map';
 import WelcomeModal from './WelcomeModal';
 import PlaceModal from './PlaceModal';
 
@@ -59,8 +53,6 @@ export default class Main extends Component {
       searchPlace: '',
       place: '',
       sorted: '',
-      share: false,
-      copy: false,
       visits: JSON.parse(localStorage.getItem('visits')),
       favorites: JSON.parse(localStorage.getItem('favorites')),
       welcome: localStorage.getItem('welcome') === null ? true : false
@@ -235,20 +227,6 @@ export default class Main extends Component {
     this.props.history.push(this.props.location.pathname);
   };
 
-  copyUrl = url => {
-    if (!navigator.clipboard) {
-      let copyInput = document.createElement('input');
-      document.body.appendChild(copyInput);
-      copyInput.setAttribute('id', 'copyId');
-      document.getElementById('copyId').value = url;
-      copyInput.select();
-      document.execCommand('copy');
-      document.body.removeChild(copyInput);
-    } else {
-      navigator.clipboard.writeText(url);
-    }
-  };
-
   componentDidMount() {
     const { location } = this.props;
     const { places } = this.state;
@@ -336,9 +314,7 @@ export default class Main extends Component {
       visits,
       favorites,
       welcome,
-      sorted,
-      share,
-      copy
+      sorted
     } = this.state;
 
     let countries = [];
@@ -397,130 +373,13 @@ export default class Main extends Component {
                   <div className='notification has-text-centered is-family-monospace is-paddingless is-marginless'>
                     <h2 className='is-size-3'>{lang.favorites.title} </h2>
                     <span className='is-size-6'>
-                      <div
-                        className={share ? 'dropdown is-active' : 'dropdown'}
-                        onMouseOver={() => this.setState({ share: true })}
-                        onMouseLeave={() => this.setState({ share: false })}
-                      >
-                        <div className='dropdown-trigger'>
-                          <div className='tag is-info'>
-                            <span>{lang.share}</span>
-                            <span className='icon is-small'>
-                              <i className='fas fa-share-alt'></i>
-                            </span>
-                          </div>
-                        </div>
-                        <div className='dropdown-menu'>
-                          <div className='dropdown-content'>
-                            <div className='dropdown-item'>
-                              <FacebookShareButton
-                                url={shareFavoriteUrl}
-                                quote={`${lang.pageTitle.split('|')[0]} ${
-                                  lang.virtualTour
-                                }`}
-                                className=''
-                              >
-                                <div className='button is-rounded'>
-                                  <span className='icon'>
-                                    <i className='fab fa-facebook-f'></i>
-                                  </span>
-                                  <span>Facebook</span>
-                                </div>
-                              </FacebookShareButton>
-                            </div>
-                            <div className='dropdown-item'>
-                              <TwitterShareButton
-                                url={shareFavoriteUrl}
-                                title={`${lang.pageTitle.split('|')[0]} ${
-                                  lang.virtualTour
-                                }`}
-                                className=''
-                              >
-                                <div className='button is-rounded'>
-                                  <span className='icon'>
-                                    <i className='fab fa-twitter'></i>
-                                  </span>
-                                  <span>Twitter</span>
-                                </div>
-                              </TwitterShareButton>
-                            </div>
-                            <div className='dropdown-item'>
-                              <LinkedinShareButton
-                                url={shareFavoriteUrl}
-                                title={`${lang.pageTitle.split('|')[0]} ${
-                                  lang.virtualTour
-                                }`}
-                                className=''
-                              >
-                                <div className='button is-rounded'>
-                                  <span className='icon'>
-                                    <i className='fab fa-linkedin-in'></i>
-                                  </span>
-                                  <span>LinkedIn</span>
-                                </div>
-                              </LinkedinShareButton>
-                            </div>
-                            <div className='dropdown-item'>
-                              <WhatsappShareButton
-                                url={shareFavoriteUrl}
-                                title={`${lang.pageTitle.split('|')[0]} ${
-                                  lang.virtualTour
-                                }`}
-                                className=''
-                              >
-                                <div className='button is-rounded'>
-                                  <span className='icon'>
-                                    <i className='fab fa-whatsapp'></i>
-                                  </span>
-                                  <span>WhatsApp</span>
-                                </div>
-                              </WhatsappShareButton>
-                            </div>
-                            <div className='dropdown-item'>
-                              <EmailShareButton
-                                url={shareFavoriteUrl}
-                                subject={`${lang.pageTitle.split('|')[0]} ${
-                                  lang.virtualTour
-                                }`}
-                                body={place.description}
-                                className=''
-                              >
-                                <div className='button is-rounded'>
-                                  <span className='icon'>
-                                    <i className='fas fa-envelope'></i>
-                                  </span>
-                                  <span>{lang.email}</span>
-                                </div>
-                              </EmailShareButton>
-                            </div>
-                            <hr className='dropdown-divider' />
-                            <div
-                              className='dropdown-item'
-                              onClick={() =>
-                                this.copyUrl(shareFavoriteUrl) ||
-                                this.setState({ copy: true }) ||
-                                setTimeout(() => {
-                                  this.setState({ copy: false });
-                                }, 3000)
-                              }
-                            >
-                              <div className='button is-rounded'>
-                                <span className='icon'>
-                                  <i className='fas fa-copy'></i>
-                                </span>
-                                <span>{lang.copyLink}</span>
-                              </div>
-                              {copy && (
-                                <div className='has-text-centered'>
-                                  <div className='tag is-success'>
-                                    {lang.copyLinkSuccess}
-                                  </div>
-                                </div>
-                              )}
-                            </div>
-                          </div>
-                        </div>
-                      </div>{' '}
+                      <Share
+                        lang={lang}
+                        url={shareFavoriteUrl}
+                        title={`${lang.pageTitle.split('|')[0]} ${
+                          lang.virtualTour
+                        }`}
+                      />{' '}
                       {lang.favorites.totalFavorite}: {places.length}
                     </span>
                   </div>
