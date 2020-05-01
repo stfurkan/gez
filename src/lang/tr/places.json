@@ -1168,5 +1168,20 @@
     "description": "Evergreen Havacılık ve Uzay Müzesi, McMinnville, Oregon'da bir havacılık müzesidir. Askeri ve sivil uçakları ve uzay araçları arasında, popüler olarak Spruce Goose olarak bilinen Hughes H-4 Herkül bulunmaktadır.",
     "wikipedia": "https://en.wikipedia.org/wiki/Evergreen_Aviation_%26_Space_Museum",
     "image": ""
+  },
+  {
+    "id": 79,
+    "type": "historical",
+    "name": "Firavun Ramesses VI Mezarı (KV9)",
+    "country": "Mısır",
+    "state": "",
+    "city": "Luxor",
+    "latitude": 25.74016,
+    "longitude": 32.601408,
+    "website": "https://en.wikipedia.org/wiki/KV9",
+    "virtual": "https://my.matterport.com/show/?m=NeiMEZa9d93",
+    "description": "Mısır'ın Krallar Vadisi'nde bulunan Mezar KV9 ilk olarak Firavun Ramesses V tarafından inşa edilmiştir. Ramesses V buraya gömülmüştür ancak daha sonra amcası Ramesses VI, bu mezarı kendi mezarı olarak kullanmıştır.",
+    "wikipedia": "https://en.wikipedia.org/wiki/KV9",
+    "image": ""
   }
 ]

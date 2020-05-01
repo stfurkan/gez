@@ -1168,5 +1168,20 @@
     "description": "The Evergreen Aviation & Space Museum is an aviation museum in McMinnville, Oregon. Among its military and civilian aircraft and spacecraft is the Hughes H-4 Hercules, popularly known as the Spruce Goose.",
     "wikipedia": "https://en.wikipedia.org/wiki/Evergreen_Aviation_%26_Space_Museum",
     "image": ""
+  },
+  {
+    "id": 79,
+    "type": "historical",
+    "name": "Pharaoh Ramesses VI Tomb (KV9)",
+    "country": "Egypt",
+    "state": "",
+    "city": "Luxor",
+    "latitude": 25.74016,
+    "longitude": 32.601408,
+    "website": "https://en.wikipedia.org/wiki/KV9",
+    "virtual": "https://my.matterport.com/show/?m=NeiMEZa9d93",
+    "description": "Tomb KV9 in Egypt's Valley of the Kings was originally constructed by Pharaoh Ramesses V. He was interred here, but his uncle, Ramesses VI, later reused the tomb as his own. The layout is typical of the 20th dynasty – the Ramesside period – and is much simpler than that of Ramesses III's tomb.",
+    "wikipedia": "https://en.wikipedia.org/wiki/KV9",
+    "image": ""
   }
 ]
