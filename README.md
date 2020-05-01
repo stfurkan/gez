@@ -66,6 +66,9 @@ Your app is ready to be deployed!
 - Tracks the visited places by using browser's local storage
 - Filters places by place name, country name and type
 - Sorts place list by place name, country name and type
+- Generates favorite places list by user's like
+- Enables to share user's favorite places list
+- Enables to share single place
 - Supports Turkish and English languages (based on browser language)
 
 ## Built With
