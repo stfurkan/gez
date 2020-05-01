@@ -2,6 +2,8 @@
 
 Explore museums, galleries, aquariums, zoos and more around the world with virtual tours.
 
+![](readme_src/gezla.gif)
+
 ## Getting Started
 
 ### Prequisites
