@@ -1123,5 +1123,20 @@
     "description": "The Museum of Flying is a private non-profit aerospace museum in Santa Monica, California. It was founded in 1974, closed in 2002, and reopened in 2012 in a new facility. The Museum exhibits the history of aviation, focusing on aviation history in Southern California.",
     "wikipedia": "https://en.wikipedia.org/wiki/Museum_of_Flying",
     "image": ""
+  },
+  {
+    "id": 76,
+    "type": "historical",
+    "name": "Beijing Dongyue Temple",
+    "country": "China",
+    "state": "",
+    "city": "Beijing",
+    "latitude": 39.923879,
+    "longitude": 116.444065,
+    "website": "https://en.wikipedia.org/wiki/Beijing_Dongyue_Temple",
+    "virtual": "https://my.matterport.com/show/?m=twXSgVunzzz",
+    "description": "The Temple of the Eastern Peak in Beijing is a Taoist temple in the Chaowai area, Chaoyang District, Beijing, China.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Beijing_Dongyue_Temple",
+    "image": ""
   }
 ]

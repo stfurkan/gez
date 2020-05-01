@@ -1123,5 +1123,20 @@
     "description": "Uçan Müze (Museum of Flying), Santa Monica, California'da bulunan kar amacı gütmeyen özel bir havacılık müzesidir. 1974 yılında kurulmuş, 2002 yılında kapatılmış ve 2012 yılında yeni bir tesiste yeniden açılmıştır. Müze, Güney Kaliforniya'daki havacılık tarihine odaklanarak havacılık tarihini sergiliyor.",
     "wikipedia": "https://en.wikipedia.org/wiki/Museum_of_Flying",
     "image": ""
+  },
+  {
+    "id": 76,
+    "type": "historical",
+    "name": "Pekin Dongyue Tapınağı",
+    "country": "Çin",
+    "state": "",
+    "city": "Beijing",
+    "latitude": 39.923879,
+    "longitude": 116.444065,
+    "website": "https://en.wikipedia.org/wiki/Beijing_Dongyue_Temple",
+    "virtual": "https://my.matterport.com/show/?m=twXSgVunzzz",
+    "description": "Pekin Dongyue Tapınağı, Çin'in Pekin şehrinde bulunan tarihi bir tapınaktır.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Beijing_Dongyue_Temple",
+    "image": ""
   }
 ]
