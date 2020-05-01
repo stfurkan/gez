@@ -1112,7 +1112,7 @@
   {
     "id": 75,
     "type": "museum",
-    "name": "Uçuş Müzesi",
+    "name": "Uçan Müze",
     "country": "Amerika Birleşik Devletleri",
     "state": "CA",
     "city": "Santa Monica",
@@ -1120,7 +1120,7 @@
     "longitude": -118.447846,
     "website": "https://www.museumofflying.org",
     "virtual": "https://my.matterport.com/show/?m=YJAtBbcx2c9",
-    "description": "Uçuş Müzesi (Museum of Flying), Santa Monica, California'da bulunan kar amacı gütmeyen özel bir havacılık müzesidir. 1974 yılında kurulmuş, 2002 yılında kapatılmış ve 2012 yılında yeni bir tesiste yeniden açılmıştır. Müze, Güney Kaliforniya'daki havacılık tarihine odaklanarak havacılık tarihini sergiliyor.",
+    "description": "Uçan Müze (Museum of Flying), Santa Monica, California'da bulunan kar amacı gütmeyen özel bir havacılık müzesidir. 1974 yılında kurulmuş, 2002 yılında kapatılmış ve 2012 yılında yeni bir tesiste yeniden açılmıştır. Müze, Güney Kaliforniya'daki havacılık tarihine odaklanarak havacılık tarihini sergiliyor.",
     "wikipedia": "https://en.wikipedia.org/wiki/Museum_of_Flying",
     "image": ""
   }
