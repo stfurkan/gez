@@ -592,8 +592,6 @@ export default class Main extends Component {
               </div>
             </section>
 
-            <section className='section'></section>
-
             {place !== '' && (
               <PlaceModal
                 lang={lang}
