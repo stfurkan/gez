@@ -1108,5 +1108,20 @@
     "description": "The Mt. Rainier Railroad and Logging Museum or MRRR, formerly the Mt. Rainier Scenic Railroad, is a steam-powered heritage railroad operating in the U.S. state of Washington between Elbe and Mineral. The railroad travels on tracks that pass through thick forest just south of Mount Rainier.",
     "wikipedia": "https://en.wikipedia.org/wiki/Mount_Rainier_Railroad_and_Logging_Museum",
     "image": ""
+  },
+  {
+    "id": 75,
+    "type": "museum",
+    "name": "Museum of Flying",
+    "country": "United States",
+    "state": "CA",
+    "city": "Santa Monica",
+    "latitude": 34.014852,
+    "longitude": -118.447846,
+    "website": "https://www.museumofflying.org",
+    "virtual": "https://my.matterport.com/show/?m=YJAtBbcx2c9",
+    "description": "The Museum of Flying is a private non-profit aerospace museum in Santa Monica, California. It was founded in 1974, closed in 2002, and reopened in 2012 in a new facility. The Museum exhibits the history of aviation, focusing on aviation history in Southern California.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Museum_of_Flying",
+    "image": ""
   }
 ]

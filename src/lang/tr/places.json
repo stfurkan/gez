@@ -1108,5 +1108,20 @@
     "description": "Mt. Rainier Demiryolu ve Tomrukçuluk Müzesi, ABD'nin Washington eyaletinin Elbe şehrinde bulunan bir demiryolu müzesidir.",
     "wikipedia": "https://en.wikipedia.org/wiki/Mount_Rainier_Railroad_and_Logging_Museum",
     "image": ""
+  },
+  {
+    "id": 75,
+    "type": "museum",
+    "name": "Uçuş Müzesi",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "CA",
+    "city": "Santa Monica",
+    "latitude": 34.014852,
+    "longitude": -118.447846,
+    "website": "https://www.museumofflying.org",
+    "virtual": "https://my.matterport.com/show/?m=YJAtBbcx2c9",
+    "description": "Uçuş Müzesi (Museum of Flying), Santa Monica, California'da bulunan kar amacı gütmeyen özel bir havacılık müzesidir. 1974 yılında kurulmuş, 2002 yılında kapatılmış ve 2012 yılında yeni bir tesiste yeniden açılmıştır. Müze, Güney Kaliforniya'daki havacılık tarihine odaklanarak havacılık tarihini sergiliyor.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Museum_of_Flying",
+    "image": ""
   }
 ]
