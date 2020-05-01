@@ -1172,7 +1172,7 @@
   {
     "id": 79,
     "type": "historical",
-    "name": "Firavun Ramesses VI Mezarı (KV9)",
+    "name": "Ramesses VI Mezarı (KV9)",
     "country": "Mısır",
     "state": "",
     "city": "Luxor",
@@ -1182,6 +1182,21 @@
     "virtual": "https://my.matterport.com/show/?m=NeiMEZa9d93",
     "description": "Mısır'ın Krallar Vadisi'nde bulunan Mezar KV9 ilk olarak Firavun Ramesses V tarafından inşa edilmiştir. Ramesses V buraya gömülmüştür ancak daha sonra amcası Ramesses VI, bu mezarı kendi mezarı olarak kullanmıştır.",
     "wikipedia": "https://en.wikipedia.org/wiki/KV9",
+    "image": ""
+  },
+  {
+    "id": 80,
+    "type": "historical",
+    "name": "Kraliçe Meresankh III Mezarı",
+    "country": "Mısır",
+    "state": "",
+    "city": "Giza",
+    "latitude": 29.978888,
+    "longitude": 31.13702,
+    "website": "https://egymonuments.gov.eg/en/monuments/tomb-of-queen-meresankh-iii",
+    "virtual": "https://my.matterport.com/show/?m=d42fuVA21To",
+    "description": "Kraliçe Meresankh III'ün mezarı (G 7530-40) kabartmalarının kalitesi sebebiyle doğu mezarlığındaki en güzel mezarlardan biridir.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Meresankh_III",
     "image": ""
   }
 ]
