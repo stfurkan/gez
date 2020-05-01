@@ -1228,5 +1228,20 @@
     "description": "Kom es-Shoqafa Yeraltı Mezarları, Mısır'daki İskenderiye'de yer alan ve Orta Çağın Yedi Harikasından biri kabul edilen arkeolojik yerleşmedir.",
     "wikipedia": "https://tr.wikipedia.org/wiki/%C4%B0skenderiye_Kom_es-Shoqafa_Yeralt%C4%B1_Mezarlar%C4%B1",
     "image": ""
+  },
+  {
+    "id": 83,
+    "type": "historical",
+    "name": "Mehu Mezarı",
+    "country": "Mısır",
+    "state": "",
+    "city": "Al Badrashin",
+    "latitude": 29.850051,
+    "longitude": 31.21668,
+    "website": "https://en.wikipedia.org/wiki/Mehu",
+    "virtual": "https://my.matterport.com/show/?m=xmDbt2rfa82",
+    "description": "Mehu, MÖ 2300 yıllarında Altıncı Hanedan'da yaşayan Eski bir Mısır veziriydi. Vezir ofisi kraliyet sarayındaki en önemli ofisti. Mehu daha çok Unas Piramidi'nden çok uzakta olmayan Saqqara'daki anıtsal mastabalarından bilinir.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mehu",
+    "image": ""
   }
 ]

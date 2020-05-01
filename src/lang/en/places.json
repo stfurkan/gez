@@ -1228,5 +1228,20 @@
     "description": "The catacombs of Kom El Shoqafa is a historical archaeological site located in Alexandria, Egypt, and is considered one of the Seven Wonders of the Middle Ages.",
     "wikipedia": "https://en.wikipedia.org/wiki/Catacombs_of_Kom_El_Shoqafa",
     "image": ""
+  },
+  {
+    "id": 83,
+    "type": "historical",
+    "name": "Tomb of Mehu",
+    "country": "Egypt",
+    "state": "",
+    "city": "Al Badrashin",
+    "latitude": 29.850051,
+    "longitude": 31.21668,
+    "website": "https://en.wikipedia.org/wiki/Mehu",
+    "virtual": "https://my.matterport.com/show/?m=xmDbt2rfa82",
+    "description": "Mehu was an Ancient Egyptian vizier who lived in the Sixth Dynasty, around 2300 BC. The office of the vizier was the most important one at the royal court. Mehu is mainly known from his monumental mastaba at Saqqara, not far away from the Pyramid of Unas. The exact dating of Mehu is disputed in Egyptology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mehu",
+    "image": ""
   }
 ]
