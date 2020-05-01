@@ -1258,5 +1258,20 @@
     "description": "Khnumhotep ve Niankhkhnum eski Mısır kraliyet hizmetkarlarıydı. Saqqara'da birlikte gömüldüler ve ortak mezarlarında 'kraliyet sırdaşları' olarak listelendiler.",
     "wikipedia": "https://en.wikipedia.org/wiki/Khnumhotep_and_Niankhkhnum",
     "image": ""
+  },
+  {
+    "id": 85,
+    "type": "historical",
+    "name": "Zoser Piramidi",
+    "country": "Mısır",
+    "state": "",
+    "city": "Al Badrashin",
+    "latitude": 29.871295,
+    "longitude": 31.216522,
+    "website": "https://egymonuments.gov.eg/en/monuments/step-pyramid-of-djoser",
+    "virtual": "https://my.matterport.com/show/?m=zBpDdPqxTKz",
+    "description": "Zoser Piramidi MÖ 2630 yıllarında Mısır'da yapılan ilk piramittir. Mimarı İmhotep'tir. Bu piramit diğer piramitlere göre olan farkı merdivenli olmasıdır. Piramidin girişi en üst basamaktadır. Firavun Zoser'e ait olan piramidin duvarları kabartmalarla süslüdür. Diğer piramitlerde mezar içleri süslenmemiştir.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/Zoser_Piramidi",
+    "image": ""
   }
 ]

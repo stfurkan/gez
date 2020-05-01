@@ -1258,5 +1258,20 @@
     "description": "Khnumhotep and Niankhkhnum were ancient Egyptian royal servants. They were buried together at Saqqara and are listed as 'royal confidants' in their joint tomb.",
     "wikipedia": "https://en.wikipedia.org/wiki/Khnumhotep_and_Niankhkhnum",
     "image": ""
+  },
+  {
+    "id": 85,
+    "type": "historical",
+    "name": "Pyramid of Djoser",
+    "country": "Egypt",
+    "state": "",
+    "city": "Al Badrashin",
+    "latitude": 29.871295,
+    "longitude": 31.216522,
+    "website": "https://egymonuments.gov.eg/en/monuments/step-pyramid-of-djoser",
+    "virtual": "https://my.matterport.com/show/?m=zBpDdPqxTKz",
+    "description": "The Pyramid of Djoser, or Step Pyramid, is an archaeological remain in the Saqqara necropolis, Egypt, northwest of the city of Memphis. The 6-tier, 4-sided structure is the earliest colossal stone building in Egypt. It was built in the 27th century BC during the Third Dynasty for the burial of Pharaoh Djoser.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pyramid_of_Djoser",
+    "image": ""
   }
 ]
