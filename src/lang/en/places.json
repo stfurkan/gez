@@ -1198,5 +1198,20 @@
     "description": "At Giza, while the Pyramids are undecorated, one of the most beautiful tombs (G 7530-40) in its eastern cemetery is that of Meresankh (Mersyankh) III, due to the quality of its bas-reliefs.",
     "wikipedia": "https://en.wikipedia.org/wiki/Meresankh_III",
     "image": ""
+  },
+  {
+    "id": 81,
+    "type": "historical",
+    "name": "Beni Hasan (Tomb of Kheti)",
+    "country": "Egypt",
+    "state": "",
+    "city": "Minya",
+    "latitude": 27.931361,
+    "longitude": 30.875196,
+    "website": "https://en.wikipedia.org/wiki/Beni_Hasan",
+    "virtual": "https://my.matterport.com/show/?m=QaGBAsT6yg4",
+    "description": "Beni Hasan is an Ancient Egyptian cemetery site. It is located approximately 20 kilometers to the south of modern-day Minya in the region known as Middle Egypt, the area between Asyut and Memphis.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Beni_Hasan",
+    "image": ""
   }
 ]

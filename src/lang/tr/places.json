@@ -1198,5 +1198,20 @@
     "description": "Kraliçe Meresankh III'ün mezarı (G 7530-40) kabartmalarının kalitesi sebebiyle doğu mezarlığındaki en güzel mezarlardan biridir.",
     "wikipedia": "https://en.wikipedia.org/wiki/Meresankh_III",
     "image": ""
+  },
+  {
+    "id": 81,
+    "type": "historical",
+    "name": "Beni Hasan (Kheti Mezarı)",
+    "country": "Mısır",
+    "state": "",
+    "city": "Minya",
+    "latitude": 27.931361,
+    "longitude": 30.875196,
+    "website": "https://tr.wikipedia.org/wiki/Beni_Hasan",
+    "virtual": "https://my.matterport.com/show/?m=QaGBAsT6yg4",
+    "description": "Beni Hasan, Antik Mısır'da bulunan bir mezarlık sitesidir. Bu bölge günümüzde Orta Mısır'da bulunan ve El Minye olarak bilinen yerin yaklaşık olarak 20 kilometre güneyinde, Asyut ve Memphis arasında yer almaktadır.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/Beni_Hasan",
+    "image": ""
   }
 ]
