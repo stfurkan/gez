@@ -1243,5 +1243,20 @@
     "description": "Mehu was an Ancient Egyptian vizier who lived in the Sixth Dynasty, around 2300 BC. The office of the vizier was the most important one at the royal court. Mehu is mainly known from his monumental mastaba at Saqqara, not far away from the Pyramid of Unas. The exact dating of Mehu is disputed in Egyptology.",
     "wikipedia": "https://en.wikipedia.org/wiki/Mehu",
     "image": ""
+  },
+  {
+    "id": 84,
+    "type": "historical",
+    "name": "Tomb of Khnumhotep and Niankhkhnum",
+    "country": "Egypt",
+    "state": "",
+    "city": "Al Badrashin",
+    "latitude": 29.850053,
+    "longitude": 31.216679,
+    "website": "https://en.wikipedia.org/wiki/Khnumhotep_and_Niankhkhnum",
+    "virtual": "https://my.matterport.com/show/?m=PKxweZaPG3P",
+    "description": "Khnumhotep and Niankhkhnum were ancient Egyptian royal servants. They were buried together at Saqqara and are listed as 'royal confidants' in their joint tomb.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Khnumhotep_and_Niankhkhnum",
+    "image": ""
   }
 ]

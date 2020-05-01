@@ -1243,5 +1243,20 @@
     "description": "Mehu, MÖ 2300 yıllarında Altıncı Hanedan'da yaşayan Eski bir Mısır veziriydi. Vezir ofisi kraliyet sarayındaki en önemli ofisti. Mehu daha çok Unas Piramidi'nden çok uzakta olmayan Saqqara'daki anıtsal mastabalarından bilinir.",
     "wikipedia": "https://en.wikipedia.org/wiki/Mehu",
     "image": ""
+  },
+  {
+    "id": 84,
+    "type": "historical",
+    "name": "Khnumhotep ve Niankhkhnum Mezarı",
+    "country": "Mısır",
+    "state": "",
+    "city": "Al Badrashin",
+    "latitude": 29.850053,
+    "longitude": 31.216679,
+    "website": "https://en.wikipedia.org/wiki/Khnumhotep_and_Niankhkhnum",
+    "virtual": "https://my.matterport.com/show/?m=PKxweZaPG3P",
+    "description": "Khnumhotep ve Niankhkhnum eski Mısır kraliyet hizmetkarlarıydı. Saqqara'da birlikte gömüldüler ve ortak mezarlarında 'kraliyet sırdaşları' olarak listelendiler.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Khnumhotep_and_Niankhkhnum",
+    "image": ""
   }
 ]
