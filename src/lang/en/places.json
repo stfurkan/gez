@@ -1213,5 +1213,20 @@
     "description": "Beni Hasan is an Ancient Egyptian cemetery site. It is located approximately 20 kilometers to the south of modern-day Minya in the region known as Middle Egypt, the area between Asyut and Memphis.",
     "wikipedia": "https://en.wikipedia.org/wiki/Beni_Hasan",
     "image": ""
+  },
+  {
+    "id": 82,
+    "type": "historical",
+    "name": "Catacombs of Kom El Shoqafa",
+    "country": "Egypt",
+    "state": "",
+    "city": "Alexandria",
+    "latitude": 31.178958,
+    "longitude": 29.893076,
+    "website": "https://en.wikipedia.org/wiki/Catacombs_of_Kom_El_Shoqafa",
+    "virtual": "https://my.matterport.com/show/?m=ui3dfrQDqB2",
+    "description": "The catacombs of Kom El Shoqafa is a historical archaeological site located in Alexandria, Egypt, and is considered one of the Seven Wonders of the Middle Ages.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Catacombs_of_Kom_El_Shoqafa",
+    "image": ""
   }
 ]

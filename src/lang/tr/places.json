@@ -1213,5 +1213,20 @@
     "description": "Beni Hasan, Antik Mısır'da bulunan bir mezarlık sitesidir. Bu bölge günümüzde Orta Mısır'da bulunan ve El Minye olarak bilinen yerin yaklaşık olarak 20 kilometre güneyinde, Asyut ve Memphis arasında yer almaktadır.",
     "wikipedia": "https://tr.wikipedia.org/wiki/Beni_Hasan",
     "image": ""
+  },
+  {
+    "id": 82,
+    "type": "historical",
+    "name": "Kom es-Shoqafa Yeraltı Mezarları",
+    "country": "Mısır",
+    "state": "",
+    "city": "Alexandria",
+    "latitude": 31.178958,
+    "longitude": 29.893076,
+    "website": "https://tr.wikipedia.org/wiki/%C4%B0skenderiye_Kom_es-Shoqafa_Yeralt%C4%B1_Mezarlar%C4%B1",
+    "virtual": "https://my.matterport.com/show/?m=ui3dfrQDqB2",
+    "description": "Kom es-Shoqafa Yeraltı Mezarları, Mısır'daki İskenderiye'de yer alan ve Orta Çağın Yedi Harikasından biri kabul edilen arkeolojik yerleşmedir.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/%C4%B0skenderiye_Kom_es-Shoqafa_Yeralt%C4%B1_Mezarlar%C4%B1",
+    "image": ""
   }
 ]
