@@ -1078,5 +1078,20 @@
     "description": "St Maddern's Church is the parish church of Madron, near Penzance in Cornwall and was once the mother church of Morvah and Penzance. It is a Grade I listed building.",
     "wikipedia": "https://en.wikipedia.org/wiki/St_Maddern's_Church,_Madron",
     "image": ""
+  },
+  {
+    "id": 73,
+    "type": "museum",
+    "name": "Freud Museum London",
+    "country": "England",
+    "state": "",
+    "city": "London",
+    "latitude": 51.548335,
+    "longitude": -0.177459,
+    "website": "https://www.freud.org.uk",
+    "virtual": "https://my.matterport.com/show/?m=Pa3RmEYVqe3",
+    "description": "The Freud Museum in London is a museum dedicated to Sigmund Freud, located in the house where Freud lived with his family during the last year of his life.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Freud_Museum",
+    "image": ""
   }
 ]
