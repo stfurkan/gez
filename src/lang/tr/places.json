@@ -1063,5 +1063,20 @@
     "description": "İstanbul Oyuncak Müzesi, İstanbul'un Kadıköy ilçesinin Göztepe semtinde bulunan ve şair Sunay Akın tarafından 23 Nisan 2005'te kurulan oyuncak müzesidir.",
     "wikipedia": "https://tr.wikipedia.org/wiki/%C4%B0stanbul_Oyuncak_M%C3%BCzesi",
     "image": ""
+  },
+  {
+    "id": 72,
+    "type": "historical",
+    "name": "St Maddern Kilisesi",
+    "country": "İngiltere",
+    "state": "",
+    "city": "Madron",
+    "latitude": 50.131594,
+    "longitude": -5.564822,
+    "website": "https://historicengland.org.uk/listing/the-list/list-entry/1312533",
+    "virtual": "https://my.matterport.com/show/?m=sf9o61BbYkt",
+    "description": "St Maddern Kilisesi, Madron, İngiltere'de bulunan bir kilisedir.",
+    "wikipedia": "https://en.wikipedia.org/wiki/St_Maddern's_Church,_Madron",
+    "image": ""
   }
 ]

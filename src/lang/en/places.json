@@ -1063,5 +1063,20 @@
     "description": "The İstanbul Toy Museum is a toy museum located in the Göztepe neighbourhood of Kadıköy district in İstanbul, Turkey. The museum was founded by the Turkish poet and novelist, Sunay Akın, in 2005. The museum opened on April 23, a national holiday in Turkey, National Sovereignty and Children's Day.",
     "wikipedia": "https://en.wikipedia.org/wiki/%C4%B0stanbul_Toy_Museum",
     "image": ""
+  },
+  {
+    "id": 72,
+    "type": "historical",
+    "name": "St Maddern's Church",
+    "country": "England",
+    "state": "",
+    "city": "Madron",
+    "latitude": 50.131594,
+    "longitude": -5.564822,
+    "website": "https://historicengland.org.uk/listing/the-list/list-entry/1312533",
+    "virtual": "https://my.matterport.com/show/?m=sf9o61BbYkt",
+    "description": "St Maddern's Church is the parish church of Madron, near Penzance in Cornwall and was once the mother church of Morvah and Penzance. It is a Grade I listed building.",
+    "wikipedia": "https://en.wikipedia.org/wiki/St_Maddern's_Church,_Madron",
+    "image": ""
   }
 ]
