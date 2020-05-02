@@ -1338,7 +1338,7 @@
     "id": 90,
     "type": "historical",
     "name": "Sultan Berkuk Camii, Medresesi ve Tekkesi",
-    "country": "Egypt",
+    "country": "Mısır",
     "state": "",
     "city": "Cairo",
     "latitude": 30.050181,
@@ -1347,6 +1347,21 @@
     "virtual": "https://my.matterport.com/show/?m=bN9MbB6cdzi",
     "description": "Sultan Berkuk Camii, Medresesi ve Tekkesi, Kahire, Mısır'da bulunmaktadır.",
     "wikipedia": "https://en.wikipedia.org/wiki/Mosque-Madrassa_of_Sultan_Barquq",
+    "image": ""
+  },
+  {
+    "id": 91,
+    "type": "historical",
+    "name": "Kırmızı Manastır",
+    "country": "Mısır",
+    "state": "",
+    "city": "Sohag",
+    "latitude": 26.555066,
+    "longitude": 31.619325,
+    "website": "https://egymonuments.gov.eg/en/monuments/the-red-monastery",
+    "virtual": "https://my.matterport.com/show/?m=Yyw1F5eGxxZ",
+    "description": "Kırmızı Manastır, Pishay adlı bir Mısır azizinin adını taşıyan Kıpti Ortodoks manastırıdır. Yukarı Mısır şehri Souhag yakınında ve Beyaz Manastırın yaklaşık iki buçuk mil kuzey batısında yer almaktadır. Manastırın adı, kırmızı tuğlalardan oluşan dış duvarlarının inşaat malzemesinin renginden türetilmiştir.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Red_Monastery",
     "image": ""
   }
 ]

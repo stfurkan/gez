@@ -1348,5 +1348,20 @@
     "description": "Mosque-Madrassa of Sultan Barquq or Mosque-Madrassa-Khanqah of Az-Zaher Barquq is a religious complex in Islamic Cairo, the historic medieval district of Cairo, Egypt.",
     "wikipedia": "https://en.wikipedia.org/wiki/Mosque-Madrassa_of_Sultan_Barquq",
     "image": ""
+  },
+  {
+    "id": 91,
+    "type": "historical",
+    "name": "Red Monastery",
+    "country": "Egypt",
+    "state": "",
+    "city": "Sohag",
+    "latitude": 26.555066,
+    "longitude": 31.619325,
+    "website": "https://egymonuments.gov.eg/en/monuments/the-red-monastery",
+    "virtual": "https://my.matterport.com/show/?m=Yyw1F5eGxxZ",
+    "description": "The Red Monastery is a Coptic Orthodox monastery named after an Egyptian saint called Pishay. It is located near the Upper Egyptian city of Souhag, and about two and a half miles north-west of the White Monastery.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Red_Monastery",
+    "image": ""
   }
 ]
