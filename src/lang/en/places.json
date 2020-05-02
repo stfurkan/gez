@@ -1423,5 +1423,20 @@
     "description": "The National Museum of Ireland – Natural History, sometimes called the Dead Zoo, a branch of the National Museum of Ireland, is housed on Merrion Street in Dublin, Ireland.",
     "wikipedia": "https://en.wikipedia.org/wiki/National_Museum_of_Ireland_%E2%80%93_Natural_History",
     "image": ""
+  },
+  {
+    "id": 96,
+    "type": "museum",
+    "name": "Archaeological Museum in Zagreb",
+    "country": "Croatia",
+    "state": "",
+    "city": "Zagreb",
+    "latitude": 45.811069,
+    "longitude": 15.977327,
+    "website": "https://amz.hr/en/home",
+    "virtual": "https://my.matterport.com/show/?m=YKkHt1ZU31D",
+    "description": "The Archaeological Museum in Zagreb, Croatia is an archaeological museum with over 450,000 varied artifacts and monuments, gathered from various sources but mostly from Croatia and in particular from the surroundings of Zagreb. Its predecessor institution was the 'National Museum', open to the public since 1846.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Archaeological_Museum_in_Zagreb",
+    "image": ""
   }
 ]

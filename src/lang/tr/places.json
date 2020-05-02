@@ -1423,5 +1423,20 @@
     "description": "İrlanda Ulusal Doğal Tarih Müzesi, İrlanda Ulusal Müzesi'nin bir kolu olan bazen Ölü Hayvanat Bahçesi olarak adlandırılan Doğa Tarihi Müzesi, İrlanda'nın Dublin kentindeki Merrion Caddesi'nde yer almaktadır.",
     "wikipedia": "https://en.wikipedia.org/wiki/National_Museum_of_Ireland_%E2%80%93_Natural_History",
     "image": ""
+  },
+  {
+    "id": 96,
+    "type": "museum",
+    "name": "Zagreb Arkeoloji Müzesi",
+    "country": "Hırvatistan",
+    "state": "",
+    "city": "Zagreb",
+    "latitude": 45.811069,
+    "longitude": 15.977327,
+    "website": "https://amz.hr/en/home",
+    "virtual": "https://my.matterport.com/show/?m=YKkHt1ZU31D",
+    "description": "Hırvatistan'ın Zagreb şehrindeki Arkeoloji Müzesi, çeşitli kaynaklardan toplanan ve çoğunlukla Hırvatistan'dan ve özellikle de Zagreb'in çevresinden toplanan 450.000'den fazla çeşitli eser ve anıtın bulunduğu bir arkeoloji müzesidir.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Archaeological_Museum_in_Zagreb",
+    "image": ""
   }
 ]
