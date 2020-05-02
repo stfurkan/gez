@@ -1288,5 +1288,20 @@
     "description": "Unas Piramidi Eski Krallık döneminin en küçük piramididir ve Sakkara'da Zoser Piramidi'nin yanında bulunur. Unas antik Mısır'ın 5. hanedanının son krallarından biriydi ve milattan önce 2380'den 2350'a kadar hüküm sürmüştü.",
     "wikipedia": "https://tr.wikipedia.org/wiki/Unas_Piramidi",
     "image": ""
+  },
+  {
+    "id": 87,
+    "type": "historical",
+    "name": "Bab Zuweila",
+    "country": "Mısır",
+    "state": "",
+    "city": "Cairo",
+    "latitude": 30.042844,
+    "longitude": 31.257836,
+    "website": "https://en.wikipedia.org/wiki/Bab_Zuweila",
+    "virtual": "https://my.matterport.com/show/?m=YZXMPtiuR9D",
+    "description": "Bab Zuweila, Mısır'ın başkenti Eski Kahire şehrinin duvarlarında kalan üç kapıdan biridir. Osmanlı döneminde Bawabbat al-Mitwali olarak da bilinirdi ve bazen Bab Zuwayla olarak yazılırdı.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bab_Zuweila",
+    "image": ""
   }
 ]
