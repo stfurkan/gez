@@ -70,7 +70,9 @@
     "question2": "I know a place with a virtual tour feature. Why is there not this place on your site?",
     "answer2": "If you know beautiful places with virtual tour feature, please let us know. We will review your eligible requests as soon as possible and try to update the site.",
     "question3": "Do you collect users' data?",
-    "answer3": "We use Google Analytics for the statistics of our site. Apart from this, we do not keep any information of users. Information of places visited is kept in users' own browsers. If the user wishes, they can delete the location information by deleting the data on the browser."
+    "answer3": "We use Google Analytics for the statistics of our site. Apart from this, we do not keep any information of users. Information of places visited is kept in users' own browsers. If the user wishes, they can delete the location information by deleting the data on the browser.",
+    "question4": "When I enter the site from a different device or browser, I can't see the places I visit and like. Why?",
+    "answer4": "The information of the places you visit and like is saved only in your browser. You can't see this data when you use a different device or browser."
   },
   "about": {
     "pageTitle": "Gez.la | About",

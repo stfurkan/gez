@@ -70,7 +70,9 @@
     "question2": "Sanal tur özelliği olan bir yer biliyorum. Sizin sitenizde bu yer neden yok?",
     "answer2": "Eğer sanal tur özelliği olan güzel yerler biliyorsanız lütfen bize iletin. Uygun olan taleplerinizi en kısa zamanda inceleyerek siteyi güncellemeye çalışacağız.",
     "question3": "Kullanıcıların verilerini topluyor musunuz?",
-    "answer3": "Sitemizin istatistikleri için Google Analytics kullanmaktayız. Bunun dışında kullanıcıların herhangi bir bilgisini tutmuyoruz. Gezilen yerlerin bilgisi, kullanıcıların kendi tarayıcılarında tutulmaktadır. Eğer kullanıcı isterse tarayıcı üzerindekini uygulama verilerini silerek gezilen yer bilgilerini silebilir."
+    "answer3": "Sitemizin istatistikleri için Google Analytics kullanmaktayız. Bunun dışında kullanıcıların herhangi bir bilgisini tutmuyoruz. Gezilen yerlerin bilgisi, kullanıcıların kendi tarayıcılarında tutulmaktadır. Eğer kullanıcı isterse tarayıcı üzerindekini uygulama verilerini silerek gezilen yer bilgilerini silebilir.",
+    "question4": "Farklı bir cihazdan ya da tarayıcıdan siteye girdiğimde ziyaret ettiğim ve beğendiğim yerleri göremiyorum. Neden?",
+    "answer4": "Ziyaret ettiğiniz ve beğendiğiniz yerlerin bilgileri sadece sizin kullandığınız tarayıcınıza kaydedilmektedir. Farklı bir cihazdan ya da tarayıcıdan giriş yaptığınızda bu verilerinizi göremezsiniz."
   },
   "about": {
     "pageTitle": "Gez.la | Hakkında",
