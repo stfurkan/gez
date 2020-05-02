@@ -1333,5 +1333,20 @@
     "description": "El-Geniza Sinagogu olarak da bilinen Ben Ezra Sinagogu Koptik Kahire, Mısır'da bulunur. Sinagogun bulunduğu topraklar 882'de Kudüslü Abraham ibn Ezra tarafından 20,000 dinar karşılığında alınmıştır. Sinagog son şeklini 1892'de almıştır.",
     "wikipedia": "https://tr.wikipedia.org/wiki/Ben_Ezra_Sinagogu",
     "image": ""
+  },
+  {
+    "id": 90,
+    "type": "historical",
+    "name": "Sultan Berkuk Camii, Medresesi ve Tekkesi",
+    "country": "Egypt",
+    "state": "",
+    "city": "Cairo",
+    "latitude": 30.050181,
+    "longitude": 31.263126,
+    "website": "https://egymonuments.gov.eg/en/monuments/mosque-madrasa-and-khanqa-of-sultan-barquq",
+    "virtual": "https://my.matterport.com/show/?m=bN9MbB6cdzi",
+    "description": "Sultan Berkuk Camii, Medresesi ve Tekkesi, Kahire, Mısır'da bulunmaktadır.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mosque-Madrassa_of_Sultan_Barquq",
+    "image": ""
   }
 ]

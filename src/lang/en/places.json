@@ -1333,5 +1333,20 @@
     "description": "The Ben Ezra Synagogue, sometimes referred to as the El-Geniza Synagogue or the Synagogue of the Levantines, is situated in Old Cairo, Egypt.",
     "wikipedia": "https://en.wikipedia.org/wiki/Ben_Ezra_Synagogue",
     "image": ""
+  },
+  {
+    "id": 90,
+    "type": "historical",
+    "name": "Mosque, Madrasa, and Khanqa of Sultan Barquq",
+    "country": "Egypt",
+    "state": "",
+    "city": "Cairo",
+    "latitude": 30.050181,
+    "longitude": 31.263126,
+    "website": "https://egymonuments.gov.eg/en/monuments/mosque-madrasa-and-khanqa-of-sultan-barquq",
+    "virtual": "https://my.matterport.com/show/?m=bN9MbB6cdzi",
+    "description": "Mosque-Madrassa of Sultan Barquq or Mosque-Madrassa-Khanqah of Az-Zaher Barquq is a religious complex in Islamic Cairo, the historic medieval district of Cairo, Egypt.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mosque-Madrassa_of_Sultan_Barquq",
+    "image": ""
   }
 ]
