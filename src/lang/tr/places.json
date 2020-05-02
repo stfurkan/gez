@@ -1318,5 +1318,20 @@
     "description": "Kıpti Müzesi, 1908 yılında Marcus Simaika tarafından Kıpti tarihi eserlerini barındırmak için kuruldu. Müze, Mısır tarihini başlangıcından günümüze kadar izler. ",
     "wikipedia": "https://en.wikipedia.org/wiki/Coptic_Museum",
     "image": ""
+  },
+  {
+    "id": 89,
+    "type": "historical",
+    "name": "Ben Ezra Sinagogu",
+    "country": "Mısır",
+    "state": "",
+    "city": "Cairo",
+    "latitude": 30.005731,
+    "longitude": 31.23102,
+    "website": "https://egymonuments.gov.eg/en/monuments/ben-ezra-synagogue",
+    "virtual": "https://my.matterport.com/show/?m=9sXzU9yY1gw",
+    "description": "El-Geniza Sinagogu olarak da bilinen Ben Ezra Sinagogu Koptik Kahire, Mısır'da bulunur. Sinagogun bulunduğu topraklar 882'de Kudüslü Abraham ibn Ezra tarafından 20,000 dinar karşılığında alınmıştır. Sinagog son şeklini 1892'de almıştır.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/Ben_Ezra_Sinagogu",
+    "image": ""
   }
 ]

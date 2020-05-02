@@ -1318,5 +1318,20 @@
     "description": "The Coptic Museum is a museum in Coptic Cairo, Egypt with the largest collection of Egyptian Christian artifacts in the world. It was founded by Marcus Simaika in 1908 to house Coptic antiquities. The museum traces the history of Egypt from its beginnings to the present day.",
     "wikipedia": "https://en.wikipedia.org/wiki/Coptic_Museum",
     "image": ""
+  },
+  {
+    "id": 89,
+    "type": "historical",
+    "name": "Ben Ezra Synagogue",
+    "country": "Egypt",
+    "state": "",
+    "city": "Cairo",
+    "latitude": 30.005731,
+    "longitude": 31.23102,
+    "website": "https://egymonuments.gov.eg/en/monuments/ben-ezra-synagogue",
+    "virtual": "https://my.matterport.com/show/?m=9sXzU9yY1gw",
+    "description": "The Ben Ezra Synagogue, sometimes referred to as the El-Geniza Synagogue or the Synagogue of the Levantines, is situated in Old Cairo, Egypt.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ben_Ezra_Synagogue",
+    "image": ""
   }
 ]
