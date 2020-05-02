@@ -1438,5 +1438,20 @@
     "description": "Hırvatistan'ın Zagreb şehrindeki Arkeoloji Müzesi, çeşitli kaynaklardan toplanan ve çoğunlukla Hırvatistan'dan ve özellikle de Zagreb'in çevresinden toplanan 450.000'den fazla çeşitli eser ve anıtın bulunduğu bir arkeoloji müzesidir.",
     "wikipedia": "https://en.wikipedia.org/wiki/Archaeological_Museum_in_Zagreb",
     "image": ""
+  },
+  {
+    "id": 97,
+    "type": "museum",
+    "name": "Trakošćan Kalesi",
+    "country": "Hırvatistan",
+    "state": "",
+    "city": "Trakošćan",
+    "latitude": 46.257726,
+    "longitude": 15.945085,
+    "website": "https://www.trakoscan.hr/index-en.html",
+    "virtual": "https://my.matterport.com/show/?m=RyhCmDSdzzo",
+    "description": "Trakošćan Kalesi, kuzey Hırvatistan'da bulunan ve tarihi 13. yüzyıla kadar uzanan bir kaledir.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Trako%C5%A1%C4%87an_Castle",
+    "image": ""
   }
 ]

@@ -1438,5 +1438,20 @@
     "description": "The Archaeological Museum in Zagreb, Croatia is an archaeological museum with over 450,000 varied artifacts and monuments, gathered from various sources but mostly from Croatia and in particular from the surroundings of Zagreb. Its predecessor institution was the 'National Museum', open to the public since 1846.",
     "wikipedia": "https://en.wikipedia.org/wiki/Archaeological_Museum_in_Zagreb",
     "image": ""
+  },
+  {
+    "id": 97,
+    "type": "museum",
+    "name": "Trakošćan Castle",
+    "country": "Croatia",
+    "state": "",
+    "city": "Trakošćan",
+    "latitude": 46.257726,
+    "longitude": 15.945085,
+    "website": "https://www.trakoscan.hr/index-en.html",
+    "virtual": "https://my.matterport.com/show/?m=RyhCmDSdzzo",
+    "description": "Trakošćan Castle is a castle located in northern Croatia that dates back to the 13th century.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Trako%C5%A1%C4%87an_Castle",
+    "image": ""
   }
 ]
