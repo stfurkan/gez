@@ -1378,5 +1378,20 @@
     "description": "Ledenika is a cave in the Northwestern parts of the Balkan Mountains, 16 km away from the Bulgarian city of Vratsa. Its entrance is approximately 830 m above sea level. The cave features an abundance of galleries and impressive karst formations including stalactites and stalagmites.",
     "wikipedia": "https://en.wikipedia.org/wiki/Ledenika",
     "image": ""
+  },
+  {
+    "id": 93,
+    "type": "museum",
+    "name": "National Motorcycle Museum of Australia",
+    "country": "Australia",
+    "state": "NSW",
+    "city": "Nabiac",
+    "latitude": -32.094704,
+    "longitude": 152.383532,
+    "website": "https://nationalmotorcyclemuseum.com.au",
+    "virtual": "https://my.matterport.com/show/?m=hEAwv2x1mgQ",
+    "description": "The National Motorcycle Museum was initially located in Mitchell, a suburb of Canberra, Australia in 1990. It was started by Brian and Margaret Kelleher, who at this time had been in the motorcycle retail industry for 18 years. Brian had been collecting motorcycles before starting the motorcycle business and they continued storing motorcycles and memorabilia with the dream of one day opening a museum. The museum is located in the historic village of Nabiac, 28 kilometres south of Taree and 140 kilometres north of Newcastle on the Pacific Highway, on the Mid North Coast of New South Wales, Australia.",
+    "wikipedia": "",
+    "image": ""
   }
 ]

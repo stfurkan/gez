@@ -1378,5 +1378,20 @@
     "description": "Ledenika, Balkan Dağları'nın kuzeybatı kesiminde, Bulgaristan'ın Vratsa kentine 16 km uzaklıkta bir mağaradır. Girişi deniz seviyesinden yaklaşık 830 m yukarıdadır. ",
     "wikipedia": "https://en.wikipedia.org/wiki/Ledenika",
     "image": ""
+  },
+  {
+    "id": 93,
+    "type": "museum",
+    "name": "Avustralya Ulusal Motosiklet Müzesi",
+    "country": "Avustralya",
+    "state": "NSW",
+    "city": "Nabiac",
+    "latitude": -32.094704,
+    "longitude": 152.383532,
+    "website": "https://nationalmotorcyclemuseum.com.au",
+    "virtual": "https://my.matterport.com/show/?m=hEAwv2x1mgQ",
+    "description": "Ulusal Motosiklet Müzesi ilk olarak 1990 yılında Avustralya'nın Canberra banliyösünde bulunan Mitchell'de bulunuyordu. 18 yıldır motosiklet perakende sektöründe olan Brian ve Margaret Kelleher tarafından başlatıldı. Brian, motosiklet işine başlamadan önce motosiklet topluyordu ve bir gün müze açma hayali ile motosiklet ve hatıra saklamaya devam ettiler. Müze, Avustralya'nın Yeni Güney Galler'in Orta Kuzey Kıyısı'ndaki Pasifik Yolu üzerindeki Taree'nin 28 kilometre güneyinde ve Newcastle'ın 140 kilometre kuzeyinde tarihi Nabiac köyünde yer almaktadır.",
+    "wikipedia": "",
+    "image": ""
   }
 ]
