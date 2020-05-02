@@ -1468,5 +1468,20 @@
     "description": "Nikola Tesla Teknik Müzesi, Zagreb'deki 18 Savska Caddesi'nde bulunmaktadır. Müzede çok sayıda tarihi uçak, araba, makine ve ekipman sergilenmektedir.",
     "wikipedia": "https://en.wikipedia.org/wiki/Technical_Museum,_Zagreb",
     "image": ""
+  },
+  {
+    "id": 99,
+    "type": "historical",
+    "name": "Edebiyat Tapınağı",
+    "country": "Vietnam",
+    "state": "",
+    "city": "Hanoi",
+    "latitude": 21.029357,
+    "longitude": 105.836112,
+    "website": "http://vanmieu.gov.vn/en",
+    "virtual": "https://my.matterport.com/show/?m=xU7yuAAD2Sy",
+    "description": "Văn Miếu, Vietnam'ın kuzeyindeki Hanoi'deki Konfüçyüs'e adanmış bir tapınaktır. Tapınak ayrıca Vietnam'ın ilk ulusal üniversitesi Imperial Academy'ye de ev sahipliği yapıyor. Tapınak 1070 yılında İmparator Lý Thánh Tông zamanında inşa edilmiştir.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Temple_of_Literature,_Hanoi",
+    "image": ""
   }
 ]
