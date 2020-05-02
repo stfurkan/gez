@@ -1303,5 +1303,20 @@
     "description": "Bab Zuweila is one of three remaining gates in the walls of the Old City of Cairo, the capital of Egypt. It was also known as Bawabbat al-Mitwali during the Ottoman period, and is sometimes spelled Bab Zuwayla.",
     "wikipedia": "https://en.wikipedia.org/wiki/Bab_Zuweila",
     "image": ""
+  },
+  {
+    "id": 88,
+    "type": "museum",
+    "name": "Coptic Museum",
+    "country": "Egypt",
+    "state": "",
+    "city": "Cairo",
+    "latitude": 30.005614,
+    "longitude": 31.230105,
+    "website": "http://www.coptic-cairo.com/museum/museum.html",
+    "virtual": "https://my.matterport.com/show/?m=yMMHWqMJZbY",
+    "description": "The Coptic Museum is a museum in Coptic Cairo, Egypt with the largest collection of Egyptian Christian artifacts in the world. It was founded by Marcus Simaika in 1908 to house Coptic antiquities. The museum traces the history of Egypt from its beginnings to the present day.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Coptic_Museum",
+    "image": ""
   }
 ]
