@@ -1363,5 +1363,20 @@
     "description": "Kırmızı Manastır, Pishay adlı bir Mısır azizinin adını taşıyan Kıpti Ortodoks manastırıdır. Yukarı Mısır şehri Souhag yakınında ve Beyaz Manastırın yaklaşık iki buçuk mil kuzey batısında yer almaktadır. Manastırın adı, kırmızı tuğlalardan oluşan dış duvarlarının inşaat malzemesinin renginden türetilmiştir.",
     "wikipedia": "https://en.wikipedia.org/wiki/Red_Monastery",
     "image": ""
+  },
+  {
+    "id": 92,
+    "type": "nature",
+    "name": "Ledenika Mağarası",
+    "country": "Bulgaristan",
+    "state": "",
+    "city": "Vratsa",
+    "latitude": 43.204444,
+    "longitude": 23.491089,
+    "website": "http://vr-balkan.net/en/ledenika-cave/",
+    "virtual": "https://my.matterport.com/show/?m=xPtaPgnuecy",
+    "description": "Ledenika, Balkan Dağları'nın kuzeybatı kesiminde, Bulgaristan'ın Vratsa kentine 16 km uzaklıkta bir mağaradır. Girişi deniz seviyesinden yaklaşık 830 m yukarıdadır. ",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ledenika",
+    "image": ""
   }
 ]

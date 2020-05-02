@@ -1363,5 +1363,20 @@
     "description": "The Red Monastery is a Coptic Orthodox monastery named after an Egyptian saint called Pishay. It is located near the Upper Egyptian city of Souhag, and about two and a half miles north-west of the White Monastery.",
     "wikipedia": "https://en.wikipedia.org/wiki/Red_Monastery",
     "image": ""
+  },
+  {
+    "id": 92,
+    "type": "nature",
+    "name": "Cave Ledenika",
+    "country": "Bulgaria",
+    "state": "",
+    "city": "Vratsa",
+    "latitude": 43.204444,
+    "longitude": 23.491089,
+    "website": "http://vr-balkan.net/en/ledenika-cave/",
+    "virtual": "https://my.matterport.com/show/?m=xPtaPgnuecy",
+    "description": "Ledenika is a cave in the Northwestern parts of the Balkan Mountains, 16 km away from the Bulgarian city of Vratsa. Its entrance is approximately 830 m above sea level. The cave features an abundance of galleries and impressive karst formations including stalactites and stalagmites.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ledenika",
+    "image": ""
   }
 ]
