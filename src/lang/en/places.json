@@ -1393,5 +1393,20 @@
     "description": "The National Motorcycle Museum was initially located in Mitchell, a suburb of Canberra, Australia in 1990. It was started by Brian and Margaret Kelleher, who at this time had been in the motorcycle retail industry for 18 years. Brian had been collecting motorcycles before starting the motorcycle business and they continued storing motorcycles and memorabilia with the dream of one day opening a museum. The museum is located in the historic village of Nabiac, 28 kilometres south of Taree and 140 kilometres north of Newcastle on the Pacific Highway, on the Mid North Coast of New South Wales, Australia.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 94,
+    "type": "museum",
+    "name": "Narvik War Museum",
+    "country": "Norway",
+    "state": "",
+    "city": "Narvik",
+    "latitude": 68.43802,
+    "longitude": 17.426002,
+    "website": "https://warmuseum.no",
+    "virtual": "https://my.matterport.com/show/?m=Rntuqz6nz6D",
+    "description": "The Narvik War Museum covers the war years 1940–1945.",
+    "wikipedia": "",
+    "image": ""
   }
 ]
