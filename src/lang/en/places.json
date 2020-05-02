@@ -1498,5 +1498,20 @@
     "description": "Maniniholo Dry Cave is located directly across the street from Haena Beach Park. This large opening dry cave can be explored easily.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 101,
+    "type": "museum",
+    "name": "Opera Gallery New York",
+    "country": "United States",
+    "state": "NY",
+    "city": "New York City",
+    "latitude": 40.768401,
+    "longitude": -73.967579,
+    "website": "https://www.operagallery.com/",
+    "virtual": "https://my.matterport.com/show/?m=rA1S5s4imf6",
+    "description": "Founded by Gilles Dyan in 1994, Opera Gallery is one of the leading international dealers and representatives of Modern and Contemporary Art.",
+    "wikipedia": "",
+    "image": ""
   }
 ]

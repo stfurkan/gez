@@ -1498,5 +1498,20 @@
     "description": "Maniniholo Kuru Mağarası, Haena Beach Park'ın hemen karşısında yer almaktadır. Bu büyük açık kuru mağara kolayca keşfedibilir.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 101,
+    "type": "museum",
+    "name": "Opera Galerisi New York",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "NY",
+    "city": "New York City",
+    "latitude": 40.768401,
+    "longitude": -73.967579,
+    "website": "https://www.operagallery.com/",
+    "virtual": "https://my.matterport.com/show/?m=rA1S5s4imf6",
+    "description": "1994 yılında Gilles Dyan tarafından kurulan Opera Galerisi, Modern ve Çağdaş Sanat'ın önde gelen uluslararası bayilerinden ve temsilcilerinden biridir.",
+    "wikipedia": "",
+    "image": ""
   }
 ]
