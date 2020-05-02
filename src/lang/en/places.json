@@ -1508,9 +1508,24 @@
     "city": "New York City",
     "latitude": 40.768401,
     "longitude": -73.967579,
-    "website": "https://www.operagallery.com/",
+    "website": "https://www.operagallery.com",
     "virtual": "https://my.matterport.com/show/?m=rA1S5s4imf6",
     "description": "Founded by Gilles Dyan in 1994, Opera Gallery is one of the leading international dealers and representatives of Modern and Contemporary Art.",
+    "wikipedia": "",
+    "image": ""
+  },
+  {
+    "id": 102,
+    "type": "museum",
+    "name": "Home Sweet Home Museum",
+    "country": "United States",
+    "state": "NY",
+    "city": "East Hampton",
+    "latitude": 40.95665,
+    "longitude": -72.191052,
+    "website": "https://www.easthamptonvillage.org/229/Home-Sweet-Home-Museum",
+    "virtual": "https://my.matterport.com/show/?m=cKCkDPrwFue",
+    "description": "'Home, Sweet Home' on James Lane was built in the early 1700's and is the most distinguished lean-to or 'saltbox' in East Hampton. It is a vivid reminder of what homes were like in the early English settlement.",
     "wikipedia": "",
     "image": ""
   }

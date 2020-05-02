@@ -1513,5 +1513,20 @@
     "description": "1994 yılında Gilles Dyan tarafından kurulan Opera Galerisi, Modern ve Çağdaş Sanat'ın önde gelen uluslararası bayilerinden ve temsilcilerinden biridir.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 102,
+    "type": "museum",
+    "name": "Evim Güzel Evim Müzesi",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "NY",
+    "city": "East Hampton",
+    "latitude": 40.95665,
+    "longitude": -72.191052,
+    "website": "https://www.easthamptonvillage.org/229/Home-Sweet-Home-Museum",
+    "virtual": "https://my.matterport.com/show/?m=cKCkDPrwFue",
+    "description": "'Evim Güzel Evim' 1700'lerin başında inşa edilmiştir ve East Hampton, NY'da bulunmaktadır.",
+    "wikipedia": "",
+    "image": ""
   }
 ]
