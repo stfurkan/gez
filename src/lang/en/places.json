@@ -1558,5 +1558,20 @@
     "description": "Zoo Basel is a non-profit zoo in the city of Basel, Switzerland. Its official name is Zoologischer Garten Basel — or in English: Basel Zoological Garden. Basel residents affectionately call it Zolli.",
     "wikipedia": "https://en.wikipedia.org/wiki/Basel_Zoo",
     "image": ""
+  },
+  {
+    "id": 105,
+    "type": "museum",
+    "name": "ProMedica Museum of Natural History",
+    "country": "United States",
+    "state": "OH",
+    "city": "Toledo",
+    "latitude": 41.62164,
+    "longitude": -83.582542,
+    "website": "https://www.toledozoo.org/museum",
+    "virtual": "https://my.matterport.com/show/?m=RjahmM52WcA",
+    "description": "ProMedica Museum of Natural History is located in Toledo Zoo.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Basel_Zoo",
+    "image": ""
   }
 ]

@@ -1558,5 +1558,20 @@
     "description": "Basel Hayvanat Bahçesi, İsviçre'nin Basel şehrinde bulunan kar amacı gütmeyen bir hayvanat bahçesidir. ",
     "wikipedia": "https://en.wikipedia.org/wiki/Basel_Zoo",
     "image": ""
+  },
+  {
+    "id": 105,
+    "type": "museum",
+    "name": "ProMedica Doğa Tarihi Müzesi",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "OH",
+    "city": "Toledo",
+    "latitude": 41.62164,
+    "longitude": -83.582542,
+    "website": "https://www.toledozoo.org/museum",
+    "virtual": "https://my.matterport.com/show/?m=RjahmM52WcA",
+    "description": "ProMedica Doğal Tarih Müzesi, Toledo Hayvanat Bahçesi'nde yer almaktadır.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Basel_Zoo",
+    "image": ""
   }
 ]
