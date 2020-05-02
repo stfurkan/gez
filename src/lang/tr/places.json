@@ -1453,5 +1453,20 @@
     "description": "Trakošćan Kalesi, kuzey Hırvatistan'da bulunan ve tarihi 13. yüzyıla kadar uzanan bir kaledir.",
     "wikipedia": "https://en.wikipedia.org/wiki/Trako%C5%A1%C4%87an_Castle",
     "image": ""
+  },
+  {
+    "id": 98,
+    "type": "museum",
+    "name": "Nikola Tesla Teknoloji Müzesi",
+    "country": "Hırvatistan",
+    "state": "",
+    "city": "Zagreb",
+    "latitude": 45.804179,
+    "longitude": 15.96397,
+    "website": "https://tmnt.hr",
+    "virtual": "https://my.matterport.com/show/?m=n633mYMWhbZ",
+    "description": "Nikola Tesla Teknik Müzesi, Zagreb'deki 18 Savska Caddesi'nde bulunmaktadır. Müzede çok sayıda tarihi uçak, araba, makine ve ekipman sergilenmektedir.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Technical_Museum,_Zagreb",
+    "image": ""
   }
 ]

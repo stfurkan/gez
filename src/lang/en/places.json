@@ -1453,5 +1453,20 @@
     "description": "Trakošćan Castle is a castle located in northern Croatia that dates back to the 13th century.",
     "wikipedia": "https://en.wikipedia.org/wiki/Trako%C5%A1%C4%87an_Castle",
     "image": ""
+  },
+  {
+    "id": 98,
+    "type": "museum",
+    "name": "Nikola Tesla Technical Museum",
+    "country": "Croatia",
+    "state": "",
+    "city": "Zagreb",
+    "latitude": 45.804179,
+    "longitude": 15.96397,
+    "website": "https://tmnt.hr",
+    "virtual": "https://my.matterport.com/show/?m=n633mYMWhbZ",
+    "description": "The Nikola Tesla Technical Museum is located at 18 Savska Street in Zagreb and it exhibits numerous historic aircraft, cars, machinery and equipment.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Technical_Museum,_Zagreb",
+    "image": ""
   }
 ]
