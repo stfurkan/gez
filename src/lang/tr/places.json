@@ -1543,5 +1543,20 @@
     "description": "Arusha Kültürel Miras Merkezi, Tanzanya'nın Arusha şehrinde bulunmaktadır. Tanzanya'nın 120'den fazla kabilesinin geçmişi ve bugünü tek bir bileşikte toplanmıştır. Merkezde çeşitli oymalar, değerli taşlar, eserler, kıyafetler ve kitaplar bulunmaktadır.",
     "wikipedia": "https://en.wikipedia.org/wiki/Arusha_Cultural_Heritage_Centre",
     "image": ""
+  },
+  {
+    "id": 104,
+    "type": "zoo",
+    "name": "Basel Hayvanat Bahçesi",
+    "country": "İsviçre",
+    "state": "",
+    "city": "Basel",
+    "latitude": 47.547421,
+    "longitude": 7.578751,
+    "website": "https://www.zoobasel.ch/en",
+    "virtual": "https://my.matterport.com/show/?m=99B8LEjy6ZF",
+    "description": "Basel Hayvanat Bahçesi, İsviçre'nin Basel şehrinde bulunan kar amacı gütmeyen bir hayvanat bahçesidir. ",
+    "wikipedia": "https://en.wikipedia.org/wiki/Basel_Zoo",
+    "image": ""
   }
 ]

@@ -1543,5 +1543,20 @@
     "description": "The Arusha Cultural Heritage Centre is located in Arusha, Tanzania. It is a place where the past and present of the Tanzania's 120-plus tribes can be viewed in a single compound. The centre boasts of various carvings, gemstones, artifacts, clothing and books.",
     "wikipedia": "https://en.wikipedia.org/wiki/Arusha_Cultural_Heritage_Centre",
     "image": ""
+  },
+  {
+    "id": 104,
+    "type": "zoo",
+    "name": "Zoo Basel",
+    "country": "Switzerland",
+    "state": "",
+    "city": "Basel",
+    "latitude": 47.547421,
+    "longitude": 7.578751,
+    "website": "https://www.zoobasel.ch/en",
+    "virtual": "https://my.matterport.com/show/?m=99B8LEjy6ZF",
+    "description": "Zoo Basel is a non-profit zoo in the city of Basel, Switzerland. Its official name is Zoologischer Garten Basel — or in English: Basel Zoological Garden. Basel residents affectionately call it Zolli.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Basel_Zoo",
+    "image": ""
   }
 ]
