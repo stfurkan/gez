@@ -1483,5 +1483,20 @@
     "description": "Văn Miếu is a temple dedicated to Confucius in Hanoi, northern Vietnam. The temple also hosts the Imperial Academy, Vietnam's first national university. The temple was built in 1070 at the time of Emperor Lý Thánh Tông. It is one of several temples in Vietnam which is dedicated to Confucius, sages and scholars.",
     "wikipedia": "https://en.wikipedia.org/wiki/Temple_of_Literature,_Hanoi",
     "image": ""
+  },
+  {
+    "id": 100,
+    "type": "nature",
+    "name": "Maniniholo Dry Cave",
+    "country": "United States",
+    "state": "Hawaii",
+    "city": "Kauai",
+    "latitude": 22.219221,
+    "longitude": -159.565538,
+    "website": "https://www.kauai.com/wet-and-dry-caves",
+    "virtual": "https://my.matterport.com/show/?m=kJrx5wPqR9E",
+    "description": "Maniniholo Dry Cave is located directly across the street from Haena Beach Park. This large opening dry cave can be explored easily.",
+    "wikipedia": "",
+    "image": ""
   }
 ]

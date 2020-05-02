@@ -1483,5 +1483,20 @@
     "description": "Văn Miếu, Vietnam'ın kuzeyindeki Hanoi'deki Konfüçyüs'e adanmış bir tapınaktır. Tapınak ayrıca Vietnam'ın ilk ulusal üniversitesi Imperial Academy'ye de ev sahipliği yapıyor. Tapınak 1070 yılında İmparator Lý Thánh Tông zamanında inşa edilmiştir.",
     "wikipedia": "https://en.wikipedia.org/wiki/Temple_of_Literature,_Hanoi",
     "image": ""
+  },
+  {
+    "id": 100,
+    "type": "nature",
+    "name": "Maniniholo Kuru Mağarası",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "Hawaii",
+    "city": "Kauai",
+    "latitude": 22.219221,
+    "longitude": -159.565538,
+    "website": "https://www.kauai.com/wet-and-dry-caves",
+    "virtual": "https://my.matterport.com/show/?m=kJrx5wPqR9E",
+    "description": "Maniniholo Kuru Mağarası, Haena Beach Park'ın hemen karşısında yer almaktadır. Bu büyük açık kuru mağara kolayca keşfedibilir.",
+    "wikipedia": "",
+    "image": ""
   }
 ]
