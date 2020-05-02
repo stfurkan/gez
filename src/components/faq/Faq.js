@@ -17,6 +17,8 @@ export default function Faq({ lang }) {
           <p>{lang.answer2}</p>
           <h2 className='is-size-4'>{lang.question3}</h2>
           <p>{lang.answer3}</p>
+          <h2 className='is-size-4'>{lang.question4}</h2>
+          <p>{lang.answer4}</p>
         </div>
       </div>
     </section>
