@@ -1408,5 +1408,20 @@
     "description": "The Narvik War Museum covers the war years 1940–1945.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 95,
+    "type": "museum",
+    "name": "National Museum of Ireland - Natural History",
+    "country": "Ireland",
+    "state": "",
+    "city": "Dublin",
+    "latitude": 53.339787,
+    "longitude": -6.253013,
+    "website": "https://www.museum.ie/en-IE/Museums/Natural-History",
+    "virtual": "https://my.matterport.com/show/?m=rHqMPpFRgjc",
+    "description": "The National Museum of Ireland – Natural History, sometimes called the Dead Zoo, a branch of the National Museum of Ireland, is housed on Merrion Street in Dublin, Ireland.",
+    "wikipedia": "https://en.wikipedia.org/wiki/National_Museum_of_Ireland_%E2%80%93_Natural_History",
+    "image": ""
   }
 ]

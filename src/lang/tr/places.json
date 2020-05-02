@@ -1408,5 +1408,20 @@
     "description": "Narvik Savaş Müzesi 1940–1945 arasındaki savaş yıllarını kapsamaktadır.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 95,
+    "type": "museum",
+    "name": "İrlanda Ulusal Doğal Tarih Müzesi",
+    "country": "İrlanda",
+    "state": "",
+    "city": "Dublin",
+    "latitude": 53.339787,
+    "longitude": -6.253013,
+    "website": "https://www.museum.ie/en-IE/Museums/Natural-History",
+    "virtual": "https://my.matterport.com/show/?m=rHqMPpFRgjc",
+    "description": "İrlanda Ulusal Doğal Tarih Müzesi, İrlanda Ulusal Müzesi'nin bir kolu olan bazen Ölü Hayvanat Bahçesi olarak adlandırılan Doğa Tarihi Müzesi, İrlanda'nın Dublin kentindeki Merrion Caddesi'nde yer almaktadır.",
+    "wikipedia": "https://en.wikipedia.org/wiki/National_Museum_of_Ireland_%E2%80%93_Natural_History",
+    "image": ""
   }
 ]
