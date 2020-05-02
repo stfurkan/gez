@@ -1528,5 +1528,20 @@
     "description": "'Home, Sweet Home' on James Lane was built in the early 1700's and is the most distinguished lean-to or 'saltbox' in East Hampton. It is a vivid reminder of what homes were like in the early English settlement.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 103,
+    "type": "museum",
+    "name": "Arusha Cultural Heritage Centre",
+    "country": "Tanzania",
+    "state": "",
+    "city": "Arusha",
+    "latitude": -3.377024,
+    "longitude": 36.657635,
+    "website": "http://culturalheritage.co.tz",
+    "virtual": "https://my.matterport.com/show/?m=g9enQCzTgT1",
+    "description": "The Arusha Cultural Heritage Centre is located in Arusha, Tanzania. It is a place where the past and present of the Tanzania's 120-plus tribes can be viewed in a single compound. The centre boasts of various carvings, gemstones, artifacts, clothing and books.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Arusha_Cultural_Heritage_Centre",
+    "image": ""
   }
 ]
