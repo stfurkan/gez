@@ -1678,5 +1678,20 @@
     "description": "North Carolina Tarih Müzesi, North Carolina eyaletinin Raleigh şehir merkezinde bulunan bir tarih müzesidir.",
     "wikipedia": "https://en.wikipedia.org/wiki/North_Carolina_Museum_of_History",
     "image": ""
+  },
+  {
+    "id": 113,
+    "type": "museum",
+    "name": "Booth Western Sanat Müzesi",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "GA",
+    "city": "Cartersville",
+    "latitude": 34.168331,
+    "longitude": -84.79615,
+    "website": "https://boothmuseum.org",
+    "virtual": "https://my.matterport.com/show/?m=8LT2FEsXSJS",
+    "description": "Booth Western Sanat Müzesi, Georgia eyaletinin Cartersville şehrinde bulunmaktadır.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Booth_Western_Art_Museum",
+    "image": ""
   }
 ]

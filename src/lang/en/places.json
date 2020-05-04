@@ -1678,5 +1678,20 @@
     "description": "The North Carolina Museum of History is a history museum located in downtown Raleigh, North Carolina. It is an affiliate through the Smithsonian Affiliations program.",
     "wikipedia": "https://en.wikipedia.org/wiki/North_Carolina_Museum_of_History",
     "image": ""
+  },
+  {
+    "id": 113,
+    "type": "museum",
+    "name": "Booth Western Art Museum",
+    "country": "United States",
+    "state": "GA",
+    "city": "Cartersville",
+    "latitude": 34.168331,
+    "longitude": -84.79615,
+    "website": "https://boothmuseum.org",
+    "virtual": "https://my.matterport.com/show/?m=8LT2FEsXSJS",
+    "description": "Booth Western Art Museum, located in Cartersville, Georgia, is a museum dedicated to the Western United States; the only museum of its kind in the Southeastern United States.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Booth_Western_Art_Museum",
+    "image": ""
   }
 ]
