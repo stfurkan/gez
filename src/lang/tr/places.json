@@ -1633,5 +1633,20 @@
     "description": "II. Dünya Savaşı Planör ve Askeri Müzesi, Iron Mountain, Michigan'da yer almaktadır.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 110,
+    "type": "museum",
+    "name": "Jim Crow Irkçı Hatıra Müzesi",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "MI",
+    "city": "Big Rapids",
+    "latitude": 43.687573,
+    "longitude": -85.481736,
+    "website": "https://www.ferris.edu/jimcrow",
+    "virtual": "https://my.matterport.com/show/?m=8miUGt2wCtB",
+    "description": "Jim Crow Irkçı Hatıra Müzesi, Ferris State Üniversitesi bünyesinde Big Rapids, Michigan'da bulunmaktadır.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jim_Crow_Museum_of_Racist_Memorabilia",
+    "image": ""
   }
 ]

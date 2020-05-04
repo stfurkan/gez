@@ -1633,5 +1633,20 @@
     "description": "World War II Glider and Military Museum is located in Iron Mountain, Michigan.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 110,
+    "type": "museum",
+    "name": "Jim Crow Museum of Racist Memorabilia",
+    "country": "United States",
+    "state": "MI",
+    "city": "Big Rapids",
+    "latitude": 43.687573,
+    "longitude": -85.481736,
+    "website": "https://www.ferris.edu/jimcrow",
+    "virtual": "https://my.matterport.com/show/?m=8miUGt2wCtB",
+    "description": "The Jim Crow Museum of Racist Memorabilia at Ferris State University, Big Rapids, Michigan, displays a wide variety of everyday artifacts depicting the history of racist portrayals of African Americans in American popular culture.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jim_Crow_Museum_of_Racist_Memorabilia",
+    "image": ""
   }
 ]
