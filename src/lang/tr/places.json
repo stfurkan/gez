@@ -1588,5 +1588,20 @@
     "description": "Bristol Müzesi ve Sanat Galerisi, Bristol, İngiltere'deki büyük bir müze ve sanat galerisidir.",
     "wikipedia": "https://en.wikipedia.org/wiki/Bristol_City_Museum_and_Art_Gallery",
     "image": ""
+  },
+  {
+    "id": 107,
+    "type": "historical",
+    "name": "Fort Adams",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "RI",
+    "city": "Newport",
+    "latitude": 41.474993,
+    "longitude": -71.341106,
+    "website": "https://fortadams.org",
+    "virtual": "https://my.matterport.com/show/?m=xqhRxAaLzLf",
+    "description": "Fort Adams, Newport'taki eski bir ABD ordusu karargahıdır ve 4 Temmuz 1799'da o sırada görevde bulunan Başkan John Adams'tan adını almıştır.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fort_Adams",
+    "image": ""
   }
 ]

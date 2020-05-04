@@ -1588,5 +1588,20 @@
     "description": "Bristol Museum and Art Gallery is a large museum and art gallery in Bristol, England.",
     "wikipedia": "https://en.wikipedia.org/wiki/Bristol_City_Museum_and_Art_Gallery",
     "image": ""
+  },
+  {
+    "id": 107,
+    "type": "historical",
+    "name": "Fort Adams",
+    "country": "United States",
+    "state": "RI",
+    "city": "Newport",
+    "latitude": 41.474993,
+    "longitude": -71.341106,
+    "website": "https://fortadams.org",
+    "virtual": "https://my.matterport.com/show/?m=xqhRxAaLzLf",
+    "description": "Fort Adams is a former United States Army post in Newport, Rhode Island that was established on July 4, 1799 as a First System coastal fortification, named for President John Adams who was in office at the time. Its first commander was Captain John Henry who was later instrumental in starting the War of 1812.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fort_Adams",
+    "image": ""
   }
 ]
