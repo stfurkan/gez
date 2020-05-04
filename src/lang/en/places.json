@@ -1618,5 +1618,20 @@
     "description": "The Jefferson Memorial is a presidential memorial built in Washington, D.C. between 1939 and 1943 under the sponsorship of President Franklin D. Roosevelt.",
     "wikipedia": "https://en.wikipedia.org/wiki/Jefferson_Memorial",
     "image": ""
+  },
+  {
+    "id": 109,
+    "type": "museum",
+    "name": "World War II Glider and Military Museum",
+    "country": "United States",
+    "state": "MI",
+    "city": "Iron Mountain",
+    "latitude": 45.824959,
+    "longitude": -88.070518,
+    "website": "https://menomineemuseum.com/glidermuseum",
+    "virtual": "https://my.matterport.com/show/?m=piBJbvf9Ffh",
+    "description": "World War II Glider and Military Museum is located in Iron Mountain, Michigan.",
+    "wikipedia": "",
+    "image": ""
   }
 ]

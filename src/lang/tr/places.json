@@ -1618,5 +1618,20 @@
     "description": "Thomas Jefferson Anıtı, Amerika Birleşik Devletleri'nin kurucularından ve üçüncü başkanı Thomas Jefferson'a adanmış ve de ABD'nin başkenti Washington'da yer alan bir anıttır. Neoklasik mimariye sahip olan yapı John Russell Pope tarafından tasarlandı.",
     "wikipedia": "https://tr.wikipedia.org/wiki/Thomas_Jefferson_An%C4%B1t%C4%B1",
     "image": ""
+  },
+  {
+    "id": 109,
+    "type": "museum",
+    "name": "II. Dünya Savaşı Planör ve Askeri Müzesi",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "MI",
+    "city": "Iron Mountain",
+    "latitude": 45.824959,
+    "longitude": -88.070518,
+    "website": "https://menomineemuseum.com/glidermuseum",
+    "virtual": "https://my.matterport.com/show/?m=piBJbvf9Ffh",
+    "description": "II. Dünya Savaşı Planör ve Askeri Müzesi, Iron Mountain, Michigan'da yer almaktadır.",
+    "wikipedia": "",
+    "image": ""
   }
 ]
