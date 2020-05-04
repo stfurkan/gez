@@ -1693,5 +1693,20 @@
     "description": "Booth Western Sanat Müzesi, Georgia eyaletinin Cartersville şehrinde bulunmaktadır.",
     "wikipedia": "https://en.wikipedia.org/wiki/Booth_Western_Art_Museum",
     "image": ""
+  },
+  {
+    "id": 114,
+    "type": "museum",
+    "name": "Para Müzesi",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "CO",
+    "city": "Colorado Springs",
+    "latitude": 38.845838,
+    "longitude": -104.825208,
+    "website": "https://www.money.org/money-museum",
+    "virtual": "https://my.matterport.com/show/?m=FRr7totpPRf",
+    "description": "Paranın keşfi ile Amerika'nın nümismatiklere adanmış en büyük müzesi, kültürü hayata geçiriyor. Müze, paranın ve ilgili öğelerin farklı doğasını tanıtmak için sanat, tarih, bilim ve çok daha fazlasını araştırmaktadır.",
+    "wikipedia": "",
+    "image": ""
   }
 ]

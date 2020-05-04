@@ -1693,5 +1693,20 @@
     "description": "Booth Western Art Museum, located in Cartersville, Georgia, is a museum dedicated to the Western United States; the only museum of its kind in the Southeastern United States.",
     "wikipedia": "https://en.wikipedia.org/wiki/Booth_Western_Art_Museum",
     "image": ""
+  },
+  {
+    "id": 114,
+    "type": "museum",
+    "name": "Money Museum",
+    "country": "United States",
+    "state": "CO",
+    "city": "Colorado Springs",
+    "latitude": 38.845838,
+    "longitude": -104.825208,
+    "website": "https://www.money.org/money-museum",
+    "virtual": "https://my.matterport.com/show/?m=FRr7totpPRf",
+    "description": "Through the discovery of money, America’s largest museum dedicated to numismatics brings culture to life. The museum explores art, history, science and much more to promote the diverse nature of money and related items.",
+    "wikipedia": "",
+    "image": ""
   }
 ]
