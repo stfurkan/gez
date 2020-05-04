@@ -1573,5 +1573,20 @@
     "description": "ProMedica Museum of Natural History is located in Toledo Zoo.",
     "wikipedia": "https://en.wikipedia.org/wiki/Basel_Zoo",
     "image": ""
+  },
+  {
+    "id": 106,
+    "type": "museum",
+    "name": "Bristol Museum and Art Gallery",
+    "country": "England",
+    "state": "",
+    "city": "Bristol",
+    "latitude": 51.456495,
+    "longitude": -2.605095,
+    "website": "https://www.bristolmuseums.org.uk/bristol-museum-and-art-gallery",
+    "virtual": "https://my.matterport.com/show/?m=eFZRG9P6s4L",
+    "description": "Bristol Museum and Art Gallery is a large museum and art gallery in Bristol, England.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bristol_City_Museum_and_Art_Gallery",
+    "image": ""
   }
 ]

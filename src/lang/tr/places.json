@@ -1508,7 +1508,7 @@
     "city": "New York City",
     "latitude": 40.768401,
     "longitude": -73.967579,
-    "website": "https://www.operagallery.com/",
+    "website": "https://www.operagallery.com",
     "virtual": "https://my.matterport.com/show/?m=rA1S5s4imf6",
     "description": "1994 yılında Gilles Dyan tarafından kurulan Opera Galerisi, Modern ve Çağdaş Sanat'ın önde gelen uluslararası bayilerinden ve temsilcilerinden biridir.",
     "wikipedia": "",
@@ -1572,6 +1572,21 @@
     "virtual": "https://my.matterport.com/show/?m=RjahmM52WcA",
     "description": "ProMedica Doğal Tarih Müzesi, Toledo Hayvanat Bahçesi'nde yer almaktadır.",
     "wikipedia": "https://en.wikipedia.org/wiki/Basel_Zoo",
+    "image": ""
+  },
+  {
+    "id": 106,
+    "type": "museum",
+    "name": "Bristol Müzesi ve Sanat Galerisi",
+    "country": "İngiltere",
+    "state": "",
+    "city": "Bristol",
+    "latitude": 51.456495,
+    "longitude": -2.605095,
+    "website": "https://www.bristolmuseums.org.uk/bristol-museum-and-art-gallery",
+    "virtual": "https://my.matterport.com/show/?m=eFZRG9P6s4L",
+    "description": "Bristol Müzesi ve Sanat Galerisi, Bristol, İngiltere'deki büyük bir müze ve sanat galerisidir.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bristol_City_Museum_and_Art_Gallery",
     "image": ""
   }
 ]
