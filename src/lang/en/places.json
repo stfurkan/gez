@@ -1663,5 +1663,20 @@
     "description": "Baltimore Museum of Industry is a museum in Baltimore, Maryland, United States. Located in an old cannery, the museum has exhibits on various types of manufacturing and industry from the early 20th century. There are several hands-on sections with working equipment and other artifacts.",
     "wikipedia": "https://en.wikipedia.org/wiki/Baltimore_Museum_of_Industry",
     "image": ""
+  },
+  {
+    "id": 112,
+    "type": "museum",
+    "name": "North Carolina Museum of History",
+    "country": "United States",
+    "state": "NC",
+    "city": "Raleigh",
+    "latitude": 35.78183,
+    "longitude": -78.63855,
+    "website": "https://www.ncmuseumofhistory.org",
+    "virtual": "https://my.matterport.com/show/?m=P9vZNuERpSH",
+    "description": "The North Carolina Museum of History is a history museum located in downtown Raleigh, North Carolina. It is an affiliate through the Smithsonian Affiliations program.",
+    "wikipedia": "https://en.wikipedia.org/wiki/North_Carolina_Museum_of_History",
+    "image": ""
   }
 ]

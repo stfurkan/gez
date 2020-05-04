@@ -1663,5 +1663,20 @@
     "description": "Baltimore Sanayi Müzesi, Baltimore, Maryland, ABD'de bulunan bir müzedir. Müzede 20. yüzyılın başlarından itibaren çeşitli imalat ve sanayi türleri sergilenmektedir. Çalışma ekipmanı ve diğer eserler içeren birkaç uygulamalı bölüm vardır.",
     "wikipedia": "https://en.wikipedia.org/wiki/Baltimore_Museum_of_Industry",
     "image": ""
+  },
+  {
+    "id": 112,
+    "type": "museum",
+    "name": "North Carolina Tarih Müzesi",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "NC",
+    "city": "Raleigh",
+    "latitude": 35.78183,
+    "longitude": -78.63855,
+    "website": "https://www.ncmuseumofhistory.org",
+    "virtual": "https://my.matterport.com/show/?m=P9vZNuERpSH",
+    "description": "North Carolina Tarih Müzesi, North Carolina eyaletinin Raleigh şehir merkezinde bulunan bir tarih müzesidir.",
+    "wikipedia": "https://en.wikipedia.org/wiki/North_Carolina_Museum_of_History",
+    "image": ""
   }
 ]
