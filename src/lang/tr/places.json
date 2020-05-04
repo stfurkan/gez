@@ -1753,5 +1753,20 @@
     "description": "Boca Raton Eski Belediye Binası (tabelalarda 'Belediye Binası' olarak etiketlenmiştir) Boca Raton, Florida, ABD'de bulunan tarihi bir binadır.",
     "wikipedia": "https://en.wikipedia.org/wiki/Boca_Raton_Old_City_Hall",
     "image": ""
+  },
+  {
+    "id": 118,
+    "type": "historical",
+    "name": "Iolani Sarayı",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "HI",
+    "city": "Honolulu",
+    "latitude": 21.306756,
+    "longitude": -157.858768,
+    "website": "https://www.iolanipalace.org",
+    "virtual": "https://my.matterport.com/show/?m=XWgKUxCYTtP",
+    "description": "Iolani Sarayı, Kamehameha Hanedanlığı altında Kamehameha III ile başlayan ve kardeşi Kral David Kalākaua tarafından kurulan Kalākaua Hanedanlığı altında Kraliçe Liliʻuokalani ile biten Hawaii Krallığı yöneticilerinin kraliyet ikametgahıydı.",
+    "wikipedia": "https://en.wikipedia.org/wiki/%CA%BBIolani_Palace",
+    "image": ""
   }
 ]

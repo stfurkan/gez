@@ -1753,5 +1753,20 @@
     "description": "The Boca Raton Old City Hall (labeled as 'Town Hall' on signs) is a historic site in Boca Raton, Florida, United States.",
     "wikipedia": "https://en.wikipedia.org/wiki/Boca_Raton_Old_City_Hall",
     "image": ""
+  },
+  {
+    "id": 118,
+    "type": "historical",
+    "name": "Iolani Palace",
+    "country": "United States",
+    "state": "HI",
+    "city": "Honolulu",
+    "latitude": 21.306756,
+    "longitude": -157.858768,
+    "website": "https://www.iolanipalace.org",
+    "virtual": "https://my.matterport.com/show/?m=XWgKUxCYTtP",
+    "description": "The Iolani Palace was the royal residence of the rulers of the Kingdom of Hawaii beginning with Kamehameha III under the Kamehameha Dynasty and ending with Queen Liliʻuokalani under the Kalākaua Dynasty, founded by her brother, King David Kalākaua.",
+    "wikipedia": "https://en.wikipedia.org/wiki/%CA%BBIolani_Palace",
+    "image": ""
   }
 ]
