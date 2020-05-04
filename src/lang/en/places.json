@@ -1723,5 +1723,20 @@
     "description": "Brown Canyon Ranch, formerly known as the Barchas Ranch, is a historic ranch located in the foothills of the Huachuca Mountains, near Sierra Vista, Arizona.",
     "wikipedia": "https://en.wikipedia.org/wiki/Brown_Canyon_Ranch",
     "image": ""
+  },
+  {
+    "id": 116,
+    "type": "museum",
+    "name": "Museum For East Texas Culture",
+    "country": "United States",
+    "state": "TX",
+    "city": "Palestine",
+    "latitude": 31.75826,
+    "longitude": -95.627178,
+    "website": "http://museumpalestine.org",
+    "virtual": "https://my.matterport.com/show/?m=A26TZhpmm58",
+    "description": "The Museum for East Texas Culture is a museum in Reagan Park in Palestine, Texas. The building was built in 1915 as Palestine High School. It opened in 1916 and graduated its first class in 1917. In 1939 it became a junior high school, and was named the Reagan School, after John H. Reagan, in 1955.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Museum_for_East_Texas_Culture",
+    "image": ""
   }
 ]

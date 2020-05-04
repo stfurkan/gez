@@ -1723,5 +1723,20 @@
     "description": "Eskiden Barchas Çiftliği olarak bilinen Brown Canyon Çiftliği, Arizona eyaletinde Sierra Vista yakınlarındaki Huachuca Dağları'nın eteklerinde bulunan tarihi bir çiftliktir.",
     "wikipedia": "https://en.wikipedia.org/wiki/Brown_Canyon_Ranch",
     "image": ""
+  },
+  {
+    "id": 116,
+    "type": "museum",
+    "name": "Doğu Teksas Kültür Müzesi",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "TX",
+    "city": "Palestine",
+    "latitude": 31.75826,
+    "longitude": -95.627178,
+    "website": "http://museumpalestine.org",
+    "virtual": "https://my.matterport.com/show/?m=A26TZhpmm58",
+    "description": "Doğu Teksas Kültür Müzesi, Texas eyaletinin Palestine şehrindeki Reagan Park'ta bulunmaktadır.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Museum_for_East_Texas_Culture",
+    "image": ""
   }
 ]
