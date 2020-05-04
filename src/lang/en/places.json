@@ -1603,5 +1603,20 @@
     "description": "Fort Adams is a former United States Army post in Newport, Rhode Island that was established on July 4, 1799 as a First System coastal fortification, named for President John Adams who was in office at the time. Its first commander was Captain John Henry who was later instrumental in starting the War of 1812.",
     "wikipedia": "https://en.wikipedia.org/wiki/Fort_Adams",
     "image": ""
+  },
+  {
+    "id": 108,
+    "type": "historical",
+    "name": "Thomas Jefferson Memorial",
+    "country": "United States",
+    "state": "DC",
+    "city": "Washington",
+    "latitude": 38.881395,
+    "longitude": -77.036539,
+    "website": "https://www.nps.gov/thje/index.htm",
+    "virtual": "https://my.matterport.com/show/?m=h6mVpWjeQaT",
+    "description": "The Jefferson Memorial is a presidential memorial built in Washington, D.C. between 1939 and 1943 under the sponsorship of President Franklin D. Roosevelt.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jefferson_Memorial",
+    "image": ""
   }
 ]

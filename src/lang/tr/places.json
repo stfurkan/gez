@@ -1603,5 +1603,20 @@
     "description": "Fort Adams, Newport'taki eski bir ABD ordusu karargahıdır ve 4 Temmuz 1799'da o sırada görevde bulunan Başkan John Adams'tan adını almıştır.",
     "wikipedia": "https://en.wikipedia.org/wiki/Fort_Adams",
     "image": ""
+  },
+  {
+    "id": 108,
+    "type": "historical",
+    "name": "Thomas Jefferson Anıtı",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "DC",
+    "city": "Washington",
+    "latitude": 38.881395,
+    "longitude": -77.036539,
+    "website": "https://www.nps.gov/thje/index.htm",
+    "virtual": "https://my.matterport.com/show/?m=h6mVpWjeQaT",
+    "description": "Thomas Jefferson Anıtı, Amerika Birleşik Devletleri'nin kurucularından ve üçüncü başkanı Thomas Jefferson'a adanmış ve de ABD'nin başkenti Washington'da yer alan bir anıttır. Neoklasik mimariye sahip olan yapı John Russell Pope tarafından tasarlandı.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/Thomas_Jefferson_An%C4%B1t%C4%B1",
+    "image": ""
   }
 ]
