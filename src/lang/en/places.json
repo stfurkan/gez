@@ -1648,5 +1648,20 @@
     "description": "The Jim Crow Museum of Racist Memorabilia at Ferris State University, Big Rapids, Michigan, displays a wide variety of everyday artifacts depicting the history of racist portrayals of African Americans in American popular culture.",
     "wikipedia": "https://en.wikipedia.org/wiki/Jim_Crow_Museum_of_Racist_Memorabilia",
     "image": ""
+  },
+  {
+    "id": 111,
+    "type": "museum",
+    "name": "Baltimore Museum of Industry",
+    "country": "United States",
+    "state": "MD",
+    "city": "Baltimore",
+    "latitude": 39.273953,
+    "longitude": -76.601626,
+    "website": "https://www.thebmi.org",
+    "virtual": "https://my.matterport.com/show/?m=62bipayEDLM",
+    "description": "Baltimore Museum of Industry is a museum in Baltimore, Maryland, United States. Located in an old cannery, the museum has exhibits on various types of manufacturing and industry from the early 20th century. There are several hands-on sections with working equipment and other artifacts.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Baltimore_Museum_of_Industry",
+    "image": ""
   }
 ]

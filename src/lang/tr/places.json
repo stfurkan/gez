@@ -1648,5 +1648,20 @@
     "description": "Jim Crow Irkçı Hatıra Müzesi, Ferris State Üniversitesi bünyesinde Big Rapids, Michigan'da bulunmaktadır.",
     "wikipedia": "https://en.wikipedia.org/wiki/Jim_Crow_Museum_of_Racist_Memorabilia",
     "image": ""
+  },
+  {
+    "id": 111,
+    "type": "museum",
+    "name": "Baltimore Sanayi Müzesi",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "MD",
+    "city": "Baltimore",
+    "latitude": 39.273953,
+    "longitude": -76.601626,
+    "website": "https://www.thebmi.org",
+    "virtual": "https://my.matterport.com/show/?m=62bipayEDLM",
+    "description": "Baltimore Sanayi Müzesi, Baltimore, Maryland, ABD'de bulunan bir müzedir. Müzede 20. yüzyılın başlarından itibaren çeşitli imalat ve sanayi türleri sergilenmektedir. Çalışma ekipmanı ve diğer eserler içeren birkaç uygulamalı bölüm vardır.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Baltimore_Museum_of_Industry",
+    "image": ""
   }
 ]
