@@ -1708,5 +1708,20 @@
     "description": "Paranın keşfi ile Amerika'nın nümismatiklere adanmış en büyük müzesi, kültürü hayata geçiriyor. Müze, paranın ve ilgili öğelerin farklı doğasını tanıtmak için sanat, tarih, bilim ve çok daha fazlasını araştırmaktadır.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 115,
+    "type": "historical",
+    "name": "Brown Canyon Çiftliği",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "AZ",
+    "city": "Sierra Vista Southeast",
+    "latitude": 31.473769,
+    "longitude": -110.297549,
+    "website": "http://www.browncanyonranch.org",
+    "virtual": "https://my.matterport.com/show/?m=GeL9QAFtkmR",
+    "description": "Eskiden Barchas Çiftliği olarak bilinen Brown Canyon Çiftliği, Arizona eyaletinde Sierra Vista yakınlarındaki Huachuca Dağları'nın eteklerinde bulunan tarihi bir çiftliktir.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Brown_Canyon_Ranch",
+    "image": ""
   }
 ]

@@ -1708,5 +1708,20 @@
     "description": "Through the discovery of money, America’s largest museum dedicated to numismatics brings culture to life. The museum explores art, history, science and much more to promote the diverse nature of money and related items.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 115,
+    "type": "historical",
+    "name": "Brown Canyon Ranch",
+    "country": "United States",
+    "state": "AZ",
+    "city": "Sierra Vista Southeast",
+    "latitude": 31.473769,
+    "longitude": -110.297549,
+    "website": "http://www.browncanyonranch.org",
+    "virtual": "https://my.matterport.com/show/?m=GeL9QAFtkmR",
+    "description": "Brown Canyon Ranch, formerly known as the Barchas Ranch, is a historic ranch located in the foothills of the Huachuca Mountains, near Sierra Vista, Arizona.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Brown_Canyon_Ranch",
+    "image": ""
   }
 ]
