@@ -1738,5 +1738,20 @@
     "description": "The Museum for East Texas Culture is a museum in Reagan Park in Palestine, Texas. The building was built in 1915 as Palestine High School. It opened in 1916 and graduated its first class in 1917. In 1939 it became a junior high school, and was named the Reagan School, after John H. Reagan, in 1955.",
     "wikipedia": "https://en.wikipedia.org/wiki/Museum_for_East_Texas_Culture",
     "image": ""
+  },
+  {
+    "id": 117,
+    "type": "historical",
+    "name": "Boca Raton Old Town Hall",
+    "country": "United States",
+    "state": "FL",
+    "city": "Boca Raton",
+    "latitude": 26.35111,
+    "longitude": -80.086599,
+    "website": "https://www.bocahistory.org",
+    "virtual": "https://my.matterport.com/show/?m=2MXBdWMdWrk",
+    "description": "The Boca Raton Old City Hall (labeled as 'Town Hall' on signs) is a historic site in Boca Raton, Florida, United States.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Boca_Raton_Old_City_Hall",
+    "image": ""
   }
 ]

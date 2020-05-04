@@ -1738,5 +1738,20 @@
     "description": "Doğu Teksas Kültür Müzesi, Texas eyaletinin Palestine şehrindeki Reagan Park'ta bulunmaktadır.",
     "wikipedia": "https://en.wikipedia.org/wiki/Museum_for_East_Texas_Culture",
     "image": ""
+  },
+  {
+    "id": 117,
+    "type": "historical",
+    "name": "Boca Raton Eski Belediye Binası",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "FL",
+    "city": "Boca Raton",
+    "latitude": 26.35111,
+    "longitude": -80.086599,
+    "website": "https://www.bocahistory.org",
+    "virtual": "https://my.matterport.com/show/?m=2MXBdWMdWrk",
+    "description": "Boca Raton Eski Belediye Binası (tabelalarda 'Belediye Binası' olarak etiketlenmiştir) Boca Raton, Florida, ABD'de bulunan tarihi bir binadır.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Boca_Raton_Old_City_Hall",
+    "image": ""
   }
 ]
