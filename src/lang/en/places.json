@@ -1813,5 +1813,20 @@
     "description": "The Amazon rainforest, alternatively, the Amazon Jungle, also known in English as Amazonia, is a moist broadleaf tropical rainforest in the Amazon biome that covers most of the Amazon basin of South America. This basin encompasses 7,000,000 km2 (2,700,000 sq mi), of which 5,500,000 km2 (2,100,000 sq mi) are covered by the rainforest. This region includes territory belonging to nine nations.",
     "wikipedia": "https://en.wikipedia.org/wiki/Amazon_rainforest",
     "image": ""
+  },
+  {
+    "id": 122,
+    "type": "museum",
+    "name": "Juan B. Castagnino Fine Arts Museum",
+    "country": "Argentina",
+    "state": "",
+    "city": "Rosario",
+    "latitude": -32.953893,
+    "longitude": -60.656615,
+    "website": "https://en.wikipedia.org/wiki/Juan_B._Castagnino_Fine_Arts_Museum",
+    "virtual": "https://my.matterport.com/show/?m=wV2LH7UhW9y",
+    "description": "The Juan B. Castagnino Fine Arts Museum is an art museum in the city of Rosario, province of Santa Fe, Argentina, considered the most important of the interior of the country and the second in national terms. It is administered by the municipal government.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Juan_B._Castagnino_Fine_Arts_Museum",
+    "image": ""
   }
 ]

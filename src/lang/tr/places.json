@@ -1813,5 +1813,20 @@
     "description": "Amazon yağmur ormanları, Amazon Havzası'nın çoğunu kaplayan bir yağmur ormanıdır. Güney Amerika'da yaklaşık beş buçuk milyon kilometrekarelik bir alanı kaplar. Brezilya, Peru, Kolombiya, Venezuela, Ekvador, Bolivya, Guyana, Surinam ve Fransız Guyanası olmak üzere dokuz ülkenin sınırları içerisinde bulunur.",
     "wikipedia": "https://tr.wikipedia.org/wiki/Amazon_Ormanlar%C4%B1",
     "image": ""
+  },
+  {
+    "id": 122,
+    "type": "museum",
+    "name": "Juan B. Castagnino Güzel Sanatlar Müzesi",
+    "country": "Arjantin",
+    "state": "",
+    "city": "Rosario",
+    "latitude": -32.953893,
+    "longitude": -60.656615,
+    "website": "https://en.wikipedia.org/wiki/Juan_B._Castagnino_Fine_Arts_Museum",
+    "virtual": "https://my.matterport.com/show/?m=wV2LH7UhW9y",
+    "description": "Juan B. Castagnino Güzel Sanatlar Müzesi, Arjantin'in Rosario şehrinde bulunan bir sanat müzesidir.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Juan_B._Castagnino_Fine_Arts_Museum",
+    "image": ""
   }
 ]
