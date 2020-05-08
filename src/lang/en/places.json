@@ -1843,5 +1843,20 @@
     "description": "Juan Manuel Blanes Municipal Museum of the Arts is the name of a municipal museum in Prado, Montevideo, Uruguay.",
     "wikipedia": "https://en.wikipedia.org/wiki/Juan_Manuel_Blanes_Museum",
     "image": ""
+  },
+  {
+    "id": 124,
+    "type": "nature",
+    "name": "Easter Island",
+    "country": "Chile",
+    "state": "",
+    "city": "Easter Island",
+    "latitude": -27.113076,
+    "longitude": -109.349468,
+    "website": "http://www.rapanui.net",
+    "virtual": "https://www.youtube.com/embed/wBGUspCc0s8",
+    "description": "Easter Island is an island and special territory of Chile in the southeastern Pacific Ocean, at the southeasternmost point of the Polynesian Triangle in Oceania.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Easter_Island",
+    "image": ""
   }
 ]

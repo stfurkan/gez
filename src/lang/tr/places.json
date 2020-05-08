@@ -1843,5 +1843,20 @@
     "description": "Juan Manuel Blanes Belediye Sanat Müzesi, Prado, Montevideo, Uruguay'da bulunan bir belediye müzesidir.",
     "wikipedia": "https://en.wikipedia.org/wiki/Juan_Manuel_Blanes_Museum",
     "image": ""
+  },
+  {
+    "id": 124,
+    "type": "nature",
+    "name": "Paskalya Adası",
+    "country": "Şili",
+    "state": "",
+    "city": "Easter Island",
+    "latitude": -27.113076,
+    "longitude": -109.349468,
+    "website": "http://www.rapanui.net",
+    "virtual": "https://www.youtube.com/embed/wBGUspCc0s8",
+    "description": "Paskalya Adası, Büyük Okyanus'un güney doğusunda Şili'ye bağlı bir ada. Şili sahillerinden 3700 km, Tahiti'den ise 4000 km uzaktadır. Çok izole kalmış bu ada, üzerinde yaşam olan en yakın yer olan Pitcairn Adası'nın bile 2000 km doğusundadır. 2002 yılı itibarıyla 3.791 kişilik nüfusa sahiptir.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/Paskalya_Adas%C4%B1",
+    "image": ""
   }
 ]
