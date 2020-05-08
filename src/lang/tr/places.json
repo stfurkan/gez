@@ -1768,5 +1768,20 @@
     "description": "Iolani Sarayı, Kamehameha Hanedanlığı altında Kamehameha III ile başlayan ve kardeşi Kral David Kalākaua tarafından kurulan Kalākaua Hanedanlığı altında Kraliçe Liliʻuokalani ile biten Hawaii Krallığı yöneticilerinin kraliyet ikametgahıydı.",
     "wikipedia": "https://en.wikipedia.org/wiki/%CA%BBIolani_Palace",
     "image": ""
+  },
+  {
+    "id": 119,
+    "type": "museum",
+    "name": "Lozan Olimpiyatlar Müzesi",
+    "country": "İsviçre",
+    "state": "",
+    "city": "Lausanne",
+    "latitude": 46.50873,
+    "longitude": 6.634087,
+    "website": "https://www.olympic.org/museum",
+    "virtual": "https://my.matterport.com/show/?m=7UeBoX1VVSZ",
+    "description": "Lozan Olimpiyatlar Müzesi, İsviçre'nin Lozan kentinde bulunan Olimpiyatlar ile ilgili sürekli ve geçici sergilerin bulunduğu müzedir. 10.000 parçadan fazla sergilenen eşya ile müze olimpiyatlarla ilgili tüm dünyadaki en geniş arşiv olarak gösterilmektedir. Ayrıca müze, Lozan şehrine turist çeken önemli bir merkezdir.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/Lozan_Olimpiyatlar_M%C3%BCzesi",
+    "image": ""
   }
 ]

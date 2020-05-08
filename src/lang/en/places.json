@@ -1768,5 +1768,20 @@
     "description": "The Iolani Palace was the royal residence of the rulers of the Kingdom of Hawaii beginning with Kamehameha III under the Kamehameha Dynasty and ending with Queen Liliʻuokalani under the Kalākaua Dynasty, founded by her brother, King David Kalākaua.",
     "wikipedia": "https://en.wikipedia.org/wiki/%CA%BBIolani_Palace",
     "image": ""
+  },
+  {
+    "id": 119,
+    "type": "museum",
+    "name": "Olympic Museum",
+    "country": "Switzerland",
+    "state": "",
+    "city": "Lausanne",
+    "latitude": 46.50873,
+    "longitude": 6.634087,
+    "website": "https://www.olympic.org/museum",
+    "virtual": "https://my.matterport.com/show/?m=7UeBoX1VVSZ",
+    "description": "The Olympic Museum in Lausanne, Switzerland houses permanent and temporary exhibits relating to sport and the Olympic movement.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Olympic_Museum",
+    "image": ""
   }
 ]
