@@ -1828,5 +1828,20 @@
     "description": "The Juan B. Castagnino Fine Arts Museum is an art museum in the city of Rosario, province of Santa Fe, Argentina, considered the most important of the interior of the country and the second in national terms. It is administered by the municipal government.",
     "wikipedia": "https://en.wikipedia.org/wiki/Juan_B._Castagnino_Fine_Arts_Museum",
     "image": ""
+  },
+  {
+    "id": 123,
+    "type": "museum",
+    "name": "Juan Manuel Blanes Museum",
+    "country": "Uruguay",
+    "state": "",
+    "city": "Montevideo",
+    "latitude": -34.853048,
+    "longitude": -56.198166,
+    "website": "https://blanes.montevideo.gub.uy",
+    "virtual": "https://my.matterport.com/show/?m=ADMT6aREFmy",
+    "description": "Juan Manuel Blanes Municipal Museum of the Arts is the name of a municipal museum in Prado, Montevideo, Uruguay.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Juan_Manuel_Blanes_Museum",
+    "image": ""
   }
 ]

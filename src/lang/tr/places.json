@@ -1828,5 +1828,20 @@
     "description": "Juan B. Castagnino Güzel Sanatlar Müzesi, Arjantin'in Rosario şehrinde bulunan bir sanat müzesidir.",
     "wikipedia": "https://en.wikipedia.org/wiki/Juan_B._Castagnino_Fine_Arts_Museum",
     "image": ""
+  },
+  {
+    "id": 123,
+    "type": "museum",
+    "name": "Juan Manuel Blanes Müzesi",
+    "country": "Uruguay",
+    "state": "",
+    "city": "Montevideo",
+    "latitude": -34.853048,
+    "longitude": -56.198166,
+    "website": "https://blanes.montevideo.gub.uy",
+    "virtual": "https://my.matterport.com/show/?m=ADMT6aREFmy",
+    "description": "Juan Manuel Blanes Belediye Sanat Müzesi, Prado, Montevideo, Uruguay'da bulunan bir belediye müzesidir.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Juan_Manuel_Blanes_Museum",
+    "image": ""
   }
 ]
