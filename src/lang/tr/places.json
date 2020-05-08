@@ -1783,5 +1783,20 @@
     "description": "Lozan Olimpiyatlar Müzesi, İsviçre'nin Lozan kentinde bulunan Olimpiyatlar ile ilgili sürekli ve geçici sergilerin bulunduğu müzedir. 10.000 parçadan fazla sergilenen eşya ile müze olimpiyatlarla ilgili tüm dünyadaki en geniş arşiv olarak gösterilmektedir. Ayrıca müze, Lozan şehrine turist çeken önemli bir merkezdir.",
     "wikipedia": "https://tr.wikipedia.org/wiki/Lozan_Olimpiyatlar_M%C3%BCzesi",
     "image": ""
+  },
+  {
+    "id": 120,
+    "type": "museum",
+    "name": "Uluslararası UFO Müzesi ve Araştırma Merkezi",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "NM",
+    "city": "Roswell",
+    "latitude": 33.393687,
+    "longitude": -104.52296,
+    "website": "https://www.roswellufomuseum.com",
+    "virtual": "https://my.matterport.com/show/?m=GFVWVV1ZhG9",
+    "description": "Uluslararası UFO Müzesi ve Araştırma Merkezi, ABD'nin New Mexico eyaletinin Roswell şehir merkezinde bulunmaktadır.",
+    "wikipedia": "https://en.wikipedia.org/wiki/International_UFO_Museum_and_Research_Center",
+    "image": ""
   }
 ]

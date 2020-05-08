@@ -1783,5 +1783,20 @@
     "description": "The Olympic Museum in Lausanne, Switzerland houses permanent and temporary exhibits relating to sport and the Olympic movement.",
     "wikipedia": "https://en.wikipedia.org/wiki/Olympic_Museum",
     "image": ""
+  },
+  {
+    "id": 120,
+    "type": "museum",
+    "name": "International UFO Museum And Research Center",
+    "country": "United States",
+    "state": "NM",
+    "city": "Roswell",
+    "latitude": 33.393687,
+    "longitude": -104.52296,
+    "website": "https://www.roswellufomuseum.com",
+    "virtual": "https://my.matterport.com/show/?m=GFVWVV1ZhG9",
+    "description": "The International UFO Museum And Research Center is located in Roswell, New Mexico, United States, in the downtown district, and is focused largely on the 1947 Roswell Crash and later supposed UFO incidents in the United States and elsewhere.",
+    "wikipedia": "https://en.wikipedia.org/wiki/International_UFO_Museum_and_Research_Center",
+    "image": ""
   }
 ]
