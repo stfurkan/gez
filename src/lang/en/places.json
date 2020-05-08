@@ -1798,5 +1798,20 @@
     "description": "The International UFO Museum And Research Center is located in Roswell, New Mexico, United States, in the downtown district, and is focused largely on the 1947 Roswell Crash and later supposed UFO incidents in the United States and elsewhere.",
     "wikipedia": "https://en.wikipedia.org/wiki/International_UFO_Museum_and_Research_Center",
     "image": ""
+  },
+  {
+    "id": 121,
+    "type": "nature",
+    "name": "Amazon Rainforest",
+    "country": "Brazil",
+    "state": "",
+    "city": "Codajás",
+    "latitude": -3.467231,
+    "longitude": -62.219211,
+    "website": "https://www.worldwildlife.org/places/amazon",
+    "virtual": "https://www.youtube.com/embed/5JvJCvdqvYs",
+    "description": "The Amazon rainforest, alternatively, the Amazon Jungle, also known in English as Amazonia, is a moist broadleaf tropical rainforest in the Amazon biome that covers most of the Amazon basin of South America. This basin encompasses 7,000,000 km2 (2,700,000 sq mi), of which 5,500,000 km2 (2,100,000 sq mi) are covered by the rainforest. This region includes territory belonging to nine nations.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Amazon_rainforest",
+    "image": ""
   }
 ]

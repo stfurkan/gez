@@ -1798,5 +1798,20 @@
     "description": "Uluslararası UFO Müzesi ve Araştırma Merkezi, ABD'nin New Mexico eyaletinin Roswell şehir merkezinde bulunmaktadır.",
     "wikipedia": "https://en.wikipedia.org/wiki/International_UFO_Museum_and_Research_Center",
     "image": ""
+  },
+  {
+    "id": 121,
+    "type": "nature",
+    "name": "Amazon Yağmur Ormanları",
+    "country": "Brezilya",
+    "state": "",
+    "city": "Codajás",
+    "latitude": -3.467231,
+    "longitude": -62.219211,
+    "website": "https://www.worldwildlife.org/places/amazon",
+    "virtual": "https://www.youtube.com/embed/5JvJCvdqvYs",
+    "description": "Amazon yağmur ormanları, Amazon Havzası'nın çoğunu kaplayan bir yağmur ormanıdır. Güney Amerika'da yaklaşık beş buçuk milyon kilometrekarelik bir alanı kaplar. Brezilya, Peru, Kolombiya, Venezuela, Ekvador, Bolivya, Guyana, Surinam ve Fransız Guyanası olmak üzere dokuz ülkenin sınırları içerisinde bulunur.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/Amazon_Ormanlar%C4%B1",
+    "image": ""
   }
 ]
