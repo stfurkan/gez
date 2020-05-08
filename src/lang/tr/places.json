@@ -1873,5 +1873,20 @@
     "description": "Queen Elizabeth Ulusal Parkı, kısaca QENP, Uganda'nın en çok ziyaret edilen millî parkıdır. Park birçok memeli ve kuş türünün doğal yaşam alanıdır.",
     "wikipedia": "https://tr.wikipedia.org/wiki/Queen_Elizabeth_Ulusal_Park%C4%B1",
     "image": ""
+  },
+  {
+    "id": 126,
+    "type": "historical",
+    "name": "Paris Yeraltı Mezarları",
+    "country": "Fransa",
+    "state": "",
+    "city": "Paris",
+    "latitude": 48.833834,
+    "longitude": 2.332413,
+    "website": "http://catacombes.paris.fr/en",
+    "virtual": "http://catacombes.paris.fr/visite-virtuelle",
+    "description": "Paris Yeraltı Mezarları, Paris'in antik taş ocaklarını sağlamlaştırmak için inşa edilmiş bir tünel ağının küçük bir bölümünde altı milyondan fazla insanın kalıntılarını barındıran Fransa, Paris'teki bulunan bir yerdir.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Catacombs_of_Paris",
+    "image": ""
   }
 ]

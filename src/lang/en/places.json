@@ -1873,5 +1873,20 @@
     "description": "Queen Elizabeth National Park is a national park in Uganda.",
     "wikipedia": "https://en.wikipedia.org/wiki/Queen_Elizabeth_National_Park",
     "image": ""
+  },
+  {
+    "id": 126,
+    "type": "historical",
+    "name": "Catacombs of Paris",
+    "country": "France",
+    "state": "",
+    "city": "Paris",
+    "latitude": 48.833834,
+    "longitude": 2.332413,
+    "website": "http://catacombes.paris.fr/en",
+    "virtual": "http://catacombes.paris.fr/visite-virtuelle",
+    "description": "The Catacombs of Paris are underground ossuaries in Paris, France, which hold the remains of more than six million people in a small part of a tunnel network built to consolidate Paris' ancient stone quarries.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Catacombs_of_Paris",
+    "image": ""
   }
 ]
