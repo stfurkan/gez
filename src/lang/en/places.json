@@ -1858,5 +1858,20 @@
     "description": "Easter Island is an island and special territory of Chile in the southeastern Pacific Ocean, at the southeasternmost point of the Polynesian Triangle in Oceania.",
     "wikipedia": "https://en.wikipedia.org/wiki/Easter_Island",
     "image": ""
+  },
+  {
+    "id": 125,
+    "type": "nature",
+    "name": "Queen Elizabeth National Park",
+    "country": "Uganda",
+    "state": "",
+    "city": "Rubirizi",
+    "latitude": -0.164178,
+    "longitude": 30.020553,
+    "website": "https://www.queenelizabethnationalpark.com",
+    "virtual": "https://www.youtube.com/embed/PW9hxfuMt08",
+    "description": "Queen Elizabeth National Park is a national park in Uganda.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Queen_Elizabeth_National_Park",
+    "image": ""
   }
 ]

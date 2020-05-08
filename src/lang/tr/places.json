@@ -1858,5 +1858,20 @@
     "description": "Paskalya Adası, Büyük Okyanus'un güney doğusunda Şili'ye bağlı bir ada. Şili sahillerinden 3700 km, Tahiti'den ise 4000 km uzaktadır. Çok izole kalmış bu ada, üzerinde yaşam olan en yakın yer olan Pitcairn Adası'nın bile 2000 km doğusundadır. 2002 yılı itibarıyla 3.791 kişilik nüfusa sahiptir.",
     "wikipedia": "https://tr.wikipedia.org/wiki/Paskalya_Adas%C4%B1",
     "image": ""
+  },
+  {
+    "id": 125,
+    "type": "nature",
+    "name": "Queen Elizabeth Ulusal Parkı",
+    "country": "Uganda",
+    "state": "",
+    "city": "Rubirizi",
+    "latitude": -0.164178,
+    "longitude": 30.020553,
+    "website": "https://www.queenelizabethnationalpark.com",
+    "virtual": "https://www.youtube.com/embed/PW9hxfuMt08",
+    "description": "Queen Elizabeth Ulusal Parkı, kısaca QENP, Uganda'nın en çok ziyaret edilen millî parkıdır. Park birçok memeli ve kuş türünün doğal yaşam alanıdır.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/Queen_Elizabeth_Ulusal_Park%C4%B1",
+    "image": ""
   }
 ]
