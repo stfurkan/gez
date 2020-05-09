@@ -1948,5 +1948,20 @@
     "description": "Kent tarihine ve kimliğine ilişkin bilgi vermek, araştırma ve arşivleme yapmak, müze kültürünü ve sevgisini geniş kitlelere yaymak ve halkı bu yapılanmanın içine çekerek başlayan yeni müzecilik oluşumu sonucunda İnegöl’de bir kent müzesi kurulmuştur.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 131,
+    "type": "museum",
+    "name": "Şehit Cuma Dağ Tabiat Tarihi Müzesi",
+    "country": "Türkiye",
+    "state": "",
+    "city": "Ankara",
+    "latitude": 39.90235,
+    "longitude": 32.798435,
+    "website": "https://www.mta.gov.tr/v3.0/muze/anasayfa",
+    "virtual": "http://sanaltur.mta.gov.tr",
+    "description": "Türkiye'de 20. yüzyıla kadar kendi sahip olduğu değerleri halka tanıtan bir 'Doğa Tarihi Müzesi' oluşturulamamıştır. Yerbilimleriyle ilgili birçok ilke imza atan MTA, Türkiye'deki bu eksikliğin giderilmesine yönelik olarak 1960'lı yıllarda bilim, eğitim ve kültür alanında toplumu bilinçlendirmek amacıyla Tabiat Tarihi Müzesi'nin kurulması için ilk adımları atmıştır.",
+    "wikipedia": "",
+    "image": ""
   }
 ]

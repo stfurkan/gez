@@ -1948,5 +1948,20 @@
     "description": "As a result of the new museum formation, a city museum was established in İnegöl in order to provide information about the history and identity of the city and to conduct research and archiving.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 131,
+    "type": "museum",
+    "name": "Şehit Cuma Dağ Natural History Museum",
+    "country": "Turkey",
+    "state": "",
+    "city": "Ankara",
+    "latitude": 39.90235,
+    "longitude": 32.798435,
+    "website": "https://www.mta.gov.tr/eng/muze/main",
+    "virtual": "http://sanaltur.mta.gov.tr",
+    "description": "Mineral Research and Exploration Institute which is now the General Directorate of Mineral Research and Exploration (MTA) was established 1935 with the directives of Atatürk. Until that time there has been no Natural History Museum in Turkey. With the studies on earth sciences at every corner of Turkey large amount of samples including fossils and minerals have been collected in MTA. And also numerous fossils and minerals were given as a present from the universities and institutions. All these specimens were the first members of the collection of the museum.",
+    "wikipedia": "",
+    "image": ""
   }
 ]
