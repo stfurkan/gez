@@ -1933,5 +1933,20 @@
     "description": "TRT Yayıncılık Tarihi Müzesi, koridorlarında ilerlerken ses ve görüntü eşliğinde, sizden önceki neslin zihnini okuduğunuz bir Türkiye hafızasıdır. Sizleri lambalı radyolardan ve siyah-beyaz ekranlardan alıp, 3D yayınlara sürükleyen ve yayıncılık teknolojisinin geldiği son noktayı resmeden bir arşiv çalışmasıdır.",
     "wikipedia": "https://tr.wikipedia.org/wiki/TRT_Yay%C4%B1nc%C4%B1l%C4%B1k_Tarihi_M%C3%BCzesi",
     "image": ""
+  },
+  {
+    "id": 130,
+    "type": "museum",
+    "name": "İnegöl Kent Müzesi",
+    "country": "Türkiye",
+    "state": "",
+    "city": "Bursa",
+    "latitude": 40.078318,
+    "longitude": 29.512559,
+    "website": "http://www.inegolkentmuzesi.gov.tr",
+    "virtual": "https://my.matterport.com/show/?m=aA2CZv3UwFn",
+    "description": "Kent tarihine ve kimliğine ilişkin bilgi vermek, araştırma ve arşivleme yapmak, müze kültürünü ve sevgisini geniş kitlelere yaymak ve halkı bu yapılanmanın içine çekerek başlayan yeni müzecilik oluşumu sonucunda İnegöl’de bir kent müzesi kurulmuştur.",
+    "wikipedia": "",
+    "image": ""
   }
 ]

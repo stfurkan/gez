@@ -1933,5 +1933,20 @@
     "description": "TRT Museum of Broadcasting History is a memory of Turkey where you read the mind of the previous generation as you walk along its halls accompanied by voices and visions. It’s an archive that takes you back to the days of transistor radio and black & white TV screens, and escorts you all the way to the 3D broadcasts depicting the most advanced broadcast technology.",
     "wikipedia": "https://tr.wikipedia.org/wiki/TRT_Yay%C4%B1nc%C4%B1l%C4%B1k_Tarihi_M%C3%BCzesi",
     "image": ""
+  },
+  {
+    "id": 130,
+    "type": "museum",
+    "name": "İnegöl City Museum",
+    "country": "Turkey",
+    "state": "",
+    "city": "Bursa",
+    "latitude": 40.078318,
+    "longitude": 29.512559,
+    "website": "http://www.inegolkentmuzesi.gov.tr",
+    "virtual": "https://my.matterport.com/show/?m=aA2CZv3UwFn",
+    "description": "As a result of the new museum formation, a city museum was established in İnegöl in order to provide information about the history and identity of the city and to conduct research and archiving.",
+    "wikipedia": "",
+    "image": ""
   }
 ]
