@@ -1963,5 +1963,20 @@
     "description": "Mineral Research and Exploration Institute which is now the General Directorate of Mineral Research and Exploration (MTA) was established 1935 with the directives of Atatürk. Until that time there has been no Natural History Museum in Turkey. With the studies on earth sciences at every corner of Turkey large amount of samples including fossils and minerals have been collected in MTA. And also numerous fossils and minerals were given as a present from the universities and institutions. All these specimens were the first members of the collection of the museum.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 132,
+    "type": "museum",
+    "name": "Sakıp Sabancı Museum",
+    "country": "Turkey",
+    "state": "",
+    "city": "İstanbul",
+    "latitude": 41.105554,
+    "longitude": 29.056936,
+    "website": "https://www.sakipsabancimuzesi.org/en",
+    "virtual": "https://artsandculture.google.com/streetview/sak%C4%B1p-sabanc%C4%B1-museum/0wFue7JeNZdbsw",
+    "description": "The Sabancı University Sakıp Sabancı Museum is a private fine arts museum in Istanbul, Turkey, dedicated to calligraphic art, religious and state documents, as well as paintings of the Ottoman era. The museum was founded by Sakıp Sabancı, and was opened in June 2002.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sak%C4%B1p_Sabanc%C4%B1_Museum",
+    "image": ""
   }
 ]

@@ -1963,5 +1963,20 @@
     "description": "Türkiye'de 20. yüzyıla kadar kendi sahip olduğu değerleri halka tanıtan bir 'Doğa Tarihi Müzesi' oluşturulamamıştır. Yerbilimleriyle ilgili birçok ilke imza atan MTA, Türkiye'deki bu eksikliğin giderilmesine yönelik olarak 1960'lı yıllarda bilim, eğitim ve kültür alanında toplumu bilinçlendirmek amacıyla Tabiat Tarihi Müzesi'nin kurulması için ilk adımları atmıştır.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 132,
+    "type": "museum",
+    "name": "Sakıp Sabancı Müzesi",
+    "country": "Türkiye",
+    "state": "",
+    "city": "İstanbul",
+    "latitude": 41.105554,
+    "longitude": 29.056936,
+    "website": "https://www.sakipsabancimuzesi.org",
+    "virtual": "https://artsandculture.google.com/streetview/sak%C4%B1p-sabanc%C4%B1-museum/0wFue7JeNZdbsw",
+    "description": "Sabancı Üniversitesi Sakıp Sabancı Müzesi, zengin bir hat ve resim koleksiyonunu bünyesinde barındıran ve düzenlediği geçici sergilerle birçok ünlü sanatçının eserlerine ev sahipliği yapan bir sanat müzesidir.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/Sak%C4%B1p_Sabanc%C4%B1_M%C3%BCzesi",
+    "image": ""
   }
 ]
