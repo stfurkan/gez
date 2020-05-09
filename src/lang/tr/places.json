@@ -1903,5 +1903,20 @@
     "description": "Karatepe Aslantaş Açık Hava Müzesi, Osmaniye ilinde bulunan bir açık hava müzesidir. Müze aynı adı taşıyan bir milli parkın içinde yer almaktadır.",
     "wikipedia": "https://en.wikipedia.org/wiki/Karatepe-Aslanta%C5%9F_Open-Air_Museum",
     "image": ""
+  },
+  {
+    "id": 128,
+    "type": "museum",
+    "name": "Türkiye İş Bankası Müzesi",
+    "country": "Türkiye",
+    "state": "",
+    "city": "İstanbul",
+    "latitude": 41.016116,
+    "longitude": 28.972556,
+    "website": "https://www.isbank.com.tr/bankamizi-taniyin/turkiye-is-bankasi-muzesi",
+    "virtual": "https://my.matterport.com/show/?m=wdV7tHijzag",
+    "description": "Türkiye İş Bankası Müzesi, Türkiye İş Bankası'nın kuruluşundan itibaren gerek kendi geçmişine, gerekse Türkiye'nin ekonomik gelişimine tanıklık eden bankacılık ve kurumsal yapı ile ilgili belgelerin, bankacılık gereçlerinin, iletişim araçlarının, fotoğrafların, resimlerin, reklam ve promosyon malzemelerinin bir araya getirildiği, korunduğu ve sergilendiği bir kurum tarihi müzesidir.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_%C4%B0%C5%9F_Bankas%C4%B1_M%C3%BCzesi",
+    "image": ""
   }
 ]

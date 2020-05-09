@@ -1903,5 +1903,20 @@
     "description": "Karatepe Aslantaş Open-Air Museum is an open-air museum in Osmaniye Province, Turkey. Karatepe is the location while Aslantaş refers to the lion figure on stone sculptures. The site is situated inside a national park with the same name.",
     "wikipedia": "https://en.wikipedia.org/wiki/Karatepe-Aslanta%C5%9F_Open-Air_Museum",
     "image": ""
+  },
+  {
+    "id": 128,
+    "type": "museum",
+    "name": "Turkey İş Bank Museum",
+    "country": "Turkey",
+    "state": "",
+    "city": "İstanbul",
+    "latitude": 41.016116,
+    "longitude": 28.972556,
+    "website": "https://www.isbank.com.tr/bankamizi-taniyin/turkiye-is-bankasi-muzesi",
+    "virtual": "https://my.matterport.com/show/?m=wdV7tHijzag",
+    "description": "Turkey İş Bank Museum is a bank museum in İstanbul, Turkey.",
+    "wikipedia": "https://en.wikipedia.org/wiki/%C4%B0%C5%9Fbank_Museum",
+    "image": ""
   }
 ]
