@@ -1918,5 +1918,20 @@
     "description": "Turkey İş Bank Museum is a bank museum in İstanbul, Turkey.",
     "wikipedia": "https://en.wikipedia.org/wiki/%C4%B0%C5%9Fbank_Museum",
     "image": ""
+  },
+  {
+    "id": 129,
+    "type": "museum",
+    "name": "TRT Museum of Broadcasting History",
+    "country": "Turkey",
+    "state": "",
+    "city": "Ankara",
+    "latitude": 39.844552,
+    "longitude": 32.842614,
+    "website": "http://www.trtmuze.com.tr/en",
+    "virtual": "http://www.trtmuze.com.tr/en/virtual-tour",
+    "description": "TRT Museum of Broadcasting History is a memory of Turkey where you read the mind of the previous generation as you walk along its halls accompanied by voices and visions. It’s an archive that takes you back to the days of transistor radio and black & white TV screens, and escorts you all the way to the 3D broadcasts depicting the most advanced broadcast technology.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/TRT_Yay%C4%B1nc%C4%B1l%C4%B1k_Tarihi_M%C3%BCzesi",
+    "image": ""
   }
 ]

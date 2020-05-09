@@ -1918,5 +1918,20 @@
     "description": "Türkiye İş Bankası Müzesi, Türkiye İş Bankası'nın kuruluşundan itibaren gerek kendi geçmişine, gerekse Türkiye'nin ekonomik gelişimine tanıklık eden bankacılık ve kurumsal yapı ile ilgili belgelerin, bankacılık gereçlerinin, iletişim araçlarının, fotoğrafların, resimlerin, reklam ve promosyon malzemelerinin bir araya getirildiği, korunduğu ve sergilendiği bir kurum tarihi müzesidir.",
     "wikipedia": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye_%C4%B0%C5%9F_Bankas%C4%B1_M%C3%BCzesi",
     "image": ""
+  },
+  {
+    "id": 129,
+    "type": "museum",
+    "name": "TRT Yayıncılık Tarihi Müzesi",
+    "country": "Türkiye",
+    "state": "",
+    "city": "Ankara",
+    "latitude": 39.844552,
+    "longitude": 32.842614,
+    "website": "http://www.trtmuze.com.tr",
+    "virtual": "http://www.trtmuze.com.tr/360-derece-sanal-tur",
+    "description": "TRT Yayıncılık Tarihi Müzesi, koridorlarında ilerlerken ses ve görüntü eşliğinde, sizden önceki neslin zihnini okuduğunuz bir Türkiye hafızasıdır. Sizleri lambalı radyolardan ve siyah-beyaz ekranlardan alıp, 3D yayınlara sürükleyen ve yayıncılık teknolojisinin geldiği son noktayı resmeden bir arşiv çalışmasıdır.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/TRT_Yay%C4%B1nc%C4%B1l%C4%B1k_Tarihi_M%C3%BCzesi",
+    "image": ""
   }
 ]
