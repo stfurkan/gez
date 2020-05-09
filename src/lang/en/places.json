@@ -1888,5 +1888,20 @@
     "description": "The Catacombs of Paris are underground ossuaries in Paris, France, which hold the remains of more than six million people in a small part of a tunnel network built to consolidate Paris' ancient stone quarries.",
     "wikipedia": "https://en.wikipedia.org/wiki/Catacombs_of_Paris",
     "image": ""
+  },
+  {
+    "id": 127,
+    "type": "museum",
+    "name": "Karatepe Aslantaş Open-Air Museum",
+    "country": "Turkey",
+    "state": "",
+    "city": "Osmaniye",
+    "latitude": 37.297449,
+    "longitude": 36.249158,
+    "website": "https://www.osmaniyetso.org.tr/karatepe-aslantas-acik-hava-muzesi.html",
+    "virtual": "http://sanaltur.osmaniyekulturturizm.gov.tr/aslantas",
+    "description": "Karatepe Aslantaş Open-Air Museum is an open-air museum in Osmaniye Province, Turkey. Karatepe is the location while Aslantaş refers to the lion figure on stone sculptures. The site is situated inside a national park with the same name.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Karatepe-Aslanta%C5%9F_Open-Air_Museum",
+    "image": ""
   }
 ]

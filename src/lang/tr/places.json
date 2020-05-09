@@ -1888,5 +1888,20 @@
     "description": "Paris Yeraltı Mezarları, Paris'in antik taş ocaklarını sağlamlaştırmak için inşa edilmiş bir tünel ağının küçük bir bölümünde altı milyondan fazla insanın kalıntılarını barındıran Fransa, Paris'teki bulunan bir yerdir.",
     "wikipedia": "https://en.wikipedia.org/wiki/Catacombs_of_Paris",
     "image": ""
+  },
+  {
+    "id": 127,
+    "type": "museum",
+    "name": "Karatepe Aslantaş Açık Hava Müzesi",
+    "country": "Türkiye",
+    "state": "",
+    "city": "Osmaniye",
+    "latitude": 37.297449,
+    "longitude": 36.249158,
+    "website": "https://www.osmaniyetso.org.tr/karatepe-aslantas-acik-hava-muzesi.html",
+    "virtual": "http://sanaltur.osmaniyekulturturizm.gov.tr/aslantas",
+    "description": "Karatepe Aslantaş Açık Hava Müzesi, Osmaniye ilinde bulunan bir açık hava müzesidir. Müze aynı adı taşıyan bir milli parkın içinde yer almaktadır.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Karatepe-Aslanta%C5%9F_Open-Air_Museum",
+    "image": ""
   }
 ]
