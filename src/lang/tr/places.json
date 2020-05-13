@@ -1978,5 +1978,20 @@
     "description": "Sabancı Üniversitesi Sakıp Sabancı Müzesi, zengin bir hat ve resim koleksiyonunu bünyesinde barındıran ve düzenlediği geçici sergilerle birçok ünlü sanatçının eserlerine ev sahipliği yapan bir sanat müzesidir.",
     "wikipedia": "https://tr.wikipedia.org/wiki/Sak%C4%B1p_Sabanc%C4%B1_M%C3%BCzesi",
     "image": ""
+  },
+  {
+    "id": 133,
+    "type": "nature",
+    "name": "Antarktika",
+    "country": "Antarktika",
+    "state": "",
+    "city": "Antarktika",
+    "latitude": -74.195022,
+    "longitude": 35.986678,
+    "website": "https://tr.wikipedia.org/wiki/Antarktika",
+    "virtual": "https://my.matterport.com/show/?m=FFRDXEcyBpu",
+    "description": "Antarktika, Güney Yarımküre'nin en güneyinde bulunan ve Güney Kutbu'nu içeren kıta. Afrika ve Okyanusya'nın güneyinde olan ve içinde ülke bulunmayan tek kıta. Dünyanın en kurak yeridir, kıtanın bazı yerlerine 2 milyon sene yağmur yağmamıştır.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/Antarktika",
+    "image": ""
   }
 ]

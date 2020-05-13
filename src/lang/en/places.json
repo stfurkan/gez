@@ -1978,5 +1978,20 @@
     "description": "The Sabancı University Sakıp Sabancı Museum is a private fine arts museum in Istanbul, Turkey, dedicated to calligraphic art, religious and state documents, as well as paintings of the Ottoman era. The museum was founded by Sakıp Sabancı, and was opened in June 2002.",
     "wikipedia": "https://en.wikipedia.org/wiki/Sak%C4%B1p_Sabanc%C4%B1_Museum",
     "image": ""
+  },
+  {
+    "id": 133,
+    "type": "nature",
+    "name": "Antarctica",
+    "country": "Antarctica",
+    "state": "",
+    "city": "Antarctica",
+    "latitude": -74.195022,
+    "longitude": 35.986678,
+    "website": "https://en.wikipedia.org/wiki/Antarctica",
+    "virtual": "https://my.matterport.com/show/?m=FFRDXEcyBpu",
+    "description": "Antarctica is Earth's southernmost continent. It contains the geographic South Pole and is situated in the Antarctic region of the Southern Hemisphere, almost entirely south of the Antarctic Circle, and is surrounded by the Southern Ocean.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Antarctica",
+    "image": ""
   }
 ]
