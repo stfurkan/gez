@@ -1993,5 +1993,20 @@
     "description": "Antarktika, Güney Yarımküre'nin en güneyinde bulunan ve Güney Kutbu'nu içeren kıta. Afrika ve Okyanusya'nın güneyinde olan ve içinde ülke bulunmayan tek kıta. Dünyanın en kurak yeridir, kıtanın bazı yerlerine 2 milyon sene yağmur yağmamıştır.",
     "wikipedia": "https://tr.wikipedia.org/wiki/Antarktika",
     "image": ""
+  },
+  {
+    "id": 134,
+    "type": "museum",
+    "name": "Ulusal Bilgi İşlem Müzesi",
+    "country": "İngiltere",
+    "state": "",
+    "city": "Bletchley",
+    "latitude": 51.998467,
+    "longitude": -0.743871,
+    "website": "https://www.tnmoc.org",
+    "virtual": "https://my.matterport.com/show/?m=Vz8kCqGRjQA",
+    "description": "Ulusal Bilgi İşlem Müzesi, Birleşik Krallık'ta tarihi bilgisayar sistemlerini toplamaya ve sergilemeye adanmış bir müzedir.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_National_Museum_of_Computing",
+    "image": ""
   }
 ]

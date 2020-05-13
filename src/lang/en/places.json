@@ -1993,5 +1993,20 @@
     "description": "Antarctica is Earth's southernmost continent. It contains the geographic South Pole and is situated in the Antarctic region of the Southern Hemisphere, almost entirely south of the Antarctic Circle, and is surrounded by the Southern Ocean.",
     "wikipedia": "https://en.wikipedia.org/wiki/Antarctica",
     "image": ""
+  },
+  {
+    "id": 134,
+    "type": "museum",
+    "name": "National Museum of Computing",
+    "country": "England",
+    "state": "",
+    "city": "Bletchley",
+    "latitude": 51.998467,
+    "longitude": -0.743871,
+    "website": "https://www.tnmoc.org",
+    "virtual": "https://my.matterport.com/show/?m=Vz8kCqGRjQA",
+    "description": "The National Museum of Computing is a museum in the United Kingdom dedicated to collecting and restoring historic computer systems. The museum is based in rented premises at Bletchley Park in Milton Keynes, Buckinghamshire and opened in 2007.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_National_Museum_of_Computing",
+    "image": ""
   }
 ]
