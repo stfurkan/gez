@@ -2038,5 +2038,20 @@
     "description": "Walt Disney World Resort, Amerika Birleşik Devletleri'nin Florida eyaletine bağlı Lake Buena Vista ve Bay Lake kentlerinde bulunan Disney temalı bir eğlence parkıdır.",
     "wikipedia": "https://tr.wikipedia.org/wiki/Walt_Disney_World_Resort",
     "image": ""
+  },
+  {
+    "id": 137,
+    "type": "museum",
+    "name": "İstanbul Modern Sanat Müzesi",
+    "country": "Türkiye",
+    "state": "",
+    "city": "İstanbul",
+    "latitude": 41.029936,
+    "longitude": 28.973321,
+    "website": "https://www.istanbulmodern.org",
+    "virtual": "https://my.matterport.com/show/?m=frKzgxEAyHK",
+    "description": "İstanbul Modern Sanat Müzesi veya kısaca İstanbul Modern, Türkiye'nin ilk modern sanat müzesidir. Eczacıbaşı ailesinin öncülüğünde, İstanbul Kültür Sanat Vakfı tarafından kurulan müze, 11 Aralık 2004'te ziyarete açıldı.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/%C4%B0stanbul_Modern",
+    "image": ""
   }
 ]

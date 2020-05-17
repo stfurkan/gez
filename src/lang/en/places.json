@@ -2038,5 +2038,20 @@
     "description": "The Walt Disney World Resort, also called Walt Disney World and Disney World, is an entertainment complex in Bay Lake and Lake Buena Vista, Florida, in the United States, near the cities Orlando and Kissimmee.",
     "wikipedia": "https://en.wikipedia.org/wiki/Walt_Disney_World",
     "image": ""
+  },
+  {
+    "id": 137,
+    "type": "museum",
+    "name": "İstanbul Museum of Modern Art",
+    "country": "Turkey",
+    "state": "",
+    "city": "İstanbul",
+    "latitude": 41.029936,
+    "longitude": 28.973321,
+    "website": "https://www.istanbulmodern.org/en",
+    "virtual": "https://my.matterport.com/show/?m=frKzgxEAyHK",
+    "description": "İstanbul Modern, a.k.a. Istanbul Museum of Modern Art, is a museum of contemporary art in the Beyoğlu district of Istanbul, Turkey. Inaugurated on December 11, 2004, the museum focuses on artists from Turkey.",
+    "wikipedia": "https://en.wikipedia.org/wiki/%C4%B0stanbul_Modern",
+    "image": ""
   }
 ]
