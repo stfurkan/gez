@@ -2018,10 +2018,25 @@
     "city": "Billund",
     "latitude": 55.733825,
     "longitude": 9.128211,
-    "website": "https://www.legoland.dk/en/",
+    "website": "https://www.legoland.dk/en",
     "virtual": "https://tourmkr.com/f/F18qqBvB3S",
     "description": "Legoland Billund, the original Legoland park, opened on 7 June 1968 in Billund, Denmark. The park is located next to the original Lego factory and Billund Airport, Denmark's second-busiest airport.",
     "wikipedia": "https://en.wikipedia.org/wiki/Legoland_Billund_Resort",
+    "image": ""
+  },
+  {
+    "id": 136,
+    "type": "theme",
+    "name": "Walt Disney World Resort",
+    "country": "United States",
+    "state": "FL",
+    "city": "Orlando",
+    "latitude": 28.385231,
+    "longitude": -81.563876,
+    "website": "https://disneyworld.disney.go.com",
+    "virtual": "https://www.xplorit.com/orlando-florida/walt-disney-world-resort/walt-disney-world-resort",
+    "description": "The Walt Disney World Resort, also called Walt Disney World and Disney World, is an entertainment complex in Bay Lake and Lake Buena Vista, Florida, in the United States, near the cities Orlando and Kissimmee.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Walt_Disney_World",
     "image": ""
   }
 ]
