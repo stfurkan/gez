@@ -2008,5 +2008,20 @@
     "description": "The National Museum of Computing is a museum in the United Kingdom dedicated to collecting and restoring historic computer systems. The museum is based in rented premises at Bletchley Park in Milton Keynes, Buckinghamshire and opened in 2007.",
     "wikipedia": "https://en.wikipedia.org/wiki/The_National_Museum_of_Computing",
     "image": ""
+  },
+  {
+    "id": 135,
+    "type": "theme",
+    "name": "Legoland Billund",
+    "country": "Denmark",
+    "state": "",
+    "city": "Billund",
+    "latitude": 55.733825,
+    "longitude": 9.128211,
+    "website": "https://www.legoland.dk/en/",
+    "virtual": "https://tourmkr.com/f/F18qqBvB3S",
+    "description": "Legoland Billund, the original Legoland park, opened on 7 June 1968 in Billund, Denmark. The park is located next to the original Lego factory and Billund Airport, Denmark's second-busiest airport.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Legoland_Billund_Resort",
+    "image": ""
   }
 ]
