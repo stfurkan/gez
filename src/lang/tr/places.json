@@ -2053,5 +2053,20 @@
     "description": "İstanbul Modern Sanat Müzesi veya kısaca İstanbul Modern, Türkiye'nin ilk modern sanat müzesidir. Eczacıbaşı ailesinin öncülüğünde, İstanbul Kültür Sanat Vakfı tarafından kurulan müze, 11 Aralık 2004'te ziyarete açıldı.",
     "wikipedia": "https://tr.wikipedia.org/wiki/%C4%B0stanbul_Modern",
     "image": ""
+  },
+  {
+    "id": 138,
+    "type": "museum",
+    "name": "Dunfermline Carnegie Kütüphanesi ve Galerisi",
+    "country": "İskoçya",
+    "state": "",
+    "city": "Dunfermline",
+    "latitude": 56.070316,
+    "longitude": -3.461858,
+    "website": "https://www.onfife.com/venues/dunfermline-carnegie-library-galleries",
+    "virtual": "https://my.matterport.com/show/?m=ZbnmAY5UVyQ",
+    "description": "Dunfermline Carnegie Kütüphanesi 29 Ağustos 1883'te açıldı. İskoç-Amerikalı işadamı ve hayırsever Andrew Carnegie tarafından finanse edilen dünyanın ilk Carnegie Kütüphanesi oldu. Dunfermline City Chambers'i de tasarlayan Edinburgh mimarı James Campbell Walker tarafından tasarlandı.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dunfermline_Carnegie_Library",
+    "image": ""
   }
 ]

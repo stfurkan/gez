@@ -2053,5 +2053,20 @@
     "description": "İstanbul Modern, a.k.a. Istanbul Museum of Modern Art, is a museum of contemporary art in the Beyoğlu district of Istanbul, Turkey. Inaugurated on December 11, 2004, the museum focuses on artists from Turkey.",
     "wikipedia": "https://en.wikipedia.org/wiki/%C4%B0stanbul_Modern",
     "image": ""
+  },
+  {
+    "id": 138,
+    "type": "museum",
+    "name": "Dunfermline Carnegie Library and Galleries",
+    "country": "Scotland",
+    "state": "",
+    "city": "Dunfermline",
+    "latitude": 56.070316,
+    "longitude": -3.461858,
+    "website": "https://www.onfife.com/venues/dunfermline-carnegie-library-galleries",
+    "virtual": "https://my.matterport.com/show/?m=ZbnmAY5UVyQ",
+    "description": "The Dunfermline Carnegie Library was opened on 29 August 1883 and was the world's first Carnegie Library funded by the Scottish-American businessman and philanthropist Andrew Carnegie. It was designed by Edinburgh architect James Campbell Walker who also designed the nearby Dunfermline City Chambers.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dunfermline_Carnegie_Library",
+    "image": ""
   }
 ]
