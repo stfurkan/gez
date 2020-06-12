@@ -2068,5 +2068,20 @@
     "description": "Dunfermline Carnegie Kütüphanesi 29 Ağustos 1883'te açıldı. İskoç-Amerikalı işadamı ve hayırsever Andrew Carnegie tarafından finanse edilen dünyanın ilk Carnegie Kütüphanesi oldu. Dunfermline City Chambers'i de tasarlayan Edinburgh mimarı James Campbell Walker tarafından tasarlandı.",
     "wikipedia": "https://en.wikipedia.org/wiki/Dunfermline_Carnegie_Library",
     "image": ""
+  },
+  {
+    "id": 139,
+    "type": "historical",
+    "name": "Salisbury Katedrali",
+    "country": "İngiltere",
+    "state": "",
+    "city": "Salisbury",
+    "latitude": 51.064899,
+    "longitude": -1.797295,
+    "website": "https://www.salisburycathedral.org.uk",
+    "virtual": "https://my.matterport.com/show/?m=VzRuKRWTxHq",
+    "description": "Salisbury Kutsal Meryem Ana Katedral Kilisesi, İngiltere'nin Salisbury şehrinde bulunan bir katedraldir. Kilise, 13. yüzyılda inşa edilmiş olup erken İngiliz mimarisinin önde gelen örneklerinden biridir.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/Salisbury_Katedrali",
+    "image": ""
   }
 ]

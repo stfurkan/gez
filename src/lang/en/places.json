@@ -2068,5 +2068,20 @@
     "description": "The Dunfermline Carnegie Library was opened on 29 August 1883 and was the world's first Carnegie Library funded by the Scottish-American businessman and philanthropist Andrew Carnegie. It was designed by Edinburgh architect James Campbell Walker who also designed the nearby Dunfermline City Chambers.",
     "wikipedia": "https://en.wikipedia.org/wiki/Dunfermline_Carnegie_Library",
     "image": ""
+  },
+  {
+    "id": 139,
+    "type": "historical",
+    "name": "Salisbury Cathedral",
+    "country": "England",
+    "state": "",
+    "city": "Salisbury",
+    "latitude": 51.064899,
+    "longitude": -1.797295,
+    "website": "https://www.salisburycathedral.org.uk",
+    "virtual": "https://my.matterport.com/show/?m=VzRuKRWTxHq",
+    "description": "Salisbury Cathedral, formally known as the Cathedral Church of the Blessed Virgin Mary, is an Anglican cathedral in Salisbury, England. The cathedral is regarded as one of the leading examples of Early English architecture. Its main body was completed in 38 years, from 1220 to 1258.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Salisbury_Cathedral",
+    "image": ""
   }
 ]
