@@ -334,12 +334,12 @@ export default class Main extends Component {
             title={
               place === '' ? lang.favorites.pageTitle : `Gez.la | ${place.name}`
             }
-            metaContent={lang.metaContent}
+            metaContent={place === '' ? lang.metaContent : place.description}
           />
         ) : (
           <PageTitle
             title={place === '' ? lang.pageTitle : `Gez.la | ${place.name}`}
-            metaContent={lang.metaContent}
+            metaContent={place === '' ? lang.metaContent : place.description}
           />
         )}
 

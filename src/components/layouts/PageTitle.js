@@ -5,8 +5,8 @@ export default function PageTitle({ title, metaContent }) {
   return (
     <div>
       <Helmet>
-        <title>{`${title}`}</title>
-        <meta name='description' content={`${metaContent}`} />
+        <title>{title}</title>
+        <meta name='description' content={metaContent} />
       </Helmet>
     </div>
   );
