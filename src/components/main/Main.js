@@ -4,7 +4,6 @@ import PageTitle from '../layouts/PageTitle';
 import Pagination from '../layouts/Pagination';
 import Share from '../layouts/Share';
 import Map from './Map';
-import WelcomeModal from './WelcomeModal';
 import PlaceModal from './PlaceModal';
 
 export default class Main extends Component {
@@ -54,8 +53,7 @@ export default class Main extends Component {
       place: '',
       sorted: '',
       visits: JSON.parse(localStorage.getItem('visits')),
-      favorites: JSON.parse(localStorage.getItem('favorites')),
-      welcome: localStorage.getItem('welcome') === null ? true : false
+      favorites: JSON.parse(localStorage.getItem('favorites'))
     };
   }
 
@@ -75,13 +73,6 @@ export default class Main extends Component {
       searchPlace: '',
       selectCountry: 'all',
       selectType: 'all'
-    });
-  };
-
-  closeWelcome = () => {
-    localStorage.setItem('welcome', false);
-    this.setState({
-      welcome: false
     });
   };
 
@@ -313,7 +304,6 @@ export default class Main extends Component {
       selectType,
       visits,
       favorites,
-      welcome,
       sorted
     } = this.state;
 
@@ -605,10 +595,6 @@ export default class Main extends Component {
               />
             )}
           </Fragment>
-        )}
-
-        {welcome && (
-          <WelcomeModal lang={lang} closeWelcome={this.closeWelcome} />
         )}
       </div>
     );
