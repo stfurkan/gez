@@ -2083,5 +2083,20 @@
     "description": "Salisbury Kutsal Meryem Ana Katedral Kilisesi, İngiltere'nin Salisbury şehrinde bulunan bir katedraldir. Kilise, 13. yüzyılda inşa edilmiş olup erken İngiliz mimarisinin önde gelen örneklerinden biridir.",
     "wikipedia": "https://tr.wikipedia.org/wiki/Salisbury_Katedrali",
     "image": ""
+  },
+  {
+    "id": 140,
+    "type": "museum",
+    "name": "Casa del Mendrugo Müzesi",
+    "country": "Meksika",
+    "state": "",
+    "city": "Puebla",
+    "latitude": 19.041771,
+    "longitude": -98.195924,
+    "website": "https://en.casadelmendrugo.com/museo",
+    "virtual": "https://artsandculture.google.com/streetview/museo-casa-del-mendrugo-primer-piso/tgGIxYxTYo0pwg",
+    "description": "Casa del Mendrugo Müzesi, bir zamanlar ilk Cizvit Koleji olan Saint Jerome Cizvit Koleji'nin bir parçası olan Puebla şehir merkezindeki büyük bir tarihi binada yer almaktadır.",
+    "wikipedia": "",
+    "image": ""
   }
 ]

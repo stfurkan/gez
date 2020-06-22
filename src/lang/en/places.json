@@ -2083,5 +2083,20 @@
     "description": "Salisbury Cathedral, formally known as the Cathedral Church of the Blessed Virgin Mary, is an Anglican cathedral in Salisbury, England. The cathedral is regarded as one of the leading examples of Early English architecture. Its main body was completed in 38 years, from 1220 to 1258.",
     "wikipedia": "https://en.wikipedia.org/wiki/Salisbury_Cathedral",
     "image": ""
+  },
+  {
+    "id": 140,
+    "type": "museum",
+    "name": "Casa del Mendrugo Museum",
+    "country": "Mexico",
+    "state": "",
+    "city": "Puebla",
+    "latitude": 19.041771,
+    "longitude": -98.195924,
+    "website": "https://en.casadelmendrugo.com/museo",
+    "virtual": "https://artsandculture.google.com/streetview/museo-casa-del-mendrugo-primer-piso/tgGIxYxTYo0pwg",
+    "description": "Casa del Mendrugo Museum is located in a large historic building in the downtown district of Puebla, once part of Saint Jerome Jesuit College, the first Jesuit College.",
+    "wikipedia": "",
+    "image": ""
   }
 ]
