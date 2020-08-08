@@ -62,13 +62,13 @@ Your app is ready to be deployed!
 
 ## Features
 
-- Lists places by using map and table
-- Tracks the visited places by using browser's local storage
-- Filters places by place name, country name and type
-- Sorts place list by place name, country name and type
-- Generates favorite places list by user's like
-- Enables to share user's favorite places list
-- Enables to share single place
+- Lists virtual tours by using map and table view
+- Tracks the visited virtual tours by using browser's local storage
+- Filters virtual tours by place name, country name and type
+- Sorts virtual tours by place name, country name and type
+- Generates favorite virtual tours list by user's selection
+- Enables to share user's favorite virtual tours
+- Enables to share single virtual tour
 - Supports Turkish and English languages (based on browser language)
 
 ## Built With
