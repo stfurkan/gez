@@ -2113,5 +2113,20 @@
     "description": "Norwich Katedrali, Norwich, Norfolk'ta bulunan bir İngiliz katedralidir.",
     "wikipedia": "https://en.wikipedia.org/wiki/Norwich_Cathedral",
     "image": ""
+  },
+  {
+    "id": 142,
+    "type": "museum",
+    "name": "İslam Medeniyetleri Müzesi",
+    "country": "İsviçre",
+    "state": "",
+    "city": "La Chaux-de-Fonds",
+    "latitude": 47.097015,
+    "longitude": 6.820684,
+    "website": "https://www.mucivi.ch",
+    "virtual": "https://my.matterport.com/show/?m=KEEy55mDD3y",
+    "description": "İslam Medeniyetleri Müzesi İsviçre'de bulunmaktadır.",
+    "wikipedia": "",
+    "image": ""
   }
 ]
