@@ -2143,5 +2143,20 @@
     "description": "Bursa Ulu Cami, Bursa’da I. Bayezid tarafından 1396-1400 yılları arasında yaptırılmış dini yapıdır. Bursa’nın tarihi sembollerinden olan cami, Bursa kent merkezinde, Atatürk Caddesi üzerindedir. Çok ayaklı cami şemasının en klasik ve anıtsal örneği sayılır.",
     "wikipedia": "https://tr.wikipedia.org/wiki/Bursa_Ulu_Camii",
     "image": ""
+  },
+  {
+    "id": 144,
+    "type": "museum",
+    "name": "Yaşayan Bilgisayar Müzesi",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "WA",
+    "city": "Seattle",
+    "latitude": 47.582524,
+    "longitude": -122.334492,
+    "website": "https://www.livingcomputers.org",
+    "virtual": "https://my.matterport.com/show/?m=CuZHZ8j3wea",
+    "description": "Yaşayan Bilgisayarlar: Müze + Lab, Seattle, Washington'un SoDo semtinde bulunan bir bilgisayar ve teknoloji müzesidir. LCM + L, zaman paylaşımlı işletim sistemleri veya tek kullanıcı arabirimleri aracılığıyla etkileşimli oturumlar sağlayan eski bilgisayarları sergiler.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Living_Computers:_Museum_%2B_Labs",
+    "image": ""
   }
 ]

@@ -2143,5 +2143,20 @@
     "description": "The Grand Mosque of Bursa is a historic mosque in Bursa, Turkey. It was commissioned by the Ottoman Sultan Bayezid I to commemorate his great victory at the Battle of Nicopolis and built between 1396 and 1399.",
     "wikipedia": "https://en.wikipedia.org/wiki/Grand_Mosque_of_Bursa",
     "image": ""
+  },
+  {
+    "id": 144,
+    "type": "museum",
+    "name": "Living Computer Museum",
+    "country": "United States",
+    "state": "WA",
+    "city": "Seattle",
+    "latitude": 47.582524,
+    "longitude": -122.334492,
+    "website": "https://www.livingcomputers.org",
+    "virtual": "https://my.matterport.com/show/?m=CuZHZ8j3wea",
+    "description": "Living Computers: Museum + Labs is a computer and technology museum located in the SoDo neighborhood of Seattle, Washington. LCM+L showcases vintage computers which provide interactive sessions, either through time-sharing operating systems or single-user interfaces.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Living_Computers:_Museum_%2B_Labs",
+    "image": ""
   }
 ]
