@@ -2173,5 +2173,20 @@
     "description": "The Lyric Theatre is a historic theater located at 59 Southwest Flagler Avenue in downtown Stuart, Florida. The building fronts on its north side on Southwest Osceola Street. Built to serve as a movie house, it is now used primarily as a stage and music venue.",
     "wikipedia": "https://en.wikipedia.org/wiki/Lyric_Theatre_(Stuart,_Florida)",
     "image": ""
+  },
+  {
+    "id": 146,
+    "type": "nature",
+    "name": "Kasugai Gardens",
+    "country": "Canada",
+    "state": "BC",
+    "city": "Kelowna",
+    "latitude": 49.887896,
+    "longitude": -119.495085,
+    "website": "https://www.kelowna.ca/parks-recreation/parks-beaches/parks-beaches-listing/kasugai-gardens",
+    "virtual": "https://my.matterport.com/show/?m=wUiWCt3f2VX",
+    "description": "The garden was completed in 1987 to demonstrate the friendship and union between Kelowna and its sister city in Kasugai, Japan. The park integrates traditional elements notable in Japanese gardens, such as stone lanterns, pine trees, waterfalls and a pond stocked with Koi. It is a beautiful integration of stone, pathways, plants and water.",
+    "wikipedia": "",
+    "image": ""
   }
 ]

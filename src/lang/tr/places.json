@@ -2173,5 +2173,20 @@
     "description": "Lyric Tiyatrosu, Stuart, Florida şehir merkezindeki 59 Southwest Flagler Bulvarı'nda bulunan tarihi bir tiyatrodur. Film evi olarak hizmet vermek için tasarlanan bu bina, günümüzde sahne ve müzik mekanı olarak kullanılıyor.",
     "wikipedia": "https://en.wikipedia.org/wiki/Lyric_Theatre_(Stuart,_Florida)",
     "image": ""
+  },
+  {
+    "id": 146,
+    "type": "nature",
+    "name": "Kasugai Bahçeleri",
+    "country": "Kanada",
+    "state": "BC",
+    "city": "Kelowna",
+    "latitude": 49.887896,
+    "longitude": -119.495085,
+    "website": "https://www.kelowna.ca/parks-recreation/parks-beaches/parks-beaches-listing/kasugai-gardens",
+    "virtual": "https://my.matterport.com/show/?m=wUiWCt3f2VX",
+    "description": "Bahçe, Kelowna ile Japonya'daki kardeş şehri Kasugai ile arasındaki dostluğu ve birliği göstermek için 1987 yılında tamamlandı. Park, Japon bahçelerinde görülen taş fenerler, çam ağaçları, şelaleler ve Koi ile dolu bir gölet gibi geleneksel unsurları barındırır.",
+    "wikipedia": "",
+    "image": ""
   }
 ]
