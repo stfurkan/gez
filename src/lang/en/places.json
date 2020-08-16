@@ -2158,5 +2158,20 @@
     "description": "Living Computers: Museum + Labs is a computer and technology museum located in the SoDo neighborhood of Seattle, Washington. LCM+L showcases vintage computers which provide interactive sessions, either through time-sharing operating systems or single-user interfaces.",
     "wikipedia": "https://en.wikipedia.org/wiki/Living_Computers:_Museum_%2B_Labs",
     "image": ""
+  },
+  {
+    "id": 145,
+    "type": "historical",
+    "name": "Lyric Theatre",
+    "country": "United States",
+    "state": "FL",
+    "city": "Stuart",
+    "latitude": 27.199464,
+    "longitude": -80.254401,
+    "website": "https://www.lyrictheatre.com",
+    "virtual": "https://my.matterport.com/show/?m=vx4yorKaABt",
+    "description": "The Lyric Theatre is a historic theater located at 59 Southwest Flagler Avenue in downtown Stuart, Florida. The building fronts on its north side on Southwest Osceola Street. Built to serve as a movie house, it is now used primarily as a stage and music venue.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lyric_Theatre_(Stuart,_Florida)",
+    "image": ""
   }
 ]

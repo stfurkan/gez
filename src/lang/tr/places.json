@@ -2158,5 +2158,20 @@
     "description": "Yaşayan Bilgisayarlar: Müze + Lab, Seattle, Washington'un SoDo semtinde bulunan bir bilgisayar ve teknoloji müzesidir. LCM + L, zaman paylaşımlı işletim sistemleri veya tek kullanıcı arabirimleri aracılığıyla etkileşimli oturumlar sağlayan eski bilgisayarları sergiler.",
     "wikipedia": "https://en.wikipedia.org/wiki/Living_Computers:_Museum_%2B_Labs",
     "image": ""
+  },
+  {
+    "id": 145,
+    "type": "historical",
+    "name": "Lyric Tiyatrosu",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "FL",
+    "city": "Stuart",
+    "latitude": 27.199464,
+    "longitude": -80.254401,
+    "website": "https://www.lyrictheatre.com",
+    "virtual": "https://my.matterport.com/show/?m=vx4yorKaABt",
+    "description": "Lyric Tiyatrosu, Stuart, Florida şehir merkezindeki 59 Southwest Flagler Bulvarı'nda bulunan tarihi bir tiyatrodur. Film evi olarak hizmet vermek için tasarlanan bu bina, günümüzde sahne ve müzik mekanı olarak kullanılıyor.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lyric_Theatre_(Stuart,_Florida)",
+    "image": ""
   }
 ]
