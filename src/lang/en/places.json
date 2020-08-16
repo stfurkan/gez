@@ -2098,5 +2098,20 @@
     "description": "Casa del Mendrugo Museum is located in a large historic building in the downtown district of Puebla, once part of Saint Jerome Jesuit College, the first Jesuit College.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 141,
+    "type": "historical",
+    "name": "Norwich Cathedral",
+    "country": "England",
+    "state": "",
+    "city": "Norwich",
+    "latitude": 52.63188,
+    "longitude": 1.301186,
+    "website": "https://www.cathedral.org.uk",
+    "virtual": "https://my.matterport.com/show/?m=DknbVmx7umb",
+    "description": "Norwich Cathedral is an English cathedral located in Norwich, Norfolk.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Norwich_Cathedral",
+    "image": ""
   }
 ]

@@ -2098,5 +2098,20 @@
     "description": "Casa del Mendrugo Müzesi, bir zamanlar ilk Cizvit Koleji olan Saint Jerome Cizvit Koleji'nin bir parçası olan Puebla şehir merkezindeki büyük bir tarihi binada yer almaktadır.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 141,
+    "type": "historical",
+    "name": "Norwich Katedrali",
+    "country": "İngiltere",
+    "state": "",
+    "city": "Norwich",
+    "latitude": 52.63188,
+    "longitude": 1.301186,
+    "website": "https://www.cathedral.org.uk",
+    "virtual": "https://my.matterport.com/show/?m=DknbVmx7umb",
+    "description": "Norwich Katedrali, Norwich, Norfolk'ta bulunan bir İngiliz katedralidir.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Norwich_Cathedral",
+    "image": ""
   }
 ]
