@@ -2128,5 +2128,20 @@
     "description": "The Museum of Islamic Civilizations is located in Switzerland.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 143,
+    "type": "historical",
+    "name": "Grand Mosque of Bursa",
+    "country": "Turkey",
+    "state": "",
+    "city": "Bursa",
+    "latitude": 40.183909,
+    "longitude": 29.061931,
+    "website": "https://www.kulturportali.gov.tr/turkiye/bursa/gezilecekyer/bursa-ulu-cami",
+    "virtual": "https://my.matterport.com/show/?m=Yrm4Y5a488k",
+    "description": "The Grand Mosque of Bursa is a historic mosque in Bursa, Turkey. It was commissioned by the Ottoman Sultan Bayezid I to commemorate his great victory at the Battle of Nicopolis and built between 1396 and 1399.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Grand_Mosque_of_Bursa",
+    "image": ""
   }
 ]

@@ -2128,5 +2128,20 @@
     "description": "İslam Medeniyetleri Müzesi İsviçre'de bulunmaktadır.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 143,
+    "type": "historical",
+    "name": "Bursa Ulu Cami",
+    "country": "Türkiye",
+    "state": "",
+    "city": "Bursa",
+    "latitude": 40.183909,
+    "longitude": 29.061931,
+    "website": "https://www.kulturportali.gov.tr/turkiye/bursa/gezilecekyer/bursa-ulu-cami",
+    "virtual": "https://my.matterport.com/show/?m=Yrm4Y5a488k",
+    "description": "Bursa Ulu Cami, Bursa’da I. Bayezid tarafından 1396-1400 yılları arasında yaptırılmış dini yapıdır. Bursa’nın tarihi sembollerinden olan cami, Bursa kent merkezinde, Atatürk Caddesi üzerindedir. Çok ayaklı cami şemasının en klasik ve anıtsal örneği sayılır.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/Bursa_Ulu_Camii",
+    "image": ""
   }
 ]
