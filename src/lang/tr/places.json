@@ -2188,5 +2188,20 @@
     "description": "Bahçe, Kelowna ile Japonya'daki kardeş şehri Kasugai ile arasındaki dostluğu ve birliği göstermek için 1987 yılında tamamlandı. Park, Japon bahçelerinde görülen taş fenerler, çam ağaçları, şelaleler ve Koi ile dolu bir gölet gibi geleneksel unsurları barındırır.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 147,
+    "type": "museum",
+    "name": "Booth Batı Sanat Müzesi",
+    "country": "Amerika Birleşik Devletleri",
+    "state": "GA",
+    "city": "Cartersville",
+    "latitude": 34.168309,
+    "longitude": -84.796145,
+    "website": "https://boothmuseum.org",
+    "virtual": "https://my.matterport.com/show/?m=8LT2FEsXSJS",
+    "description": "Georgia, Cartersville'de bulunan Booth Batı Sanat Müzesi, Batı Amerika Birleşik Devletleri'ne adanmış bir müzedir; Güneydoğu Amerika Birleşik Devletleri'nde türünün tek müzesidir.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Booth_Western_Art_Museum",
+    "image": ""
   }
 ]

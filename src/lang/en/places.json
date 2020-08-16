@@ -2188,5 +2188,20 @@
     "description": "The garden was completed in 1987 to demonstrate the friendship and union between Kelowna and its sister city in Kasugai, Japan. The park integrates traditional elements notable in Japanese gardens, such as stone lanterns, pine trees, waterfalls and a pond stocked with Koi. It is a beautiful integration of stone, pathways, plants and water.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 147,
+    "type": "museum",
+    "name": "Booth Western Art Museum",
+    "country": "United States",
+    "state": "GA",
+    "city": "Cartersville",
+    "latitude": 34.168309,
+    "longitude": -84.796145,
+    "website": "https://boothmuseum.org",
+    "virtual": "https://my.matterport.com/show/?m=8LT2FEsXSJS",
+    "description": "Booth Western Art Museum, located in Cartersville, Georgia, is a museum dedicated to the Western United States; the only museum of its kind in the Southeastern United States.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Booth_Western_Art_Museum",
+    "image": ""
   }
 ]
