@@ -57,8 +57,8 @@ export default function Filter({ places, setFilteredPlaces, lang, sorted }) {
         <div className='overflow-x-auto'>
           <div className='align-middle inline-block min-w-full sm:px-6 lg:px-6'>
             <div className='justify-center flex flex-col sm:flex-col md:flex-row items-center sm:items-center md:items-end md:h-12 border-2 rounded-lg border-gray-300'>
-              <div className='w-full h-full'>
-                <div className='relative h-full text-gray-600 focus-within:text-gray-400'>
+              <div className='w-full h-10'>
+                <div className='relative h-10 text-gray-600 focus-within:text-gray-400'>
                   <div className='absolute inset-y-0 right-0 flex items-center pl-2'>
                     <span className='p-1'>
                       <svg
@@ -85,7 +85,7 @@ export default function Filter({ places, setFilteredPlaces, lang, sorted }) {
                   <input
                     type='text'
                     name='search'
-                    className='w-full h-full pb-2 pt-3 text-md bg-gray-100 rounded-md pl-2 pr-10 focus:outline-none focus:bg-gray-200 focus:text-gray-900'
+                    className='w-full h-10 pb-2 pt-3 text-md bg-gray-100 rounded-md pl-2 pr-10 focus:outline-none focus:bg-gray-200 focus:text-gray-900'
                     placeholder={lang.searchPlace}
                     autoComplete='off'
                     value={search}
@@ -94,8 +94,8 @@ export default function Filter({ places, setFilteredPlaces, lang, sorted }) {
                 </div>
               </div>
 
-              <div className='w-full h-full'>
-                <div className='relative h-full text-gray-600 focus-within:text-gray-400'>
+              <div className='w-full h-10'>
+                <div className='relative h-10 text-gray-600 focus-within:text-gray-400'>
                   <div className='absolute inset-y-0 left-2 flex items-center pt-2'>
                     <span className='p-1'>
                       <svg
@@ -121,7 +121,7 @@ export default function Filter({ places, setFilteredPlaces, lang, sorted }) {
                   </span>
                   <select
                     name='type'
-                    className='w-full h-full form-select pb-2 pt-3 text-md bg-gray-100 rounded-md pl-6 focus:outline-none focus:bg-gray-200 focus:text-gray-900'
+                    className='w-full h-10 form-select pb-2 pt-3 text-md bg-gray-100 rounded-md pl-6 focus:outline-none focus:bg-gray-200 focus:text-gray-900'
                     value={type}
                     onChange={e => setType(e.target.value)}
                   >
@@ -135,8 +135,8 @@ export default function Filter({ places, setFilteredPlaces, lang, sorted }) {
                 </div>
               </div>
 
-              <div className='w-full h-full'>
-                <div className='relative h-full text-gray-600 focus-within:text-gray-400'>
+              <div className='w-full h-10'>
+                <div className='relative h-10 text-gray-600 focus-within:text-gray-400'>
                   <div className='absolute inset-y-0 left-2 flex items-center pt-2'>
                     <span className='p-1'>
                       <svg
@@ -162,7 +162,7 @@ export default function Filter({ places, setFilteredPlaces, lang, sorted }) {
                   </span>
                   <select
                     name='country'
-                    className='w-full h-full form-select pb-2 pt-3 text-md bg-gray-100 rounded-md pl-6 focus:outline-none focus:bg-gray-200 focus:text-gray-900'
+                    className='w-full h-10 form-select pb-2 pt-3 text-md bg-gray-100 rounded-md pl-6 focus:outline-none focus:bg-gray-200 focus:text-gray-900'
                     value={country}
                     onChange={e => setCountry(e.target.value)}
                   >
@@ -177,11 +177,11 @@ export default function Filter({ places, setFilteredPlaces, lang, sorted }) {
               </div>
 
               {(search !== '' || type !== 'all' || country !== 'all') && (
-                <div className='w-full h-full'>
-                  <div className='relative h-full text-gray-600 focus-within:text-gray-400'>
+                <div className='w-full h-10'>
+                  <div className='relative h-10 text-gray-600 focus-within:text-gray-400'>
                     <button
                       type='button'
-                      className='w-full h-full bg-red-700 hover:bg-red-500 text-white font-bold pb-2 pt-3 rounded-md inline-flex justify-center items-center'
+                      className='w-full h-10 bg-red-700 hover:bg-red-500 text-white font-bold pb-2 pt-3 rounded-md inline-flex justify-center items-center'
                       onClick={() => {
                         setSearch('');
                         setType('all');
