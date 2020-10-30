@@ -98,10 +98,5 @@ export default function Map({ places, lang, visits }) {
     });
   }, [places]);
 
-  return (
-    <div
-      className='mx-auto sm:mx-6 h-64 border border-solid border-gray-500 rounded-lg'
-      id='placeMap'
-    ></div>
-  );
+  return <div className='mx-auto sm:mx-6 h-64 rounded-lg' id='placeMap'></div>;
 }
