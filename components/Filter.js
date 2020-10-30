@@ -166,7 +166,9 @@ export default function Filter({ places, setFilteredPlaces, lang, sorted }) {
                     value={country}
                     onChange={e => setCountry(e.target.value)}
                   >
-                    <option value='all'>{lang.allCountries}</option>
+                    <option className='pl-12 ml-12' value='all'>
+                      {lang.allCountries}
+                    </option>
                     {countries.map(type => (
                       <option key={type} value={type}>
                         {type}

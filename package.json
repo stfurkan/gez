@@ -18,6 +18,7 @@
     "remark-html": "^13.0.1"
   },
   "devDependencies": {
+    "postcss-flexbugs-fixes": "^4.2.1",
     "postcss-preset-env": "^6.7.0",
     "tailwindcss": "^1.9.6"
   }
