@@ -42,7 +42,7 @@ export default function Footer() {
         </Link>
       </div>
       <div className='mb-1 flex'>
-        <div className=''>
+        <div>
           <a
             href='https://twitter.com/lagezla'
             target='_blank'
@@ -63,7 +63,7 @@ export default function Footer() {
             <span className='font-medium ml-1'>Twitter</span>
           </a>
         </div>
-        <div className='flex ml-2'>
+        <div className='ml-2'>
           <a
             href='https://www.instagram.com/lagezla'
             target='_blank'
