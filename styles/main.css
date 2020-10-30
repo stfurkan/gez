@@ -13,9 +13,9 @@ body {
 }
 
 select {
-  -webkit-appearance: initial;
-  -moz-appearance: initial;
-  appearance: initial;
+  -webkit-appearance: menulist;
+  -moz-appearance: menulist;
+  appearance: menulist;
 }
 
 a {
