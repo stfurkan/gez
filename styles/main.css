@@ -12,6 +12,19 @@ body {
   background-color: #e2e8f0;
 }
 
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+
+  padding: 0.6em 1.6em 0.5em 0.8em;
+
+  background-image: url('/img/select-icon.svg');
+  background-repeat: no-repeat, repeat;
+  background-position: right 0.7em top 50%, 0 0;
+  background-size: 1em auto, 100%;
+}
+
 a {
   color: inherit;
   text-decoration: none;

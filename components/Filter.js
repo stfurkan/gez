@@ -121,7 +121,7 @@ export default function Filter({ places, setFilteredPlaces, lang, sorted }) {
                   </span>
                   <select
                     name='type'
-                    className='w-full h-10 form-select pb-2 pt-3 text-md bg-gray-100 rounded-md px-6 focus:outline-none focus:bg-gray-200 focus:text-gray-900'
+                    className='w-full h-10 form-select pb-2 pt-3 text-md bg-gray-100 rounded-md pl-6 focus:outline-none focus:bg-gray-200 focus:text-gray-900'
                     value={type}
                     onChange={e => setType(e.target.value)}
                   >
@@ -162,7 +162,7 @@ export default function Filter({ places, setFilteredPlaces, lang, sorted }) {
                   </span>
                   <select
                     name='country'
-                    className='w-full h-10 form-select pb-2 pt-3 text-md bg-gray-100 rounded-md px-6 focus:outline-none focus:bg-gray-200 focus:text-gray-900'
+                    className='w-full h-10 form-select pb-2 pt-3 text-md bg-gray-100 rounded-md pl-6 focus:outline-none focus:bg-gray-200 focus:text-gray-900'
                     value={country}
                     onChange={e => setCountry(e.target.value)}
                   >
