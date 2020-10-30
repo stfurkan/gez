@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "autoprefixer": "^10.0.1",
     "gray-matter": "^4.0.2",
     "leaflet": "^1.7.1",
     "next": "10.0.0",
