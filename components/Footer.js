@@ -85,7 +85,7 @@ export default function Footer() {
           </a>
         </div>
       </div>
-      <div className='mx-2'>
+      <div className='my-2'>
         <div className='font-semibold'>Gez.la © 2020</div>
       </div>
 
