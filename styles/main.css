@@ -13,7 +13,9 @@ body {
 }
 
 select {
-  -webkit-appearance: inherit;
+  -webkit-appearance: initial;
+  -moz-appearance: initial;
+  appearance: initial;
 }
 
 a {
