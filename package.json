@@ -1,39 +1,24 @@
 {
   "name": "gez",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "bulma": "^0.8.2",
-    "leaflet": "^1.6.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-helmet-async": "^1.0.4",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1",
-    "react-share": "^4.1.0"
-  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "dependencies": {
+    "gray-matter": "^4.0.2",
+    "leaflet": "^1.7.1",
+    "next": "10.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-share": "^4.3.1",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^1.9.6"
   }
 }

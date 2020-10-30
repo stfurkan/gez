@@ -2,8 +2,6 @@
 
 Explore museums, galleries, aquariums, zoos and more around the world with virtual tours.
 
-![](readme_src/gezla.gif)
-
 ## Getting Started
 
 ### Prequisites
@@ -36,7 +34,7 @@ npm install
 
 ## Development and Deployment
 
-### React
+### React / Next.js
 
 - Change directory to gez
 
@@ -44,21 +42,20 @@ npm install
 cd gez
 ```
 
-#### `npm start`
+#### `npm run dev`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+The page will reload if you make edits.
 
 #### `npm run build`
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Builds the app for production.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+#### `npm run start`
+
+Runs the production build for the application.
 
 ## Features
 
@@ -66,16 +63,15 @@ Your app is ready to be deployed!
 - Tracks the visited virtual tours by using browser's local storage
 - Filters virtual tours by place name, country name and type
 - Sorts virtual tours by place name, country name and type
-- Generates favorite virtual tours list by user's selection
-- Enables to share user's favorite virtual tours
-- Enables to share single virtual tour
-- Supports Turkish and English languages (based on browser language)
+- Enables user to share virtual tours
+- Supports Turkish and English languages
 
 ## Built With
 
-- [Node.js](https://nodejs.org/) - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
-- [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
-- [Bulma](https://bulma.io/) - Bulma is a free, open source CSS framework based on Flexbox.
+- [Node.js](https://nodejs.org) - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+- [React](https://reactjs.org) - A JavaScript library for building user interfaces.
+- [Next.js](https://nextjs.org) - The React Framework for Production.
+- [Tailwind CSS](https://tailwindcss.com) - A utility-first CSS framework for rapidly building custom designs.
 
 ## Contributing
 
