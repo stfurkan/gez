@@ -1,0 +1,82 @@
+{
+    "seo": {
+        "title": "Gez.la | Sanal Turlara Katıl",
+        "description": "Sanal turlarla dünyanın dört bir yanındaki müzeleri, galerileri, akvaryumları, hayvanat bahçelerini ve daha fazlasını keşfedin."
+    },
+    "header": {
+        "homepage": "Anasayfa",
+        "about": "Hakkında",
+        "support": "Destek Ol"
+    },
+    "footer": {
+        "homepage": "Anasayfa",
+        "about": "Hakkında",
+        "support": "Destek Ol",
+        "info": "Bilgilendirme",
+        "en": "İngilizce",
+        "tr": "Türkçe"
+    },
+    "main": {
+        "pageTitle": "Gez.la | Sanal Turlara Katıl",
+        "pageDescription": "Sanal turlarla dünyanın dört bir yanındaki müzeleri, galerileri, akvaryumları, hayvanat bahçelerini ve daha fazlasını keşfedin.",
+        "visitedPlaces": "Gezilen Yer",
+        "totalPlaces": "Toplam Yer",
+        "name": "İsim",
+        "type": "Tür",
+        "country": "Ülke",
+        "aquarium": "Akvaryum",
+        "historical": "Tarihi Mekan",
+        "museum": "Müze",
+        "nature": "Doğa",
+        "theme": "Tema Parkı",
+        "zoo": "Hayvanat Bahçesi",
+        "noResult": "Filtrenize uygun sonuç bulunamadı...",
+        "filter": {
+            "search": "Ara",
+            "searchPlace": "Yer Ara",
+            "type": "Tür",
+            "allTypes": "Tüm Türler",
+            "country": "Ülke",
+            "allCountries": "Tüm Ülkeler",
+            "clearFilter": "Filtreyi Temizle"
+        },
+        "map": {
+            "place": "Yer",
+            "placePage": "Yer Sayfası"
+        },
+        "table": {
+            "name": "İSİM",
+            "type": "TÜR",
+            "country": "ÜLKE",
+            "visited": "Ziyaret Edildi"
+        },
+        "pagination": {
+            "previous": "Önceki",
+            "next": "Sonraki"
+        }
+    },
+    "place": {
+        "back": "Geri",
+        "virtualTour": "Sanal Tur",
+        "type": "Tür",
+        "address": "Adres",
+        "description": "Açıklama",
+        "wikipedia": "Vikipedi",
+        "aquarium": "Akvaryum",
+        "historical": "Tarihi Mekan",
+        "museum": "Müze",
+        "nature": "Doğa",
+        "theme": "Tema Parkı",
+        "zoo": "Hayvanat Bahçesi",
+        "share": {
+            "share": "Paylaş",
+            "email": "E-posta",
+            "copyLink": "Linki Kopyala",
+            "copyLinkSuccess": "Link kopyalandı..."
+        }
+    },
+    "notFound": {
+        "title": "Sayfa bulunamadı!",
+        "desc": "Aradığınız sayfa bulunamadı..."
+    }
+}

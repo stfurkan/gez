@@ -1,0 +1,82 @@
+{
+    "seo": {
+        "title": "Gez.la | Take Virtual Tours",
+        "description": "Explore museums, galleries, aquariums, zoos and more around the world with virtual tours."
+    },
+    "header": {
+        "homepage": "Homepage",
+        "about": "About",
+        "support": "Support Us"
+    },
+    "footer": {
+        "homepage": "Homepage",
+        "about": "About",
+        "support": "Support Us",
+        "info": "Information",
+        "en": "English",
+        "tr": "Turkish"
+    },
+    "main": {
+        "pageTitle": "Gez.la | Take Virtual Tours",
+        "pageDescription": "Explore museums, galleries, aquariums, zoos and more around the world with virtual tours.",
+        "visitedPlaces": "Visited Places",
+        "totalPlaces": "Total Places",
+        "name": "Name",
+        "type": "Type",
+        "country": "Country",
+        "aquarium": "Aquarium",
+        "historical": "Historical Place",
+        "museum": "Museum",
+        "nature": "Nature",
+        "theme": "Theme Park",
+        "zoo": "Zoo",
+        "noResult": "No results match your filter criteria...",
+        "filter": {
+            "search": "Search",
+            "searchPlace": "Search Place",
+            "type": "Type",
+            "allTypes": "All Types",
+            "country": "Country",
+            "allCountries": "All Countries",
+            "clearFilter": "Clear Filter"
+        },
+        "map": {
+            "place": "Place",
+            "placePage": "Place Page"
+        },
+        "table": {
+            "name": "NAME",
+            "type": "TYPE",
+            "country": "COUNTRY",
+            "visited": "Visited"
+        },
+        "pagination": {
+            "previous": "Previous",
+            "next": "Next"
+        }
+    },
+    "place": {
+        "back": "Back",
+        "virtualTour": "Virtual Tour",
+        "type": "Type",
+        "address": "Address",
+        "description": "Description",
+        "wikipedia": "Wikipedia",
+        "aquarium": "Aquarium",
+        "historical": "Historical Place",
+        "museum": "Museum",
+        "nature": "Nature",
+        "theme": "Theme Park",
+        "zoo": "Zoo",
+        "share": {
+            "share": "Share",
+            "email": "E-mail",
+            "copyLink": "Copy Link",
+            "copyLinkSuccess": "Link copied..."
+        }
+    },
+    "notFound": {
+        "title": "Page not found!",
+        "desc": "The page you were looking for could not be found..."
+    }
+}
