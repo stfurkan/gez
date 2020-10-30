@@ -13,7 +13,7 @@ body {
 }
 
 select {
-  -webkit-appearance: caret;
+  -webkit-appearance: inherit;
 }
 
 a {
