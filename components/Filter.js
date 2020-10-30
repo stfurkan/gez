@@ -125,11 +125,9 @@ export default function Filter({ places, setFilteredPlaces, lang, sorted }) {
                     value={type}
                     onChange={e => setType(e.target.value)}
                   >
-                    <option className='ml-6' value='all'>
-                      {lang.allTypes}
-                    </option>
+                    <option value='all'>{lang.allTypes}</option>
                     {types.map(type => (
-                      <option className='ml-6' key={type} value={type}>
+                      <option key={type} value={type}>
                         {type}
                       </option>
                     ))}
@@ -168,11 +166,9 @@ export default function Filter({ places, setFilteredPlaces, lang, sorted }) {
                     value={country}
                     onChange={e => setCountry(e.target.value)}
                   >
-                    <option className='ml-6' value='all'>
-                      {lang.allCountries}
-                    </option>
+                    <option value='all'>{lang.allCountries}</option>
                     {countries.map(type => (
-                      <option className='ml-6' key={type} value={type}>
+                      <option key={type} value={type}>
                         {type}
                       </option>
                     ))}
