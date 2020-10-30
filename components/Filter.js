@@ -96,7 +96,7 @@ export default function Filter({ places, setFilteredPlaces, lang, sorted }) {
 
               <div className='w-full h-10'>
                 <div className='relative h-10 text-gray-600 focus-within:text-gray-400'>
-                  <div className='absolute inset-y-0 left-2 flex items-center pt-2'>
+                  <div className='absolute inset-y-0 left-0 flex items-center pt-2'>
                     <span className='p-1'>
                       <svg
                         fill='none'
@@ -137,7 +137,7 @@ export default function Filter({ places, setFilteredPlaces, lang, sorted }) {
 
               <div className='w-full h-10'>
                 <div className='relative h-10 text-gray-600 focus-within:text-gray-400'>
-                  <div className='absolute inset-y-0 left-2 flex items-center pt-2'>
+                  <div className='absolute inset-y-0 left-0 flex items-center pt-2'>
                     <span className='p-1'>
                       <svg
                         fill='none'
