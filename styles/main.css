@@ -12,6 +12,10 @@ body {
   background-color: #e2e8f0;
 }
 
+select {
+  -webkit-appearance: caret;
+}
+
 a {
   color: inherit;
   text-decoration: none;
