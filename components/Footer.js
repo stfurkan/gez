@@ -68,7 +68,7 @@ export default function Footer() {
             href='https://www.instagram.com/lagezla'
             target='_blank'
             rel='noopener noreferrer'
-            className='inline-flex items-center hover:text-gray-700'
+            className='flex items-center hover:text-gray-700'
           >
             <svg
               fill='none'
