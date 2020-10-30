@@ -12,12 +12,6 @@ body {
   background-color: #e2e8f0;
 }
 
-select {
-  -webkit-appearance: menulist;
-  -moz-appearance: menulist;
-  appearance: menulist;
-}
-
 a {
   color: inherit;
   text-decoration: none;
