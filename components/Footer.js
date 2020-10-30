@@ -41,13 +41,13 @@ export default function Footer() {
           </a>
         </Link>
       </div>
-      <div className='mb-1 inline-flex'>
+      <div className='mb-1 flex'>
         <div className=''>
           <a
             href='https://twitter.com/lagezla'
             target='_blank'
             rel='noopener noreferrer'
-            className='inline-flex items-center hover:text-gray-700'
+            className='flex items-center hover:text-gray-700'
           >
             <svg
               fill='none'
@@ -63,7 +63,7 @@ export default function Footer() {
             <span className='font-medium ml-1'>Twitter</span>
           </a>
         </div>
-        <div className='inline-flex ml-2'>
+        <div className='flex ml-2'>
           <a
             href='https://www.instagram.com/lagezla'
             target='_blank'
