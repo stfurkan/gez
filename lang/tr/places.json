@@ -2218,5 +2218,20 @@
     "description": "Westminster Sarayı ya da Parlamento Binası, Birleşik Krallık'ta, Avam Kamarası ve Lordlar Kamarası'ndan oluşan İngiliz Parlamentosu'na ev sahipliği yapan yapıdır. Saray, Westminster semtinde Thames Nehri'nin kuzey yakasında, Whitehall'da bulunan diğer kamu binalarının yakınında yer alır.",
     "wikipedia": "https://tr.wikipedia.org/wiki/Westminster_Saray%C4%B1",
     "image": ""
+  },
+  {
+    "id": 149,
+    "type": "museum",
+    "name": "Peterhof Eyalet Müzesi-Rezervi",
+    "country": "Rusya",
+    "state": "",
+    "city": "Saint Petersburg",
+    "latitude": 59.884697,
+    "longitude": 29.906245,
+    "website": "https://en.peterhofmuseum.ru",
+    "virtual": "https://en.peterhofmuseum.ru/media/pantest",
+    "description": "Etkileyici kubbesi ve altın kulesiyle 18. yüzyıldan kalma saray kompleksinde depo ve araştırma kütüphanesidir.",
+    "wikipedia": "",
+    "image": ""
   }
 ]

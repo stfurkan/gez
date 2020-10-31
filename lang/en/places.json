@@ -2218,5 +2218,20 @@
     "description": "The Palace of Westminster serves as the meeting place for both the House of Commons and the House of Lords, the two houses of the Parliament of the United Kingdom.",
     "wikipedia": "https://en.wikipedia.org/wiki/Palace_of_Westminster",
     "image": ""
+  },
+  {
+    "id": 149,
+    "type": "museum",
+    "name": "Peterhof State Museum-Reserve",
+    "country": "Russia",
+    "state": "",
+    "city": "Saint Petersburg",
+    "latitude": 59.884697,
+    "longitude": 29.906245,
+    "website": "https://en.peterhofmuseum.ru",
+    "virtual": "https://en.peterhofmuseum.ru/media/pantest",
+    "description": "Storehouse & research library in an 18th-century palace complex, with a striking dome & gold spire.",
+    "wikipedia": "",
+    "image": ""
   }
 ]
