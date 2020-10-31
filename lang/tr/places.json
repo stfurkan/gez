@@ -2248,5 +2248,20 @@
     "description": "Wallace Koleksiyonu, Londra'da Hertford'un Markizleri olan Seymour ailesinin eski şehir evi olan Manchester Square'deki Hertford House'da bulunan bir müzedir. Müze adını, 18. ve 19. yüzyıllarda Hertford Markizleri ile birlikte geniş bir koleksiyon oluşturan Sir Richard Wallace'dan almıştır.",
     "wikipedia": "https://en.wikipedia.org/wiki/Wallace_Collection",
     "image": ""
+  },
+  {
+    "id": 151,
+    "type": "historical",
+    "name": "Covent Garden",
+    "country": "İngiltere",
+    "state": "",
+    "city": "London",
+    "latitude": 51.511719,
+    "longitude": -0.123317,
+    "website": "https://www.coventgarden.london",
+    "virtual": "https://virtual-visits.co.uk/covent-garden",
+    "description": "Covent Garden Londra'nın bir semtidir. Şu anda popüler bir alışveriş ve turizm bölgesi olan merkez meydandaki eski meyve-sebze pazarı ve Covent Garden olarak bilinen Kraliyet Opera Binası ile ilişkilidir.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/Covent_Garden",
+    "image": ""
   }
 ]

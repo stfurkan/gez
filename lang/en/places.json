@@ -2248,5 +2248,20 @@
     "description": "The Wallace Collection is a museum in London occupying Hertford House in Manchester Square, the former townhouse of the Seymour family, Marquesses of Hertford. It is named after Sir Richard Wallace, who built the extensive collection, along with the Marquesses of Hertford, in the 18th and 19th centuries.",
     "wikipedia": "https://en.wikipedia.org/wiki/Wallace_Collection",
     "image": ""
+  },
+  {
+    "id": 151,
+    "type": "historical",
+    "name": "Covent Garden",
+    "country": "England",
+    "state": "",
+    "city": "London",
+    "latitude": 51.511719,
+    "longitude": -0.123317,
+    "website": "https://www.coventgarden.london",
+    "virtual": "https://virtual-visits.co.uk/covent-garden",
+    "description": "Covent Garden is a district in London, on the eastern fringes of the West End, between St Martin's Lane and Drury Lane. It is associated with the former fruit-and-vegetable market in the central square, now a popular shopping and tourist site, and with the Royal Opera House, itself known as Covent Garden.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Covent_Garden",
+    "image": ""
   }
 ]
