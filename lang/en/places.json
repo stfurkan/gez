@@ -2188,5 +2188,20 @@
     "description": "The garden was completed in 1987 to demonstrate the friendship and union between Kelowna and its sister city in Kasugai, Japan. The park integrates traditional elements notable in Japanese gardens, such as stone lanterns, pine trees, waterfalls and a pond stocked with Koi. It is a beautiful integration of stone, pathways, plants and water.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 147,
+    "type": "museum",
+    "name": "Picasso Museum",
+    "country": "Spain",
+    "state": "",
+    "city": "Barcelona",
+    "latitude": 41.385212,
+    "longitude": 2.180895,
+    "website": "http://www.museupicasso.bcn.cat/en",
+    "virtual": "http://www.museupicasso.bcn.cat/ca/colleccio/sales-de-la-colleccio/index_en.html",
+    "description": "The Picasso Museum, located in Barcelona, Catalonia, Spain, houses one of the most extensive collections of artworks by the 20th-century Spanish artist Pablo Picasso. With 4,251 works exhibited by the painter, the museum has one of the most complete permanent collections of works.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Museu_Picasso",
+    "image": ""
   }
 ]

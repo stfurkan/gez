@@ -2188,5 +2188,20 @@
     "description": "Bahçe, Kelowna ile Japonya'daki kardeş şehri Kasugai ile arasındaki dostluğu ve birliği göstermek için 1987 yılında tamamlandı. Park, Japon bahçelerinde görülen taş fenerler, çam ağaçları, şelaleler ve Koi ile dolu bir gölet gibi geleneksel unsurları barındırır.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 147,
+    "type": "museum",
+    "name": "Picasso Müzesi",
+    "country": "İspanya",
+    "state": "",
+    "city": "Barcelona",
+    "latitude": 41.385212,
+    "longitude": 2.180895,
+    "website": "http://www.museupicasso.bcn.cat/en",
+    "virtual": "http://www.museupicasso.bcn.cat/ca/colleccio/sales-de-la-colleccio/index_en.html",
+    "description": "Picasso Müzesi, 20. yüzyılın önde gelen İspanyol sanatçılarından Pablo Picasso'nun yapıtlarının sergilendiği; İspanya'nın Barselona kentinde bulunan sanat müzesidir. Barselona'nın La Ribera bölgesinde yer alan müzede 4251 yapıt sergilenmektedir.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/Picasso_M%C3%BCzesi_(Barselona)",
+    "image": ""
   }
 ]
