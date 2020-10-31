@@ -65,9 +65,14 @@ export default function Place({ place, lang }) {
 
       <div className='bg-white shadow overflow-hidden rounded-lg mx-8'>
         <div className='flex flex-col sm:flex-row sm:justify-between items-center px-3 py-3 border-b border-gray-500 mx-3'>
-          <h2 className='text-3xl leading-6 font-bold text-gray-900 text-center sm:text-left'>
+          <a
+            href={place.website}
+            target='_blank'
+            rel='noopener noreferrer'
+            className='text-3xl leading-6 font-bold text-gray-900 hover:text-gray-600 text-center sm:text-left'
+          >
             {place.name}
-          </h2>
+          </a>
           <a
             href={place.virtual}
             target='_blank'
