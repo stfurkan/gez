@@ -24,6 +24,12 @@ export default function Filter({ places, setFilteredPlaces, lang, sorted }) {
   const [country, setCountry] = useState('all');
 
   useEffect(() => {
+    setSearch('');
+    setType('all');
+    setCountry('all');
+  }, [places]);
+
+  useEffect(() => {
     let filteredPlaces = [...places];
 
     filteredPlaces = sort(
