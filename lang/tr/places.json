@@ -2233,5 +2233,20 @@
     "description": "Etkileyici kubbesi ve altın kulesiyle 18. yüzyıldan kalma saray kompleksinde depo ve araştırma kütüphanesidir.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 150,
+    "type": "museum",
+    "name": "Wallace Koleksiyonu",
+    "country": "İngiltere",
+    "state": "",
+    "city": "London",
+    "latitude": 51.517309,
+    "longitude": -0.153000,
+    "website": "https://www.wallacecollection.org",
+    "virtual": "https://virtual-visits.co.uk/wallace-collection",
+    "description": "Wallace Koleksiyonu, Londra'da Hertford'un Markizleri olan Seymour ailesinin eski şehir evi olan Manchester Square'deki Hertford House'da bulunan bir müzedir. Müze adını, 18. ve 19. yüzyıllarda Hertford Markizleri ile birlikte geniş bir koleksiyon oluşturan Sir Richard Wallace'dan almıştır.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wallace_Collection",
+    "image": ""
   }
 ]

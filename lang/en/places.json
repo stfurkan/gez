@@ -2233,5 +2233,20 @@
     "description": "Storehouse & research library in an 18th-century palace complex, with a striking dome & gold spire.",
     "wikipedia": "",
     "image": ""
+  },
+  {
+    "id": 150,
+    "type": "museum",
+    "name": "Wallace Collection",
+    "country": "England",
+    "state": "",
+    "city": "London",
+    "latitude": 51.517309,
+    "longitude": -0.153000,
+    "website": "https://www.wallacecollection.org",
+    "virtual": "https://virtual-visits.co.uk/wallace-collection",
+    "description": "The Wallace Collection is a museum in London occupying Hertford House in Manchester Square, the former townhouse of the Seymour family, Marquesses of Hertford. It is named after Sir Richard Wallace, who built the extensive collection, along with the Marquesses of Hertford, in the 18th and 19th centuries.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wallace_Collection",
+    "image": ""
   }
 ]
