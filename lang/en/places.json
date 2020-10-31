@@ -2203,5 +2203,20 @@
     "description": "The Picasso Museum, located in Barcelona, Catalonia, Spain, houses one of the most extensive collections of artworks by the 20th-century Spanish artist Pablo Picasso. With 4,251 works exhibited by the painter, the museum has one of the most complete permanent collections of works.",
     "wikipedia": "https://en.wikipedia.org/wiki/Museu_Picasso",
     "image": ""
+  },
+  {
+    "id": 148,
+    "type": "historical",
+    "name": "Palace of Westminster",
+    "country": "England",
+    "state": "",
+    "city": "London",
+    "latitude": 51.499479,
+    "longitude": -0.124678,
+    "website": "https://www.parliament.uk",
+    "virtual": "https://virtualtours.parliament.uk",
+    "description": "The Palace of Westminster serves as the meeting place for both the House of Commons and the House of Lords, the two houses of the Parliament of the United Kingdom.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Palace_of_Westminster",
+    "image": ""
   }
 ]

@@ -2203,5 +2203,20 @@
     "description": "Picasso Müzesi, 20. yüzyılın önde gelen İspanyol sanatçılarından Pablo Picasso'nun yapıtlarının sergilendiği; İspanya'nın Barselona kentinde bulunan sanat müzesidir. Barselona'nın La Ribera bölgesinde yer alan müzede 4251 yapıt sergilenmektedir.",
     "wikipedia": "https://tr.wikipedia.org/wiki/Picasso_M%C3%BCzesi_(Barselona)",
     "image": ""
+  },
+  {
+    "id": 148,
+    "type": "historical",
+    "name": "Westminster Sarayı",
+    "country": "İngiltere",
+    "state": "",
+    "city": "London",
+    "latitude": 51.499479,
+    "longitude": -0.124678,
+    "website": "https://www.parliament.uk",
+    "virtual": "https://virtualtours.parliament.uk",
+    "description": "Westminster Sarayı ya da Parlamento Binası, Birleşik Krallık'ta, Avam Kamarası ve Lordlar Kamarası'ndan oluşan İngiliz Parlamentosu'na ev sahipliği yapan yapıdır. Saray, Westminster semtinde Thames Nehri'nin kuzey yakasında, Whitehall'da bulunan diğer kamu binalarının yakınında yer alır.",
+    "wikipedia": "https://tr.wikipedia.org/wiki/Westminster_Saray%C4%B1",
+    "image": ""
   }
 ]
