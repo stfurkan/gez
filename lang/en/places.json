@@ -2263,5 +2263,20 @@
     "description": "Covent Garden is a district in London, on the eastern fringes of the West End, between St Martin's Lane and Drury Lane. It is associated with the former fruit-and-vegetable market in the central square, now a popular shopping and tourist site, and with the Royal Opera House, itself known as Covent Garden.",
     "wikipedia": "https://en.wikipedia.org/wiki/Covent_Garden",
     "image": ""
+  },
+  {
+    "id": 152,
+    "type": "museum",
+    "name": "Redbridge Museum",
+    "country": "England",
+    "state": "",
+    "city": "Ilford",
+    "latitude": 51.558098,
+    "longitude": 0.075426,
+    "website": "https://www.redbridge.gov.uk/leisure-sport-and-the-arts/redbridge-museum",
+    "virtual": "https://kuula.co/share/7bpYg/collection/7lWBG",
+    "description": "Compact facility documenting the region's past with photos, artifacts & interpretive displays.",
+    "wikipedia": "",
+    "image": ""
   }
 ]

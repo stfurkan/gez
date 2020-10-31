@@ -2263,5 +2263,20 @@
     "description": "Covent Garden Londra'nın bir semtidir. Şu anda popüler bir alışveriş ve turizm bölgesi olan merkez meydandaki eski meyve-sebze pazarı ve Covent Garden olarak bilinen Kraliyet Opera Binası ile ilişkilidir.",
     "wikipedia": "https://tr.wikipedia.org/wiki/Covent_Garden",
     "image": ""
+  },
+  {
+    "id": 152,
+    "type": "museum",
+    "name": "Redbridge Müzesi",
+    "country": "İngiltere",
+    "state": "",
+    "city": "Ilford",
+    "latitude": 51.558098,
+    "longitude": 0.075426,
+    "website": "https://www.redbridge.gov.uk/leisure-sport-and-the-arts/redbridge-museum",
+    "virtual": "https://kuula.co/share/7bpYg/collection/7lWBG",
+    "description": "Redbridge Müzesi, fotoğraflar, eserler ve yorumlayıcı sergilerle bölgenin geçmişini belgeleyen kompakt bir müzedir.",
+    "wikipedia": "",
+    "image": ""
   }
 ]
