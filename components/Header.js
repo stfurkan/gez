@@ -29,6 +29,7 @@ export default function Header() {
             <button
               type='button'
               className='block text-white hover:text-gray-500 focus:outline-none'
+              aria-label={isOpen ? lang.closeMenu : lang.openMenu}
               onClick={() => setIsOpen(!isOpen)}
             >
               <svg className='h-6 w-6 fill-current' viewBox='0 0 24 24'>

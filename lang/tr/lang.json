@@ -6,7 +6,9 @@
     "header": {
         "homepage": "Anasayfa",
         "about": "Hakkında",
-        "support": "Destek Ol"
+        "support": "Destek Ol",
+        "openMenu": "Menüyü Aç",
+        "closeMenu": "Menüyü Kapat"
     },
     "footer": {
         "homepage": "Anasayfa",

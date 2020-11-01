@@ -6,7 +6,9 @@
     "header": {
         "homepage": "Homepage",
         "about": "About",
-        "support": "Support Us"
+        "support": "Support Us",
+        "openMenu": "Open Menu",
+        "closeMenu": "Close Menu"
     },
     "footer": {
         "homepage": "Homepage",
