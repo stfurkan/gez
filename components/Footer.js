@@ -93,6 +93,7 @@ export default function Footer() {
         <select
           name='language'
           className='form-select py-1 text-xs sm:text-base bg-gray-100 rounded-md focus:outline-none focus:bg-gray-200 focus:text-gray-900'
+          aria-label={lang.language}
           value={language}
           onChange={e => {
             router.push(router.asPath, router.asPath, {

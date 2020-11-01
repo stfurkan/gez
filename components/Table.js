@@ -129,7 +129,7 @@ export default function Table({
                         <div className='text-base leading-5 font-medium text-gray-900'>
                           {place.name}{' '}
                           {visits.includes(place.id) && (
-                            <span className='inline-block text-xs bg-green-500 text-white p-1 rounded-md'>
+                            <span className='inline-block text-xs bg-green-700 text-white p-1 rounded-md'>
                               {lang.visited}
                             </span>
                           )}

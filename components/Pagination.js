@@ -27,6 +27,7 @@ export default function Pagination({ places, perPage, setPageElements, lang }) {
             currentPage === 1 && 'pointer-events-none'
           }`}
           onClick={() => setCurrentPage(currentPage - 1)}
+          disabled={currentPage === 1}
         >
           {lang.previous}
         </button>
@@ -45,6 +46,7 @@ export default function Pagination({ places, perPage, setPageElements, lang }) {
             currentPage === totalPages && 'pointer-events-none'
           }`}
           onClick={() => setCurrentPage(currentPage + 1)}
+          disabled={currentPage === totalPages}
         >
           {lang.next}
         </button>

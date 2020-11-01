@@ -80,7 +80,7 @@ export default function Filter({ places, setFilteredPlaces, lang, sorted }) {
                       </svg>
                     </span>
                   </div>
-                  <span className='absolute inset-y-25 left-0 flex items-center pl-2'>
+                  <span className='absolute inset-y-25 left-0 flex items-center pl-2 text-gray-900'>
                     <label
                       htmlFor='search'
                       className='text-xs font-medium focus:outline-none focus:shadow-outline'
@@ -91,7 +91,8 @@ export default function Filter({ places, setFilteredPlaces, lang, sorted }) {
                   <input
                     type='text'
                     name='search'
-                    className='w-full h-12 pb-2 pt-3 text-md bg-gray-100 rounded-md pl-2 pr-10 focus:outline-none focus:bg-gray-200 focus:text-gray-900'
+                    className='w-full h-12 pb-2 pt-3 text-md bg-gray-100 rounded-md pl-2 pr-10 focus:outline-none focus:bg-gray-200 text-gray-900'
+                    aria-label={lang.search}
                     placeholder={lang.searchPlace}
                     autoComplete='off'
                     value={search}
@@ -117,7 +118,7 @@ export default function Filter({ places, setFilteredPlaces, lang, sorted }) {
                       </svg>
                     </span>
                   </div>
-                  <span className='absolute inset-y-25 left-0 flex items-center pl-2'>
+                  <span className='absolute inset-y-25 left-0 flex items-center pl-2 text-gray-900'>
                     <label
                       htmlFor='type'
                       className='text-xs font-medium focus:outline-none focus:shadow-outline'
@@ -128,6 +129,7 @@ export default function Filter({ places, setFilteredPlaces, lang, sorted }) {
                   <select
                     name='type'
                     className='w-full h-12 form-select pb-2 pt-3 text-md bg-gray-100 rounded-md pl-6 focus:outline-none focus:bg-gray-200 focus:text-gray-900'
+                    aria-label={lang.type}
                     value={type}
                     onChange={e => setType(e.target.value)}
                   >
@@ -158,7 +160,7 @@ export default function Filter({ places, setFilteredPlaces, lang, sorted }) {
                       </svg>
                     </span>
                   </div>
-                  <span className='absolute inset-y-25 left-0 flex items-center pl-2'>
+                  <span className='absolute inset-y-25 left-0 flex items-center pl-2 text-gray-900'>
                     <label
                       htmlFor='country'
                       className='text-xs font-medium focus:outline-none focus:shadow-outline'
@@ -169,6 +171,7 @@ export default function Filter({ places, setFilteredPlaces, lang, sorted }) {
                   <select
                     name='country'
                     className='w-full h-12 form-select pb-2 pt-3 text-md bg-gray-100 rounded-md pl-6 focus:outline-none focus:bg-gray-200 focus:text-gray-900'
+                    aria-label={lang.country}
                     value={country}
                     onChange={e => setCountry(e.target.value)}
                   >

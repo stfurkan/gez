@@ -77,6 +77,7 @@ export default function Header() {
               target='_blank'
               rel='noopener noreferrer'
               className='block mt-1 ml-1 p-1 rounded hover:bg-gray-700 sm:mt-0'
+              aria-label='Twitter'
             >
               <svg
                 fill='none'
@@ -95,6 +96,7 @@ export default function Header() {
               target='_blank'
               rel='noopener noreferrer'
               className='block mt-1 p-1 rounded hover:bg-gray-700 sm:mt-0 sm:ml-1'
+              aria-label='Instagram'
             >
               <svg
                 fill='none'
