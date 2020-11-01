@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
@@ -18,14 +17,11 @@ export default function Header() {
         <div className='flex items-center justify-between px-4 py-3 sm:p-0'>
           <div>
             <Link href='/'>
-              <span>
-                <Image
-                  className='h-8 sm:h-10 cursor-pointer'
-                  src='/logo.svg'
-                  alt='Gez.la Logo'
-                  unsized
-                />
-              </span>
+              <img
+                className='h-8 sm:h-10 cursor-pointer'
+                src='/logo.png'
+                alt='Gez.la Logo'
+              />
             </Link>
           </div>
 
