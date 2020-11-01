@@ -37,7 +37,7 @@ export default function Place({ place, lang }) {
         <Link href='/'>
           <button
             type='button'
-            className='text-xl bg-red-500 hover:bg-red-700 text-white p-2 rounded inline-flex items-center focus:outline-none'
+            className='text-xl bg-red-700 hover:bg-red-900 text-white p-2 rounded inline-flex items-center focus:outline-none'
           >
             <svg
               fill='none'
@@ -71,7 +71,7 @@ export default function Place({ place, lang }) {
             rel='noopener noreferrer'
             className='text-3xl leading-6 font-bold text-gray-900 hover:text-gray-600 text-center sm:text-left'
           >
-            {place.name}
+            <h1>{place.name}</h1>
           </a>
           <a
             href={place.virtual}
@@ -85,26 +85,26 @@ export default function Place({ place, lang }) {
         </div>
         <div className='flex flex-col px-3 py-3 mx-3'>
           <div className='bg-gray-50 px-4 py-2 items-center sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
-            <dt className='text-3xl font-bold'>{lang.type}</dt>
-            <dd className='text-lg sm:mt-0 sm:col-span-2'>
+            <div className='text-3xl font-bold'>{lang.type}</div>
+            <div className='text-lg sm:mt-0 sm:col-span-2'>
               {lang[place.type]}
-            </dd>
+            </div>
           </div>
           <div className='bg-gray-50 px-4 py-2 items-center sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
-            <dt className='text-3xl font-bold'>{lang.address}</dt>
-            <dd className='text-lg sm:mt-0 sm:col-span-2'>
+            <div className='text-3xl font-bold'>{lang.address}</div>
+            <div className='text-lg sm:mt-0 sm:col-span-2'>
               {place.state === ''
                 ? `${place.city}, ${place.country}`
                 : `${place.city}, ${place.state}, ${place.country}`}
-            </dd>
+            </div>
           </div>
           <div className='bg-gray-50 px-4 py-2 items-center sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
-            <dt className='text-3xl font-bold'>{lang.description}</dt>
-            <dd className='text-lg sm:mt-0 sm:col-span-2'>
+            <div className='text-3xl font-bold'>{lang.description}</div>
+            <div className='text-lg sm:mt-0 sm:col-span-2'>
               {place.description}{' '}
               {place.wikipedia !== '' && (
                 <a
-                  className='text-xs text-white bg-green-600 hover:bg-green-700 p-1 rounded-md'
+                  className='text-xs text-white bg-green-700 hover:bg-green-800 p-1 rounded-md'
                   href={place.wikipedia}
                   target='_blank'
                   rel='noopener noreferrer'
@@ -112,7 +112,7 @@ export default function Place({ place, lang }) {
                   {lang.wikipedia}
                 </a>
               )}
-            </dd>
+            </div>
           </div>
         </div>
       </div>

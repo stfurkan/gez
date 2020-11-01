@@ -35,7 +35,7 @@ export default function Share({ lang, url, title }) {
         <span className='rounded-md shadow-sm'>
           <button
             type='button'
-            className='text-xl font-medium bg-green-500 text-white p-2 rounded inline-flex items-center focus:outline-none transition ease-in-out duration-150'
+            className='text-xl font-medium bg-green-700 text-white p-2 rounded inline-flex items-center focus:outline-none transition ease-in-out duration-150'
             id='share-menu'
           >
             <svg
