@@ -19,7 +19,7 @@ export default function Header() {
             <Link href='/'>
               <img
                 className='h-8 sm:h-10 cursor-pointer'
-                src='/logo.png'
+                src='/logo.svg'
                 alt='Gez.la Logo'
               />
             </Link>
