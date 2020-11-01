@@ -41,7 +41,7 @@ export default function Footer() {
           </a>
         </Link>
       </div>
-      <div className='mb-1 flex'>
+      <div className='mt-1 sm:mt-0 mb-1 flex'>
         <div>
           <a
             href='https://twitter.com/lagezla'
