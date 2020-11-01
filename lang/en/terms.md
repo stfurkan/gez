@@ -1,6 +1,6 @@
 ---
-title: 'Information'
-meta: 'Gez.la Information'
+title: 'Terms of Use'
+meta: 'Gez.la Terms of Use'
 ---
 
 - Gez.la uses Google Analytics to track user statistics. Users who do not want to be tracked by Google Analytics can **[click here](https://tools.google.com/dlpage/gaoptout?hl=en)** to perform the relevant steps.

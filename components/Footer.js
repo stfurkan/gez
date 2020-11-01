@@ -35,9 +35,9 @@ export default function Footer() {
             {lang.support}
           </a>
         </Link>
-        <Link href='/info'>
+        <Link href='/terms'>
           <a className='inline-block ml-1 sm:ml-2 p-1 rounded-md border-solid border-2 border-gray-700 hover:text-gray-700 hover:bg-gray-200'>
-            {lang.info}
+            {lang.terms}
           </a>
         </Link>
       </div>

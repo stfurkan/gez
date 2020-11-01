@@ -1,6 +1,6 @@
 ---
-title: 'Bilgilendirme'
-meta: 'Gez.la Bilgilendirme'
+title: 'Kullanım Koşulları'
+meta: 'Gez.la Kullanım Koşulları'
 ---
 
 - Gez.la, kullanıcı istatistiklerini takip etmek için Google Analytics kullanmaktadır. Google Analytics tarafından takip edilmek istemeyen kullanıcılar **[buraya tıklayarak](https://tools.google.com/dlpage/gaoptout?hl=tr)** ilgili adımları gerçekleştirebilirler.
