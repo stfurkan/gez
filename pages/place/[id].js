@@ -25,13 +25,19 @@ export default function Place({ place, lang }) {
   return (
     <>
       <Head>
-        <meta property='og:title' content={place.name} key='ogtitle' />
+        <meta
+          property='og:title'
+          content={`${place.name} ${lang.virtualTour}`}
+          key='ogtitle'
+        />
         <meta
           property='og:description'
           content={place.description}
           key='ogdesc'
         />
-        <title>{place.name} | Gez.la</title>
+        <title>
+          {place.name} {lang.virtualTour} | Gez.la
+        </title>
       </Head>
       <div className='flex flex-row justify-between mx-8 pb-1 text-center'>
         <Link href='/'>
