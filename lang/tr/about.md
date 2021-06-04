@@ -11,7 +11,7 @@ Gez.la projemize **[GitHub](https://github.com/stfurkan/gez)** üzerinden katkı
 
 Projeye maddi destekte bulunmak isterseniz **[Patreon](https://www.patreon.com/lagezla)** hesabımızı kullanabilirsiniz.
 
-**Geliştirici:** [Furkan Teke](https://www.linkedin.com/in/stfurkan)
+**Geliştirici:** [Sait Furkan Teke](https://www.linkedin.com/in/stfurkan)
 
 ## Destekleyenler
 

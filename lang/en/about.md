@@ -11,7 +11,7 @@ You can contribute to the Gez.la project via **[GitHub](https://github.com/stfur
 
 If you want to financially support the project, you can use our **[Patreon](https://www.patreon.com/lagezla)** account.
 
-**Developer:** [Furkan Teke](https://www.linkedin.com/in/stfurkan)
+**Developer:** [Sait Furkan Teke](https://www.linkedin.com/in/stfurkan)
 
 ## Supporters
 
