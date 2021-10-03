@@ -30,6 +30,7 @@ export default function Map({ places, lang, visits }) {
   const mapRef = useRef(null);
   useEffect(() => {
     mapRef.current = L.map('placeMap', {
+      tap: false,
       zoom: 1,
       minZoom: 1,
       maxZoom: 18,
