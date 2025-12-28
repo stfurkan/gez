@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
 html,
 body {
@@ -33,3 +31,16 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* Tailwind v4 uses CSS layers, whitelist classes for dynamically added content */
+.my-3 { margin-top: 0.75rem; margin-bottom: 0.75rem; }
+.text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
+.font-bold { font-weight: 700; }
+.border-solid { border-style: solid; }
+.border-b-2 { border-bottom-width: 2px; }
+.pt-4 { padding-top: 1rem; }
+.pb-4 { padding-bottom: 1rem; }
+.border-gray-600 { border-color: #4b5563; }
+.list-disc { list-style-type: disc; }
+.pl-10 { padding-left: 2.5rem; }
+.pb-2 { padding-bottom: 0.5rem; }
