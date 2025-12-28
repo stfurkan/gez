@@ -3,6 +3,7 @@ import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import Script from 'next/script';
 import { routing } from '@/i18n/routing';
+import { ThemeProvider } from '@/components/theme-provider';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import SEO from '@/components/SEO';
@@ -34,7 +35,7 @@ export default async function LocaleLayout({
     const messages = await getMessages();
 
     return (
-        <html lang={locale}>
+        <html lang={locale} suppressHydrationWarning>
             <head>
                 {/* Google Analytics */}
                 <Script
@@ -53,16 +54,23 @@ export default async function LocaleLayout({
                 </Script>
             </head>
             <body>
-                <NextIntlClientProvider messages={messages}>
-                    <div className="flex flex-col h-screen justify-between">
-                        <SEO />
-                        <Header />
-                        <div className="container mx-auto my-5 flex-1">
-                            {children}
+                <ThemeProvider
+                    attribute="class"
+                    defaultTheme="system"
+                    enableSystem
+                    disableTransitionOnChange
+                >
+                    <NextIntlClientProvider messages={messages}>
+                        <div className="flex flex-col min-h-screen">
+                            <SEO />
+                            <Header />
+                            <main className="w-full my-5 flex-1 px-4">
+                                {children}
+                            </main>
+                            <Footer />
                         </div>
-                        <Footer />
-                    </div>
-                </NextIntlClientProvider>
+                    </NextIntlClientProvider>
+                </ThemeProvider>
             </body>
         </html>
     );

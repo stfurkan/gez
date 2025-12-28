@@ -1,6 +1,16 @@
 'use client';
 
 import Link from 'next/link';
+import { ArrowUpDown, ArrowUp, ArrowDown } from 'lucide-react';
+import {
+    Table,
+    TableBody,
+    TableCell,
+    TableHead,
+    TableHeader,
+    TableRow,
+} from '@/components/ui/table';
+import { Badge } from '@/components/ui/badge';
 import sort from '@/lib/sort';
 
 interface Place {
@@ -12,7 +22,7 @@ interface Place {
     longitude: number;
 }
 
-interface TableProps {
+interface DataTableProps {
     placeList: Place[];
     lang: {
         name: string;
@@ -27,7 +37,7 @@ interface TableProps {
     setSorted: (sorted: string) => void;
 }
 
-export default function Table({
+export default function DataTable({
     placeList,
     lang,
     visits,
@@ -35,152 +45,97 @@ export default function Table({
     places,
     sorted,
     setSorted
-}: TableProps) {
+}: DataTableProps) {
+    const handleSort = (column: string) => {
+        const currentDirection = sorted.split('-')[1];
+        const currentColumn = sorted.split('-')[0];
+
+        if (currentColumn === column) {
+            const newDirection = currentDirection === 'asc' ? 'desc' : 'asc';
+            setPlaces(sort(places, column, newDirection));
+            setSorted(`${column}-${newDirection}`);
+        } else {
+            setPlaces(sort(places, column, 'asc'));
+            setSorted(`${column}-asc`);
+        }
+    };
+
+    const getSortIcon = (column: string) => {
+        const currentColumn = sorted.split('-')[0];
+        const currentDirection = sorted.split('-')[1];
+
+        if (currentColumn !== column) {
+            return <ArrowUpDown className="ml-2 h-4 w-4 text-muted-foreground" />;
+        }
+
+        return currentDirection === 'asc'
+            ? <ArrowUp className="ml-2 h-4 w-4" />
+            : <ArrowDown className="ml-2 h-4 w-4" />;
+    };
+
     return (
-        <div className="flex flex-col">
-            <div className="-my-2 overflow-x-auto">
-                <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-6">
-                    <div className="shadow overflow-hidden border-b border-gray-200 rounded-lg">
-                        <table className="min-w-full divide-y divide-gray-200">
-                            <thead className="bg-gray-800">
-                                <tr className="cursor-pointer">
-                                    <th
-                                        className="px-2 sm:px-6 py-3 text-left text-xs leading-4 font-medium text-gray-200 uppercase tracking-wider hover:bg-gray-900"
-                                        onClick={() => {
-                                            if (sorted === 'name-asc') {
-                                                setPlaces(sort(places, 'name', 'desc'));
-                                                setSorted('name-desc');
-                                            } else {
-                                                setPlaces(sort(places, 'name', 'asc'));
-                                                setSorted('name-asc');
-                                            }
-                                        }}
-                                    >
-                                        <div className="inline-flex">
-                                            {lang.name}
-
-                                            <svg
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth="2"
-                                                viewBox="0 0 24 24"
-                                                className="w-4 h-4 ml-1"
-                                            >
-                                                {sorted === 'name-asc' && (
-                                                    <path d="M3 4h13M3 8h9m-9 4h6m4 0l4-4m0 0l4 4m-4-4v12" />
-                                                )}
-                                                {sorted === 'name-desc' && (
-                                                    <path d="M3 4h13M3 8h9m-9 4h9m5-4v12m0 0l-4-4m4 4l4-4" />
-                                                )}
-                                            </svg>
-                                        </div>
-                                    </th>
-                                    <th
-                                        className="px-2 sm:px-6 py-3 text-left text-xs leading-4 font-medium text-gray-200 uppercase tracking-wider hover:bg-gray-900"
-                                        onClick={() => {
-                                            if (sorted === 'type-asc') {
-                                                setPlaces(sort(places, 'type', 'desc'));
-                                                setSorted('type-desc');
-                                            } else {
-                                                setPlaces(sort(places, 'type', 'asc'));
-                                                setSorted('type-asc');
-                                            }
-                                        }}
-                                    >
-                                        <div className="inline-flex">
-                                            {lang.type}
-
-                                            <svg
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth="2"
-                                                viewBox="0 0 24 24"
-                                                className="w-4 h-4 ml-1"
-                                            >
-                                                {sorted === 'type-asc' && (
-                                                    <path d="M3 4h13M3 8h9m-9 4h6m4 0l4-4m0 0l4 4m-4-4v12" />
-                                                )}
-                                                {sorted === 'type-desc' && (
-                                                    <path d="M3 4h13M3 8h9m-9 4h9m5-4v12m0 0l-4-4m4 4l4-4" />
-                                                )}
-                                            </svg>
-                                        </div>
-                                    </th>
-                                    <th
-                                        className="px-2 sm:px-6 py-3 text-left text-xs leading-4 font-medium text-gray-200 uppercase tracking-wider hover:bg-gray-900"
-                                        onClick={() => {
-                                            if (sorted === 'country-asc') {
-                                                setPlaces(sort(places, 'country', 'desc'));
-                                                setSorted('country-desc');
-                                            } else {
-                                                setPlaces(sort(places, 'country', 'asc'));
-                                                setSorted('country-asc');
-                                            }
-                                        }}
-                                    >
-                                        <div className="inline-flex">
-                                            {lang.country}
-
-                                            <svg
-                                                fill="none"
-                                                stroke="currentColor"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                                strokeWidth="2"
-                                                viewBox="0 0 24 24"
-                                                className="w-4 h-4 ml-1"
-                                            >
-                                                {sorted === 'country-asc' && (
-                                                    <path d="M3 4h13M3 8h9m-9 4h6m4 0l4-4m0 0l4 4m-4-4v12" />
-                                                )}
-                                                {sorted === 'country-desc' && (
-                                                    <path d="M3 4h13M3 8h9m-9 4h9m5-4v12m0 0l-4-4m4 4l4-4" />
-                                                )}
-                                            </svg>
-                                        </div>
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody className="bg-white divide-y divide-gray-200">
-                                {placeList.map(place => (
-                                    <tr key={place.id} className="hover:bg-gray-200 cursor-pointer">
-                                        <td className="px-2 sm:px-6 py-3">
-                                            <Link href={`/place/${place.id}`} className="block">
-                                                <div className="text-base leading-5 font-medium text-gray-900">
-                                                    {place.name}{' '}
-                                                    {visits.includes(place.id) && (
-                                                        <span className="inline-block text-xs bg-green-700 text-white p-1 rounded-md">
-                                                            {lang.visited}
-                                                        </span>
-                                                    )}
-                                                </div>
-                                            </Link>
-                                        </td>
-                                        <td className="px-2 sm:px-6 py-3">
-                                            <Link href={`/place/${place.id}`} className="block">
-                                                <div className="text-base leading-5 text-gray-900">
-                                                    {place.type}
-                                                </div>
-                                            </Link>
-                                        </td>
-                                        <td className="px-2 sm:px-6 py-3">
-                                            <Link href={`/place/${place.id}`} className="block">
-                                                <div className="text-base leading-5 text-gray-900">
-                                                    {place.country}
-                                                </div>
-                                            </Link>
-                                        </td>
-                                    </tr>
-                                ))}
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
+        <div className="bg-card">
+            <Table>
+                <TableHeader>
+                    <TableRow className="hover:bg-muted/50">
+                        <TableHead
+                            className="cursor-pointer select-none"
+                            onClick={() => handleSort('name')}
+                        >
+                            <div className="flex items-center font-semibold">
+                                {lang.name}
+                                {getSortIcon('name')}
+                            </div>
+                        </TableHead>
+                        <TableHead
+                            className="cursor-pointer select-none"
+                            onClick={() => handleSort('type')}
+                        >
+                            <div className="flex items-center font-semibold">
+                                {lang.type}
+                                {getSortIcon('type')}
+                            </div>
+                        </TableHead>
+                        <TableHead
+                            className="cursor-pointer select-none"
+                            onClick={() => handleSort('country')}
+                        >
+                            <div className="flex items-center font-semibold">
+                                {lang.country}
+                                {getSortIcon('country')}
+                            </div>
+                        </TableHead>
+                    </TableRow>
+                </TableHeader>
+                <TableBody>
+                    {placeList.map(place => (
+                        <TableRow key={place.id} className="cursor-pointer hover:bg-muted/50">
+                            <TableCell>
+                                <Link href={`/place/${place.id}`} className="block py-2 cursor-pointer">
+                                    <div className="flex items-center gap-2">
+                                        <span className="font-medium">{place.name}</span>
+                                        {visits.includes(place.id) && (
+                                            <Badge variant="secondary" className="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-100">
+                                                {lang.visited}
+                                            </Badge>
+                                        )}
+                                    </div>
+                                </Link>
+                            </TableCell>
+                            <TableCell>
+                                <Link href={`/place/${place.id}`} className="block py-2 cursor-pointer">
+                                    {place.type}
+                                </Link>
+                            </TableCell>
+                            <TableCell>
+                                <Link href={`/place/${place.id}`} className="block py-2 cursor-pointer">
+                                    {place.country}
+                                </Link>
+                            </TableCell>
+                        </TableRow>
+                    ))}
+                </TableBody>
+            </Table>
         </div>
     );
 }

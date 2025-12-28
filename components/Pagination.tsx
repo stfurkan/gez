@@ -1,6 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 interface Place {
     id: number;
@@ -42,34 +44,32 @@ export default function Pagination({ places, perPage, setPageElements, lang }: P
     const isLastPage = currentPage === totalPages;
 
     return (
-        <div className="flex-1 flex items-center justify-around mt-1">
-            <button
-                type="button"
-                className={`relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm leading-5 font-medium rounded-md bg-white focus:outline-none active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150 ${isFirstPage
-                        ? 'text-gray-200 hover:text-gray-100 pointer-events-none'
-                        : 'text-gray-700 hover:text-gray-500'
-                    }`}
+        <div className="flex items-center justify-center gap-4 mt-4">
+            <Button
+                variant="outline"
+                size="sm"
                 onClick={() => setCurrentPage(currentPage - 1)}
                 disabled={isFirstPage}
+                className="gap-1 cursor-pointer"
             >
+                <ChevronLeft className="h-4 w-4" />
                 {lang.previous}
-            </button>
+            </Button>
 
-            <div>
+            <span className="text-sm text-muted-foreground">
                 {currentPage} <span className="font-medium">/</span> {totalPages}
-            </div>
+            </span>
 
-            <button
-                type="button"
-                className={`relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm leading-5 font-medium rounded-md bg-white focus:outline-none active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150 ${isLastPage
-                        ? 'text-gray-200 hover:text-gray-100 pointer-events-none'
-                        : 'text-gray-700 hover:text-gray-500'
-                    }`}
+            <Button
+                variant="outline"
+                size="sm"
                 onClick={() => setCurrentPage(currentPage + 1)}
                 disabled={isLastPage}
+                className="gap-1 cursor-pointer"
             >
                 {lang.next}
-            </button>
+                <ChevronRight className="h-4 w-4" />
+            </Button>
         </div>
     );
 }

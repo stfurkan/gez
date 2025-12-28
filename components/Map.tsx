@@ -112,5 +112,5 @@ export default function Map({ places, lang, visits }: MapProps) {
         });
     }, [places, visits, locale, lang]);
 
-    return <div className="mx-auto sm:mx-6 h-64 rounded-md" id="placeMap"></div>;
+    return <div className="h-64 relative z-0" id="placeMap"></div>;
 }

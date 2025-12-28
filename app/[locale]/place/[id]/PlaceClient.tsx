@@ -2,7 +2,11 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useLocale, useTranslations } from 'next-intl';
+import { useTranslations } from 'next-intl';
+import { ArrowLeft, ExternalLink } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardHeader } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
 import Share from '@/components/Share';
 
 interface Place {
@@ -19,7 +23,6 @@ interface Place {
 }
 
 export default function PlaceClient({ place }: { place: Place }) {
-    const locale = useLocale();
     const pathname = usePathname();
     const t = useTranslations('place');
 
@@ -54,88 +57,91 @@ export default function PlaceClient({ place }: { place: Place }) {
         : '';
 
     return (
-        <>
-            <div className="flex flex-row justify-between mx-8 pb-1 text-center">
-                <Link href="/">
-                    <button
-                        type="button"
-                        className="text-xl bg-red-700 hover:bg-red-900 text-white p-2 rounded inline-flex items-center focus:outline-none"
-                    >
-                        <svg
-                            fill="none"
-                            stroke="currentColor"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            viewBox="0 0 24 24"
-                            className="w-6 h-6"
-                        >
-                            <path d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z" />
-                        </svg>
-                        <span className="font-medium">{lang.back}</span>
-                    </button>
-                </Link>
+        <div className="max-w-4xl mx-auto">
+            <div className="space-y-4">
+                {/* Action Buttons */}
+                <div className="flex flex-row justify-between items-center">
+                    <Link href="/">
+                        <Button variant="destructive" className="gap-2 cursor-pointer">
+                            <ArrowLeft className="w-4 h-4" />
+                            {lang.back}
+                        </Button>
+                    </Link>
 
-                <Share
-                    lang={lang.share}
-                    url={fullUrl}
-                    title={`${place.name} ${lang.virtualTour}`}
-                />
-            </div>
+                    <Share
+                        lang={lang.share}
+                        url={fullUrl}
+                        title={`${place.name} ${lang.virtualTour}`}
+                    />
+                </div>
 
-            <div className="bg-white shadow overflow-hidden rounded-lg mx-8">
-                <div className="flex flex-col sm:flex-row sm:justify-between items-center px-3 py-3 border-b border-gray-500 mx-3">
-                    <a
-                        href={place.website}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-3xl leading-6 font-bold text-gray-900 hover:text-gray-600 text-center sm:text-left"
-                    >
-                        <h1>{place.name}</h1>
-                    </a>
-                    <a
-                        href={place.virtual}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="p-2 mt-3 sm:mt-0 rounded-lg text-2xl bg-blue-600 hover:bg-blue-800 text-white text-center"
-                        onClick={() => visitPlace()}
-                    >
-                        {lang.virtualTour}
-                    </a>
-                </div>
-                <div className="flex flex-col px-3 py-3 mx-3">
-                    <div className="bg-gray-50 px-4 py-2 items-center sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                        <div className="text-3xl font-bold">{lang.type}</div>
-                        <div className="text-lg sm:mt-0 sm:col-span-2">
-                            {placeType}
+                {/* Place Card */}
+                <Card>
+                    <CardHeader className="border-b">
+                        <div className="flex flex-col sm:flex-row sm:justify-between items-center gap-4">
+                            <a
+                                href={place.website}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-2xl sm:text-3xl font-bold hover:text-primary transition-colors text-center sm:text-left cursor-pointer"
+                            >
+                                <h1>{place.name}</h1>
+                            </a>
+                            <a
+                                href={place.virtual}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                onClick={() => visitPlace()}
+                                className="cursor-pointer"
+                            >
+                                <Button size="lg" className="gap-2 text-lg cursor-pointer">
+                                    <ExternalLink className="w-5 h-5" />
+                                    {lang.virtualTour}
+                                </Button>
+                            </a>
                         </div>
-                    </div>
-                    <div className="bg-gray-50 px-4 py-2 items-center sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                        <div className="text-3xl font-bold">{lang.address}</div>
-                        <div className="text-lg sm:mt-0 sm:col-span-2">
-                            {place.state === ''
-                                ? `${place.city}, ${place.country}`
-                                : `${place.city}, ${place.state}, ${place.country}`}
+                    </CardHeader>
+                    <CardContent className="pt-6 space-y-4">
+                        {/* Type */}
+                        <div className="grid sm:grid-cols-4 gap-2 p-4 rounded-lg bg-muted/50">
+                            <div className="text-lg sm:text-xl font-semibold">{lang.type}</div>
+                            <div className="sm:col-span-3 text-muted-foreground">
+                                {placeType}
+                            </div>
                         </div>
-                    </div>
-                    <div className="bg-gray-50 px-4 py-2 items-center sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                        <div className="text-3xl font-bold">{lang.description}</div>
-                        <div className="text-lg sm:mt-0 sm:col-span-2">
-                            {place.description}{' '}
-                            {place.wikipedia !== '' && (
-                                <a
-                                    className="text-xs text-white bg-green-700 hover:bg-green-800 p-1 rounded-md"
-                                    href={place.wikipedia}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    {lang.wikipedia}
-                                </a>
-                            )}
+
+                        {/* Address */}
+                        <div className="grid sm:grid-cols-4 gap-2 p-4 rounded-lg bg-muted/50">
+                            <div className="text-lg sm:text-xl font-semibold">{lang.address}</div>
+                            <div className="sm:col-span-3 text-muted-foreground">
+                                {place.state === ''
+                                    ? `${place.city}, ${place.country}`
+                                    : `${place.city}, ${place.state}, ${place.country}`}
+                            </div>
                         </div>
-                    </div>
-                </div>
+
+                        {/* Description */}
+                        <div className="grid sm:grid-cols-4 gap-2 p-4 rounded-lg bg-muted/50">
+                            <div className="text-lg sm:text-xl font-semibold">{lang.description}</div>
+                            <div className="sm:col-span-3 text-muted-foreground">
+                                {place.description}{' '}
+                                {place.wikipedia !== '' && (
+                                    <a
+                                        href={place.wikipedia}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="cursor-pointer"
+                                    >
+                                        <Badge variant="secondary" className="ml-2 cursor-pointer hover:bg-primary hover:text-primary-foreground">
+                                            {lang.wikipedia}
+                                        </Badge>
+                                    </a>
+                                )}
+                            </div>
+                        </div>
+                    </CardContent>
+                </Card>
             </div>
-        </>
+        </div>
     );
 }

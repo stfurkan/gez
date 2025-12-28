@@ -1,6 +1,16 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { Search, Building2, Globe, Trash2 } from 'lucide-react';
+import { Input } from '@/components/ui/input';
+import { Button } from '@/components/ui/button';
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from '@/components/ui/select';
 import sort from '@/lib/sort';
 
 interface Place {
@@ -82,170 +92,76 @@ export default function Filter({ places, setFilteredPlaces, lang, sorted }: Filt
     setFilteredPlaces(filteredPlaces);
   }, [search, type, country, places, sorted, setFilteredPlaces]);
 
+  const hasFilters = search !== '' || type !== 'all' || country !== 'all';
+
   return (
-    <>
-      <div className="flex flex-col">
-        <div className="overflow-x-auto">
-          <div className="align-middle inline-block min-w-full sm:px-6 lg:px-6">
-            <div className="justify-center flex flex-col sm:flex-col md:flex-row items-center sm:items-center md:items-end md:h-12 border-2 rounded-lg border-gray-300">
-              {/* Search Input */}
-              <div className="w-full h-12">
-                <div className="relative h-12 text-gray-600 focus-within:text-gray-400">
-                  <div className="absolute inset-y-0 right-0 flex items-center pl-2">
-                    <span className="p-1">
-                      <svg
-                        fill="none"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        viewBox="0 0 24 24"
-                        className="w-6 h-6"
-                      >
-                        <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
-                      </svg>
-                    </span>
-                  </div>
-                  <span className="absolute top-0 left-0 flex items-center pl-2 pt-1 text-gray-900">
-                    <label
-                      htmlFor="search"
-                      className="text-xs font-medium focus:outline-none"
-                    >
-                      {lang.search}
-                    </label>
-                  </span>
-                  <input
-                    type="text"
-                    name="search"
-                    className="w-full h-12 pb-2 pt-4 text-sm bg-gray-100 rounded-md pl-2 pr-10 focus:outline-none focus:bg-gray-200 text-gray-900"
-                    aria-label={lang.search}
-                    placeholder={lang.searchPlace}
-                    autoComplete="off"
-                    value={search}
-                    onChange={e => setSearch(e.target.value)}
-                  />
-                </div>
-              </div>
-
-              {/* Type Select */}
-              <div className="w-full h-12">
-                <div className="relative h-12 text-gray-600 focus-within:text-gray-400">
-                  <div className="absolute inset-y-0 left-0 flex items-center pt-3">
-                    <span className="p-1">
-                      <svg
-                        fill="none"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        viewBox="0 0 24 24"
-                        className="w-5 h-5"
-                      >
-                        <path d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z"></path>
-                      </svg>
-                    </span>
-                  </div>
-                  <span className="absolute top-0 left-0 flex items-center pl-2 pt-1 text-gray-900">
-                    <label
-                      htmlFor="type"
-                      className="text-xs font-medium focus:outline-none"
-                    >
-                      {lang.type}
-                    </label>
-                  </span>
-                  <select
-                    name="type"
-                    className="w-full h-12 pb-2 pt-4 text-sm bg-gray-100 rounded-md pl-7 focus:outline-none focus:bg-gray-200 focus:text-gray-900 appearance-none"
-                    aria-label={lang.type}
-                    value={type}
-                    onChange={e => setType(e.target.value)}
-                  >
-                    <option value="all">{lang.allTypes}</option>
-                    {types.map(t => (
-                      <option key={t} value={t}>
-                        {t}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-              </div>
-
-              {/* Country Select */}
-              <div className="w-full h-12">
-                <div className="relative h-12 text-gray-600 focus-within:text-gray-400">
-                  <div className="absolute inset-y-0 left-0 flex items-center pt-3">
-                    <span className="p-1">
-                      <svg
-                        fill="none"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        viewBox="0 0 24 24"
-                        className="w-5 h-5"
-                      >
-                        <path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                      </svg>
-                    </span>
-                  </div>
-                  <span className="absolute top-0 left-0 flex items-center pl-2 pt-1 text-gray-900">
-                    <label
-                      htmlFor="country"
-                      className="text-xs font-medium focus:outline-none"
-                    >
-                      {lang.country}
-                    </label>
-                  </span>
-                  <select
-                    name="country"
-                    className="w-full h-12 pb-2 pt-4 text-sm bg-gray-100 rounded-md pl-7 focus:outline-none focus:bg-gray-200 focus:text-gray-900 appearance-none"
-                    aria-label={lang.country}
-                    value={country}
-                    onChange={e => setCountry(e.target.value)}
-                  >
-                    <option value="all">{lang.allCountries}</option>
-                    {countries.map(c => (
-                      <option key={c} value={c}>
-                        {c}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-              </div>
-
-              {/* Clear Filter Button */}
-              {(search !== '' || type !== 'all' || country !== 'all') && (
-                <div className="w-full h-12">
-                  <div className="relative h-12 text-gray-600 focus-within:text-gray-400">
-                    <button
-                      type="button"
-                      className="w-full h-12 bg-red-700 hover:bg-red-500 text-white font-bold pb-2 pt-3 rounded-md inline-flex justify-center items-center"
-                      onClick={() => {
-                        setSearch('');
-                        setType('all');
-                        setCountry('all');
-                      }}
-                    >
-                      <svg
-                        fill="none"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        viewBox="0 0 24 24"
-                        className="w-5 h-5"
-                      >
-                        <path d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
-                      </svg>
-                      <span>{lang.clearFilter}</span>
-                    </button>
-                  </div>
-                </div>
-              )}
-            </div>
-          </div>
+    <div className="p-3 bg-card">
+      <div className="flex flex-wrap gap-2 items-center">
+        {/* Search Input */}
+        <div className="relative flex-1 min-w-[200px]">
+          <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+          <Input
+            type="text"
+            placeholder={lang.searchPlace}
+            value={search}
+            onChange={e => setSearch(e.target.value)}
+            className="pl-9"
+            aria-label={lang.search}
+          />
         </div>
+
+        {/* Type Select */}
+        <div className="flex items-center gap-2">
+          <Building2 className="h-4 w-4 text-muted-foreground shrink-0" />
+          <Select value={type} onValueChange={setType}>
+            <SelectTrigger className="w-[250px] cursor-pointer" aria-label={lang.type}>
+              <SelectValue placeholder={lang.allTypes} />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="all" className="cursor-pointer">{lang.allTypes}</SelectItem>
+              {types.map(t => (
+                <SelectItem key={t} value={t} className="cursor-pointer">
+                  {t}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+
+        {/* Country Select */}
+        <div className="flex items-center gap-2">
+          <Globe className="h-4 w-4 text-muted-foreground shrink-0" />
+          <Select value={country} onValueChange={setCountry}>
+            <SelectTrigger className="w-[250px] cursor-pointer" aria-label={lang.country}>
+              <SelectValue placeholder={lang.allCountries} />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="all" className="cursor-pointer">{lang.allCountries}</SelectItem>
+              {countries.map(c => (
+                <SelectItem key={c} value={c} className="cursor-pointer">
+                  {c}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+
+        {/* Clear Filter Button */}
+        {hasFilters && (
+          <Button
+            variant="destructive"
+            onClick={() => {
+              setSearch('');
+              setType('all');
+              setCountry('all');
+            }}
+            className="gap-2 cursor-pointer"
+          >
+            <Trash2 className="h-4 w-4" />
+            {lang.clearFilter}
+          </Button>
+        )}
       </div>
-    </>
+    </div>
   );
 }

@@ -2,13 +2,11 @@
 
 import { useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
-import { useLocale, useTranslations } from 'next-intl';
+import { useTranslations } from 'next-intl';
+import { Card, CardContent } from '@/components/ui/card';
 import Filter from '@/components/Filter';
 import Table from '@/components/Table';
 import Pagination from '@/components/Pagination';
-
-import placesEn from '@/lang/en/places.json';
-import placesTr from '@/lang/tr/places.json';
 
 const Map = dynamic(() => import('@/components/Map'), { ssr: false });
 
@@ -22,7 +20,6 @@ interface Place {
 }
 
 export default function HomeClient({ initialPlaces }: { initialPlaces: Place[] }) {
-    const locale = useLocale();
     const t = useTranslations('main');
 
     const [pageElements, setPageElements] = useState<Place[]>([]);
@@ -71,37 +68,62 @@ export default function HomeClient({ initialPlaces }: { initialPlaces: Place[] }
     };
 
     return (
-        <div>
-            <main className="px-2 sm:px-8">
-                <div className="text-lg sm:text-xl text-center pb-2">
+        <div className="max-w-6xl mx-auto">
+            <div className="space-y-4">
+                {/* Stats */}
+                <div className="text-center text-muted-foreground">
                     <span className="font-medium">{lang.visitedPlaces}:</span>{' '}
                     {visits.length} <span className="font-medium">/</span>{' '}
                     <span className="font-medium">{lang.totalPlaces}:</span>{' '}
                     {initialPlaces.length}
                 </div>
-                <Filter
-                    places={initialPlaces}
-                    setFilteredPlaces={setFilteredPlaces}
-                    lang={lang.filter}
-                    sorted={sorted}
-                />
+
                 {filteredPlaces.length > 0 ? (
                     <>
-                        <Map places={filteredPlaces} lang={lang.map} visits={visits} />
-                        <Table
-                            placeList={pageElements}
-                            lang={lang.table}
-                            visits={visits}
-                            setPlaces={setFilteredPlaces}
-                            places={filteredPlaces}
-                            sorted={sorted}
-                            setSorted={setSorted}
-                        />
+                        {/* Unified Filter + Map + Table container */}
+                        <div className="border rounded-lg overflow-hidden bg-card">
+                            {/* Filter - no bottom radius */}
+                            <Filter
+                                places={initialPlaces}
+                                setFilteredPlaces={setFilteredPlaces}
+                                lang={lang.filter}
+                                sorted={sorted}
+                            />
+                            {/* Map - no radius */}
+                            <div className="border-t border-b">
+                                <Map places={filteredPlaces} lang={lang.map} visits={visits} />
+                            </div>
+                            {/* Table - no top radius */}
+                            <Table
+                                placeList={pageElements}
+                                lang={lang.table}
+                                visits={visits}
+                                setPlaces={setFilteredPlaces}
+                                places={filteredPlaces}
+                                sorted={sorted}
+                                setSorted={setSorted}
+                            />
+                        </div>
                     </>
                 ) : (
-                    <div className="bg-white font-medium text-xl text-center mx-auto sm:mx-6 mt-3 p-5 rounded-md shadow-lg">
-                        {lang.noResult}
-                    </div>
+                    <>
+                        {/* Filter alone when no results */}
+                        <Card>
+                            <CardContent className="p-3">
+                                <Filter
+                                    places={initialPlaces}
+                                    setFilteredPlaces={setFilteredPlaces}
+                                    lang={lang.filter}
+                                    sorted={sorted}
+                                />
+                            </CardContent>
+                        </Card>
+                        <Card>
+                            <CardContent className="py-8 text-center text-muted-foreground">
+                                {lang.noResult}
+                            </CardContent>
+                        </Card>
+                    </>
                 )}
 
                 <Pagination
@@ -110,7 +132,7 @@ export default function HomeClient({ initialPlaces }: { initialPlaces: Place[] }
                     setPageElements={setPageElements}
                     lang={lang.pagination}
                 />
-            </main>
+            </div>
         </div>
     );
 }
