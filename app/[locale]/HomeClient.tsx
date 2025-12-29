@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
 import { useTranslations } from 'next-intl';
-import { Card, CardContent } from '@/components/ui/card';
 import Filter from '@/components/Filter';
 import Table from '@/components/Table';
 import Pagination from '@/components/Pagination';
@@ -121,22 +120,22 @@ export default function HomeClient({ initialPlaces }: { initialPlaces: Place[] }
                     </div>
                 </div>
 
-                {filteredPlaces.length > 0 ? (
-                    <>
-                        {/* Unified Filter + Map + Table container */}
-                        <div className="border rounded-lg overflow-hidden bg-card">
-                            {/* Filter - no bottom radius */}
-                            <Filter
-                                places={initialPlaces}
-                                setFilteredPlaces={setFilteredPlaces}
-                                lang={lang.filter}
-                                sorted={sorted}
-                            />
-                            {/* Map - no radius */}
+                {/* Filter is always visible */}
+                <div className="border rounded-lg overflow-hidden bg-card">
+                    <Filter
+                        places={initialPlaces}
+                        setFilteredPlaces={setFilteredPlaces}
+                        lang={lang.filter}
+                        sorted={sorted}
+                    />
+
+                    {filteredPlaces.length > 0 ? (
+                        <>
+                            {/* Map */}
                             <div className="border-t border-b">
                                 <Map places={filteredPlaces} lang={lang.map} visits={visits} />
                             </div>
-                            {/* Table - no top radius */}
+                            {/* Table */}
                             <Table
                                 placeList={pageElements}
                                 lang={lang.table}
@@ -146,28 +145,13 @@ export default function HomeClient({ initialPlaces }: { initialPlaces: Place[] }
                                 sorted={sorted}
                                 setSorted={setSorted}
                             />
+                        </>
+                    ) : (
+                        <div className="border-t py-8 text-center text-muted-foreground">
+                            {lang.noResult}
                         </div>
-                    </>
-                ) : (
-                    <>
-                        {/* Filter alone when no results */}
-                        <Card>
-                            <CardContent className="p-3">
-                                <Filter
-                                    places={initialPlaces}
-                                    setFilteredPlaces={setFilteredPlaces}
-                                    lang={lang.filter}
-                                    sorted={sorted}
-                                />
-                            </CardContent>
-                        </Card>
-                        <Card>
-                            <CardContent className="py-8 text-center text-muted-foreground">
-                                {lang.noResult}
-                            </CardContent>
-                        </Card>
-                    </>
-                )}
+                    )}
+                </div>
 
                 <Pagination
                     places={filteredPlaces}
