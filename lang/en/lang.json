@@ -4,14 +4,14 @@
         "description": "Explore museums, galleries, aquariums, zoos and more around the world with virtual tours."
     },
     "header": {
-        "homepage": "Homepage",
+        "homepage": "Home",
         "about": "About",
         "support": "Support Us",
         "openMenu": "Open Menu",
         "closeMenu": "Close Menu"
     },
     "footer": {
-        "homepage": "Homepage",
+        "homepage": "Home",
         "about": "About",
         "support": "Support Us",
         "terms": "Terms of Use",

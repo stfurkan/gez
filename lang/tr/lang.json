@@ -4,14 +4,14 @@
         "description": "Sanal turlarla dünyanın dört bir yanındaki müzeleri, galerileri, akvaryumları, hayvanat bahçelerini ve daha fazlasını keşfedin."
     },
     "header": {
-        "homepage": "Anasayfa",
+        "homepage": "Ana Sayfa",
         "about": "Hakkında",
         "support": "Destek Ol",
         "openMenu": "Menüyü Aç",
         "closeMenu": "Menüyü Kapat"
     },
     "footer": {
-        "homepage": "Anasayfa",
+        "homepage": "Ana Sayfa",
         "about": "Hakkında",
         "support": "Destek Ol",
         "terms": "Kullanım Koşulları",
