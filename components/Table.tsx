@@ -79,7 +79,7 @@ export default function DataTable({
                 <TableHeader>
                     <TableRow className="hover:bg-muted/50">
                         <TableHead
-                            className="cursor-pointer select-none w-[40%]"
+                            className="cursor-pointer select-none w-[40%] px-2 sm:px-4"
                             onClick={() => handleSort('name')}
                         >
                             <div className="flex items-center font-semibold text-xs sm:text-sm">
@@ -88,7 +88,7 @@ export default function DataTable({
                             </div>
                         </TableHead>
                         <TableHead
-                            className="cursor-pointer select-none w-[35%]"
+                            className="cursor-pointer select-none w-[35%] px-2 sm:px-4"
                             onClick={() => handleSort('type')}
                         >
                             <div className="flex items-center font-semibold text-xs sm:text-sm">
@@ -97,7 +97,7 @@ export default function DataTable({
                             </div>
                         </TableHead>
                         <TableHead
-                            className="cursor-pointer select-none w-[25%]"
+                            className="cursor-pointer select-none w-[25%] px-2 sm:px-4"
                             onClick={() => handleSort('country')}
                         >
                             <div className="flex items-center font-semibold text-xs sm:text-sm">
