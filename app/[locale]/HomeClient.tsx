@@ -44,8 +44,6 @@ export default function HomeClient({ initialPlaces }: { initialPlaces: Place[] }
         : 0;
 
     const lang = {
-        visitedPlaces: t('visitedPlaces'),
-        totalPlaces: t('totalPlaces'),
         journeyTitle: t('journeyTitle'),
         placesExplored: t('placesExplored'),
         complete: t('complete'),

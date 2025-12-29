@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 import HomeClient from './HomeClient';
 
 import placesEn from '@/lang/en/places.json';

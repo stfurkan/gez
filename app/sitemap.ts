@@ -18,7 +18,6 @@ function getPlaces(): Place[] {
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = 'https://gez.la';
     const places = getPlaces();
-    const locales = ['en', 'tr'];
     const currentDate = new Date().toISOString().split('T')[0];
 
     // Static pages

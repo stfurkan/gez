@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from 'react';
 import L from 'leaflet';
-import Link from 'next/link';
+
 import { useLocale } from 'next-intl';
 
 import 'leaflet/dist/leaflet.css';

@@ -7,7 +7,7 @@ import placesEn from '@/lang/en/places.json';
 import placesTr from '@/lang/tr/places.json';
 import langEn from '@/lang/en/lang.json';
 import langTr from '@/lang/tr/lang.json';
-import { routing } from '@/i18n/routing';
+
 
 interface Place {
     id: number;
