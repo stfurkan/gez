@@ -1,0 +1,21 @@
+{
+    "name": "Gez.la",
+    "short_name": "Gez.la",
+    "description": "Explore museums, galleries, aquariums, zoos and more around the world with virtual tours.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#0d9488",
+    "icons": [
+        {
+            "src": "/gezla-square.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/gezla.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
