@@ -28,17 +28,11 @@ export default async function readMd(locale: string, fileName: string): Promise<
         .process(matterResult.content);
     let contentHtml = processedContent.toString();
 
-    contentHtml = contentHtml.replace(/<p>/g, '<p class="my-3">');
+    // Add target blank to links for external navigation
     contentHtml = contentHtml.replace(
         /<a /g,
         '<a target="_blank" rel="noopener noreferrer" '
     );
-    contentHtml = contentHtml.replace(
-        /<h2>/g,
-        '<h2 class="text-3xl font-bold border-solid border-b-2 pt-4 pb-4 border-gray-600">'
-    );
-    contentHtml = contentHtml.replace(/<ul>/g, '<ul class="list-disc pl-10">');
-    contentHtml = contentHtml.replace(/<li>/g, '<li class="pb-2">');
 
     return {
         contentHtml,

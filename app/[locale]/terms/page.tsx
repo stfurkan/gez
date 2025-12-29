@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { setRequestLocale } from 'next-intl/server';
 import readMd from '@/lib/readMd';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export async function generateMetadata({
     params
@@ -30,19 +31,18 @@ export default async function TermsPage({
     const terms = await readMd(locale, 'terms');
 
     return (
-        <>
-            <div className="bg-white shadow overflow-hidden rounded-lg mx-8">
-                <div className="px-3 py-3 border-b border-gray-500 mx-3">
-                    <h1 className="text-4xl leading-10 font-bold text-gray-900">
-                        {terms.title}
-                    </h1>
-                </div>
-                <div className="bg-gray-50 px-4 pt-2 pb-5 grid grid-cols-1 gap-4 px-6">
-                    <span className="text-lg leading-5 font-medium text-gray-900">
-                        <div dangerouslySetInnerHTML={{ __html: terms.contentHtml }} />
-                    </span>
-                </div>
-            </div>
-        </>
+        <div className="max-w-4xl mx-auto">
+            <Card>
+                <CardHeader className="border-b">
+                    <CardTitle className="text-3xl sm:text-4xl">{terms.title}</CardTitle>
+                </CardHeader>
+                <CardContent className="pt-6">
+                    <article
+                        className="markdown-content"
+                        dangerouslySetInnerHTML={{ __html: terms.contentHtml }}
+                    />
+                </CardContent>
+            </Card>
+        </div>
     );
 }

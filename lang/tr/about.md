@@ -1,20 +1,30 @@
 ---
 title: 'Hakkında'
-meta: 'Gez.la Hakkında'
+meta: 'Gez.la Hakkında - Sanal turlarla dünyayı keşfedin'
 ---
 
-**Sanal turlarla** dünyanın dört bir yanındaki müzeleri, galerileri, akvaryumları, hayvanat bahçelerini ve daha fazlasını keşfedin.
+## 🌍 Misyonumuz
 
-İletişim için **[Twitter](https://twitter.com/lagezla)** ve **[Instagram](https://www.instagram.com/lagezla)** hesaplarımızı kullanabilirsiniz.
+Gez.la, dünyanın en etkileyici destinasyonlarını sizinle buluşturan özenle hazırlanmış bir platformdur. Dünyanın dört bir yanındaki müzeler, galeriler, akvaryumlar, hayvanat bahçeleri, milli parklar ve kültürel simgelerden **sanal turları** bir araya getirerek herkesin her yerden keşif yapabilmesini sağlıyoruz.
 
-Gez.la projemize **[GitHub](https://github.com/stfurkan/gez)** üzerinden katkıda bulunabilirsiniz.
+## ✨ Sunduklarımız
 
-Projeye maddi destekte bulunmak isterseniz **[Patreon](https://www.patreon.com/lagezla)** hesabımızı kullanabilirsiniz.
+- **Özenle Seçilmiş Koleksiyon** – Dünya çapında tanınmış kurumlardan el ile seçilmiş sanal deneyimler
+- **Kolay Keşif** – İlgi alanınıza göre tür, ülke veya isimle arama ve filtreleme imkanı
+- **Ücretsiz Erişim** – Tüm sanal turlar orijinal kaynaklarından ücretsiz olarak erişilebilir
+- **Düzenli Güncellemeler** – Keşiflerinizi taze tutmak için sürekli yeni destinasyonlar ekliyoruz
 
-**Geliştirici:** [Sait Furkan Teke](https://www.linkedin.com/in/stfurkan)
+## 📱 Bize Ulaşın
 
-## Destekleyenler
+- **Twitter:** [@lagezla](https://twitter.com/lagezla)
+- **Instagram:** [@lagezla](https://www.instagram.com/lagezla)
 
-- **[Adınızı buraya ekleyin!](https://www.patreon.com/lagezla)**
-- ...
-- ...
+## 💻 Açık Kaynak
+
+Gez.la açık kaynaklı bir projedir. Katkılarınızı, önerilerinizi ve geri bildirimlerinizi bekliyoruz.
+
+- **GitHub:** [github.com/stfurkan/gez](https://github.com/stfurkan/gez)
+
+## 👤 Geliştirici
+
+[Sait Furkan Teke](https://www.linkedin.com/in/stfurkan) tarafından geliştirilmiştir.

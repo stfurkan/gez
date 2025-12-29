@@ -1,20 +1,30 @@
 ---
 title: 'About'
-meta: 'About Gez.la'
+meta: 'About Gez.la - Explore the world through virtual tours'
 ---
 
-Explore museums, galleries, aquariums, zoos and more around the world with **virtual tours**.
+## 🌍 Our Mission
 
-You can use our **[Twitter](https://twitter.com/lagezla)** and **[Instagram](https://www.instagram.com/lagezla)** accounts for communication.
+Gez.la is a curated platform that brings the world's most fascinating destinations to your fingertips. We aggregate **virtual tours** from museums, galleries, aquariums, zoos, national parks, and cultural landmarks across the globe, making it easy for anyone to explore from anywhere.
 
-You can contribute to the Gez.la project via **[GitHub](https://github.com/stfurkan/gez)**.
+## ✨ What We Offer
 
-If you want to financially support the project, you can use our **[Patreon](https://www.patreon.com/lagezla)** account.
+- **Curated Collection** – Handpicked virtual experiences from renowned institutions worldwide
+- **Easy Discovery** – Search and filter by type, country, or name to find exactly what interests you
+- **Free Access** – All virtual tours are free to explore, directly from the original sources
+- **Regular Updates** – New destinations added frequently to keep your explorations fresh
 
-**Developer:** [Sait Furkan Teke](https://www.linkedin.com/in/stfurkan)
+## 📱 Connect With Us
 
-## Supporters
+- **Twitter:** [@lagezla](https://twitter.com/lagezla)
+- **Instagram:** [@lagezla](https://www.instagram.com/lagezla)
 
-- **[Add your name here!](https://www.patreon.com/lagezla)**
-- ...
-- ...
+## 💻 Open Source
+
+Gez.la is an open-source project. Contributions, suggestions, and feedback are always welcome.
+
+- **GitHub:** [github.com/stfurkan/gez](https://github.com/stfurkan/gez)
+
+## 👤 Developer
+
+Developed by [Sait Furkan Teke](https://www.linkedin.com/in/stfurkan).
