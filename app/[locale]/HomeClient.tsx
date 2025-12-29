@@ -38,9 +38,17 @@ export default function HomeClient({ initialPlaces }: { initialPlaces: Place[] }
         }
     }, []);
 
+    // Calculate progress percentage
+    const progressPercentage = initialPlaces.length > 0
+        ? Math.round((visits.length / initialPlaces.length) * 100 * 10) / 10
+        : 0;
+
     const lang = {
         visitedPlaces: t('visitedPlaces'),
         totalPlaces: t('totalPlaces'),
+        journeyTitle: t('journeyTitle'),
+        placesExplored: t('placesExplored'),
+        complete: t('complete'),
         noResult: t('noResult'),
         filter: {
             search: t('filter.search'),
@@ -70,12 +78,49 @@ export default function HomeClient({ initialPlaces }: { initialPlaces: Place[] }
     return (
         <div className="max-w-6xl mx-auto">
             <div className="space-y-4">
-                {/* Stats */}
-                <div className="text-center text-muted-foreground">
-                    <span className="font-medium">{lang.visitedPlaces}:</span>{' '}
-                    {visits.length} <span className="font-medium">/</span>{' '}
-                    <span className="font-medium">{lang.totalPlaces}:</span>{' '}
-                    {initialPlaces.length}
+                {/* Journey Progress Card */}
+                <div className="bg-card border rounded-lg p-4 sm:p-5">
+                    <div className="flex items-center justify-between mb-3">
+                        <div className="flex items-center gap-2">
+                            <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="16"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    strokeWidth="2"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    className="text-primary"
+                                >
+                                    <circle cx="12" cy="12" r="10" />
+                                    <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+                                    <path d="M2 12h20" />
+                                </svg>
+                            </div>
+                            <span className="font-semibold text-foreground">{lang.journeyTitle}</span>
+                        </div>
+                        <span className="text-sm font-medium text-primary">
+                            {progressPercentage}% {lang.complete}
+                        </span>
+                    </div>
+
+                    {/* Progress Bar */}
+                    <div className="h-2 bg-muted rounded-full overflow-hidden mb-3">
+                        <div
+                            className="h-full bg-primary rounded-full transition-all duration-500 ease-out"
+                            style={{ width: `${Math.max(progressPercentage, 1)}%` }}
+                        />
+                    </div>
+
+                    {/* Stats */}
+                    <div className="flex items-center justify-between text-sm">
+                        <span className="text-muted-foreground">
+                            <span className="font-semibold text-foreground">{visits.length}</span> / {initialPlaces.length} {lang.placesExplored}
+                        </span>
+                    </div>
                 </div>
 
                 {filteredPlaces.length > 0 ? (
