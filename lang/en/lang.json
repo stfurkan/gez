@@ -80,6 +80,7 @@
     },
     "notFound": {
         "title": "Page not found!",
-        "desc": "The page you were looking for could not be found..."
+        "desc": "The page you were looking for could not be found...",
+        "goHome": "Go Home"
     }
 }

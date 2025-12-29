@@ -80,6 +80,7 @@
     },
     "notFound": {
         "title": "Sayfa bulunamadı!",
-        "desc": "Aradığınız sayfa bulunamadı..."
+        "desc": "Aradığınız sayfa bulunamadı...",
+        "goHome": "Ana Sayfaya Git"
     }
 }
