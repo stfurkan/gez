@@ -4,14 +4,14 @@
         "description": "Explore museums, galleries, aquariums, zoos and more around the world with virtual tours."
     },
     "header": {
-        "homepage": "Homepage",
+        "homepage": "Home",
         "about": "About",
         "support": "Support Us",
         "openMenu": "Open Menu",
         "closeMenu": "Close Menu"
     },
     "footer": {
-        "homepage": "Homepage",
+        "homepage": "Home",
         "about": "About",
         "support": "Support Us",
         "terms": "Terms of Use",
@@ -24,6 +24,9 @@
         "pageDescription": "Explore museums, galleries, aquariums, zoos and more around the world with virtual tours.",
         "visitedPlaces": "Visited Places",
         "totalPlaces": "Total Places",
+        "journeyTitle": "Your Journey",
+        "placesExplored": "places explored",
+        "complete": "complete",
         "name": "Name",
         "type": "Type",
         "country": "Country",
@@ -80,6 +83,7 @@
     },
     "notFound": {
         "title": "Page not found!",
-        "desc": "The page you were looking for could not be found..."
+        "desc": "The page you were looking for could not be found...",
+        "goHome": "Go Home"
     }
 }

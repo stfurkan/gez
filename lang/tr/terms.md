@@ -1,10 +1,30 @@
 ---
 title: 'Kullanım Koşulları'
-meta: 'Gez.la Kullanım Koşulları'
+meta: 'Gez.la Kullanım Koşulları ve Gizlilik Politikası'
 ---
 
-- Gez.la, kullanıcı istatistiklerini takip etmek için Google Analytics kullanmaktadır. Google Analytics tarafından takip edilmek istemeyen kullanıcılar **[buraya tıklayarak](https://tools.google.com/dlpage/gaoptout?hl=tr)** ilgili adımları gerçekleştirebilirler.
-- Gez.la üzerinde bulunan sanal tur siteleri ile Gez.la arasında herhangi bir ilişki bulunmamaktadır.
-- Gez.la, sitede gezinmenizden dolayı tarafınıza gelebilecek hiçbir zararın sorumluluğunu kabul etmememektedir.
-- Gez.la sitesini kullanıyorsanız, bu sayfayı okuduğunuzu ve ilgili şartları kabul ettiğinizi teyit etmişsiniz demektir.
-- Gez.la bu sayfadaki içeriği istediği zaman değiştirme hakkını saklı tutar.
+## 🔒 Gizlilik ve Analitik
+
+Gez.la, ziyaretçilerin sitemizi nasıl kullandığını anlamak ve deneyimi iyileştirmek için Google Analytics kullanmaktadır. Takip edilmek istemiyorsanız [Google Analytics'ten çıkış yapabilirsiniz](https://tools.google.com/dlpage/gaoptout?hl=tr).
+
+## 🔗 Üçüncü Taraf İçerikler
+
+Gez.la, üçüncü taraf web sitelerinde barındırılan sanal turlara bağlantılar sunmaktadır. Bu harici sitelerdeki içerikler üzerinde herhangi bir sahiplik, işletme veya kontrol yetkimiz bulunmamaktadır. Her sanal tur ilgili kurum tarafından doğrudan sağlanmaktadır.
+
+## ⚠️ Sorumluluk Reddi
+
+- Gez.la'daki bilgiler yalnızca bilgilendirme amaçlı sunulmaktadır
+- Bu sitenin veya bağlantılı içeriklerin kullanımından kaynaklanan zararlardan sorumlu değiliz
+- Sanal tur erişilebilirliği ve içeriği önceden haber verilmeksizin değişebilir
+
+## ✅ Koşulların Kabulü
+
+Gez.la'yı kullanarak bu koşulları okuduğunuzu, anladığınızı ve kabul ettiğinizi beyan etmiş olursunuz.
+
+## 📝 Koşullarda Değişiklik
+
+Gez.la bu koşulları istediği zaman değiştirme hakkını saklı tutar. Siteyi kullanmaya devam etmeniz yapılan değişiklikleri kabul ettiğiniz anlamına gelir.
+
+## 📧 İletişim
+
+Sorularınız veya geri bildirimleriniz için [Twitter](https://twitter.com/lagezla) veya [Instagram](https://www.instagram.com/lagezla) üzerinden bize ulaşabilirsiniz.

@@ -4,14 +4,14 @@
         "description": "Sanal turlarla dünyanın dört bir yanındaki müzeleri, galerileri, akvaryumları, hayvanat bahçelerini ve daha fazlasını keşfedin."
     },
     "header": {
-        "homepage": "Anasayfa",
+        "homepage": "Ana Sayfa",
         "about": "Hakkında",
         "support": "Destek Ol",
         "openMenu": "Menüyü Aç",
         "closeMenu": "Menüyü Kapat"
     },
     "footer": {
-        "homepage": "Anasayfa",
+        "homepage": "Ana Sayfa",
         "about": "Hakkında",
         "support": "Destek Ol",
         "terms": "Kullanım Koşulları",
@@ -24,6 +24,9 @@
         "pageDescription": "Sanal turlarla dünyanın dört bir yanındaki müzeleri, galerileri, akvaryumları, hayvanat bahçelerini ve daha fazlasını keşfedin.",
         "visitedPlaces": "Gezilen Yer",
         "totalPlaces": "Toplam Yer",
+        "journeyTitle": "Yolculuğun",
+        "placesExplored": "yer keşfedildi",
+        "complete": "tamamlandı",
         "name": "İsim",
         "type": "Tür",
         "country": "Ülke",
@@ -80,6 +83,7 @@
     },
     "notFound": {
         "title": "Sayfa bulunamadı!",
-        "desc": "Aradığınız sayfa bulunamadı..."
+        "desc": "Aradığınız sayfa bulunamadı...",
+        "goHome": "Ana Sayfaya Git"
     }
 }
